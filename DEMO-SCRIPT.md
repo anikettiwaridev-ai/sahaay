@@ -119,11 +119,17 @@ Then hold the microphone and say: *"मैं भोपाल में सि�
 **Proves:** USP 3, and the safety design.
 
 ### 7 · Close — 15 seconds
-Return to the match page, click **Print my packet**. Hold up the printed page.
+Return to the match page, click **Print my packet**. The browser's print preview opens on
+the match page — her scheme, her cost, and the office address. Hold up the printed page.
 
 > "Fifty-seven per cent of these applications are filed at the gram panchayat counter,
-> not online. So it ends on paper — a checklist, the office address, and a QR code to the
-> ministry's own portal. We don't replace PM-SURAJ. We're the front door to it."
+> not online. So it ends on paper — what she qualifies for, what it costs, and which
+> office to walk into. We don't replace PM-SURAJ. We're the front door to it."
+
+> ⚠️ **Do not claim a generated application packet or a QR code.** `POST /packet` does not
+> exist and never did — the button uses the browser's own print dialog on the match page.
+> What prints is genuinely useful and genuinely enough for this line; a claim of a
+> pre-filled checklist with a QR to PM-SURAJ is one a judge could ask you to demonstrate.
 
 ---
 
@@ -152,5 +158,7 @@ non-performing agencies. All primary sources, all on the references slide.
 
 **"What if the AI gets it wrong?"**
 The AI only turns speech into form fields, and you see and correct that before anything
-runs. The decision is a rules table built from NSFDC's published terms — eighty-four
-automated tests, twelve test personas. It is provable, not probable.
+runs. The decision is a rules table built from NSFDC's published terms — **forty-seven
+automated tests, twelve test personas** — and the engine was rewritten in a second
+language and proved identical to the rupee against the first one's own saved answers.
+It is provable, not probable.

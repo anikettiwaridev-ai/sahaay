@@ -13,10 +13,12 @@ Built for Smart India Hackathon (problem statement SIH26092).
 
 | Doc | What's in it |
 |---|---|
-| [`PROJECT-GUIDE.md`](PROJECT-GUIDE.md) | How to run it, the architecture, and a lookup table from every URL to the file that answers it. Start here to work in the code. |
+| [`HANDOFF.md`](HANDOFF.md) | **Start here if you're new.** What Sahaay is, how to run it from nothing, what flows into what, every feature (and every stub), all 14 schemes, and the demo. Written for someone who knows HTML/CSS/JS and nothing else. |
+| [`PROJECT-GUIDE.md`](PROJECT-GUIDE.md) | The architecture and a lookup table from every URL to the file that answers it. Keep it open while working in the code. |
 | [`STACK-CONTEXT.md`](STACK-CONTEXT.md) | Why this moved from Python/FastAPI to Node/Express, and what changed. |
 | [`PROJECT-CONTEXT.md`](PROJECT-CONTEXT.md) | The competition, the research behind it, and what Sahaay actually is. |
 | [`DEMO-SCRIPT.md`](DEMO-SCRIPT.md) | The walkthrough used to demo it. |
+| [`SLIDE-BUILD-SHEET.md`](SLIDE-BUILD-SHEET.md) | The six-slide SIH deck, element by element — and what changed after the migration. |
 
 ## Run it
 
