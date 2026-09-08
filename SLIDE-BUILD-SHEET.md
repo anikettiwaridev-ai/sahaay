@@ -46,6 +46,57 @@ frameworks. The pitch is intact. The technical claims are not.
 | Screenshots from `evidence/phase3/screens/` | **That folder no longer exists.** Retake them (§8) | Slide 3 |
 | "the map with the partner list" | **There is no map.** It is a ranked partner list with distances | Slide 3 caption |
 
+### The evaluation instructions, and what they change
+
+The instructions issued with the submission say two things that between them re-weight
+this whole deck:
+
+> "The teams will primarily be evaluated on the quality of their idea, innovation,
+> originality, and the extent to which the proposed solution effectively addresses the
+> given Problem Statement."
+>
+> "You are expected to explain your technical approach **briefly**. There is no need to
+> provide an exhaustive technical implementation at this stage. Focus more on what you
+> are proposing, what makes your solution innovative, and how it addresses the problem
+> effectively."
+
+**Read plainly: slide 2 is most of the grade, and slide 3 is a supporting act.** That
+inverts the instinct most technical teams have, which is to load the technical slide up
+as proof of competence. Two concrete consequences, both applied below:
+
+1. **Slide 2 gains** an explicit "how it addresses the problem statement" sentence, so
+   the named grading criterion has an obvious place to land.
+2. **Slide 3 loses** its architecture diagram and gets a shortened callout. Not because
+   those were wrong — because "brief" is an instruction, and spending a third of the
+   technical slide on ports and processes is the opposite of it.
+
+This is also the reason not to panic about the smaller test count (§7). Nobody is
+scoring test counts at this stage.
+
+### What the finalist deck actually does (verified, not second-hand)
+
+The Equinox "CertiFy" deck (PS 25029, SIH 2025) is embedded as images on pages 29–34 of
+the hackathons guide PDF. Having now read it directly rather than trusting a summary,
+three corrections and one confirmation:
+
+- **Confirmed:** the "icon + coloured label pill + dotted-border description" row pattern
+  is real and is on their solution slide. Worth copying — it's on slide 2 below.
+- **Correction:** their ✅/❌ comparison table is on their **Impact** slide, not their
+  solution slide. Ours sits on slide 2. That's a deliberate difference, not an error —
+  our table *is* our innovation argument, and innovation is what slide 2 is graded on.
+- **Correction:** they *do* run a TAM/SAM/SOM funnel and a revenue-streams block on
+  feasibility. **Still don't copy it.** They sell verification-as-a-service to
+  institutions; Sahaay is free public infrastructure NSFDC would adopt. A market-sizing
+  slide for a tool with no customers reads as confused, not sophisticated. Our
+  zero-running-cost answer (slide 4) is the stronger one for this PS.
+- **Worth knowing:** they ran **primary** research — 25 employer interviews, 8 registrars,
+  7 EdTech providers, 160 survey responses. We have none of that. What we have instead is
+  primary *government* sources: a parliamentary committee report, a ministry evaluation
+  study, NSFDC's own performance workbook. For a government problem statement that is
+  arguably the better evidence base — but if anyone asks "did you talk to users?", the
+  honest answer is no, and the honest follow-up is that we used the ministry's own survey
+  of 3,300 beneficiaries instead of running our own of thirty.
+
 ### New material you didn't have before — use it
 
 1. **The parity story** (§7). The engine was rewritten in a different language and
@@ -112,9 +163,30 @@ Nothing else. No image.
 
 Three blocks: the solution, how it addresses the problem, innovation/uniqueness.
 
+> **This is now the most important slide in the deck.** The official evaluation
+> instructions (given with the submission) say the round is scored on **"the quality of
+> their idea, innovation, originality, and the extent to which the proposed solution
+> effectively addresses the given Problem Statement"** — and separately, that technical
+> depth is explicitly *not* required at this stage ("no need to provide an exhaustive
+> technical implementation"). Read literally: this slide is close to the whole grade.
+> Slide 3 is the one to keep short — see the note there.
+
 ### Heading
 `PROPOSED SOLUTION` — and directly under it, in accent blue:
 **Sahaay — an assistant that says: this scheme, this door, this much.**
+
+One line under that, plain text — the explicit "addresses the problem" sentence a judge
+scoring against that exact rubric line should be able to find in five seconds:
+
+> *NSFDC's own data shows disbursement up 29% while the people it reaches is down 46% —
+> a channel problem, not a funding one. Sahaay fixes the channel: it names the right
+> scheme, prices it to the rupee, and points to an office that's actually functioning —
+> using NSFDC's own published numbers, not a guess.*
+
+> **New.** This sentence didn't exist in the previous version of this slide. It exists
+> now because "how effectively the solution addresses the problem statement" is a named
+> grading criterion, not just a nice-to-have — so it gets a sentence a judge can point at,
+> not just an implication.
 
 ### Left column — "What it does" — icon + coloured label pill + dotted-border description
 
@@ -175,8 +247,18 @@ Directly under the table, one bordered callout — still the number to lead with
 
 # SLIDE 3 — TECHNICAL APPROACH
 
-**This slide needs the most work.** Almost every line of the old version described a
-stack that no longer exists.
+**Two things changed this slide, and they pull in the same direction.** The stack it
+described no longer exists (§0), and separately, the evaluation instructions say this
+round wants the technical approach explained **briefly** — "no need to provide an
+exhaustive technical implementation." So the fix isn't just updating the facts, it's
+also **cutting this slide down**, on purpose, to make more visual room for slide 2.
+
+Concretely: the previous draft of this revision had a separate architecture diagram
+(browser → Express → Python, as its own boxes-and-arrows visual) in the right column.
+**That's cut below.** The one-server idea survives as a single caption line under the
+pipeline instead of a second diagram — it's still said, just not given its own third of
+the slide. If a judge wants the architecture, that's what Q&A is for; the slide's job is
+"here's the approach, briefly," not "here's the implementation."
 
 ### Heading
 `TECHNICAL APPROACH`
@@ -194,21 +276,23 @@ stack that no longer exists.
 
 Stamp across the top, in red or amber: **NO INTERNET REQUIRED**
 
+Caption directly under the flow, one line, no separate diagram:
+
+> **One server the browser talks to.** Express decides everything the user sees; a small
+> local Python process handles only speech and the assistant.
+
 ### Middle — the callout box. Most important sentence on the slide.
 
 > ## "AI understands. Rules decide."
-> The AI only turns speech into fields. Eligibility and interest come from a
-> **deterministic rules table** built from NSFDC's published terms — so every
-> answer is checkable against nsfdc.nic.in.
->
-> **The engine was rewritten in a second language and proved identical to the rupee.
-> 47 tests. 12 personas. Zero differences.**
+> The AI only turns speech into fields. Eligibility and interest are a **deterministic
+> rules table** built from NSFDC's published terms — checkable against nsfdc.nic.in.
+> **Proved identical, to the rupee, against an independent second implementation.**
 
-> **Changed:** the old box claimed "84 automated tests. 12 test personas." The real
-> number today is **47**, and you should not round it up. But read §7 before you feel
-> bad about the smaller number — what those 47 tests *do* is far more impressive than
-> what the 84 did, and it is the single best answer to "how do you know it's right?"
-> you will ever have.
+> **Changed and shortened.** The old box claimed "84 automated tests." The real number is
+> **47** — don't round it up. It's also been cut from four lines to three: the old
+> version spent a full sentence on the test/persona count. Given the instructions say
+> "brief," that count is Q&A material (§7 has the full version, with the three bugs it
+> caught, for when someone asks), not slide copy.
 
 ### Bottom strip — the stack, one line per layer
 
@@ -230,28 +314,14 @@ Stamp across the top, in red or amber: **NO INTERNET REQUIRED**
 > The two local model names are verified live: `/meta/ai-health` reports
 > `whisper: large-v3-turbo, device: cuda` and `ollama: qwen2.5:3b-instruct`.
 
-### Right — the architecture, in one line
+### Right — screenshots only, no second diagram
 
-Draw this. It is the whole system, and it fits in four boxes:
+The architecture diagram that used to sit here is cut (see the note at the top of this
+slide) — the one-server idea is already said in the pipeline caption above. This column
+is screenshots only now, which also means more room per screenshot.
 
-```
-Browser  ──►  Express :3000  ──►  decides everything
-                   │              (eligibility · cost · routing · catalogue)
-                   │
-                   ▼  speech + assistant only
-              Python :8001  ──►  Whisper · Ollama
-```
-
-Caption: **The browser talks to one address. The AI is an internal dependency, not a
-second application.**
-
-> **New.** You did not have this before, because before the migration the browser talked
-> to a Python server on one port while pages came from somewhere else. Collapsing to one
-> server is a real simplification and it draws well.
-
-### Screenshots — retake them
-
-Two or three, cropped, with one-word captions: *Match · Door · Explain*.
+Two, cropped, with one-word captions: *Match · Explain*. (Not three — see §8; a third
+adds detail this slide doesn't need to spend room on.)
 
 > **Changed:** the old sheet pointed at `evidence/phase3/screens/hi-S4.png` and friends.
 > **That folder no longer exists in the repo.** You must retake them — see §8 for the
@@ -396,19 +466,23 @@ Verified 8 Sept 2026: `cd server && npm test` → **47 pass, 0 fail**, in about 
 
 ---
 
-## §8 — The screenshots: retake these three
+## §8 — The screenshots: retake these two
 
 `evidence/phase3/screens/` is gone. Take fresh ones. Start both processes (see
 `PROJECT-GUIDE.md` §1), sign in as `sunita / demo123`, keep the language on **हिं**.
 
+**Take two, not three.** Slide 3 is being kept deliberately brief, and two larger, legible
+screenshots beat three cramped ones. These two *are* the differentiators — the third
+(the top match card) is the least distinctive of the set, because "here is your result"
+is the one thing every portal can already show.
+
 | # | Where | What must be in frame | Caption |
 |---|---|---|---|
-| 1 | `/match.html`, top | The green card: *आपकी योजना: सूक्ष्म वित्त योजना* and **6.5% — सबसे कम दर जिसके आप पात्र हैं** | **Match** |
-| 2 | `/match.html`, scroll to the amber near-miss | *मियादी ऋण ₹1,40,001 से शुरू होती है। आपका काम ₹1,20,000 का है।* | **Explain** |
-| 3 | `/match.html`, scroll to routing | The **₹18,061** headline + the partner list with *43.8% आवंटन* warning | **Door** |
+| 1 | `/match.html`, scroll to the amber near-miss | *मियादी ऋण ₹1,40,001 से शुरू होती है। आपका काम ₹1,20,000 का है।* | **Explain** |
+| 2 | `/match.html`, scroll to routing | The **₹18,061** headline + the partner list with *43.8% आवंटन* warning | **Door** |
 
-Shots 2 and 3 are the two differentiators no other portal has. If you only have room
-for two screenshots, drop shot 1.
+If you end up with room for a third, the top card (*आपकी योजना: सूक्ष्म वित्त योजना* ·
+**6.5% — सबसे कम दर जिसके आप पात्र हैं**) captioned **Match** is the one to add back.
 
 **How:** browser at 110% zoom, window 1280×720 or larger, crop the browser chrome out.
 Do not use a phone camera on the screen.
@@ -420,11 +494,16 @@ Do not use a phone camera on the screen.
 | # | Visual | Slide | How |
 |---|---|---|---|
 | 1 | The 6-step pipeline flow | 3 | **Mermaid** — source below |
-| 2 | The one-line architecture | 3 | **Mermaid** — source below. New this revision |
-| 3 | Money-up-people-down chart | 5 | **Ask me** — I'll generate it from the CSV as a PNG. Don't hand-draw it |
-| 4 | Screenshots | 3 | **Retake.** See §8 |
-| 5 | 6.5% vs 15% hero | 2 | **Plain Canva text.** Two huge numbers |
+| 2 | Money-up-people-down chart | 5 | **Ask me** — I'll generate it from the CSV as a PNG. Don't hand-draw it |
+| 3 | Screenshots (two) | 3 | **Retake.** See §8 |
+| 4 | 6.5% vs 15% hero | 2 | **Plain Canva text.** Two huge numbers |
+| 5 | Innovation comparison table | 2 | Canva table. The strongest single element on the deck's most-graded slide |
 | 6 | Four-quadrant layout | 4 | Canva shapes. Four rounded rectangles |
+
+> **Cut this revision:** the architecture diagram (browser → Express → Python) that was
+> visual #2. It's a good diagram and it's still in `HANDOFF.md` §4 if you need it for
+> Q&A — it's just not slide content when the instructions say keep the technical
+> approach brief.
 
 ### Mermaid — the pipeline (slide 3)
 
@@ -446,7 +525,10 @@ flowchart TD
     style F fill:#E8F5E9,stroke:#2E7D32,stroke-width:3px
 ```
 
-### Mermaid — the architecture (slide 3, new)
+### Mermaid — the architecture (NOT on the deck; keep for Q&A)
+
+Cut from slide 3 this revision. Keep the source here: if a judge asks how it's built,
+this is the answer, and it draws in ten seconds on a whiteboard.
 
 ```mermaid
 flowchart TD
@@ -469,6 +551,10 @@ flowchart TD
 - [ ] The word **"packet"** does not appear as a built feature.
 - [ ] The word **"map"** does not appear on slide 3.
 - [ ] Screenshots are freshly taken (§8), not from `evidence/phase3/`.
+- [ ] **Slide 2 carries the explicit "addresses the problem" sentence.** It's a named
+      grading criterion; don't make a judge infer it.
+- [ ] **Slide 3 is visibly the lighter slide.** If it has more elements on it than slide
+      2, you've ignored the instruction that said "briefly."
 - [ ] Every statistic has its source in small grey text.
 - [ ] No paragraph longer than two lines.
 - [ ] Team name and Team ID filled on slide 1.
