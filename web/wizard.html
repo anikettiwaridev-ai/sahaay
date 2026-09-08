@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guided Scheme Wizard — Sahaay</title>
+  <link rel="stylesheet" href="css/gov.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- All styling lives in css/gov.css (tokens, base elements) and
+       css/style.css (layout and components). It is in those files, not
+       here, because js/pages.js builds markup at runtime on pages other
+       than the one it belongs to, and a per-page <style> block could not
+       reach it. -->
+</head>
+<body>
+
+  <!-- Tricolour Top Accent Bar -->
+  <div class="tricolour-bar"></div>
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="container">
+      <nav id="site-nav">
+        <a href="index.html" class="nav-brand">
+          <span class="nav-logo-icon">🚪</span>
+          <div>
+            <div class="nav-title">Sahaay <span data-t="brand.hi">सहाय</span></div>
+            <div class="nav-subtitle" data-t="brand.ministry">Ministry of Social Justice & Empowerment</div>
+          </div>
+        </a>
+
+        <div class="nav-controls">
+          <ul class="nav-links">
+            <li><a href="index.html" data-t="nav.home">Home</a></li>
+            <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+            <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+            <li><a href="profile.html" data-t="nav.profile">Profile</a></li>
+          </ul>
+
+          <button id="lang-toggle" type="button" aria-label="Toggle Language">हिं | EN</button>
+          <a href="login.html" class="btn btn-secondary" style="min-height:38px; padding:0 12px;" data-t="nav.login">Login</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="wizard-container">
+      
+      <!-- Progress Bar -->
+      <div class="wizard-progress-bar">
+        <span class="progress-text" data-t="wz.progress_title">Scheme Eligibility Wizard</span>
+        <div id="wz-progress" class="badge badge-open">Step 1 of 6</div>
+      </div>
+
+      <!-- Main Dynamic Wizard Step Card -->
+      <div class="card wizard-card">
+        <div id="wz-step" class="wizard-step-content">
+          
+          <!-- Step 1 Default Static Render (Speak or Type) -->
+          <h2 data-t="wz.step1_title">1. Tell us about your business or study plan</h2>
+          <p style="color: var(--color-text-muted);" data-t="wz.step1_sub">Speak in Hindi or English, or type in the box below. No login required.</p>
+
+          <div class="voice-prompt-box">
+            <button type="button" class="mic-btn-wizard" aria-label="Microphone input">🎤</button>
+            <p style="margin: 0; font-weight: 600;" data-t="wz.mic_prompt">Click and hold to speak your requirements</p>
+          </div>
+
+          <label for="wz-input-text" style="font-weight: 600; display: block; margin-bottom: 6px;" data-t="wz.label_type">Or type your request:</label>
+          <textarea id="wz-input-text" class="form-control" style="width:100%; min-height:100px;" placeholder="e.g., Mujhe Bhopal me silai ke kaam ke liye 1.2 lakh ka loan chahiye..." data-t="wz.placeholder_type"></textarea>
+
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="wizard-actions">
+          <button id="wz-back" type="button" class="btn btn-secondary" style="visibility: hidden;" data-t="wz.btn_back">← Back</button>
+          <button id="wz-next" type="button" class="btn btn-primary" data-t="wz.btn_next">Continue →</button>
+        </div>
+      </div>
+
+      <!-- Persistent Account Prompt Footer -->
+      <div style="text-align: center; margin-top: 24px; font-size: 0.9rem; color: var(--color-text-muted);">
+        <span data-t="wz.account_prompt">Want to be told when a new scheme matches you?</span> 
+        <a href="login.html" style="font-weight: 600;" data-t="wz.link_create_profile">Create a profile →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <p style="margin:0; font-weight:600;" data-t="footer.prototype">A prototype built for Smart India Hackathon 2026 · PS SIH26092</p>
+          <p style="margin:0;" data-t="footer.dept">Ministry of Social Justice & Empowerment, Govt. of India</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+          <li><a href="wizard.html" data-t="hero.btn_wizard">Wizard</a></li>
+          <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" hidden></div>
+
+  <!-- Script Pipeline (Do not alter order or contents) -->
+  <script src="js/strings.js"></script><script src="js/api.js"></script><script src="js/app.js"></script><script src="js/pages.js"></script>
+</body>
+</html>

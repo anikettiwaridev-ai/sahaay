@@ -1,0 +1,9302 @@
+[
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "NBFC_MFI",
+   "course": null,
+   "scheme_id": "AMY"
+  },
+  "out": {
+   "channel_rate_key": "NBFC_MFI",
+   "frequency": "quarterly",
+   "instalment": 6309.27,
+   "loan": 54000,
+   "monthly_equivalent": 2103.09,
+   "moratorium_interest": 2025.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 6000,
+   "rate_annual": 15.0,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 51816.67,
+     "due_month": 6,
+     "interest": 2100.94,
+     "n": 1,
+     "principal": 4208.33,
+     "total": 6309.27
+    },
+    {
+     "balance": 47450.53,
+     "due_month": 9,
+     "interest": 1943.13,
+     "n": 2,
+     "principal": 4366.14,
+     "total": 6309.27
+    },
+    {
+     "balance": 42920.65,
+     "due_month": 12,
+     "interest": 1779.39,
+     "n": 3,
+     "principal": 4529.88,
+     "total": 6309.27
+    },
+    {
+     "balance": 38220.9,
+     "due_month": 15,
+     "interest": 1609.52,
+     "n": 4,
+     "principal": 4699.75,
+     "total": 6309.27
+    },
+    {
+     "balance": 33344.91,
+     "due_month": 18,
+     "interest": 1433.28,
+     "n": 5,
+     "principal": 4875.99,
+     "total": 6309.27
+    },
+    {
+     "balance": 28286.07,
+     "due_month": 21,
+     "interest": 1250.43,
+     "n": 6,
+     "principal": 5058.84,
+     "total": 6309.27
+    },
+    {
+     "balance": 23037.53,
+     "due_month": 24,
+     "interest": 1060.73,
+     "n": 7,
+     "principal": 5248.54,
+     "total": 6309.27
+    },
+    {
+     "balance": 17592.17,
+     "due_month": 27,
+     "interest": 863.91,
+     "n": 8,
+     "principal": 5445.36,
+     "total": 6309.27
+    },
+    {
+     "balance": 11942.61,
+     "due_month": 30,
+     "interest": 659.71,
+     "n": 9,
+     "principal": 5649.56,
+     "total": 6309.27
+    },
+    {
+     "balance": 6081.19,
+     "due_month": 33,
+     "interest": 447.85,
+     "n": 10,
+     "principal": 5861.42,
+     "total": 6309.27
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 228.04,
+     "n": 11,
+     "principal": 6081.19,
+     "total": 6309.23
+    }
+   ],
+   "scheme_id": "AMY",
+   "tenure_total_months": 36,
+   "total_interest": 15402,
+   "total_repayment": 69402
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "NBFC_MFI",
+   "course": null,
+   "scheme_id": "AMY"
+  },
+  "out": {
+   "channel_rate_key": "NBFC_MFI",
+   "frequency": "quarterly",
+   "instalment": 14604.79,
+   "loan": 125000,
+   "monthly_equivalent": 4868.26,
+   "moratorium_interest": 4687.5,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 15000,
+   "rate_annual": 15.0,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 119945.99,
+     "due_month": 6,
+     "interest": 4863.28,
+     "n": 1,
+     "principal": 9741.51,
+     "total": 14604.79
+    },
+    {
+     "balance": 109839.17,
+     "due_month": 9,
+     "interest": 4497.97,
+     "n": 2,
+     "principal": 10106.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 99353.35,
+     "due_month": 12,
+     "interest": 4118.97,
+     "n": 3,
+     "principal": 10485.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 88474.31,
+     "due_month": 15,
+     "interest": 3725.75,
+     "n": 4,
+     "principal": 10879.04,
+     "total": 14604.79
+    },
+    {
+     "balance": 77187.31,
+     "due_month": 18,
+     "interest": 3317.79,
+     "n": 5,
+     "principal": 11287.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 65477.04,
+     "due_month": 21,
+     "interest": 2894.52,
+     "n": 6,
+     "principal": 11710.27,
+     "total": 14604.79
+    },
+    {
+     "balance": 53327.64,
+     "due_month": 24,
+     "interest": 2455.39,
+     "n": 7,
+     "principal": 12149.4,
+     "total": 14604.79
+    },
+    {
+     "balance": 40722.64,
+     "due_month": 27,
+     "interest": 1999.79,
+     "n": 8,
+     "principal": 12605.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 27644.95,
+     "due_month": 30,
+     "interest": 1527.1,
+     "n": 9,
+     "principal": 13077.69,
+     "total": 14604.79
+    },
+    {
+     "balance": 14076.85,
+     "due_month": 33,
+     "interest": 1036.69,
+     "n": 10,
+     "principal": 13568.1,
+     "total": 14604.79
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 527.88,
+     "n": 11,
+     "principal": 14076.85,
+     "total": 14604.73
+    }
+   ],
+   "scheme_id": "AMY",
+   "tenure_total_months": 36,
+   "total_interest": 35653,
+   "total_repayment": 160653
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "NBFC_MFI",
+   "course": null,
+   "scheme_id": "AMY"
+  },
+  "out": {
+   "channel_rate_key": "NBFC_MFI",
+   "frequency": "quarterly",
+   "instalment": 14604.79,
+   "loan": 125000,
+   "monthly_equivalent": 4868.26,
+   "moratorium_interest": 4687.5,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 175000,
+   "rate_annual": 15.0,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 119945.99,
+     "due_month": 6,
+     "interest": 4863.28,
+     "n": 1,
+     "principal": 9741.51,
+     "total": 14604.79
+    },
+    {
+     "balance": 109839.17,
+     "due_month": 9,
+     "interest": 4497.97,
+     "n": 2,
+     "principal": 10106.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 99353.35,
+     "due_month": 12,
+     "interest": 4118.97,
+     "n": 3,
+     "principal": 10485.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 88474.31,
+     "due_month": 15,
+     "interest": 3725.75,
+     "n": 4,
+     "principal": 10879.04,
+     "total": 14604.79
+    },
+    {
+     "balance": 77187.31,
+     "due_month": 18,
+     "interest": 3317.79,
+     "n": 5,
+     "principal": 11287.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 65477.04,
+     "due_month": 21,
+     "interest": 2894.52,
+     "n": 6,
+     "principal": 11710.27,
+     "total": 14604.79
+    },
+    {
+     "balance": 53327.64,
+     "due_month": 24,
+     "interest": 2455.39,
+     "n": 7,
+     "principal": 12149.4,
+     "total": 14604.79
+    },
+    {
+     "balance": 40722.64,
+     "due_month": 27,
+     "interest": 1999.79,
+     "n": 8,
+     "principal": 12605.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 27644.95,
+     "due_month": 30,
+     "interest": 1527.1,
+     "n": 9,
+     "principal": 13077.69,
+     "total": 14604.79
+    },
+    {
+     "balance": 14076.85,
+     "due_month": 33,
+     "interest": 1036.69,
+     "n": 10,
+     "principal": 13568.1,
+     "total": 14604.79
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 527.88,
+     "n": 11,
+     "principal": 14076.85,
+     "total": 14604.73
+    }
+   ],
+   "scheme_id": "AMY",
+   "tenure_total_months": 36,
+   "total_interest": 35653,
+   "total_repayment": 160653
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "NBFC_MFI",
+   "course": null,
+   "scheme_id": "AMY"
+  },
+  "out": {
+   "channel_rate_key": "NBFC_MFI",
+   "frequency": "quarterly",
+   "instalment": 14604.79,
+   "loan": 125000,
+   "monthly_equivalent": 4868.26,
+   "moratorium_interest": 4687.5,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 675000,
+   "rate_annual": 15.0,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 119945.99,
+     "due_month": 6,
+     "interest": 4863.28,
+     "n": 1,
+     "principal": 9741.51,
+     "total": 14604.79
+    },
+    {
+     "balance": 109839.17,
+     "due_month": 9,
+     "interest": 4497.97,
+     "n": 2,
+     "principal": 10106.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 99353.35,
+     "due_month": 12,
+     "interest": 4118.97,
+     "n": 3,
+     "principal": 10485.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 88474.31,
+     "due_month": 15,
+     "interest": 3725.75,
+     "n": 4,
+     "principal": 10879.04,
+     "total": 14604.79
+    },
+    {
+     "balance": 77187.31,
+     "due_month": 18,
+     "interest": 3317.79,
+     "n": 5,
+     "principal": 11287.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 65477.04,
+     "due_month": 21,
+     "interest": 2894.52,
+     "n": 6,
+     "principal": 11710.27,
+     "total": 14604.79
+    },
+    {
+     "balance": 53327.64,
+     "due_month": 24,
+     "interest": 2455.39,
+     "n": 7,
+     "principal": 12149.4,
+     "total": 14604.79
+    },
+    {
+     "balance": 40722.64,
+     "due_month": 27,
+     "interest": 1999.79,
+     "n": 8,
+     "principal": 12605.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 27644.95,
+     "due_month": 30,
+     "interest": 1527.1,
+     "n": 9,
+     "principal": 13077.69,
+     "total": 14604.79
+    },
+    {
+     "balance": 14076.85,
+     "due_month": 33,
+     "interest": 1036.69,
+     "n": 10,
+     "principal": 13568.1,
+     "total": 14604.79
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 527.88,
+     "n": 11,
+     "principal": 14076.85,
+     "total": 14604.73
+    }
+   ],
+   "scheme_id": "AMY",
+   "tenure_total_months": 36,
+   "total_interest": 35653,
+   "total_repayment": 160653
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "CA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 3200.99,
+   "loan": 54000,
+   "monthly_equivalent": 1067.0,
+   "moratorium_interest": 17550.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 6000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 69511.7,
+     "due_month": 63,
+     "interest": 1162.69,
+     "n": 1,
+     "principal": 2038.3,
+     "total": 3200.99
+    },
+    {
+     "balance": 67440.28,
+     "due_month": 66,
+     "interest": 1129.57,
+     "n": 2,
+     "principal": 2071.42,
+     "total": 3200.99
+    },
+    {
+     "balance": 65335.19,
+     "due_month": 69,
+     "interest": 1095.9,
+     "n": 3,
+     "principal": 2105.09,
+     "total": 3200.99
+    },
+    {
+     "balance": 63195.9,
+     "due_month": 72,
+     "interest": 1061.7,
+     "n": 4,
+     "principal": 2139.29,
+     "total": 3200.99
+    },
+    {
+     "balance": 61021.84,
+     "due_month": 75,
+     "interest": 1026.93,
+     "n": 5,
+     "principal": 2174.06,
+     "total": 3200.99
+    },
+    {
+     "balance": 58812.45,
+     "due_month": 78,
+     "interest": 991.6,
+     "n": 6,
+     "principal": 2209.39,
+     "total": 3200.99
+    },
+    {
+     "balance": 56567.16,
+     "due_month": 81,
+     "interest": 955.7,
+     "n": 7,
+     "principal": 2245.29,
+     "total": 3200.99
+    },
+    {
+     "balance": 54285.39,
+     "due_month": 84,
+     "interest": 919.22,
+     "n": 8,
+     "principal": 2281.77,
+     "total": 3200.99
+    },
+    {
+     "balance": 51966.54,
+     "due_month": 87,
+     "interest": 882.14,
+     "n": 9,
+     "principal": 2318.85,
+     "total": 3200.99
+    },
+    {
+     "balance": 49610.01,
+     "due_month": 90,
+     "interest": 844.46,
+     "n": 10,
+     "principal": 2356.53,
+     "total": 3200.99
+    },
+    {
+     "balance": 47215.18,
+     "due_month": 93,
+     "interest": 806.16,
+     "n": 11,
+     "principal": 2394.83,
+     "total": 3200.99
+    },
+    {
+     "balance": 44781.44,
+     "due_month": 96,
+     "interest": 767.25,
+     "n": 12,
+     "principal": 2433.74,
+     "total": 3200.99
+    },
+    {
+     "balance": 42308.15,
+     "due_month": 99,
+     "interest": 727.7,
+     "n": 13,
+     "principal": 2473.29,
+     "total": 3200.99
+    },
+    {
+     "balance": 39794.67,
+     "due_month": 102,
+     "interest": 687.51,
+     "n": 14,
+     "principal": 2513.48,
+     "total": 3200.99
+    },
+    {
+     "balance": 37240.34,
+     "due_month": 105,
+     "interest": 646.66,
+     "n": 15,
+     "principal": 2554.33,
+     "total": 3200.99
+    },
+    {
+     "balance": 34644.51,
+     "due_month": 108,
+     "interest": 605.16,
+     "n": 16,
+     "principal": 2595.83,
+     "total": 3200.99
+    },
+    {
+     "balance": 32006.49,
+     "due_month": 111,
+     "interest": 562.97,
+     "n": 17,
+     "principal": 2638.02,
+     "total": 3200.99
+    },
+    {
+     "balance": 29325.61,
+     "due_month": 114,
+     "interest": 520.11,
+     "n": 18,
+     "principal": 2680.88,
+     "total": 3200.99
+    },
+    {
+     "balance": 26601.16,
+     "due_month": 117,
+     "interest": 476.54,
+     "n": 19,
+     "principal": 2724.45,
+     "total": 3200.99
+    },
+    {
+     "balance": 23832.44,
+     "due_month": 120,
+     "interest": 432.27,
+     "n": 20,
+     "principal": 2768.72,
+     "total": 3200.99
+    },
+    {
+     "balance": 21018.73,
+     "due_month": 123,
+     "interest": 387.28,
+     "n": 21,
+     "principal": 2813.71,
+     "total": 3200.99
+    },
+    {
+     "balance": 18159.29,
+     "due_month": 126,
+     "interest": 341.55,
+     "n": 22,
+     "principal": 2859.44,
+     "total": 3200.99
+    },
+    {
+     "balance": 15253.39,
+     "due_month": 129,
+     "interest": 295.09,
+     "n": 23,
+     "principal": 2905.9,
+     "total": 3200.99
+    },
+    {
+     "balance": 12300.27,
+     "due_month": 132,
+     "interest": 247.87,
+     "n": 24,
+     "principal": 2953.12,
+     "total": 3200.99
+    },
+    {
+     "balance": 9299.16,
+     "due_month": 135,
+     "interest": 199.88,
+     "n": 25,
+     "principal": 3001.11,
+     "total": 3200.99
+    },
+    {
+     "balance": 6249.28,
+     "due_month": 138,
+     "interest": 151.11,
+     "n": 26,
+     "principal": 3049.88,
+     "total": 3200.99
+    },
+    {
+     "balance": 3149.84,
+     "due_month": 141,
+     "interest": 101.55,
+     "n": 27,
+     "principal": 3099.44,
+     "total": 3200.99
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 51.18,
+     "n": 28,
+     "principal": 3149.84,
+     "total": 3201.02
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 35628,
+   "total_repayment": 89628
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "CA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 7468.98,
+   "loan": 126000,
+   "monthly_equivalent": 2489.66,
+   "moratorium_interest": 40950.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 14000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 162193.96,
+     "due_month": 63,
+     "interest": 2712.94,
+     "n": 1,
+     "principal": 4756.04,
+     "total": 7468.98
+    },
+    {
+     "balance": 157360.63,
+     "due_month": 66,
+     "interest": 2635.65,
+     "n": 2,
+     "principal": 4833.33,
+     "total": 7468.98
+    },
+    {
+     "balance": 152448.76,
+     "due_month": 69,
+     "interest": 2557.11,
+     "n": 3,
+     "principal": 4911.87,
+     "total": 7468.98
+    },
+    {
+     "balance": 147457.07,
+     "due_month": 72,
+     "interest": 2477.29,
+     "n": 4,
+     "principal": 4991.69,
+     "total": 7468.98
+    },
+    {
+     "balance": 142384.27,
+     "due_month": 75,
+     "interest": 2396.18,
+     "n": 5,
+     "principal": 5072.8,
+     "total": 7468.98
+    },
+    {
+     "balance": 137229.03,
+     "due_month": 78,
+     "interest": 2313.74,
+     "n": 6,
+     "principal": 5155.24,
+     "total": 7468.98
+    },
+    {
+     "balance": 131990.02,
+     "due_month": 81,
+     "interest": 2229.97,
+     "n": 7,
+     "principal": 5239.01,
+     "total": 7468.98
+    },
+    {
+     "balance": 126665.88,
+     "due_month": 84,
+     "interest": 2144.84,
+     "n": 8,
+     "principal": 5324.14,
+     "total": 7468.98
+    },
+    {
+     "balance": 121255.22,
+     "due_month": 87,
+     "interest": 2058.32,
+     "n": 9,
+     "principal": 5410.66,
+     "total": 7468.98
+    },
+    {
+     "balance": 115756.64,
+     "due_month": 90,
+     "interest": 1970.4,
+     "n": 10,
+     "principal": 5498.58,
+     "total": 7468.98
+    },
+    {
+     "balance": 110168.71,
+     "due_month": 93,
+     "interest": 1881.05,
+     "n": 11,
+     "principal": 5587.93,
+     "total": 7468.98
+    },
+    {
+     "balance": 104489.97,
+     "due_month": 96,
+     "interest": 1790.24,
+     "n": 12,
+     "principal": 5678.74,
+     "total": 7468.98
+    },
+    {
+     "balance": 98718.95,
+     "due_month": 99,
+     "interest": 1697.96,
+     "n": 13,
+     "principal": 5771.02,
+     "total": 7468.98
+    },
+    {
+     "balance": 92854.15,
+     "due_month": 102,
+     "interest": 1604.18,
+     "n": 14,
+     "principal": 5864.8,
+     "total": 7468.98
+    },
+    {
+     "balance": 86894.05,
+     "due_month": 105,
+     "interest": 1508.88,
+     "n": 15,
+     "principal": 5960.1,
+     "total": 7468.98
+    },
+    {
+     "balance": 80837.1,
+     "due_month": 108,
+     "interest": 1412.03,
+     "n": 16,
+     "principal": 6056.95,
+     "total": 7468.98
+    },
+    {
+     "balance": 74681.72,
+     "due_month": 111,
+     "interest": 1313.6,
+     "n": 17,
+     "principal": 6155.38,
+     "total": 7468.98
+    },
+    {
+     "balance": 68426.32,
+     "due_month": 114,
+     "interest": 1213.58,
+     "n": 18,
+     "principal": 6255.4,
+     "total": 7468.98
+    },
+    {
+     "balance": 62069.27,
+     "due_month": 117,
+     "interest": 1111.93,
+     "n": 19,
+     "principal": 6357.05,
+     "total": 7468.98
+    },
+    {
+     "balance": 55608.92,
+     "due_month": 120,
+     "interest": 1008.63,
+     "n": 20,
+     "principal": 6460.35,
+     "total": 7468.98
+    },
+    {
+     "balance": 49043.58,
+     "due_month": 123,
+     "interest": 903.64,
+     "n": 21,
+     "principal": 6565.34,
+     "total": 7468.98
+    },
+    {
+     "balance": 42371.56,
+     "due_month": 126,
+     "interest": 796.96,
+     "n": 22,
+     "principal": 6672.02,
+     "total": 7468.98
+    },
+    {
+     "balance": 35591.12,
+     "due_month": 129,
+     "interest": 688.54,
+     "n": 23,
+     "principal": 6780.44,
+     "total": 7468.98
+    },
+    {
+     "balance": 28700.5,
+     "due_month": 132,
+     "interest": 578.36,
+     "n": 24,
+     "principal": 6890.62,
+     "total": 7468.98
+    },
+    {
+     "balance": 21697.9,
+     "due_month": 135,
+     "interest": 466.38,
+     "n": 25,
+     "principal": 7002.6,
+     "total": 7468.98
+    },
+    {
+     "balance": 14581.51,
+     "due_month": 138,
+     "interest": 352.59,
+     "n": 26,
+     "principal": 7116.39,
+     "total": 7468.98
+    },
+    {
+     "balance": 7349.48,
+     "due_month": 141,
+     "interest": 236.95,
+     "n": 27,
+     "principal": 7232.03,
+     "total": 7468.98
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 119.43,
+     "n": 28,
+     "principal": 7349.48,
+     "total": 7468.91
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 83131,
+   "total_repayment": 209131
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "CA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 16004.95,
+   "loan": 270000,
+   "monthly_equivalent": 5334.98,
+   "moratorium_interest": 87750.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 30000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 347558.49,
+     "due_month": 63,
+     "interest": 5813.44,
+     "n": 1,
+     "principal": 10191.51,
+     "total": 16004.95
+    },
+    {
+     "balance": 337201.37,
+     "due_month": 66,
+     "interest": 5647.83,
+     "n": 2,
+     "principal": 10357.12,
+     "total": 16004.95
+    },
+    {
+     "balance": 326675.94,
+     "due_month": 69,
+     "interest": 5479.52,
+     "n": 3,
+     "principal": 10525.43,
+     "total": 16004.95
+    },
+    {
+     "balance": 315979.47,
+     "due_month": 72,
+     "interest": 5308.48,
+     "n": 4,
+     "principal": 10696.47,
+     "total": 16004.95
+    },
+    {
+     "balance": 305109.19,
+     "due_month": 75,
+     "interest": 5134.67,
+     "n": 5,
+     "principal": 10870.28,
+     "total": 16004.95
+    },
+    {
+     "balance": 294062.26,
+     "due_month": 78,
+     "interest": 4958.02,
+     "n": 6,
+     "principal": 11046.93,
+     "total": 16004.95
+    },
+    {
+     "balance": 282835.82,
+     "due_month": 81,
+     "interest": 4778.51,
+     "n": 7,
+     "principal": 11226.44,
+     "total": 16004.95
+    },
+    {
+     "balance": 271426.95,
+     "due_month": 84,
+     "interest": 4596.08,
+     "n": 8,
+     "principal": 11408.87,
+     "total": 16004.95
+    },
+    {
+     "balance": 259832.69,
+     "due_month": 87,
+     "interest": 4410.69,
+     "n": 9,
+     "principal": 11594.26,
+     "total": 16004.95
+    },
+    {
+     "balance": 248050.02,
+     "due_month": 90,
+     "interest": 4222.28,
+     "n": 10,
+     "principal": 11782.67,
+     "total": 16004.95
+    },
+    {
+     "balance": 236075.88,
+     "due_month": 93,
+     "interest": 4030.81,
+     "n": 11,
+     "principal": 11974.14,
+     "total": 16004.95
+    },
+    {
+     "balance": 223907.16,
+     "due_month": 96,
+     "interest": 3836.23,
+     "n": 12,
+     "principal": 12168.72,
+     "total": 16004.95
+    },
+    {
+     "balance": 211540.7,
+     "due_month": 99,
+     "interest": 3638.49,
+     "n": 13,
+     "principal": 12366.46,
+     "total": 16004.95
+    },
+    {
+     "balance": 198973.29,
+     "due_month": 102,
+     "interest": 3437.54,
+     "n": 14,
+     "principal": 12567.41,
+     "total": 16004.95
+    },
+    {
+     "balance": 186201.66,
+     "due_month": 105,
+     "interest": 3233.32,
+     "n": 15,
+     "principal": 12771.63,
+     "total": 16004.95
+    },
+    {
+     "balance": 173222.49,
+     "due_month": 108,
+     "interest": 3025.78,
+     "n": 16,
+     "principal": 12979.17,
+     "total": 16004.95
+    },
+    {
+     "balance": 160032.41,
+     "due_month": 111,
+     "interest": 2814.87,
+     "n": 17,
+     "principal": 13190.08,
+     "total": 16004.95
+    },
+    {
+     "balance": 146627.99,
+     "due_month": 114,
+     "interest": 2600.53,
+     "n": 18,
+     "principal": 13404.42,
+     "total": 16004.95
+    },
+    {
+     "balance": 133005.74,
+     "due_month": 117,
+     "interest": 2382.7,
+     "n": 19,
+     "principal": 13622.25,
+     "total": 16004.95
+    },
+    {
+     "balance": 119162.13,
+     "due_month": 120,
+     "interest": 2161.34,
+     "n": 20,
+     "principal": 13843.61,
+     "total": 16004.95
+    },
+    {
+     "balance": 105093.56,
+     "due_month": 123,
+     "interest": 1936.38,
+     "n": 21,
+     "principal": 14068.57,
+     "total": 16004.95
+    },
+    {
+     "balance": 90796.38,
+     "due_month": 126,
+     "interest": 1707.77,
+     "n": 22,
+     "principal": 14297.18,
+     "total": 16004.95
+    },
+    {
+     "balance": 76266.87,
+     "due_month": 129,
+     "interest": 1475.44,
+     "n": 23,
+     "principal": 14529.51,
+     "total": 16004.95
+    },
+    {
+     "balance": 61501.26,
+     "due_month": 132,
+     "interest": 1239.34,
+     "n": 24,
+     "principal": 14765.61,
+     "total": 16004.95
+    },
+    {
+     "balance": 46495.71,
+     "due_month": 135,
+     "interest": 999.4,
+     "n": 25,
+     "principal": 15005.55,
+     "total": 16004.95
+    },
+    {
+     "balance": 31246.32,
+     "due_month": 138,
+     "interest": 755.56,
+     "n": 26,
+     "principal": 15249.39,
+     "total": 16004.95
+    },
+    {
+     "balance": 15749.12,
+     "due_month": 141,
+     "interest": 507.75,
+     "n": 27,
+     "principal": 15497.2,
+     "total": 16004.95
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 255.92,
+     "n": 28,
+     "principal": 15749.12,
+     "total": 16005.04
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 178139,
+   "total_repayment": 448139
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "CA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 42679.87,
+   "loan": 720000,
+   "monthly_equivalent": 14226.62,
+   "moratorium_interest": 234000.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 80000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 926822.63,
+     "due_month": 63,
+     "interest": 15502.5,
+     "n": 1,
+     "principal": 27177.37,
+     "total": 42679.87
+    },
+    {
+     "balance": 899203.63,
+     "due_month": 66,
+     "interest": 15060.87,
+     "n": 2,
+     "principal": 27619.0,
+     "total": 42679.87
+    },
+    {
+     "balance": 871135.82,
+     "due_month": 69,
+     "interest": 14612.06,
+     "n": 3,
+     "principal": 28067.81,
+     "total": 42679.87
+    },
+    {
+     "balance": 842611.91,
+     "due_month": 72,
+     "interest": 14155.96,
+     "n": 4,
+     "principal": 28523.91,
+     "total": 42679.87
+    },
+    {
+     "balance": 813624.48,
+     "due_month": 75,
+     "interest": 13692.44,
+     "n": 5,
+     "principal": 28987.43,
+     "total": 42679.87
+    },
+    {
+     "balance": 784166.01,
+     "due_month": 78,
+     "interest": 13221.4,
+     "n": 6,
+     "principal": 29458.47,
+     "total": 42679.87
+    },
+    {
+     "balance": 754228.84,
+     "due_month": 81,
+     "interest": 12742.7,
+     "n": 7,
+     "principal": 29937.17,
+     "total": 42679.87
+    },
+    {
+     "balance": 723805.19,
+     "due_month": 84,
+     "interest": 12256.22,
+     "n": 8,
+     "principal": 30423.65,
+     "total": 42679.87
+    },
+    {
+     "balance": 692887.15,
+     "due_month": 87,
+     "interest": 11761.83,
+     "n": 9,
+     "principal": 30918.04,
+     "total": 42679.87
+    },
+    {
+     "balance": 661466.7,
+     "due_month": 90,
+     "interest": 11259.42,
+     "n": 10,
+     "principal": 31420.45,
+     "total": 42679.87
+    },
+    {
+     "balance": 629535.66,
+     "due_month": 93,
+     "interest": 10748.83,
+     "n": 11,
+     "principal": 31931.04,
+     "total": 42679.87
+    },
+    {
+     "balance": 597085.74,
+     "due_month": 96,
+     "interest": 10229.95,
+     "n": 12,
+     "principal": 32449.92,
+     "total": 42679.87
+    },
+    {
+     "balance": 564108.51,
+     "due_month": 99,
+     "interest": 9702.64,
+     "n": 13,
+     "principal": 32977.23,
+     "total": 42679.87
+    },
+    {
+     "balance": 530595.4,
+     "due_month": 102,
+     "interest": 9166.76,
+     "n": 14,
+     "principal": 33513.11,
+     "total": 42679.87
+    },
+    {
+     "balance": 496537.71,
+     "due_month": 105,
+     "interest": 8622.18,
+     "n": 15,
+     "principal": 34057.69,
+     "total": 42679.87
+    },
+    {
+     "balance": 461926.58,
+     "due_month": 108,
+     "interest": 8068.74,
+     "n": 16,
+     "principal": 34611.13,
+     "total": 42679.87
+    },
+    {
+     "balance": 426753.02,
+     "due_month": 111,
+     "interest": 7506.31,
+     "n": 17,
+     "principal": 35173.56,
+     "total": 42679.87
+    },
+    {
+     "balance": 391007.89,
+     "due_month": 114,
+     "interest": 6934.74,
+     "n": 18,
+     "principal": 35745.13,
+     "total": 42679.87
+    },
+    {
+     "balance": 354681.9,
+     "due_month": 117,
+     "interest": 6353.88,
+     "n": 19,
+     "principal": 36325.99,
+     "total": 42679.87
+    },
+    {
+     "balance": 317765.61,
+     "due_month": 120,
+     "interest": 5763.58,
+     "n": 20,
+     "principal": 36916.29,
+     "total": 42679.87
+    },
+    {
+     "balance": 280249.43,
+     "due_month": 123,
+     "interest": 5163.69,
+     "n": 21,
+     "principal": 37516.18,
+     "total": 42679.87
+    },
+    {
+     "balance": 242123.61,
+     "due_month": 126,
+     "interest": 4554.05,
+     "n": 22,
+     "principal": 38125.82,
+     "total": 42679.87
+    },
+    {
+     "balance": 203378.25,
+     "due_month": 129,
+     "interest": 3934.51,
+     "n": 23,
+     "principal": 38745.36,
+     "total": 42679.87
+    },
+    {
+     "balance": 164003.28,
+     "due_month": 132,
+     "interest": 3304.9,
+     "n": 24,
+     "principal": 39374.97,
+     "total": 42679.87
+    },
+    {
+     "balance": 123988.46,
+     "due_month": 135,
+     "interest": 2665.05,
+     "n": 25,
+     "principal": 40014.82,
+     "total": 42679.87
+    },
+    {
+     "balance": 83323.4,
+     "due_month": 138,
+     "interest": 2014.81,
+     "n": 26,
+     "principal": 40665.06,
+     "total": 42679.87
+    },
+    {
+     "balance": 41997.54,
+     "due_month": 141,
+     "interest": 1354.01,
+     "n": 27,
+     "principal": 41325.86,
+     "total": 42679.87
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 682.46,
+     "n": 28,
+     "principal": 41997.54,
+     "total": 42680.0
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 475036,
+   "total_repayment": 1195036
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "SCA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 3200.99,
+   "loan": 54000,
+   "monthly_equivalent": 1067.0,
+   "moratorium_interest": 17550.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 6000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 69511.7,
+     "due_month": 63,
+     "interest": 1162.69,
+     "n": 1,
+     "principal": 2038.3,
+     "total": 3200.99
+    },
+    {
+     "balance": 67440.28,
+     "due_month": 66,
+     "interest": 1129.57,
+     "n": 2,
+     "principal": 2071.42,
+     "total": 3200.99
+    },
+    {
+     "balance": 65335.19,
+     "due_month": 69,
+     "interest": 1095.9,
+     "n": 3,
+     "principal": 2105.09,
+     "total": 3200.99
+    },
+    {
+     "balance": 63195.9,
+     "due_month": 72,
+     "interest": 1061.7,
+     "n": 4,
+     "principal": 2139.29,
+     "total": 3200.99
+    },
+    {
+     "balance": 61021.84,
+     "due_month": 75,
+     "interest": 1026.93,
+     "n": 5,
+     "principal": 2174.06,
+     "total": 3200.99
+    },
+    {
+     "balance": 58812.45,
+     "due_month": 78,
+     "interest": 991.6,
+     "n": 6,
+     "principal": 2209.39,
+     "total": 3200.99
+    },
+    {
+     "balance": 56567.16,
+     "due_month": 81,
+     "interest": 955.7,
+     "n": 7,
+     "principal": 2245.29,
+     "total": 3200.99
+    },
+    {
+     "balance": 54285.39,
+     "due_month": 84,
+     "interest": 919.22,
+     "n": 8,
+     "principal": 2281.77,
+     "total": 3200.99
+    },
+    {
+     "balance": 51966.54,
+     "due_month": 87,
+     "interest": 882.14,
+     "n": 9,
+     "principal": 2318.85,
+     "total": 3200.99
+    },
+    {
+     "balance": 49610.01,
+     "due_month": 90,
+     "interest": 844.46,
+     "n": 10,
+     "principal": 2356.53,
+     "total": 3200.99
+    },
+    {
+     "balance": 47215.18,
+     "due_month": 93,
+     "interest": 806.16,
+     "n": 11,
+     "principal": 2394.83,
+     "total": 3200.99
+    },
+    {
+     "balance": 44781.44,
+     "due_month": 96,
+     "interest": 767.25,
+     "n": 12,
+     "principal": 2433.74,
+     "total": 3200.99
+    },
+    {
+     "balance": 42308.15,
+     "due_month": 99,
+     "interest": 727.7,
+     "n": 13,
+     "principal": 2473.29,
+     "total": 3200.99
+    },
+    {
+     "balance": 39794.67,
+     "due_month": 102,
+     "interest": 687.51,
+     "n": 14,
+     "principal": 2513.48,
+     "total": 3200.99
+    },
+    {
+     "balance": 37240.34,
+     "due_month": 105,
+     "interest": 646.66,
+     "n": 15,
+     "principal": 2554.33,
+     "total": 3200.99
+    },
+    {
+     "balance": 34644.51,
+     "due_month": 108,
+     "interest": 605.16,
+     "n": 16,
+     "principal": 2595.83,
+     "total": 3200.99
+    },
+    {
+     "balance": 32006.49,
+     "due_month": 111,
+     "interest": 562.97,
+     "n": 17,
+     "principal": 2638.02,
+     "total": 3200.99
+    },
+    {
+     "balance": 29325.61,
+     "due_month": 114,
+     "interest": 520.11,
+     "n": 18,
+     "principal": 2680.88,
+     "total": 3200.99
+    },
+    {
+     "balance": 26601.16,
+     "due_month": 117,
+     "interest": 476.54,
+     "n": 19,
+     "principal": 2724.45,
+     "total": 3200.99
+    },
+    {
+     "balance": 23832.44,
+     "due_month": 120,
+     "interest": 432.27,
+     "n": 20,
+     "principal": 2768.72,
+     "total": 3200.99
+    },
+    {
+     "balance": 21018.73,
+     "due_month": 123,
+     "interest": 387.28,
+     "n": 21,
+     "principal": 2813.71,
+     "total": 3200.99
+    },
+    {
+     "balance": 18159.29,
+     "due_month": 126,
+     "interest": 341.55,
+     "n": 22,
+     "principal": 2859.44,
+     "total": 3200.99
+    },
+    {
+     "balance": 15253.39,
+     "due_month": 129,
+     "interest": 295.09,
+     "n": 23,
+     "principal": 2905.9,
+     "total": 3200.99
+    },
+    {
+     "balance": 12300.27,
+     "due_month": 132,
+     "interest": 247.87,
+     "n": 24,
+     "principal": 2953.12,
+     "total": 3200.99
+    },
+    {
+     "balance": 9299.16,
+     "due_month": 135,
+     "interest": 199.88,
+     "n": 25,
+     "principal": 3001.11,
+     "total": 3200.99
+    },
+    {
+     "balance": 6249.28,
+     "due_month": 138,
+     "interest": 151.11,
+     "n": 26,
+     "principal": 3049.88,
+     "total": 3200.99
+    },
+    {
+     "balance": 3149.84,
+     "due_month": 141,
+     "interest": 101.55,
+     "n": 27,
+     "principal": 3099.44,
+     "total": 3200.99
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 51.18,
+     "n": 28,
+     "principal": 3149.84,
+     "total": 3201.02
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 35628,
+   "total_repayment": 89628
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "SCA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 7468.98,
+   "loan": 126000,
+   "monthly_equivalent": 2489.66,
+   "moratorium_interest": 40950.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 14000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 162193.96,
+     "due_month": 63,
+     "interest": 2712.94,
+     "n": 1,
+     "principal": 4756.04,
+     "total": 7468.98
+    },
+    {
+     "balance": 157360.63,
+     "due_month": 66,
+     "interest": 2635.65,
+     "n": 2,
+     "principal": 4833.33,
+     "total": 7468.98
+    },
+    {
+     "balance": 152448.76,
+     "due_month": 69,
+     "interest": 2557.11,
+     "n": 3,
+     "principal": 4911.87,
+     "total": 7468.98
+    },
+    {
+     "balance": 147457.07,
+     "due_month": 72,
+     "interest": 2477.29,
+     "n": 4,
+     "principal": 4991.69,
+     "total": 7468.98
+    },
+    {
+     "balance": 142384.27,
+     "due_month": 75,
+     "interest": 2396.18,
+     "n": 5,
+     "principal": 5072.8,
+     "total": 7468.98
+    },
+    {
+     "balance": 137229.03,
+     "due_month": 78,
+     "interest": 2313.74,
+     "n": 6,
+     "principal": 5155.24,
+     "total": 7468.98
+    },
+    {
+     "balance": 131990.02,
+     "due_month": 81,
+     "interest": 2229.97,
+     "n": 7,
+     "principal": 5239.01,
+     "total": 7468.98
+    },
+    {
+     "balance": 126665.88,
+     "due_month": 84,
+     "interest": 2144.84,
+     "n": 8,
+     "principal": 5324.14,
+     "total": 7468.98
+    },
+    {
+     "balance": 121255.22,
+     "due_month": 87,
+     "interest": 2058.32,
+     "n": 9,
+     "principal": 5410.66,
+     "total": 7468.98
+    },
+    {
+     "balance": 115756.64,
+     "due_month": 90,
+     "interest": 1970.4,
+     "n": 10,
+     "principal": 5498.58,
+     "total": 7468.98
+    },
+    {
+     "balance": 110168.71,
+     "due_month": 93,
+     "interest": 1881.05,
+     "n": 11,
+     "principal": 5587.93,
+     "total": 7468.98
+    },
+    {
+     "balance": 104489.97,
+     "due_month": 96,
+     "interest": 1790.24,
+     "n": 12,
+     "principal": 5678.74,
+     "total": 7468.98
+    },
+    {
+     "balance": 98718.95,
+     "due_month": 99,
+     "interest": 1697.96,
+     "n": 13,
+     "principal": 5771.02,
+     "total": 7468.98
+    },
+    {
+     "balance": 92854.15,
+     "due_month": 102,
+     "interest": 1604.18,
+     "n": 14,
+     "principal": 5864.8,
+     "total": 7468.98
+    },
+    {
+     "balance": 86894.05,
+     "due_month": 105,
+     "interest": 1508.88,
+     "n": 15,
+     "principal": 5960.1,
+     "total": 7468.98
+    },
+    {
+     "balance": 80837.1,
+     "due_month": 108,
+     "interest": 1412.03,
+     "n": 16,
+     "principal": 6056.95,
+     "total": 7468.98
+    },
+    {
+     "balance": 74681.72,
+     "due_month": 111,
+     "interest": 1313.6,
+     "n": 17,
+     "principal": 6155.38,
+     "total": 7468.98
+    },
+    {
+     "balance": 68426.32,
+     "due_month": 114,
+     "interest": 1213.58,
+     "n": 18,
+     "principal": 6255.4,
+     "total": 7468.98
+    },
+    {
+     "balance": 62069.27,
+     "due_month": 117,
+     "interest": 1111.93,
+     "n": 19,
+     "principal": 6357.05,
+     "total": 7468.98
+    },
+    {
+     "balance": 55608.92,
+     "due_month": 120,
+     "interest": 1008.63,
+     "n": 20,
+     "principal": 6460.35,
+     "total": 7468.98
+    },
+    {
+     "balance": 49043.58,
+     "due_month": 123,
+     "interest": 903.64,
+     "n": 21,
+     "principal": 6565.34,
+     "total": 7468.98
+    },
+    {
+     "balance": 42371.56,
+     "due_month": 126,
+     "interest": 796.96,
+     "n": 22,
+     "principal": 6672.02,
+     "total": 7468.98
+    },
+    {
+     "balance": 35591.12,
+     "due_month": 129,
+     "interest": 688.54,
+     "n": 23,
+     "principal": 6780.44,
+     "total": 7468.98
+    },
+    {
+     "balance": 28700.5,
+     "due_month": 132,
+     "interest": 578.36,
+     "n": 24,
+     "principal": 6890.62,
+     "total": 7468.98
+    },
+    {
+     "balance": 21697.9,
+     "due_month": 135,
+     "interest": 466.38,
+     "n": 25,
+     "principal": 7002.6,
+     "total": 7468.98
+    },
+    {
+     "balance": 14581.51,
+     "due_month": 138,
+     "interest": 352.59,
+     "n": 26,
+     "principal": 7116.39,
+     "total": 7468.98
+    },
+    {
+     "balance": 7349.48,
+     "due_month": 141,
+     "interest": 236.95,
+     "n": 27,
+     "principal": 7232.03,
+     "total": 7468.98
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 119.43,
+     "n": 28,
+     "principal": 7349.48,
+     "total": 7468.91
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 83131,
+   "total_repayment": 209131
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "SCA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 16004.95,
+   "loan": 270000,
+   "monthly_equivalent": 5334.98,
+   "moratorium_interest": 87750.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 30000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 347558.49,
+     "due_month": 63,
+     "interest": 5813.44,
+     "n": 1,
+     "principal": 10191.51,
+     "total": 16004.95
+    },
+    {
+     "balance": 337201.37,
+     "due_month": 66,
+     "interest": 5647.83,
+     "n": 2,
+     "principal": 10357.12,
+     "total": 16004.95
+    },
+    {
+     "balance": 326675.94,
+     "due_month": 69,
+     "interest": 5479.52,
+     "n": 3,
+     "principal": 10525.43,
+     "total": 16004.95
+    },
+    {
+     "balance": 315979.47,
+     "due_month": 72,
+     "interest": 5308.48,
+     "n": 4,
+     "principal": 10696.47,
+     "total": 16004.95
+    },
+    {
+     "balance": 305109.19,
+     "due_month": 75,
+     "interest": 5134.67,
+     "n": 5,
+     "principal": 10870.28,
+     "total": 16004.95
+    },
+    {
+     "balance": 294062.26,
+     "due_month": 78,
+     "interest": 4958.02,
+     "n": 6,
+     "principal": 11046.93,
+     "total": 16004.95
+    },
+    {
+     "balance": 282835.82,
+     "due_month": 81,
+     "interest": 4778.51,
+     "n": 7,
+     "principal": 11226.44,
+     "total": 16004.95
+    },
+    {
+     "balance": 271426.95,
+     "due_month": 84,
+     "interest": 4596.08,
+     "n": 8,
+     "principal": 11408.87,
+     "total": 16004.95
+    },
+    {
+     "balance": 259832.69,
+     "due_month": 87,
+     "interest": 4410.69,
+     "n": 9,
+     "principal": 11594.26,
+     "total": 16004.95
+    },
+    {
+     "balance": 248050.02,
+     "due_month": 90,
+     "interest": 4222.28,
+     "n": 10,
+     "principal": 11782.67,
+     "total": 16004.95
+    },
+    {
+     "balance": 236075.88,
+     "due_month": 93,
+     "interest": 4030.81,
+     "n": 11,
+     "principal": 11974.14,
+     "total": 16004.95
+    },
+    {
+     "balance": 223907.16,
+     "due_month": 96,
+     "interest": 3836.23,
+     "n": 12,
+     "principal": 12168.72,
+     "total": 16004.95
+    },
+    {
+     "balance": 211540.7,
+     "due_month": 99,
+     "interest": 3638.49,
+     "n": 13,
+     "principal": 12366.46,
+     "total": 16004.95
+    },
+    {
+     "balance": 198973.29,
+     "due_month": 102,
+     "interest": 3437.54,
+     "n": 14,
+     "principal": 12567.41,
+     "total": 16004.95
+    },
+    {
+     "balance": 186201.66,
+     "due_month": 105,
+     "interest": 3233.32,
+     "n": 15,
+     "principal": 12771.63,
+     "total": 16004.95
+    },
+    {
+     "balance": 173222.49,
+     "due_month": 108,
+     "interest": 3025.78,
+     "n": 16,
+     "principal": 12979.17,
+     "total": 16004.95
+    },
+    {
+     "balance": 160032.41,
+     "due_month": 111,
+     "interest": 2814.87,
+     "n": 17,
+     "principal": 13190.08,
+     "total": 16004.95
+    },
+    {
+     "balance": 146627.99,
+     "due_month": 114,
+     "interest": 2600.53,
+     "n": 18,
+     "principal": 13404.42,
+     "total": 16004.95
+    },
+    {
+     "balance": 133005.74,
+     "due_month": 117,
+     "interest": 2382.7,
+     "n": 19,
+     "principal": 13622.25,
+     "total": 16004.95
+    },
+    {
+     "balance": 119162.13,
+     "due_month": 120,
+     "interest": 2161.34,
+     "n": 20,
+     "principal": 13843.61,
+     "total": 16004.95
+    },
+    {
+     "balance": 105093.56,
+     "due_month": 123,
+     "interest": 1936.38,
+     "n": 21,
+     "principal": 14068.57,
+     "total": 16004.95
+    },
+    {
+     "balance": 90796.38,
+     "due_month": 126,
+     "interest": 1707.77,
+     "n": 22,
+     "principal": 14297.18,
+     "total": 16004.95
+    },
+    {
+     "balance": 76266.87,
+     "due_month": 129,
+     "interest": 1475.44,
+     "n": 23,
+     "principal": 14529.51,
+     "total": 16004.95
+    },
+    {
+     "balance": 61501.26,
+     "due_month": 132,
+     "interest": 1239.34,
+     "n": 24,
+     "principal": 14765.61,
+     "total": 16004.95
+    },
+    {
+     "balance": 46495.71,
+     "due_month": 135,
+     "interest": 999.4,
+     "n": 25,
+     "principal": 15005.55,
+     "total": 16004.95
+    },
+    {
+     "balance": 31246.32,
+     "due_month": 138,
+     "interest": 755.56,
+     "n": 26,
+     "principal": 15249.39,
+     "total": 16004.95
+    },
+    {
+     "balance": 15749.12,
+     "due_month": 141,
+     "interest": 507.75,
+     "n": 27,
+     "principal": 15497.2,
+     "total": 16004.95
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 255.92,
+     "n": 28,
+     "principal": 15749.12,
+     "total": 16005.04
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 178139,
+   "total_repayment": 448139
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "SCA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 42679.87,
+   "loan": 720000,
+   "monthly_equivalent": 14226.62,
+   "moratorium_interest": 234000.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 80000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 926822.63,
+     "due_month": 63,
+     "interest": 15502.5,
+     "n": 1,
+     "principal": 27177.37,
+     "total": 42679.87
+    },
+    {
+     "balance": 899203.63,
+     "due_month": 66,
+     "interest": 15060.87,
+     "n": 2,
+     "principal": 27619.0,
+     "total": 42679.87
+    },
+    {
+     "balance": 871135.82,
+     "due_month": 69,
+     "interest": 14612.06,
+     "n": 3,
+     "principal": 28067.81,
+     "total": 42679.87
+    },
+    {
+     "balance": 842611.91,
+     "due_month": 72,
+     "interest": 14155.96,
+     "n": 4,
+     "principal": 28523.91,
+     "total": 42679.87
+    },
+    {
+     "balance": 813624.48,
+     "due_month": 75,
+     "interest": 13692.44,
+     "n": 5,
+     "principal": 28987.43,
+     "total": 42679.87
+    },
+    {
+     "balance": 784166.01,
+     "due_month": 78,
+     "interest": 13221.4,
+     "n": 6,
+     "principal": 29458.47,
+     "total": 42679.87
+    },
+    {
+     "balance": 754228.84,
+     "due_month": 81,
+     "interest": 12742.7,
+     "n": 7,
+     "principal": 29937.17,
+     "total": 42679.87
+    },
+    {
+     "balance": 723805.19,
+     "due_month": 84,
+     "interest": 12256.22,
+     "n": 8,
+     "principal": 30423.65,
+     "total": 42679.87
+    },
+    {
+     "balance": 692887.15,
+     "due_month": 87,
+     "interest": 11761.83,
+     "n": 9,
+     "principal": 30918.04,
+     "total": 42679.87
+    },
+    {
+     "balance": 661466.7,
+     "due_month": 90,
+     "interest": 11259.42,
+     "n": 10,
+     "principal": 31420.45,
+     "total": 42679.87
+    },
+    {
+     "balance": 629535.66,
+     "due_month": 93,
+     "interest": 10748.83,
+     "n": 11,
+     "principal": 31931.04,
+     "total": 42679.87
+    },
+    {
+     "balance": 597085.74,
+     "due_month": 96,
+     "interest": 10229.95,
+     "n": 12,
+     "principal": 32449.92,
+     "total": 42679.87
+    },
+    {
+     "balance": 564108.51,
+     "due_month": 99,
+     "interest": 9702.64,
+     "n": 13,
+     "principal": 32977.23,
+     "total": 42679.87
+    },
+    {
+     "balance": 530595.4,
+     "due_month": 102,
+     "interest": 9166.76,
+     "n": 14,
+     "principal": 33513.11,
+     "total": 42679.87
+    },
+    {
+     "balance": 496537.71,
+     "due_month": 105,
+     "interest": 8622.18,
+     "n": 15,
+     "principal": 34057.69,
+     "total": 42679.87
+    },
+    {
+     "balance": 461926.58,
+     "due_month": 108,
+     "interest": 8068.74,
+     "n": 16,
+     "principal": 34611.13,
+     "total": 42679.87
+    },
+    {
+     "balance": 426753.02,
+     "due_month": 111,
+     "interest": 7506.31,
+     "n": 17,
+     "principal": 35173.56,
+     "total": 42679.87
+    },
+    {
+     "balance": 391007.89,
+     "due_month": 114,
+     "interest": 6934.74,
+     "n": 18,
+     "principal": 35745.13,
+     "total": 42679.87
+    },
+    {
+     "balance": 354681.9,
+     "due_month": 117,
+     "interest": 6353.88,
+     "n": 19,
+     "principal": 36325.99,
+     "total": 42679.87
+    },
+    {
+     "balance": 317765.61,
+     "due_month": 120,
+     "interest": 5763.58,
+     "n": 20,
+     "principal": 36916.29,
+     "total": 42679.87
+    },
+    {
+     "balance": 280249.43,
+     "due_month": 123,
+     "interest": 5163.69,
+     "n": 21,
+     "principal": 37516.18,
+     "total": 42679.87
+    },
+    {
+     "balance": 242123.61,
+     "due_month": 126,
+     "interest": 4554.05,
+     "n": 22,
+     "principal": 38125.82,
+     "total": 42679.87
+    },
+    {
+     "balance": 203378.25,
+     "due_month": 129,
+     "interest": 3934.51,
+     "n": 23,
+     "principal": 38745.36,
+     "total": 42679.87
+    },
+    {
+     "balance": 164003.28,
+     "due_month": 132,
+     "interest": 3304.9,
+     "n": 24,
+     "principal": 39374.97,
+     "total": 42679.87
+    },
+    {
+     "balance": 123988.46,
+     "due_month": 135,
+     "interest": 2665.05,
+     "n": 25,
+     "principal": 40014.82,
+     "total": 42679.87
+    },
+    {
+     "balance": 83323.4,
+     "due_month": 138,
+     "interest": 2014.81,
+     "n": 26,
+     "principal": 40665.06,
+     "total": 42679.87
+    },
+    {
+     "balance": 41997.54,
+     "due_month": 141,
+     "interest": 1354.01,
+     "n": 27,
+     "principal": 41325.86,
+     "total": 42679.87
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 682.46,
+     "n": 28,
+     "principal": 41997.54,
+     "total": 42680.0
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 475036,
+   "total_repayment": 1195036
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 5488.34,
+   "loan": 54000,
+   "monthly_equivalent": 1829.45,
+   "moratorium_interest": 877.5,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 6000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 50280.92,
+     "due_month": 6,
+     "interest": 891.76,
+     "n": 1,
+     "principal": 4596.58,
+     "total": 5488.34
+    },
+    {
+     "balance": 45609.64,
+     "due_month": 9,
+     "interest": 817.06,
+     "n": 2,
+     "principal": 4671.28,
+     "total": 5488.34
+    },
+    {
+     "balance": 40862.46,
+     "due_month": 12,
+     "interest": 741.16,
+     "n": 3,
+     "principal": 4747.18,
+     "total": 5488.34
+    },
+    {
+     "balance": 36038.13,
+     "due_month": 15,
+     "interest": 664.01,
+     "n": 4,
+     "principal": 4824.33,
+     "total": 5488.34
+    },
+    {
+     "balance": 31135.41,
+     "due_month": 18,
+     "interest": 585.62,
+     "n": 5,
+     "principal": 4902.72,
+     "total": 5488.34
+    },
+    {
+     "balance": 26153.02,
+     "due_month": 21,
+     "interest": 505.95,
+     "n": 6,
+     "principal": 4982.39,
+     "total": 5488.34
+    },
+    {
+     "balance": 21089.67,
+     "due_month": 24,
+     "interest": 424.99,
+     "n": 7,
+     "principal": 5063.35,
+     "total": 5488.34
+    },
+    {
+     "balance": 15944.04,
+     "due_month": 27,
+     "interest": 342.71,
+     "n": 8,
+     "principal": 5145.63,
+     "total": 5488.34
+    },
+    {
+     "balance": 10714.79,
+     "due_month": 30,
+     "interest": 259.09,
+     "n": 9,
+     "principal": 5229.25,
+     "total": 5488.34
+    },
+    {
+     "balance": 5400.57,
+     "due_month": 33,
+     "interest": 174.12,
+     "n": 10,
+     "principal": 5314.22,
+     "total": 5488.34
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 87.76,
+     "n": 11,
+     "principal": 5400.57,
+     "total": 5488.33
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 6372,
+   "total_repayment": 60372
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 12704.49,
+   "loan": 125000,
+   "monthly_equivalent": 4234.83,
+   "moratorium_interest": 2031.25,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 15000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 116391.02,
+     "due_month": 6,
+     "interest": 2064.26,
+     "n": 1,
+     "principal": 10640.23,
+     "total": 12704.49
+    },
+    {
+     "balance": 105577.88,
+     "due_month": 9,
+     "interest": 1891.35,
+     "n": 2,
+     "principal": 10813.14,
+     "total": 12704.49
+    },
+    {
+     "balance": 94589.03,
+     "due_month": 12,
+     "interest": 1715.64,
+     "n": 3,
+     "principal": 10988.85,
+     "total": 12704.49
+    },
+    {
+     "balance": 83421.61,
+     "due_month": 15,
+     "interest": 1537.07,
+     "n": 4,
+     "principal": 11167.42,
+     "total": 12704.49
+    },
+    {
+     "balance": 72072.72,
+     "due_month": 18,
+     "interest": 1355.6,
+     "n": 5,
+     "principal": 11348.89,
+     "total": 12704.49
+    },
+    {
+     "balance": 60539.41,
+     "due_month": 21,
+     "interest": 1171.18,
+     "n": 6,
+     "principal": 11533.31,
+     "total": 12704.49
+    },
+    {
+     "balance": 48818.69,
+     "due_month": 24,
+     "interest": 983.77,
+     "n": 7,
+     "principal": 11720.72,
+     "total": 12704.49
+    },
+    {
+     "balance": 36907.5,
+     "due_month": 27,
+     "interest": 793.3,
+     "n": 8,
+     "principal": 11911.19,
+     "total": 12704.49
+    },
+    {
+     "balance": 24802.76,
+     "due_month": 30,
+     "interest": 599.75,
+     "n": 9,
+     "principal": 12104.74,
+     "total": 12704.49
+    },
+    {
+     "balance": 12501.31,
+     "due_month": 33,
+     "interest": 403.04,
+     "n": 10,
+     "principal": 12301.45,
+     "total": 12704.49
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 203.15,
+     "n": 11,
+     "principal": 12501.31,
+     "total": 12704.46
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 14749,
+   "total_repayment": 139749
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 12704.49,
+   "loan": 125000,
+   "monthly_equivalent": 4234.83,
+   "moratorium_interest": 2031.25,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 175000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 116391.02,
+     "due_month": 6,
+     "interest": 2064.26,
+     "n": 1,
+     "principal": 10640.23,
+     "total": 12704.49
+    },
+    {
+     "balance": 105577.88,
+     "due_month": 9,
+     "interest": 1891.35,
+     "n": 2,
+     "principal": 10813.14,
+     "total": 12704.49
+    },
+    {
+     "balance": 94589.03,
+     "due_month": 12,
+     "interest": 1715.64,
+     "n": 3,
+     "principal": 10988.85,
+     "total": 12704.49
+    },
+    {
+     "balance": 83421.61,
+     "due_month": 15,
+     "interest": 1537.07,
+     "n": 4,
+     "principal": 11167.42,
+     "total": 12704.49
+    },
+    {
+     "balance": 72072.72,
+     "due_month": 18,
+     "interest": 1355.6,
+     "n": 5,
+     "principal": 11348.89,
+     "total": 12704.49
+    },
+    {
+     "balance": 60539.41,
+     "due_month": 21,
+     "interest": 1171.18,
+     "n": 6,
+     "principal": 11533.31,
+     "total": 12704.49
+    },
+    {
+     "balance": 48818.69,
+     "due_month": 24,
+     "interest": 983.77,
+     "n": 7,
+     "principal": 11720.72,
+     "total": 12704.49
+    },
+    {
+     "balance": 36907.5,
+     "due_month": 27,
+     "interest": 793.3,
+     "n": 8,
+     "principal": 11911.19,
+     "total": 12704.49
+    },
+    {
+     "balance": 24802.76,
+     "due_month": 30,
+     "interest": 599.75,
+     "n": 9,
+     "principal": 12104.74,
+     "total": 12704.49
+    },
+    {
+     "balance": 12501.31,
+     "due_month": 33,
+     "interest": 403.04,
+     "n": 10,
+     "principal": 12301.45,
+     "total": 12704.49
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 203.15,
+     "n": 11,
+     "principal": 12501.31,
+     "total": 12704.46
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 14749,
+   "total_repayment": 139749
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 12704.49,
+   "loan": 125000,
+   "monthly_equivalent": 4234.83,
+   "moratorium_interest": 2031.25,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 675000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 116391.02,
+     "due_month": 6,
+     "interest": 2064.26,
+     "n": 1,
+     "principal": 10640.23,
+     "total": 12704.49
+    },
+    {
+     "balance": 105577.88,
+     "due_month": 9,
+     "interest": 1891.35,
+     "n": 2,
+     "principal": 10813.14,
+     "total": 12704.49
+    },
+    {
+     "balance": 94589.03,
+     "due_month": 12,
+     "interest": 1715.64,
+     "n": 3,
+     "principal": 10988.85,
+     "total": 12704.49
+    },
+    {
+     "balance": 83421.61,
+     "due_month": 15,
+     "interest": 1537.07,
+     "n": 4,
+     "principal": 11167.42,
+     "total": 12704.49
+    },
+    {
+     "balance": 72072.72,
+     "due_month": 18,
+     "interest": 1355.6,
+     "n": 5,
+     "principal": 11348.89,
+     "total": 12704.49
+    },
+    {
+     "balance": 60539.41,
+     "due_month": 21,
+     "interest": 1171.18,
+     "n": 6,
+     "principal": 11533.31,
+     "total": 12704.49
+    },
+    {
+     "balance": 48818.69,
+     "due_month": 24,
+     "interest": 983.77,
+     "n": 7,
+     "principal": 11720.72,
+     "total": 12704.49
+    },
+    {
+     "balance": 36907.5,
+     "due_month": 27,
+     "interest": 793.3,
+     "n": 8,
+     "principal": 11911.19,
+     "total": 12704.49
+    },
+    {
+     "balance": 24802.76,
+     "due_month": 30,
+     "interest": 599.75,
+     "n": 9,
+     "principal": 12104.74,
+     "total": 12704.49
+    },
+    {
+     "balance": 12501.31,
+     "due_month": 33,
+     "interest": 403.04,
+     "n": 10,
+     "principal": 12301.45,
+     "total": 12704.49
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 203.15,
+     "n": 11,
+     "principal": 12501.31,
+     "total": 12704.46
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 14749,
+   "total_repayment": 139749
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 5488.34,
+   "loan": 54000,
+   "monthly_equivalent": 1829.45,
+   "moratorium_interest": 877.5,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 6000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 50280.92,
+     "due_month": 6,
+     "interest": 891.76,
+     "n": 1,
+     "principal": 4596.58,
+     "total": 5488.34
+    },
+    {
+     "balance": 45609.64,
+     "due_month": 9,
+     "interest": 817.06,
+     "n": 2,
+     "principal": 4671.28,
+     "total": 5488.34
+    },
+    {
+     "balance": 40862.46,
+     "due_month": 12,
+     "interest": 741.16,
+     "n": 3,
+     "principal": 4747.18,
+     "total": 5488.34
+    },
+    {
+     "balance": 36038.13,
+     "due_month": 15,
+     "interest": 664.01,
+     "n": 4,
+     "principal": 4824.33,
+     "total": 5488.34
+    },
+    {
+     "balance": 31135.41,
+     "due_month": 18,
+     "interest": 585.62,
+     "n": 5,
+     "principal": 4902.72,
+     "total": 5488.34
+    },
+    {
+     "balance": 26153.02,
+     "due_month": 21,
+     "interest": 505.95,
+     "n": 6,
+     "principal": 4982.39,
+     "total": 5488.34
+    },
+    {
+     "balance": 21089.67,
+     "due_month": 24,
+     "interest": 424.99,
+     "n": 7,
+     "principal": 5063.35,
+     "total": 5488.34
+    },
+    {
+     "balance": 15944.04,
+     "due_month": 27,
+     "interest": 342.71,
+     "n": 8,
+     "principal": 5145.63,
+     "total": 5488.34
+    },
+    {
+     "balance": 10714.79,
+     "due_month": 30,
+     "interest": 259.09,
+     "n": 9,
+     "principal": 5229.25,
+     "total": 5488.34
+    },
+    {
+     "balance": 5400.57,
+     "due_month": 33,
+     "interest": 174.12,
+     "n": 10,
+     "principal": 5314.22,
+     "total": 5488.34
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 87.76,
+     "n": 11,
+     "principal": 5400.57,
+     "total": 5488.33
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 6372,
+   "total_repayment": 60372
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 12704.49,
+   "loan": 125000,
+   "monthly_equivalent": 4234.83,
+   "moratorium_interest": 2031.25,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 15000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 116391.02,
+     "due_month": 6,
+     "interest": 2064.26,
+     "n": 1,
+     "principal": 10640.23,
+     "total": 12704.49
+    },
+    {
+     "balance": 105577.88,
+     "due_month": 9,
+     "interest": 1891.35,
+     "n": 2,
+     "principal": 10813.14,
+     "total": 12704.49
+    },
+    {
+     "balance": 94589.03,
+     "due_month": 12,
+     "interest": 1715.64,
+     "n": 3,
+     "principal": 10988.85,
+     "total": 12704.49
+    },
+    {
+     "balance": 83421.61,
+     "due_month": 15,
+     "interest": 1537.07,
+     "n": 4,
+     "principal": 11167.42,
+     "total": 12704.49
+    },
+    {
+     "balance": 72072.72,
+     "due_month": 18,
+     "interest": 1355.6,
+     "n": 5,
+     "principal": 11348.89,
+     "total": 12704.49
+    },
+    {
+     "balance": 60539.41,
+     "due_month": 21,
+     "interest": 1171.18,
+     "n": 6,
+     "principal": 11533.31,
+     "total": 12704.49
+    },
+    {
+     "balance": 48818.69,
+     "due_month": 24,
+     "interest": 983.77,
+     "n": 7,
+     "principal": 11720.72,
+     "total": 12704.49
+    },
+    {
+     "balance": 36907.5,
+     "due_month": 27,
+     "interest": 793.3,
+     "n": 8,
+     "principal": 11911.19,
+     "total": 12704.49
+    },
+    {
+     "balance": 24802.76,
+     "due_month": 30,
+     "interest": 599.75,
+     "n": 9,
+     "principal": 12104.74,
+     "total": 12704.49
+    },
+    {
+     "balance": 12501.31,
+     "due_month": 33,
+     "interest": 403.04,
+     "n": 10,
+     "principal": 12301.45,
+     "total": 12704.49
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 203.15,
+     "n": 11,
+     "principal": 12501.31,
+     "total": 12704.46
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 14749,
+   "total_repayment": 139749
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 12704.49,
+   "loan": 125000,
+   "monthly_equivalent": 4234.83,
+   "moratorium_interest": 2031.25,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 175000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 116391.02,
+     "due_month": 6,
+     "interest": 2064.26,
+     "n": 1,
+     "principal": 10640.23,
+     "total": 12704.49
+    },
+    {
+     "balance": 105577.88,
+     "due_month": 9,
+     "interest": 1891.35,
+     "n": 2,
+     "principal": 10813.14,
+     "total": 12704.49
+    },
+    {
+     "balance": 94589.03,
+     "due_month": 12,
+     "interest": 1715.64,
+     "n": 3,
+     "principal": 10988.85,
+     "total": 12704.49
+    },
+    {
+     "balance": 83421.61,
+     "due_month": 15,
+     "interest": 1537.07,
+     "n": 4,
+     "principal": 11167.42,
+     "total": 12704.49
+    },
+    {
+     "balance": 72072.72,
+     "due_month": 18,
+     "interest": 1355.6,
+     "n": 5,
+     "principal": 11348.89,
+     "total": 12704.49
+    },
+    {
+     "balance": 60539.41,
+     "due_month": 21,
+     "interest": 1171.18,
+     "n": 6,
+     "principal": 11533.31,
+     "total": 12704.49
+    },
+    {
+     "balance": 48818.69,
+     "due_month": 24,
+     "interest": 983.77,
+     "n": 7,
+     "principal": 11720.72,
+     "total": 12704.49
+    },
+    {
+     "balance": 36907.5,
+     "due_month": 27,
+     "interest": 793.3,
+     "n": 8,
+     "principal": 11911.19,
+     "total": 12704.49
+    },
+    {
+     "balance": 24802.76,
+     "due_month": 30,
+     "interest": 599.75,
+     "n": 9,
+     "principal": 12104.74,
+     "total": 12704.49
+    },
+    {
+     "balance": 12501.31,
+     "due_month": 33,
+     "interest": 403.04,
+     "n": 10,
+     "principal": 12301.45,
+     "total": 12704.49
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 203.15,
+     "n": 11,
+     "principal": 12501.31,
+     "total": 12704.46
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 14749,
+   "total_repayment": 139749
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 12704.49,
+   "loan": 125000,
+   "monthly_equivalent": 4234.83,
+   "moratorium_interest": 2031.25,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 675000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 116391.02,
+     "due_month": 6,
+     "interest": 2064.26,
+     "n": 1,
+     "principal": 10640.23,
+     "total": 12704.49
+    },
+    {
+     "balance": 105577.88,
+     "due_month": 9,
+     "interest": 1891.35,
+     "n": 2,
+     "principal": 10813.14,
+     "total": 12704.49
+    },
+    {
+     "balance": 94589.03,
+     "due_month": 12,
+     "interest": 1715.64,
+     "n": 3,
+     "principal": 10988.85,
+     "total": 12704.49
+    },
+    {
+     "balance": 83421.61,
+     "due_month": 15,
+     "interest": 1537.07,
+     "n": 4,
+     "principal": 11167.42,
+     "total": 12704.49
+    },
+    {
+     "balance": 72072.72,
+     "due_month": 18,
+     "interest": 1355.6,
+     "n": 5,
+     "principal": 11348.89,
+     "total": 12704.49
+    },
+    {
+     "balance": 60539.41,
+     "due_month": 21,
+     "interest": 1171.18,
+     "n": 6,
+     "principal": 11533.31,
+     "total": 12704.49
+    },
+    {
+     "balance": 48818.69,
+     "due_month": 24,
+     "interest": 983.77,
+     "n": 7,
+     "principal": 11720.72,
+     "total": 12704.49
+    },
+    {
+     "balance": 36907.5,
+     "due_month": 27,
+     "interest": 793.3,
+     "n": 8,
+     "principal": 11911.19,
+     "total": 12704.49
+    },
+    {
+     "balance": 24802.76,
+     "due_month": 30,
+     "interest": 599.75,
+     "n": 9,
+     "principal": 12104.74,
+     "total": 12704.49
+    },
+    {
+     "balance": 12501.31,
+     "due_month": 33,
+     "interest": 403.04,
+     "n": 10,
+     "principal": 12301.45,
+     "total": 12704.49
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 203.15,
+     "n": 11,
+     "principal": 12501.31,
+     "total": 12704.46
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 14749,
+   "total_repayment": 139749
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 2791.11,
+   "loan": 54000,
+   "monthly_equivalent": 930.37,
+   "moratorium_interest": 2160.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 6000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 54492.09,
+     "due_month": 9,
+     "interest": 1123.2,
+     "n": 1,
+     "principal": 1667.91,
+     "total": 2791.11
+    },
+    {
+     "balance": 52790.82,
+     "due_month": 12,
+     "interest": 1089.84,
+     "n": 2,
+     "principal": 1701.27,
+     "total": 2791.11
+    },
+    {
+     "balance": 51055.53,
+     "due_month": 15,
+     "interest": 1055.82,
+     "n": 3,
+     "principal": 1735.29,
+     "total": 2791.11
+    },
+    {
+     "balance": 49285.53,
+     "due_month": 18,
+     "interest": 1021.11,
+     "n": 4,
+     "principal": 1770.0,
+     "total": 2791.11
+    },
+    {
+     "balance": 47480.13,
+     "due_month": 21,
+     "interest": 985.71,
+     "n": 5,
+     "principal": 1805.4,
+     "total": 2791.11
+    },
+    {
+     "balance": 45638.62,
+     "due_month": 24,
+     "interest": 949.6,
+     "n": 6,
+     "principal": 1841.51,
+     "total": 2791.11
+    },
+    {
+     "balance": 43760.28,
+     "due_month": 27,
+     "interest": 912.77,
+     "n": 7,
+     "principal": 1878.34,
+     "total": 2791.11
+    },
+    {
+     "balance": 41844.38,
+     "due_month": 30,
+     "interest": 875.21,
+     "n": 8,
+     "principal": 1915.9,
+     "total": 2791.11
+    },
+    {
+     "balance": 39890.16,
+     "due_month": 33,
+     "interest": 836.89,
+     "n": 9,
+     "principal": 1954.22,
+     "total": 2791.11
+    },
+    {
+     "balance": 37896.85,
+     "due_month": 36,
+     "interest": 797.8,
+     "n": 10,
+     "principal": 1993.31,
+     "total": 2791.11
+    },
+    {
+     "balance": 35863.68,
+     "due_month": 39,
+     "interest": 757.94,
+     "n": 11,
+     "principal": 2033.17,
+     "total": 2791.11
+    },
+    {
+     "balance": 33789.84,
+     "due_month": 42,
+     "interest": 717.27,
+     "n": 12,
+     "principal": 2073.84,
+     "total": 2791.11
+    },
+    {
+     "balance": 31674.53,
+     "due_month": 45,
+     "interest": 675.8,
+     "n": 13,
+     "principal": 2115.31,
+     "total": 2791.11
+    },
+    {
+     "balance": 29516.91,
+     "due_month": 48,
+     "interest": 633.49,
+     "n": 14,
+     "principal": 2157.62,
+     "total": 2791.11
+    },
+    {
+     "balance": 27316.14,
+     "due_month": 51,
+     "interest": 590.34,
+     "n": 15,
+     "principal": 2200.77,
+     "total": 2791.11
+    },
+    {
+     "balance": 25071.35,
+     "due_month": 54,
+     "interest": 546.32,
+     "n": 16,
+     "principal": 2244.79,
+     "total": 2791.11
+    },
+    {
+     "balance": 22781.67,
+     "due_month": 57,
+     "interest": 501.43,
+     "n": 17,
+     "principal": 2289.68,
+     "total": 2791.11
+    },
+    {
+     "balance": 20446.19,
+     "due_month": 60,
+     "interest": 455.63,
+     "n": 18,
+     "principal": 2335.48,
+     "total": 2791.11
+    },
+    {
+     "balance": 18064.0,
+     "due_month": 63,
+     "interest": 408.92,
+     "n": 19,
+     "principal": 2382.19,
+     "total": 2791.11
+    },
+    {
+     "balance": 15634.17,
+     "due_month": 66,
+     "interest": 361.28,
+     "n": 20,
+     "principal": 2429.83,
+     "total": 2791.11
+    },
+    {
+     "balance": 13155.74,
+     "due_month": 69,
+     "interest": 312.68,
+     "n": 21,
+     "principal": 2478.43,
+     "total": 2791.11
+    },
+    {
+     "balance": 10627.74,
+     "due_month": 72,
+     "interest": 263.11,
+     "n": 22,
+     "principal": 2528.0,
+     "total": 2791.11
+    },
+    {
+     "balance": 8049.18,
+     "due_month": 75,
+     "interest": 212.55,
+     "n": 23,
+     "principal": 2578.56,
+     "total": 2791.11
+    },
+    {
+     "balance": 5419.05,
+     "due_month": 78,
+     "interest": 160.98,
+     "n": 24,
+     "principal": 2630.13,
+     "total": 2791.11
+    },
+    {
+     "balance": 2736.32,
+     "due_month": 81,
+     "interest": 108.38,
+     "n": 25,
+     "principal": 2682.73,
+     "total": 2791.11
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 54.73,
+     "n": 26,
+     "principal": 2736.32,
+     "total": 2791.05
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 18569,
+   "total_repayment": 72569
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 6512.59,
+   "loan": 126000,
+   "monthly_equivalent": 2170.86,
+   "moratorium_interest": 5040.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 14000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 127148.21,
+     "due_month": 9,
+     "interest": 2620.8,
+     "n": 1,
+     "principal": 3891.79,
+     "total": 6512.59
+    },
+    {
+     "balance": 123178.58,
+     "due_month": 12,
+     "interest": 2542.96,
+     "n": 2,
+     "principal": 3969.63,
+     "total": 6512.59
+    },
+    {
+     "balance": 119129.56,
+     "due_month": 15,
+     "interest": 2463.57,
+     "n": 3,
+     "principal": 4049.02,
+     "total": 6512.59
+    },
+    {
+     "balance": 114999.56,
+     "due_month": 18,
+     "interest": 2382.59,
+     "n": 4,
+     "principal": 4130.0,
+     "total": 6512.59
+    },
+    {
+     "balance": 110786.96,
+     "due_month": 21,
+     "interest": 2299.99,
+     "n": 5,
+     "principal": 4212.6,
+     "total": 6512.59
+    },
+    {
+     "balance": 106490.11,
+     "due_month": 24,
+     "interest": 2215.74,
+     "n": 6,
+     "principal": 4296.85,
+     "total": 6512.59
+    },
+    {
+     "balance": 102107.32,
+     "due_month": 27,
+     "interest": 2129.8,
+     "n": 7,
+     "principal": 4382.79,
+     "total": 6512.59
+    },
+    {
+     "balance": 97636.88,
+     "due_month": 30,
+     "interest": 2042.15,
+     "n": 8,
+     "principal": 4470.44,
+     "total": 6512.59
+    },
+    {
+     "balance": 93077.03,
+     "due_month": 33,
+     "interest": 1952.74,
+     "n": 9,
+     "principal": 4559.85,
+     "total": 6512.59
+    },
+    {
+     "balance": 88425.98,
+     "due_month": 36,
+     "interest": 1861.54,
+     "n": 10,
+     "principal": 4651.05,
+     "total": 6512.59
+    },
+    {
+     "balance": 83681.91,
+     "due_month": 39,
+     "interest": 1768.52,
+     "n": 11,
+     "principal": 4744.07,
+     "total": 6512.59
+    },
+    {
+     "balance": 78842.96,
+     "due_month": 42,
+     "interest": 1673.64,
+     "n": 12,
+     "principal": 4838.95,
+     "total": 6512.59
+    },
+    {
+     "balance": 73907.23,
+     "due_month": 45,
+     "interest": 1576.86,
+     "n": 13,
+     "principal": 4935.73,
+     "total": 6512.59
+    },
+    {
+     "balance": 68872.78,
+     "due_month": 48,
+     "interest": 1478.14,
+     "n": 14,
+     "principal": 5034.45,
+     "total": 6512.59
+    },
+    {
+     "balance": 63737.65,
+     "due_month": 51,
+     "interest": 1377.46,
+     "n": 15,
+     "principal": 5135.13,
+     "total": 6512.59
+    },
+    {
+     "balance": 58499.81,
+     "due_month": 54,
+     "interest": 1274.75,
+     "n": 16,
+     "principal": 5237.84,
+     "total": 6512.59
+    },
+    {
+     "balance": 53157.22,
+     "due_month": 57,
+     "interest": 1170.0,
+     "n": 17,
+     "principal": 5342.59,
+     "total": 6512.59
+    },
+    {
+     "balance": 47707.77,
+     "due_month": 60,
+     "interest": 1063.14,
+     "n": 18,
+     "principal": 5449.45,
+     "total": 6512.59
+    },
+    {
+     "balance": 42149.34,
+     "due_month": 63,
+     "interest": 954.16,
+     "n": 19,
+     "principal": 5558.43,
+     "total": 6512.59
+    },
+    {
+     "balance": 36479.74,
+     "due_month": 66,
+     "interest": 842.99,
+     "n": 20,
+     "principal": 5669.6,
+     "total": 6512.59
+    },
+    {
+     "balance": 30696.74,
+     "due_month": 69,
+     "interest": 729.59,
+     "n": 21,
+     "principal": 5783.0,
+     "total": 6512.59
+    },
+    {
+     "balance": 24798.08,
+     "due_month": 72,
+     "interest": 613.93,
+     "n": 22,
+     "principal": 5898.66,
+     "total": 6512.59
+    },
+    {
+     "balance": 18781.45,
+     "due_month": 75,
+     "interest": 495.96,
+     "n": 23,
+     "principal": 6016.63,
+     "total": 6512.59
+    },
+    {
+     "balance": 12644.49,
+     "due_month": 78,
+     "interest": 375.63,
+     "n": 24,
+     "principal": 6136.96,
+     "total": 6512.59
+    },
+    {
+     "balance": 6384.79,
+     "due_month": 81,
+     "interest": 252.89,
+     "n": 25,
+     "principal": 6259.7,
+     "total": 6512.59
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 127.7,
+     "n": 26,
+     "principal": 6384.79,
+     "total": 6512.49
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 43327,
+   "total_repayment": 169327
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 13955.54,
+   "loan": 270000,
+   "monthly_equivalent": 4651.85,
+   "moratorium_interest": 10800.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 30000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 272460.46,
+     "due_month": 9,
+     "interest": 5616.0,
+     "n": 1,
+     "principal": 8339.54,
+     "total": 13955.54
+    },
+    {
+     "balance": 263954.13,
+     "due_month": 12,
+     "interest": 5449.21,
+     "n": 2,
+     "principal": 8506.33,
+     "total": 13955.54
+    },
+    {
+     "balance": 255277.67,
+     "due_month": 15,
+     "interest": 5279.08,
+     "n": 3,
+     "principal": 8676.46,
+     "total": 13955.54
+    },
+    {
+     "balance": 246427.68,
+     "due_month": 18,
+     "interest": 5105.55,
+     "n": 4,
+     "principal": 8849.99,
+     "total": 13955.54
+    },
+    {
+     "balance": 237400.69,
+     "due_month": 21,
+     "interest": 4928.55,
+     "n": 5,
+     "principal": 9026.99,
+     "total": 13955.54
+    },
+    {
+     "balance": 228193.16,
+     "due_month": 24,
+     "interest": 4748.01,
+     "n": 6,
+     "principal": 9207.53,
+     "total": 13955.54
+    },
+    {
+     "balance": 218801.48,
+     "due_month": 27,
+     "interest": 4563.86,
+     "n": 7,
+     "principal": 9391.68,
+     "total": 13955.54
+    },
+    {
+     "balance": 209221.97,
+     "due_month": 30,
+     "interest": 4376.03,
+     "n": 8,
+     "principal": 9579.51,
+     "total": 13955.54
+    },
+    {
+     "balance": 199450.87,
+     "due_month": 33,
+     "interest": 4184.44,
+     "n": 9,
+     "principal": 9771.1,
+     "total": 13955.54
+    },
+    {
+     "balance": 189484.35,
+     "due_month": 36,
+     "interest": 3989.02,
+     "n": 10,
+     "principal": 9966.52,
+     "total": 13955.54
+    },
+    {
+     "balance": 179318.5,
+     "due_month": 39,
+     "interest": 3789.69,
+     "n": 11,
+     "principal": 10165.85,
+     "total": 13955.54
+    },
+    {
+     "balance": 168949.33,
+     "due_month": 42,
+     "interest": 3586.37,
+     "n": 12,
+     "principal": 10369.17,
+     "total": 13955.54
+    },
+    {
+     "balance": 158372.78,
+     "due_month": 45,
+     "interest": 3378.99,
+     "n": 13,
+     "principal": 10576.55,
+     "total": 13955.54
+    },
+    {
+     "balance": 147584.7,
+     "due_month": 48,
+     "interest": 3167.46,
+     "n": 14,
+     "principal": 10788.08,
+     "total": 13955.54
+    },
+    {
+     "balance": 136580.85,
+     "due_month": 51,
+     "interest": 2951.69,
+     "n": 15,
+     "principal": 11003.85,
+     "total": 13955.54
+    },
+    {
+     "balance": 125356.93,
+     "due_month": 54,
+     "interest": 2731.62,
+     "n": 16,
+     "principal": 11223.92,
+     "total": 13955.54
+    },
+    {
+     "balance": 113908.53,
+     "due_month": 57,
+     "interest": 2507.14,
+     "n": 17,
+     "principal": 11448.4,
+     "total": 13955.54
+    },
+    {
+     "balance": 102231.16,
+     "due_month": 60,
+     "interest": 2278.17,
+     "n": 18,
+     "principal": 11677.37,
+     "total": 13955.54
+    },
+    {
+     "balance": 90320.24,
+     "due_month": 63,
+     "interest": 2044.62,
+     "n": 19,
+     "principal": 11910.92,
+     "total": 13955.54
+    },
+    {
+     "balance": 78171.1,
+     "due_month": 66,
+     "interest": 1806.4,
+     "n": 20,
+     "principal": 12149.14,
+     "total": 13955.54
+    },
+    {
+     "balance": 65778.98,
+     "due_month": 69,
+     "interest": 1563.42,
+     "n": 21,
+     "principal": 12392.12,
+     "total": 13955.54
+    },
+    {
+     "balance": 53139.02,
+     "due_month": 72,
+     "interest": 1315.58,
+     "n": 22,
+     "principal": 12639.96,
+     "total": 13955.54
+    },
+    {
+     "balance": 40246.26,
+     "due_month": 75,
+     "interest": 1062.78,
+     "n": 23,
+     "principal": 12892.76,
+     "total": 13955.54
+    },
+    {
+     "balance": 27095.65,
+     "due_month": 78,
+     "interest": 804.93,
+     "n": 24,
+     "principal": 13150.61,
+     "total": 13955.54
+    },
+    {
+     "balance": 13682.02,
+     "due_month": 81,
+     "interest": 541.91,
+     "n": 25,
+     "principal": 13413.63,
+     "total": 13955.54
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 273.64,
+     "n": 26,
+     "principal": 13682.02,
+     "total": 13955.66
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 92844,
+   "total_repayment": 362844
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "CA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 37214.78,
+   "loan": 720000,
+   "monthly_equivalent": 12404.93,
+   "moratorium_interest": 28800.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 80000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 726561.22,
+     "due_month": 9,
+     "interest": 14976.0,
+     "n": 1,
+     "principal": 22238.78,
+     "total": 37214.78
+    },
+    {
+     "balance": 703877.66,
+     "due_month": 12,
+     "interest": 14531.22,
+     "n": 2,
+     "principal": 22683.56,
+     "total": 37214.78
+    },
+    {
+     "balance": 680740.43,
+     "due_month": 15,
+     "interest": 14077.55,
+     "n": 3,
+     "principal": 23137.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 657140.46,
+     "due_month": 18,
+     "interest": 13614.81,
+     "n": 4,
+     "principal": 23599.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 633068.49,
+     "due_month": 21,
+     "interest": 13142.81,
+     "n": 5,
+     "principal": 24071.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 608515.08,
+     "due_month": 24,
+     "interest": 12661.37,
+     "n": 6,
+     "principal": 24553.41,
+     "total": 37214.78
+    },
+    {
+     "balance": 583470.6,
+     "due_month": 27,
+     "interest": 12170.3,
+     "n": 7,
+     "principal": 25044.48,
+     "total": 37214.78
+    },
+    {
+     "balance": 557925.23,
+     "due_month": 30,
+     "interest": 11669.41,
+     "n": 8,
+     "principal": 25545.37,
+     "total": 37214.78
+    },
+    {
+     "balance": 531868.95,
+     "due_month": 33,
+     "interest": 11158.5,
+     "n": 9,
+     "principal": 26056.28,
+     "total": 37214.78
+    },
+    {
+     "balance": 505291.55,
+     "due_month": 36,
+     "interest": 10637.38,
+     "n": 10,
+     "principal": 26577.4,
+     "total": 37214.78
+    },
+    {
+     "balance": 478182.6,
+     "due_month": 39,
+     "interest": 10105.83,
+     "n": 11,
+     "principal": 27108.95,
+     "total": 37214.78
+    },
+    {
+     "balance": 450531.47,
+     "due_month": 42,
+     "interest": 9563.65,
+     "n": 12,
+     "principal": 27651.13,
+     "total": 37214.78
+    },
+    {
+     "balance": 422327.32,
+     "due_month": 45,
+     "interest": 9010.63,
+     "n": 13,
+     "principal": 28204.15,
+     "total": 37214.78
+    },
+    {
+     "balance": 393559.09,
+     "due_month": 48,
+     "interest": 8446.55,
+     "n": 14,
+     "principal": 28768.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 364215.49,
+     "due_month": 51,
+     "interest": 7871.18,
+     "n": 15,
+     "principal": 29343.6,
+     "total": 37214.78
+    },
+    {
+     "balance": 334285.02,
+     "due_month": 54,
+     "interest": 7284.31,
+     "n": 16,
+     "principal": 29930.47,
+     "total": 37214.78
+    },
+    {
+     "balance": 303755.94,
+     "due_month": 57,
+     "interest": 6685.7,
+     "n": 17,
+     "principal": 30529.08,
+     "total": 37214.78
+    },
+    {
+     "balance": 272616.28,
+     "due_month": 60,
+     "interest": 6075.12,
+     "n": 18,
+     "principal": 31139.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 240853.83,
+     "due_month": 63,
+     "interest": 5452.33,
+     "n": 19,
+     "principal": 31762.45,
+     "total": 37214.78
+    },
+    {
+     "balance": 208456.13,
+     "due_month": 66,
+     "interest": 4817.08,
+     "n": 20,
+     "principal": 32397.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 175410.47,
+     "due_month": 69,
+     "interest": 4169.12,
+     "n": 21,
+     "principal": 33045.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 141703.9,
+     "due_month": 72,
+     "interest": 3508.21,
+     "n": 22,
+     "principal": 33706.57,
+     "total": 37214.78
+    },
+    {
+     "balance": 107323.2,
+     "due_month": 75,
+     "interest": 2834.08,
+     "n": 23,
+     "principal": 34380.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 72254.88,
+     "due_month": 78,
+     "interest": 2146.46,
+     "n": 24,
+     "principal": 35068.32,
+     "total": 37214.78
+    },
+    {
+     "balance": 36485.2,
+     "due_month": 81,
+     "interest": 1445.1,
+     "n": 25,
+     "principal": 35769.68,
+     "total": 37214.78
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 729.7,
+     "n": 26,
+     "principal": 36485.2,
+     "total": 37214.9
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 247584,
+   "total_repayment": 967584
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 2791.11,
+   "loan": 54000,
+   "monthly_equivalent": 930.37,
+   "moratorium_interest": 2160.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 6000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 54492.09,
+     "due_month": 9,
+     "interest": 1123.2,
+     "n": 1,
+     "principal": 1667.91,
+     "total": 2791.11
+    },
+    {
+     "balance": 52790.82,
+     "due_month": 12,
+     "interest": 1089.84,
+     "n": 2,
+     "principal": 1701.27,
+     "total": 2791.11
+    },
+    {
+     "balance": 51055.53,
+     "due_month": 15,
+     "interest": 1055.82,
+     "n": 3,
+     "principal": 1735.29,
+     "total": 2791.11
+    },
+    {
+     "balance": 49285.53,
+     "due_month": 18,
+     "interest": 1021.11,
+     "n": 4,
+     "principal": 1770.0,
+     "total": 2791.11
+    },
+    {
+     "balance": 47480.13,
+     "due_month": 21,
+     "interest": 985.71,
+     "n": 5,
+     "principal": 1805.4,
+     "total": 2791.11
+    },
+    {
+     "balance": 45638.62,
+     "due_month": 24,
+     "interest": 949.6,
+     "n": 6,
+     "principal": 1841.51,
+     "total": 2791.11
+    },
+    {
+     "balance": 43760.28,
+     "due_month": 27,
+     "interest": 912.77,
+     "n": 7,
+     "principal": 1878.34,
+     "total": 2791.11
+    },
+    {
+     "balance": 41844.38,
+     "due_month": 30,
+     "interest": 875.21,
+     "n": 8,
+     "principal": 1915.9,
+     "total": 2791.11
+    },
+    {
+     "balance": 39890.16,
+     "due_month": 33,
+     "interest": 836.89,
+     "n": 9,
+     "principal": 1954.22,
+     "total": 2791.11
+    },
+    {
+     "balance": 37896.85,
+     "due_month": 36,
+     "interest": 797.8,
+     "n": 10,
+     "principal": 1993.31,
+     "total": 2791.11
+    },
+    {
+     "balance": 35863.68,
+     "due_month": 39,
+     "interest": 757.94,
+     "n": 11,
+     "principal": 2033.17,
+     "total": 2791.11
+    },
+    {
+     "balance": 33789.84,
+     "due_month": 42,
+     "interest": 717.27,
+     "n": 12,
+     "principal": 2073.84,
+     "total": 2791.11
+    },
+    {
+     "balance": 31674.53,
+     "due_month": 45,
+     "interest": 675.8,
+     "n": 13,
+     "principal": 2115.31,
+     "total": 2791.11
+    },
+    {
+     "balance": 29516.91,
+     "due_month": 48,
+     "interest": 633.49,
+     "n": 14,
+     "principal": 2157.62,
+     "total": 2791.11
+    },
+    {
+     "balance": 27316.14,
+     "due_month": 51,
+     "interest": 590.34,
+     "n": 15,
+     "principal": 2200.77,
+     "total": 2791.11
+    },
+    {
+     "balance": 25071.35,
+     "due_month": 54,
+     "interest": 546.32,
+     "n": 16,
+     "principal": 2244.79,
+     "total": 2791.11
+    },
+    {
+     "balance": 22781.67,
+     "due_month": 57,
+     "interest": 501.43,
+     "n": 17,
+     "principal": 2289.68,
+     "total": 2791.11
+    },
+    {
+     "balance": 20446.19,
+     "due_month": 60,
+     "interest": 455.63,
+     "n": 18,
+     "principal": 2335.48,
+     "total": 2791.11
+    },
+    {
+     "balance": 18064.0,
+     "due_month": 63,
+     "interest": 408.92,
+     "n": 19,
+     "principal": 2382.19,
+     "total": 2791.11
+    },
+    {
+     "balance": 15634.17,
+     "due_month": 66,
+     "interest": 361.28,
+     "n": 20,
+     "principal": 2429.83,
+     "total": 2791.11
+    },
+    {
+     "balance": 13155.74,
+     "due_month": 69,
+     "interest": 312.68,
+     "n": 21,
+     "principal": 2478.43,
+     "total": 2791.11
+    },
+    {
+     "balance": 10627.74,
+     "due_month": 72,
+     "interest": 263.11,
+     "n": 22,
+     "principal": 2528.0,
+     "total": 2791.11
+    },
+    {
+     "balance": 8049.18,
+     "due_month": 75,
+     "interest": 212.55,
+     "n": 23,
+     "principal": 2578.56,
+     "total": 2791.11
+    },
+    {
+     "balance": 5419.05,
+     "due_month": 78,
+     "interest": 160.98,
+     "n": 24,
+     "principal": 2630.13,
+     "total": 2791.11
+    },
+    {
+     "balance": 2736.32,
+     "due_month": 81,
+     "interest": 108.38,
+     "n": 25,
+     "principal": 2682.73,
+     "total": 2791.11
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 54.73,
+     "n": 26,
+     "principal": 2736.32,
+     "total": 2791.05
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 18569,
+   "total_repayment": 72569
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 6512.59,
+   "loan": 126000,
+   "monthly_equivalent": 2170.86,
+   "moratorium_interest": 5040.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 14000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 127148.21,
+     "due_month": 9,
+     "interest": 2620.8,
+     "n": 1,
+     "principal": 3891.79,
+     "total": 6512.59
+    },
+    {
+     "balance": 123178.58,
+     "due_month": 12,
+     "interest": 2542.96,
+     "n": 2,
+     "principal": 3969.63,
+     "total": 6512.59
+    },
+    {
+     "balance": 119129.56,
+     "due_month": 15,
+     "interest": 2463.57,
+     "n": 3,
+     "principal": 4049.02,
+     "total": 6512.59
+    },
+    {
+     "balance": 114999.56,
+     "due_month": 18,
+     "interest": 2382.59,
+     "n": 4,
+     "principal": 4130.0,
+     "total": 6512.59
+    },
+    {
+     "balance": 110786.96,
+     "due_month": 21,
+     "interest": 2299.99,
+     "n": 5,
+     "principal": 4212.6,
+     "total": 6512.59
+    },
+    {
+     "balance": 106490.11,
+     "due_month": 24,
+     "interest": 2215.74,
+     "n": 6,
+     "principal": 4296.85,
+     "total": 6512.59
+    },
+    {
+     "balance": 102107.32,
+     "due_month": 27,
+     "interest": 2129.8,
+     "n": 7,
+     "principal": 4382.79,
+     "total": 6512.59
+    },
+    {
+     "balance": 97636.88,
+     "due_month": 30,
+     "interest": 2042.15,
+     "n": 8,
+     "principal": 4470.44,
+     "total": 6512.59
+    },
+    {
+     "balance": 93077.03,
+     "due_month": 33,
+     "interest": 1952.74,
+     "n": 9,
+     "principal": 4559.85,
+     "total": 6512.59
+    },
+    {
+     "balance": 88425.98,
+     "due_month": 36,
+     "interest": 1861.54,
+     "n": 10,
+     "principal": 4651.05,
+     "total": 6512.59
+    },
+    {
+     "balance": 83681.91,
+     "due_month": 39,
+     "interest": 1768.52,
+     "n": 11,
+     "principal": 4744.07,
+     "total": 6512.59
+    },
+    {
+     "balance": 78842.96,
+     "due_month": 42,
+     "interest": 1673.64,
+     "n": 12,
+     "principal": 4838.95,
+     "total": 6512.59
+    },
+    {
+     "balance": 73907.23,
+     "due_month": 45,
+     "interest": 1576.86,
+     "n": 13,
+     "principal": 4935.73,
+     "total": 6512.59
+    },
+    {
+     "balance": 68872.78,
+     "due_month": 48,
+     "interest": 1478.14,
+     "n": 14,
+     "principal": 5034.45,
+     "total": 6512.59
+    },
+    {
+     "balance": 63737.65,
+     "due_month": 51,
+     "interest": 1377.46,
+     "n": 15,
+     "principal": 5135.13,
+     "total": 6512.59
+    },
+    {
+     "balance": 58499.81,
+     "due_month": 54,
+     "interest": 1274.75,
+     "n": 16,
+     "principal": 5237.84,
+     "total": 6512.59
+    },
+    {
+     "balance": 53157.22,
+     "due_month": 57,
+     "interest": 1170.0,
+     "n": 17,
+     "principal": 5342.59,
+     "total": 6512.59
+    },
+    {
+     "balance": 47707.77,
+     "due_month": 60,
+     "interest": 1063.14,
+     "n": 18,
+     "principal": 5449.45,
+     "total": 6512.59
+    },
+    {
+     "balance": 42149.34,
+     "due_month": 63,
+     "interest": 954.16,
+     "n": 19,
+     "principal": 5558.43,
+     "total": 6512.59
+    },
+    {
+     "balance": 36479.74,
+     "due_month": 66,
+     "interest": 842.99,
+     "n": 20,
+     "principal": 5669.6,
+     "total": 6512.59
+    },
+    {
+     "balance": 30696.74,
+     "due_month": 69,
+     "interest": 729.59,
+     "n": 21,
+     "principal": 5783.0,
+     "total": 6512.59
+    },
+    {
+     "balance": 24798.08,
+     "due_month": 72,
+     "interest": 613.93,
+     "n": 22,
+     "principal": 5898.66,
+     "total": 6512.59
+    },
+    {
+     "balance": 18781.45,
+     "due_month": 75,
+     "interest": 495.96,
+     "n": 23,
+     "principal": 6016.63,
+     "total": 6512.59
+    },
+    {
+     "balance": 12644.49,
+     "due_month": 78,
+     "interest": 375.63,
+     "n": 24,
+     "principal": 6136.96,
+     "total": 6512.59
+    },
+    {
+     "balance": 6384.79,
+     "due_month": 81,
+     "interest": 252.89,
+     "n": 25,
+     "principal": 6259.7,
+     "total": 6512.59
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 127.7,
+     "n": 26,
+     "principal": 6384.79,
+     "total": 6512.49
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 43327,
+   "total_repayment": 169327
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 13955.54,
+   "loan": 270000,
+   "monthly_equivalent": 4651.85,
+   "moratorium_interest": 10800.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 30000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 272460.46,
+     "due_month": 9,
+     "interest": 5616.0,
+     "n": 1,
+     "principal": 8339.54,
+     "total": 13955.54
+    },
+    {
+     "balance": 263954.13,
+     "due_month": 12,
+     "interest": 5449.21,
+     "n": 2,
+     "principal": 8506.33,
+     "total": 13955.54
+    },
+    {
+     "balance": 255277.67,
+     "due_month": 15,
+     "interest": 5279.08,
+     "n": 3,
+     "principal": 8676.46,
+     "total": 13955.54
+    },
+    {
+     "balance": 246427.68,
+     "due_month": 18,
+     "interest": 5105.55,
+     "n": 4,
+     "principal": 8849.99,
+     "total": 13955.54
+    },
+    {
+     "balance": 237400.69,
+     "due_month": 21,
+     "interest": 4928.55,
+     "n": 5,
+     "principal": 9026.99,
+     "total": 13955.54
+    },
+    {
+     "balance": 228193.16,
+     "due_month": 24,
+     "interest": 4748.01,
+     "n": 6,
+     "principal": 9207.53,
+     "total": 13955.54
+    },
+    {
+     "balance": 218801.48,
+     "due_month": 27,
+     "interest": 4563.86,
+     "n": 7,
+     "principal": 9391.68,
+     "total": 13955.54
+    },
+    {
+     "balance": 209221.97,
+     "due_month": 30,
+     "interest": 4376.03,
+     "n": 8,
+     "principal": 9579.51,
+     "total": 13955.54
+    },
+    {
+     "balance": 199450.87,
+     "due_month": 33,
+     "interest": 4184.44,
+     "n": 9,
+     "principal": 9771.1,
+     "total": 13955.54
+    },
+    {
+     "balance": 189484.35,
+     "due_month": 36,
+     "interest": 3989.02,
+     "n": 10,
+     "principal": 9966.52,
+     "total": 13955.54
+    },
+    {
+     "balance": 179318.5,
+     "due_month": 39,
+     "interest": 3789.69,
+     "n": 11,
+     "principal": 10165.85,
+     "total": 13955.54
+    },
+    {
+     "balance": 168949.33,
+     "due_month": 42,
+     "interest": 3586.37,
+     "n": 12,
+     "principal": 10369.17,
+     "total": 13955.54
+    },
+    {
+     "balance": 158372.78,
+     "due_month": 45,
+     "interest": 3378.99,
+     "n": 13,
+     "principal": 10576.55,
+     "total": 13955.54
+    },
+    {
+     "balance": 147584.7,
+     "due_month": 48,
+     "interest": 3167.46,
+     "n": 14,
+     "principal": 10788.08,
+     "total": 13955.54
+    },
+    {
+     "balance": 136580.85,
+     "due_month": 51,
+     "interest": 2951.69,
+     "n": 15,
+     "principal": 11003.85,
+     "total": 13955.54
+    },
+    {
+     "balance": 125356.93,
+     "due_month": 54,
+     "interest": 2731.62,
+     "n": 16,
+     "principal": 11223.92,
+     "total": 13955.54
+    },
+    {
+     "balance": 113908.53,
+     "due_month": 57,
+     "interest": 2507.14,
+     "n": 17,
+     "principal": 11448.4,
+     "total": 13955.54
+    },
+    {
+     "balance": 102231.16,
+     "due_month": 60,
+     "interest": 2278.17,
+     "n": 18,
+     "principal": 11677.37,
+     "total": 13955.54
+    },
+    {
+     "balance": 90320.24,
+     "due_month": 63,
+     "interest": 2044.62,
+     "n": 19,
+     "principal": 11910.92,
+     "total": 13955.54
+    },
+    {
+     "balance": 78171.1,
+     "due_month": 66,
+     "interest": 1806.4,
+     "n": 20,
+     "principal": 12149.14,
+     "total": 13955.54
+    },
+    {
+     "balance": 65778.98,
+     "due_month": 69,
+     "interest": 1563.42,
+     "n": 21,
+     "principal": 12392.12,
+     "total": 13955.54
+    },
+    {
+     "balance": 53139.02,
+     "due_month": 72,
+     "interest": 1315.58,
+     "n": 22,
+     "principal": 12639.96,
+     "total": 13955.54
+    },
+    {
+     "balance": 40246.26,
+     "due_month": 75,
+     "interest": 1062.78,
+     "n": 23,
+     "principal": 12892.76,
+     "total": 13955.54
+    },
+    {
+     "balance": 27095.65,
+     "due_month": 78,
+     "interest": 804.93,
+     "n": 24,
+     "principal": 13150.61,
+     "total": 13955.54
+    },
+    {
+     "balance": 13682.02,
+     "due_month": 81,
+     "interest": 541.91,
+     "n": 25,
+     "principal": 13413.63,
+     "total": 13955.54
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 273.64,
+     "n": 26,
+     "principal": 13682.02,
+     "total": 13955.66
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 92844,
+   "total_repayment": 362844
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "SCA",
+   "course": null,
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 37214.78,
+   "loan": 720000,
+   "monthly_equivalent": 12404.93,
+   "moratorium_interest": 28800.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 80000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 726561.22,
+     "due_month": 9,
+     "interest": 14976.0,
+     "n": 1,
+     "principal": 22238.78,
+     "total": 37214.78
+    },
+    {
+     "balance": 703877.66,
+     "due_month": 12,
+     "interest": 14531.22,
+     "n": 2,
+     "principal": 22683.56,
+     "total": 37214.78
+    },
+    {
+     "balance": 680740.43,
+     "due_month": 15,
+     "interest": 14077.55,
+     "n": 3,
+     "principal": 23137.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 657140.46,
+     "due_month": 18,
+     "interest": 13614.81,
+     "n": 4,
+     "principal": 23599.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 633068.49,
+     "due_month": 21,
+     "interest": 13142.81,
+     "n": 5,
+     "principal": 24071.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 608515.08,
+     "due_month": 24,
+     "interest": 12661.37,
+     "n": 6,
+     "principal": 24553.41,
+     "total": 37214.78
+    },
+    {
+     "balance": 583470.6,
+     "due_month": 27,
+     "interest": 12170.3,
+     "n": 7,
+     "principal": 25044.48,
+     "total": 37214.78
+    },
+    {
+     "balance": 557925.23,
+     "due_month": 30,
+     "interest": 11669.41,
+     "n": 8,
+     "principal": 25545.37,
+     "total": 37214.78
+    },
+    {
+     "balance": 531868.95,
+     "due_month": 33,
+     "interest": 11158.5,
+     "n": 9,
+     "principal": 26056.28,
+     "total": 37214.78
+    },
+    {
+     "balance": 505291.55,
+     "due_month": 36,
+     "interest": 10637.38,
+     "n": 10,
+     "principal": 26577.4,
+     "total": 37214.78
+    },
+    {
+     "balance": 478182.6,
+     "due_month": 39,
+     "interest": 10105.83,
+     "n": 11,
+     "principal": 27108.95,
+     "total": 37214.78
+    },
+    {
+     "balance": 450531.47,
+     "due_month": 42,
+     "interest": 9563.65,
+     "n": 12,
+     "principal": 27651.13,
+     "total": 37214.78
+    },
+    {
+     "balance": 422327.32,
+     "due_month": 45,
+     "interest": 9010.63,
+     "n": 13,
+     "principal": 28204.15,
+     "total": 37214.78
+    },
+    {
+     "balance": 393559.09,
+     "due_month": 48,
+     "interest": 8446.55,
+     "n": 14,
+     "principal": 28768.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 364215.49,
+     "due_month": 51,
+     "interest": 7871.18,
+     "n": 15,
+     "principal": 29343.6,
+     "total": 37214.78
+    },
+    {
+     "balance": 334285.02,
+     "due_month": 54,
+     "interest": 7284.31,
+     "n": 16,
+     "principal": 29930.47,
+     "total": 37214.78
+    },
+    {
+     "balance": 303755.94,
+     "due_month": 57,
+     "interest": 6685.7,
+     "n": 17,
+     "principal": 30529.08,
+     "total": 37214.78
+    },
+    {
+     "balance": 272616.28,
+     "due_month": 60,
+     "interest": 6075.12,
+     "n": 18,
+     "principal": 31139.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 240853.83,
+     "due_month": 63,
+     "interest": 5452.33,
+     "n": 19,
+     "principal": 31762.45,
+     "total": 37214.78
+    },
+    {
+     "balance": 208456.13,
+     "due_month": 66,
+     "interest": 4817.08,
+     "n": 20,
+     "principal": 32397.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 175410.47,
+     "due_month": 69,
+     "interest": 4169.12,
+     "n": 21,
+     "principal": 33045.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 141703.9,
+     "due_month": 72,
+     "interest": 3508.21,
+     "n": 22,
+     "principal": 33706.57,
+     "total": 37214.78
+    },
+    {
+     "balance": 107323.2,
+     "due_month": 75,
+     "interest": 2834.08,
+     "n": 23,
+     "principal": 34380.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 72254.88,
+     "due_month": 78,
+     "interest": 2146.46,
+     "n": 24,
+     "principal": 35068.32,
+     "total": 37214.78
+    },
+    {
+     "balance": 36485.2,
+     "due_month": 81,
+     "interest": 1445.1,
+     "n": 25,
+     "principal": 35769.68,
+     "total": 37214.78
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 729.7,
+     "n": 26,
+     "principal": 36485.2,
+     "total": 37214.9
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 247584,
+   "total_repayment": 967584
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "COOP",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "COOP",
+   "frequency": "quarterly",
+   "instalment": 3979.12,
+   "loan": 54000,
+   "monthly_equivalent": 1326.37,
+   "moratorium_interest": 1755.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 6000,
+   "rate_annual": 13.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 53587.92,
+     "due_month": 6,
+     "interest": 1812.04,
+     "n": 1,
+     "principal": 2167.08,
+     "total": 3979.12
+    },
+    {
+     "balance": 51350.41,
+     "due_month": 9,
+     "interest": 1741.61,
+     "n": 2,
+     "principal": 2237.51,
+     "total": 3979.12
+    },
+    {
+     "balance": 49040.18,
+     "due_month": 12,
+     "interest": 1668.89,
+     "n": 3,
+     "principal": 2310.23,
+     "total": 3979.12
+    },
+    {
+     "balance": 46654.87,
+     "due_month": 15,
+     "interest": 1593.81,
+     "n": 4,
+     "principal": 2385.31,
+     "total": 3979.12
+    },
+    {
+     "balance": 44192.03,
+     "due_month": 18,
+     "interest": 1516.28,
+     "n": 5,
+     "principal": 2462.84,
+     "total": 3979.12
+    },
+    {
+     "balance": 41649.15,
+     "due_month": 21,
+     "interest": 1436.24,
+     "n": 6,
+     "principal": 2542.88,
+     "total": 3979.12
+    },
+    {
+     "balance": 39023.63,
+     "due_month": 24,
+     "interest": 1353.6,
+     "n": 7,
+     "principal": 2625.52,
+     "total": 3979.12
+    },
+    {
+     "balance": 36312.78,
+     "due_month": 27,
+     "interest": 1268.27,
+     "n": 8,
+     "principal": 2710.85,
+     "total": 3979.12
+    },
+    {
+     "balance": 33513.83,
+     "due_month": 30,
+     "interest": 1180.17,
+     "n": 9,
+     "principal": 2798.95,
+     "total": 3979.12
+    },
+    {
+     "balance": 30623.91,
+     "due_month": 33,
+     "interest": 1089.2,
+     "n": 10,
+     "principal": 2889.92,
+     "total": 3979.12
+    },
+    {
+     "balance": 27640.07,
+     "due_month": 36,
+     "interest": 995.28,
+     "n": 11,
+     "principal": 2983.84,
+     "total": 3979.12
+    },
+    {
+     "balance": 24559.25,
+     "due_month": 39,
+     "interest": 898.3,
+     "n": 12,
+     "principal": 3080.82,
+     "total": 3979.12
+    },
+    {
+     "balance": 21378.31,
+     "due_month": 42,
+     "interest": 798.18,
+     "n": 13,
+     "principal": 3180.94,
+     "total": 3979.12
+    },
+    {
+     "balance": 18093.99,
+     "due_month": 45,
+     "interest": 694.8,
+     "n": 14,
+     "principal": 3284.32,
+     "total": 3979.12
+    },
+    {
+     "balance": 14702.92,
+     "due_month": 48,
+     "interest": 588.05,
+     "n": 15,
+     "principal": 3391.07,
+     "total": 3979.12
+    },
+    {
+     "balance": 11201.64,
+     "due_month": 51,
+     "interest": 477.84,
+     "n": 16,
+     "principal": 3501.28,
+     "total": 3979.12
+    },
+    {
+     "balance": 7586.57,
+     "due_month": 54,
+     "interest": 364.05,
+     "n": 17,
+     "principal": 3615.07,
+     "total": 3979.12
+    },
+    {
+     "balance": 3854.01,
+     "due_month": 57,
+     "interest": 246.56,
+     "n": 18,
+     "principal": 3732.56,
+     "total": 3979.12
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 125.26,
+     "n": 19,
+     "principal": 3854.01,
+     "total": 3979.27
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 21603,
+   "total_repayment": 75603
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "COOP",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "COOP",
+   "frequency": "quarterly",
+   "instalment": 9284.62,
+   "loan": 126000,
+   "monthly_equivalent": 3094.87,
+   "moratorium_interest": 4095.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 14000,
+   "rate_annual": 13.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 125038.47,
+     "due_month": 6,
+     "interest": 4228.09,
+     "n": 1,
+     "principal": 5056.53,
+     "total": 9284.62
+    },
+    {
+     "balance": 119817.6,
+     "due_month": 9,
+     "interest": 4063.75,
+     "n": 2,
+     "principal": 5220.87,
+     "total": 9284.62
+    },
+    {
+     "balance": 114427.05,
+     "due_month": 12,
+     "interest": 3894.07,
+     "n": 3,
+     "principal": 5390.55,
+     "total": 9284.62
+    },
+    {
+     "balance": 108861.31,
+     "due_month": 15,
+     "interest": 3718.88,
+     "n": 4,
+     "principal": 5565.74,
+     "total": 9284.62
+    },
+    {
+     "balance": 103114.68,
+     "due_month": 18,
+     "interest": 3537.99,
+     "n": 5,
+     "principal": 5746.63,
+     "total": 9284.62
+    },
+    {
+     "balance": 97181.29,
+     "due_month": 21,
+     "interest": 3351.23,
+     "n": 6,
+     "principal": 5933.39,
+     "total": 9284.62
+    },
+    {
+     "balance": 91055.06,
+     "due_month": 24,
+     "interest": 3158.39,
+     "n": 7,
+     "principal": 6126.23,
+     "total": 9284.62
+    },
+    {
+     "balance": 84729.73,
+     "due_month": 27,
+     "interest": 2959.29,
+     "n": 8,
+     "principal": 6325.33,
+     "total": 9284.62
+    },
+    {
+     "balance": 78198.83,
+     "due_month": 30,
+     "interest": 2753.72,
+     "n": 9,
+     "principal": 6530.9,
+     "total": 9284.62
+    },
+    {
+     "balance": 71455.67,
+     "due_month": 33,
+     "interest": 2541.46,
+     "n": 10,
+     "principal": 6743.16,
+     "total": 9284.62
+    },
+    {
+     "balance": 64493.36,
+     "due_month": 36,
+     "interest": 2322.31,
+     "n": 11,
+     "principal": 6962.31,
+     "total": 9284.62
+    },
+    {
+     "balance": 57304.77,
+     "due_month": 39,
+     "interest": 2096.03,
+     "n": 12,
+     "principal": 7188.59,
+     "total": 9284.62
+    },
+    {
+     "balance": 49882.56,
+     "due_month": 42,
+     "interest": 1862.41,
+     "n": 13,
+     "principal": 7422.21,
+     "total": 9284.62
+    },
+    {
+     "balance": 42219.12,
+     "due_month": 45,
+     "interest": 1621.18,
+     "n": 14,
+     "principal": 7663.44,
+     "total": 9284.62
+    },
+    {
+     "balance": 34306.62,
+     "due_month": 48,
+     "interest": 1372.12,
+     "n": 15,
+     "principal": 7912.5,
+     "total": 9284.62
+    },
+    {
+     "balance": 26136.97,
+     "due_month": 51,
+     "interest": 1114.97,
+     "n": 16,
+     "principal": 8169.65,
+     "total": 9284.62
+    },
+    {
+     "balance": 17701.8,
+     "due_month": 54,
+     "interest": 849.45,
+     "n": 17,
+     "principal": 8435.17,
+     "total": 9284.62
+    },
+    {
+     "balance": 8992.49,
+     "due_month": 57,
+     "interest": 575.31,
+     "n": 18,
+     "principal": 8709.31,
+     "total": 9284.62
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 292.26,
+     "n": 19,
+     "principal": 8992.49,
+     "total": 9284.75
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 50408,
+   "total_repayment": 176408
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "COOP",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "COOP",
+   "frequency": "quarterly",
+   "instalment": 19895.62,
+   "loan": 270000,
+   "monthly_equivalent": 6631.87,
+   "moratorium_interest": 8775.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 30000,
+   "rate_annual": 13.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 267939.57,
+     "due_month": 6,
+     "interest": 9060.19,
+     "n": 1,
+     "principal": 10835.43,
+     "total": 19895.62
+    },
+    {
+     "balance": 256751.99,
+     "due_month": 9,
+     "interest": 8708.04,
+     "n": 2,
+     "principal": 11187.58,
+     "total": 19895.62
+    },
+    {
+     "balance": 245200.81,
+     "due_month": 12,
+     "interest": 8344.44,
+     "n": 3,
+     "principal": 11551.18,
+     "total": 19895.62
+    },
+    {
+     "balance": 233274.22,
+     "due_month": 15,
+     "interest": 7969.03,
+     "n": 4,
+     "principal": 11926.59,
+     "total": 19895.62
+    },
+    {
+     "balance": 220960.01,
+     "due_month": 18,
+     "interest": 7581.41,
+     "n": 5,
+     "principal": 12314.21,
+     "total": 19895.62
+    },
+    {
+     "balance": 208245.59,
+     "due_month": 21,
+     "interest": 7181.2,
+     "n": 6,
+     "principal": 12714.42,
+     "total": 19895.62
+    },
+    {
+     "balance": 195117.95,
+     "due_month": 24,
+     "interest": 6767.98,
+     "n": 7,
+     "principal": 13127.64,
+     "total": 19895.62
+    },
+    {
+     "balance": 181563.66,
+     "due_month": 27,
+     "interest": 6341.33,
+     "n": 8,
+     "principal": 13554.29,
+     "total": 19895.62
+    },
+    {
+     "balance": 167568.86,
+     "due_month": 30,
+     "interest": 5900.82,
+     "n": 9,
+     "principal": 13994.8,
+     "total": 19895.62
+    },
+    {
+     "balance": 153119.23,
+     "due_month": 33,
+     "interest": 5445.99,
+     "n": 10,
+     "principal": 14449.63,
+     "total": 19895.62
+    },
+    {
+     "balance": 138199.98,
+     "due_month": 36,
+     "interest": 4976.37,
+     "n": 11,
+     "principal": 14919.25,
+     "total": 19895.62
+    },
+    {
+     "balance": 122795.86,
+     "due_month": 39,
+     "interest": 4491.5,
+     "n": 12,
+     "principal": 15404.12,
+     "total": 19895.62
+    },
+    {
+     "balance": 106891.11,
+     "due_month": 42,
+     "interest": 3990.87,
+     "n": 13,
+     "principal": 15904.75,
+     "total": 19895.62
+    },
+    {
+     "balance": 90469.45,
+     "due_month": 45,
+     "interest": 3473.96,
+     "n": 14,
+     "principal": 16421.66,
+     "total": 19895.62
+    },
+    {
+     "balance": 73514.09,
+     "due_month": 48,
+     "interest": 2940.26,
+     "n": 15,
+     "principal": 16955.36,
+     "total": 19895.62
+    },
+    {
+     "balance": 56007.68,
+     "due_month": 51,
+     "interest": 2389.21,
+     "n": 16,
+     "principal": 17506.41,
+     "total": 19895.62
+    },
+    {
+     "balance": 37932.31,
+     "due_month": 54,
+     "interest": 1820.25,
+     "n": 17,
+     "principal": 18075.37,
+     "total": 19895.62
+    },
+    {
+     "balance": 19269.49,
+     "due_month": 57,
+     "interest": 1232.8,
+     "n": 18,
+     "principal": 18662.82,
+     "total": 19895.62
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 626.26,
+     "n": 19,
+     "principal": 19269.49,
+     "total": 19895.75
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 108017,
+   "total_repayment": 378017
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "COOP",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "COOP",
+   "frequency": "quarterly",
+   "instalment": 33159.37,
+   "loan": 450000,
+   "monthly_equivalent": 11053.12,
+   "moratorium_interest": 14625.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 350000,
+   "rate_annual": 13.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 446565.94,
+     "due_month": 6,
+     "interest": 15100.31,
+     "n": 1,
+     "principal": 18059.06,
+     "total": 33159.37
+    },
+    {
+     "balance": 427919.96,
+     "due_month": 9,
+     "interest": 14513.39,
+     "n": 2,
+     "principal": 18645.98,
+     "total": 33159.37
+    },
+    {
+     "balance": 408667.99,
+     "due_month": 12,
+     "interest": 13907.4,
+     "n": 3,
+     "principal": 19251.97,
+     "total": 33159.37
+    },
+    {
+     "balance": 388790.33,
+     "due_month": 15,
+     "interest": 13281.71,
+     "n": 4,
+     "principal": 19877.66,
+     "total": 33159.37
+    },
+    {
+     "balance": 368266.65,
+     "due_month": 18,
+     "interest": 12635.69,
+     "n": 5,
+     "principal": 20523.68,
+     "total": 33159.37
+    },
+    {
+     "balance": 347075.95,
+     "due_month": 21,
+     "interest": 11968.67,
+     "n": 6,
+     "principal": 21190.7,
+     "total": 33159.37
+    },
+    {
+     "balance": 325196.55,
+     "due_month": 24,
+     "interest": 11279.97,
+     "n": 7,
+     "principal": 21879.4,
+     "total": 33159.37
+    },
+    {
+     "balance": 302606.07,
+     "due_month": 27,
+     "interest": 10568.89,
+     "n": 8,
+     "principal": 22590.48,
+     "total": 33159.37
+    },
+    {
+     "balance": 279281.4,
+     "due_month": 30,
+     "interest": 9834.7,
+     "n": 9,
+     "principal": 23324.67,
+     "total": 33159.37
+    },
+    {
+     "balance": 255198.68,
+     "due_month": 33,
+     "interest": 9076.65,
+     "n": 10,
+     "principal": 24082.72,
+     "total": 33159.37
+    },
+    {
+     "balance": 230333.27,
+     "due_month": 36,
+     "interest": 8293.96,
+     "n": 11,
+     "principal": 24865.41,
+     "total": 33159.37
+    },
+    {
+     "balance": 204659.73,
+     "due_month": 39,
+     "interest": 7485.83,
+     "n": 12,
+     "principal": 25673.54,
+     "total": 33159.37
+    },
+    {
+     "balance": 178151.8,
+     "due_month": 42,
+     "interest": 6651.44,
+     "n": 13,
+     "principal": 26507.93,
+     "total": 33159.37
+    },
+    {
+     "balance": 150782.36,
+     "due_month": 45,
+     "interest": 5789.93,
+     "n": 14,
+     "principal": 27369.44,
+     "total": 33159.37
+    },
+    {
+     "balance": 122523.42,
+     "due_month": 48,
+     "interest": 4900.43,
+     "n": 15,
+     "principal": 28258.94,
+     "total": 33159.37
+    },
+    {
+     "balance": 93346.06,
+     "due_month": 51,
+     "interest": 3982.01,
+     "n": 16,
+     "principal": 29177.36,
+     "total": 33159.37
+    },
+    {
+     "balance": 63220.44,
+     "due_month": 54,
+     "interest": 3033.75,
+     "n": 17,
+     "principal": 30125.62,
+     "total": 33159.37
+    },
+    {
+     "balance": 32115.73,
+     "due_month": 57,
+     "interest": 2054.66,
+     "n": 18,
+     "principal": 31104.71,
+     "total": 33159.37
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 1043.76,
+     "n": 19,
+     "principal": 32115.73,
+     "total": 33159.49
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 180028,
+   "total_repayment": 630028
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 60000,
+   "channel_rate_key": "SFB",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "SFB",
+   "frequency": "quarterly",
+   "instalment": 4175.58,
+   "loan": 54000,
+   "monthly_equivalent": 1391.86,
+   "moratorium_interest": 2025.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 6000,
+   "rate_annual": 15.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 53950.36,
+     "due_month": 6,
+     "interest": 2100.94,
+     "n": 1,
+     "principal": 2074.64,
+     "total": 4175.58
+    },
+    {
+     "balance": 51797.92,
+     "due_month": 9,
+     "interest": 2023.14,
+     "n": 2,
+     "principal": 2152.44,
+     "total": 4175.58
+    },
+    {
+     "balance": 49564.76,
+     "due_month": 12,
+     "interest": 1942.42,
+     "n": 3,
+     "principal": 2233.16,
+     "total": 4175.58
+    },
+    {
+     "balance": 47247.86,
+     "due_month": 15,
+     "interest": 1858.68,
+     "n": 4,
+     "principal": 2316.9,
+     "total": 4175.58
+    },
+    {
+     "balance": 44844.07,
+     "due_month": 18,
+     "interest": 1771.79,
+     "n": 5,
+     "principal": 2403.79,
+     "total": 4175.58
+    },
+    {
+     "balance": 42350.14,
+     "due_month": 21,
+     "interest": 1681.65,
+     "n": 6,
+     "principal": 2493.93,
+     "total": 4175.58
+    },
+    {
+     "balance": 39762.69,
+     "due_month": 24,
+     "interest": 1588.13,
+     "n": 7,
+     "principal": 2587.45,
+     "total": 4175.58
+    },
+    {
+     "balance": 37078.21,
+     "due_month": 27,
+     "interest": 1491.1,
+     "n": 8,
+     "principal": 2684.48,
+     "total": 4175.58
+    },
+    {
+     "balance": 34293.06,
+     "due_month": 30,
+     "interest": 1390.43,
+     "n": 9,
+     "principal": 2785.15,
+     "total": 4175.58
+    },
+    {
+     "balance": 31403.47,
+     "due_month": 33,
+     "interest": 1285.99,
+     "n": 10,
+     "principal": 2889.59,
+     "total": 4175.58
+    },
+    {
+     "balance": 28405.52,
+     "due_month": 36,
+     "interest": 1177.63,
+     "n": 11,
+     "principal": 2997.95,
+     "total": 4175.58
+    },
+    {
+     "balance": 25295.15,
+     "due_month": 39,
+     "interest": 1065.21,
+     "n": 12,
+     "principal": 3110.37,
+     "total": 4175.58
+    },
+    {
+     "balance": 22068.14,
+     "due_month": 42,
+     "interest": 948.57,
+     "n": 13,
+     "principal": 3227.01,
+     "total": 4175.58
+    },
+    {
+     "balance": 18720.12,
+     "due_month": 45,
+     "interest": 827.56,
+     "n": 14,
+     "principal": 3348.02,
+     "total": 4175.58
+    },
+    {
+     "balance": 15246.54,
+     "due_month": 48,
+     "interest": 702.0,
+     "n": 15,
+     "principal": 3473.58,
+     "total": 4175.58
+    },
+    {
+     "balance": 11642.71,
+     "due_month": 51,
+     "interest": 571.75,
+     "n": 16,
+     "principal": 3603.83,
+     "total": 4175.58
+    },
+    {
+     "balance": 7903.73,
+     "due_month": 54,
+     "interest": 436.6,
+     "n": 17,
+     "principal": 3738.98,
+     "total": 4175.58
+    },
+    {
+     "balance": 4024.54,
+     "due_month": 57,
+     "interest": 296.39,
+     "n": 18,
+     "principal": 3879.19,
+     "total": 4175.58
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 150.92,
+     "n": 19,
+     "principal": 4024.54,
+     "total": 4175.46
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 25336,
+   "total_repayment": 79336
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 140000,
+   "channel_rate_key": "SFB",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "SFB",
+   "frequency": "quarterly",
+   "instalment": 9743.01,
+   "loan": 126000,
+   "monthly_equivalent": 3247.67,
+   "moratorium_interest": 4725.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 14000,
+   "rate_annual": 15.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 125884.18,
+     "due_month": 6,
+     "interest": 4902.19,
+     "n": 1,
+     "principal": 4840.82,
+     "total": 9743.01
+    },
+    {
+     "balance": 120861.83,
+     "due_month": 9,
+     "interest": 4720.66,
+     "n": 2,
+     "principal": 5022.35,
+     "total": 9743.01
+    },
+    {
+     "balance": 115651.14,
+     "due_month": 12,
+     "interest": 4532.32,
+     "n": 3,
+     "principal": 5210.69,
+     "total": 9743.01
+    },
+    {
+     "balance": 110245.05,
+     "due_month": 15,
+     "interest": 4336.92,
+     "n": 4,
+     "principal": 5406.09,
+     "total": 9743.01
+    },
+    {
+     "balance": 104636.23,
+     "due_month": 18,
+     "interest": 4134.19,
+     "n": 5,
+     "principal": 5608.82,
+     "total": 9743.01
+    },
+    {
+     "balance": 98817.08,
+     "due_month": 21,
+     "interest": 3923.86,
+     "n": 6,
+     "principal": 5819.15,
+     "total": 9743.01
+    },
+    {
+     "balance": 92779.71,
+     "due_month": 24,
+     "interest": 3705.64,
+     "n": 7,
+     "principal": 6037.37,
+     "total": 9743.01
+    },
+    {
+     "balance": 86515.94,
+     "due_month": 27,
+     "interest": 3479.24,
+     "n": 8,
+     "principal": 6263.77,
+     "total": 9743.01
+    },
+    {
+     "balance": 80017.28,
+     "due_month": 30,
+     "interest": 3244.35,
+     "n": 9,
+     "principal": 6498.66,
+     "total": 9743.01
+    },
+    {
+     "balance": 73274.92,
+     "due_month": 33,
+     "interest": 3000.65,
+     "n": 10,
+     "principal": 6742.36,
+     "total": 9743.01
+    },
+    {
+     "balance": 66279.72,
+     "due_month": 36,
+     "interest": 2747.81,
+     "n": 11,
+     "principal": 6995.2,
+     "total": 9743.01
+    },
+    {
+     "balance": 59022.2,
+     "due_month": 39,
+     "interest": 2485.49,
+     "n": 12,
+     "principal": 7257.52,
+     "total": 9743.01
+    },
+    {
+     "balance": 51492.52,
+     "due_month": 42,
+     "interest": 2213.33,
+     "n": 13,
+     "principal": 7529.68,
+     "total": 9743.01
+    },
+    {
+     "balance": 43680.48,
+     "due_month": 45,
+     "interest": 1930.97,
+     "n": 14,
+     "principal": 7812.04,
+     "total": 9743.01
+    },
+    {
+     "balance": 35575.49,
+     "due_month": 48,
+     "interest": 1638.02,
+     "n": 15,
+     "principal": 8104.99,
+     "total": 9743.01
+    },
+    {
+     "balance": 27166.56,
+     "due_month": 51,
+     "interest": 1334.08,
+     "n": 16,
+     "principal": 8408.93,
+     "total": 9743.01
+    },
+    {
+     "balance": 18442.3,
+     "due_month": 54,
+     "interest": 1018.75,
+     "n": 17,
+     "principal": 8724.26,
+     "total": 9743.01
+    },
+    {
+     "balance": 9390.88,
+     "due_month": 57,
+     "interest": 691.59,
+     "n": 18,
+     "principal": 9051.42,
+     "total": 9743.01
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 352.16,
+     "n": 19,
+     "principal": 9390.88,
+     "total": 9743.04
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 59117,
+   "total_repayment": 185117
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "SFB",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "SFB",
+   "frequency": "quarterly",
+   "instalment": 20877.88,
+   "loan": 270000,
+   "monthly_equivalent": 6959.29,
+   "moratorium_interest": 10125.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 30000,
+   "rate_annual": 15.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 269751.81,
+     "due_month": 6,
+     "interest": 10504.69,
+     "n": 1,
+     "principal": 10373.19,
+     "total": 20877.88
+    },
+    {
+     "balance": 258989.62,
+     "due_month": 9,
+     "interest": 10115.69,
+     "n": 2,
+     "principal": 10762.19,
+     "total": 20877.88
+    },
+    {
+     "balance": 247823.85,
+     "due_month": 12,
+     "interest": 9712.11,
+     "n": 3,
+     "principal": 11165.77,
+     "total": 20877.88
+    },
+    {
+     "balance": 236239.36,
+     "due_month": 15,
+     "interest": 9293.39,
+     "n": 4,
+     "principal": 11584.49,
+     "total": 20877.88
+    },
+    {
+     "balance": 224220.46,
+     "due_month": 18,
+     "interest": 8858.98,
+     "n": 5,
+     "principal": 12018.9,
+     "total": 20877.88
+    },
+    {
+     "balance": 211750.85,
+     "due_month": 21,
+     "interest": 8408.27,
+     "n": 6,
+     "principal": 12469.61,
+     "total": 20877.88
+    },
+    {
+     "balance": 198813.63,
+     "due_month": 24,
+     "interest": 7940.66,
+     "n": 7,
+     "principal": 12937.22,
+     "total": 20877.88
+    },
+    {
+     "balance": 185391.26,
+     "due_month": 27,
+     "interest": 7455.51,
+     "n": 8,
+     "principal": 13422.37,
+     "total": 20877.88
+    },
+    {
+     "balance": 171465.55,
+     "due_month": 30,
+     "interest": 6952.17,
+     "n": 9,
+     "principal": 13925.71,
+     "total": 20877.88
+    },
+    {
+     "balance": 157017.63,
+     "due_month": 33,
+     "interest": 6429.96,
+     "n": 10,
+     "principal": 14447.92,
+     "total": 20877.88
+    },
+    {
+     "balance": 142027.91,
+     "due_month": 36,
+     "interest": 5888.16,
+     "n": 11,
+     "principal": 14989.72,
+     "total": 20877.88
+    },
+    {
+     "balance": 126476.08,
+     "due_month": 39,
+     "interest": 5326.05,
+     "n": 12,
+     "principal": 15551.83,
+     "total": 20877.88
+    },
+    {
+     "balance": 110341.05,
+     "due_month": 42,
+     "interest": 4742.85,
+     "n": 13,
+     "principal": 16135.03,
+     "total": 20877.88
+    },
+    {
+     "balance": 93600.96,
+     "due_month": 45,
+     "interest": 4137.79,
+     "n": 14,
+     "principal": 16740.09,
+     "total": 20877.88
+    },
+    {
+     "balance": 76233.12,
+     "due_month": 48,
+     "interest": 3510.04,
+     "n": 15,
+     "principal": 17367.84,
+     "total": 20877.88
+    },
+    {
+     "balance": 58213.98,
+     "due_month": 51,
+     "interest": 2858.74,
+     "n": 16,
+     "principal": 18019.14,
+     "total": 20877.88
+    },
+    {
+     "balance": 39519.12,
+     "due_month": 54,
+     "interest": 2183.02,
+     "n": 17,
+     "principal": 18694.86,
+     "total": 20877.88
+    },
+    {
+     "balance": 20123.21,
+     "due_month": 57,
+     "interest": 1481.97,
+     "n": 18,
+     "principal": 19395.91,
+     "total": 20877.88
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 754.62,
+     "n": 19,
+     "principal": 20123.21,
+     "total": 20877.83
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 126680,
+   "total_repayment": 396680
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "SFB",
+   "course": null,
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "SFB",
+   "frequency": "quarterly",
+   "instalment": 34796.46,
+   "loan": 450000,
+   "monthly_equivalent": 11598.82,
+   "moratorium_interest": 16875.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 350000,
+   "rate_annual": 15.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 449586.35,
+     "due_month": 6,
+     "interest": 17507.81,
+     "n": 1,
+     "principal": 17288.65,
+     "total": 34796.46
+    },
+    {
+     "balance": 431649.38,
+     "due_month": 9,
+     "interest": 16859.49,
+     "n": 2,
+     "principal": 17936.97,
+     "total": 34796.46
+    },
+    {
+     "balance": 413039.77,
+     "due_month": 12,
+     "interest": 16186.85,
+     "n": 3,
+     "principal": 18609.61,
+     "total": 34796.46
+    },
+    {
+     "balance": 393732.3,
+     "due_month": 15,
+     "interest": 15488.99,
+     "n": 4,
+     "principal": 19307.47,
+     "total": 34796.46
+    },
+    {
+     "balance": 373700.8,
+     "due_month": 18,
+     "interest": 14764.96,
+     "n": 5,
+     "principal": 20031.5,
+     "total": 34796.46
+    },
+    {
+     "balance": 352918.12,
+     "due_month": 21,
+     "interest": 14013.78,
+     "n": 6,
+     "principal": 20782.68,
+     "total": 34796.46
+    },
+    {
+     "balance": 331356.09,
+     "due_month": 24,
+     "interest": 13234.43,
+     "n": 7,
+     "principal": 21562.03,
+     "total": 34796.46
+    },
+    {
+     "balance": 308985.48,
+     "due_month": 27,
+     "interest": 12425.85,
+     "n": 8,
+     "principal": 22370.61,
+     "total": 34796.46
+    },
+    {
+     "balance": 285775.98,
+     "due_month": 30,
+     "interest": 11586.96,
+     "n": 9,
+     "principal": 23209.5,
+     "total": 34796.46
+    },
+    {
+     "balance": 261696.12,
+     "due_month": 33,
+     "interest": 10716.6,
+     "n": 10,
+     "principal": 24079.86,
+     "total": 34796.46
+    },
+    {
+     "balance": 236713.26,
+     "due_month": 36,
+     "interest": 9813.6,
+     "n": 11,
+     "principal": 24982.86,
+     "total": 34796.46
+    },
+    {
+     "balance": 210793.55,
+     "due_month": 39,
+     "interest": 8876.75,
+     "n": 12,
+     "principal": 25919.71,
+     "total": 34796.46
+    },
+    {
+     "balance": 183901.85,
+     "due_month": 42,
+     "interest": 7904.76,
+     "n": 13,
+     "principal": 26891.7,
+     "total": 34796.46
+    },
+    {
+     "balance": 156001.71,
+     "due_month": 45,
+     "interest": 6896.32,
+     "n": 14,
+     "principal": 27900.14,
+     "total": 34796.46
+    },
+    {
+     "balance": 127055.31,
+     "due_month": 48,
+     "interest": 5850.06,
+     "n": 15,
+     "principal": 28946.4,
+     "total": 34796.46
+    },
+    {
+     "balance": 97023.42,
+     "due_month": 51,
+     "interest": 4764.57,
+     "n": 16,
+     "principal": 30031.89,
+     "total": 34796.46
+    },
+    {
+     "balance": 65865.34,
+     "due_month": 54,
+     "interest": 3638.38,
+     "n": 17,
+     "principal": 31158.08,
+     "total": 34796.46
+    },
+    {
+     "balance": 33538.83,
+     "due_month": 57,
+     "interest": 2469.95,
+     "n": 18,
+     "principal": 32326.51,
+     "total": 34796.46
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 1257.71,
+     "n": 19,
+     "principal": 33538.83,
+     "total": 34796.54
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 211133,
+   "total_repayment": 661133
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "SCA",
+   "scheme_id": "TL",
+   "sector": "plantation"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 41112.57,
+   "loan": 720000,
+   "monthly_equivalent": 13704.19,
+   "moratorium_interest": 57600.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 12,
+   "n_instalments": 24,
+   "own": 80000,
+   "rate_annual": 8.0,
+   "repayment_months": 72,
+   "schedule": [
+    {
+     "balance": 752039.43,
+     "due_month": 15,
+     "interest": 15552.0,
+     "n": 1,
+     "principal": 25560.57,
+     "total": 41112.57
+    },
+    {
+     "balance": 725967.65,
+     "due_month": 18,
+     "interest": 15040.79,
+     "n": 2,
+     "principal": 26071.78,
+     "total": 41112.57
+    },
+    {
+     "balance": 699374.43,
+     "due_month": 21,
+     "interest": 14519.35,
+     "n": 3,
+     "principal": 26593.22,
+     "total": 41112.57
+    },
+    {
+     "balance": 672249.35,
+     "due_month": 24,
+     "interest": 13987.49,
+     "n": 4,
+     "principal": 27125.08,
+     "total": 41112.57
+    },
+    {
+     "balance": 644581.77,
+     "due_month": 27,
+     "interest": 13444.99,
+     "n": 5,
+     "principal": 27667.58,
+     "total": 41112.57
+    },
+    {
+     "balance": 616360.84,
+     "due_month": 30,
+     "interest": 12891.64,
+     "n": 6,
+     "principal": 28220.93,
+     "total": 41112.57
+    },
+    {
+     "balance": 587575.49,
+     "due_month": 33,
+     "interest": 12327.22,
+     "n": 7,
+     "principal": 28785.35,
+     "total": 41112.57
+    },
+    {
+     "balance": 558214.43,
+     "due_month": 36,
+     "interest": 11751.51,
+     "n": 8,
+     "principal": 29361.06,
+     "total": 41112.57
+    },
+    {
+     "balance": 528266.15,
+     "due_month": 39,
+     "interest": 11164.29,
+     "n": 9,
+     "principal": 29948.28,
+     "total": 41112.57
+    },
+    {
+     "balance": 497718.9,
+     "due_month": 42,
+     "interest": 10565.32,
+     "n": 10,
+     "principal": 30547.25,
+     "total": 41112.57
+    },
+    {
+     "balance": 466560.71,
+     "due_month": 45,
+     "interest": 9954.38,
+     "n": 11,
+     "principal": 31158.19,
+     "total": 41112.57
+    },
+    {
+     "balance": 434779.35,
+     "due_month": 48,
+     "interest": 9331.21,
+     "n": 12,
+     "principal": 31781.36,
+     "total": 41112.57
+    },
+    {
+     "balance": 402362.37,
+     "due_month": 51,
+     "interest": 8695.59,
+     "n": 13,
+     "principal": 32416.98,
+     "total": 41112.57
+    },
+    {
+     "balance": 369297.05,
+     "due_month": 54,
+     "interest": 8047.25,
+     "n": 14,
+     "principal": 33065.32,
+     "total": 41112.57
+    },
+    {
+     "balance": 335570.42,
+     "due_month": 57,
+     "interest": 7385.94,
+     "n": 15,
+     "principal": 33726.63,
+     "total": 41112.57
+    },
+    {
+     "balance": 301169.26,
+     "due_month": 60,
+     "interest": 6711.41,
+     "n": 16,
+     "principal": 34401.16,
+     "total": 41112.57
+    },
+    {
+     "balance": 266080.08,
+     "due_month": 63,
+     "interest": 6023.39,
+     "n": 17,
+     "principal": 35089.18,
+     "total": 41112.57
+    },
+    {
+     "balance": 230289.11,
+     "due_month": 66,
+     "interest": 5321.6,
+     "n": 18,
+     "principal": 35790.97,
+     "total": 41112.57
+    },
+    {
+     "balance": 193782.32,
+     "due_month": 69,
+     "interest": 4605.78,
+     "n": 19,
+     "principal": 36506.79,
+     "total": 41112.57
+    },
+    {
+     "balance": 156545.4,
+     "due_month": 72,
+     "interest": 3875.65,
+     "n": 20,
+     "principal": 37236.92,
+     "total": 41112.57
+    },
+    {
+     "balance": 118563.74,
+     "due_month": 75,
+     "interest": 3130.91,
+     "n": 21,
+     "principal": 37981.66,
+     "total": 41112.57
+    },
+    {
+     "balance": 79822.44,
+     "due_month": 78,
+     "interest": 2371.27,
+     "n": 22,
+     "principal": 38741.3,
+     "total": 41112.57
+    },
+    {
+     "balance": 40306.32,
+     "due_month": 81,
+     "interest": 1596.45,
+     "n": 23,
+     "principal": 39516.12,
+     "total": 41112.57
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 806.13,
+     "n": 24,
+     "principal": 40306.32,
+     "total": 41112.45
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 266702,
+   "total_repayment": 986702
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "SCA",
+   "scheme_id": "TL",
+   "sector": "transport"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 37214.78,
+   "loan": 720000,
+   "monthly_equivalent": 12404.93,
+   "moratorium_interest": 28800.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 80000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 726561.22,
+     "due_month": 9,
+     "interest": 14976.0,
+     "n": 1,
+     "principal": 22238.78,
+     "total": 37214.78
+    },
+    {
+     "balance": 703877.66,
+     "due_month": 12,
+     "interest": 14531.22,
+     "n": 2,
+     "principal": 22683.56,
+     "total": 37214.78
+    },
+    {
+     "balance": 680740.43,
+     "due_month": 15,
+     "interest": 14077.55,
+     "n": 3,
+     "principal": 23137.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 657140.46,
+     "due_month": 18,
+     "interest": 13614.81,
+     "n": 4,
+     "principal": 23599.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 633068.49,
+     "due_month": 21,
+     "interest": 13142.81,
+     "n": 5,
+     "principal": 24071.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 608515.08,
+     "due_month": 24,
+     "interest": 12661.37,
+     "n": 6,
+     "principal": 24553.41,
+     "total": 37214.78
+    },
+    {
+     "balance": 583470.6,
+     "due_month": 27,
+     "interest": 12170.3,
+     "n": 7,
+     "principal": 25044.48,
+     "total": 37214.78
+    },
+    {
+     "balance": 557925.23,
+     "due_month": 30,
+     "interest": 11669.41,
+     "n": 8,
+     "principal": 25545.37,
+     "total": 37214.78
+    },
+    {
+     "balance": 531868.95,
+     "due_month": 33,
+     "interest": 11158.5,
+     "n": 9,
+     "principal": 26056.28,
+     "total": 37214.78
+    },
+    {
+     "balance": 505291.55,
+     "due_month": 36,
+     "interest": 10637.38,
+     "n": 10,
+     "principal": 26577.4,
+     "total": 37214.78
+    },
+    {
+     "balance": 478182.6,
+     "due_month": 39,
+     "interest": 10105.83,
+     "n": 11,
+     "principal": 27108.95,
+     "total": 37214.78
+    },
+    {
+     "balance": 450531.47,
+     "due_month": 42,
+     "interest": 9563.65,
+     "n": 12,
+     "principal": 27651.13,
+     "total": 37214.78
+    },
+    {
+     "balance": 422327.32,
+     "due_month": 45,
+     "interest": 9010.63,
+     "n": 13,
+     "principal": 28204.15,
+     "total": 37214.78
+    },
+    {
+     "balance": 393559.09,
+     "due_month": 48,
+     "interest": 8446.55,
+     "n": 14,
+     "principal": 28768.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 364215.49,
+     "due_month": 51,
+     "interest": 7871.18,
+     "n": 15,
+     "principal": 29343.6,
+     "total": 37214.78
+    },
+    {
+     "balance": 334285.02,
+     "due_month": 54,
+     "interest": 7284.31,
+     "n": 16,
+     "principal": 29930.47,
+     "total": 37214.78
+    },
+    {
+     "balance": 303755.94,
+     "due_month": 57,
+     "interest": 6685.7,
+     "n": 17,
+     "principal": 30529.08,
+     "total": 37214.78
+    },
+    {
+     "balance": 272616.28,
+     "due_month": 60,
+     "interest": 6075.12,
+     "n": 18,
+     "principal": 31139.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 240853.83,
+     "due_month": 63,
+     "interest": 5452.33,
+     "n": 19,
+     "principal": 31762.45,
+     "total": 37214.78
+    },
+    {
+     "balance": 208456.13,
+     "due_month": 66,
+     "interest": 4817.08,
+     "n": 20,
+     "principal": 32397.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 175410.47,
+     "due_month": 69,
+     "interest": 4169.12,
+     "n": 21,
+     "principal": 33045.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 141703.9,
+     "due_month": 72,
+     "interest": 3508.21,
+     "n": 22,
+     "principal": 33706.57,
+     "total": 37214.78
+    },
+    {
+     "balance": 107323.2,
+     "due_month": 75,
+     "interest": 2834.08,
+     "n": 23,
+     "principal": 34380.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 72254.88,
+     "due_month": 78,
+     "interest": 2146.46,
+     "n": 24,
+     "principal": 35068.32,
+     "total": 37214.78
+    },
+    {
+     "balance": 36485.2,
+     "due_month": 81,
+     "interest": 1445.1,
+     "n": 25,
+     "principal": 35769.68,
+     "total": 37214.78
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 729.7,
+     "n": 26,
+     "principal": 36485.2,
+     "total": 37214.9
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 247584,
+   "total_repayment": 967584
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 800000,
+   "channel_rate_key": "SCA",
+   "scheme_id": "TL",
+   "sector": "tailoring"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 37214.78,
+   "loan": 720000,
+   "monthly_equivalent": 12404.93,
+   "moratorium_interest": 28800.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 80000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 726561.22,
+     "due_month": 9,
+     "interest": 14976.0,
+     "n": 1,
+     "principal": 22238.78,
+     "total": 37214.78
+    },
+    {
+     "balance": 703877.66,
+     "due_month": 12,
+     "interest": 14531.22,
+     "n": 2,
+     "principal": 22683.56,
+     "total": 37214.78
+    },
+    {
+     "balance": 680740.43,
+     "due_month": 15,
+     "interest": 14077.55,
+     "n": 3,
+     "principal": 23137.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 657140.46,
+     "due_month": 18,
+     "interest": 13614.81,
+     "n": 4,
+     "principal": 23599.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 633068.49,
+     "due_month": 21,
+     "interest": 13142.81,
+     "n": 5,
+     "principal": 24071.97,
+     "total": 37214.78
+    },
+    {
+     "balance": 608515.08,
+     "due_month": 24,
+     "interest": 12661.37,
+     "n": 6,
+     "principal": 24553.41,
+     "total": 37214.78
+    },
+    {
+     "balance": 583470.6,
+     "due_month": 27,
+     "interest": 12170.3,
+     "n": 7,
+     "principal": 25044.48,
+     "total": 37214.78
+    },
+    {
+     "balance": 557925.23,
+     "due_month": 30,
+     "interest": 11669.41,
+     "n": 8,
+     "principal": 25545.37,
+     "total": 37214.78
+    },
+    {
+     "balance": 531868.95,
+     "due_month": 33,
+     "interest": 11158.5,
+     "n": 9,
+     "principal": 26056.28,
+     "total": 37214.78
+    },
+    {
+     "balance": 505291.55,
+     "due_month": 36,
+     "interest": 10637.38,
+     "n": 10,
+     "principal": 26577.4,
+     "total": 37214.78
+    },
+    {
+     "balance": 478182.6,
+     "due_month": 39,
+     "interest": 10105.83,
+     "n": 11,
+     "principal": 27108.95,
+     "total": 37214.78
+    },
+    {
+     "balance": 450531.47,
+     "due_month": 42,
+     "interest": 9563.65,
+     "n": 12,
+     "principal": 27651.13,
+     "total": 37214.78
+    },
+    {
+     "balance": 422327.32,
+     "due_month": 45,
+     "interest": 9010.63,
+     "n": 13,
+     "principal": 28204.15,
+     "total": 37214.78
+    },
+    {
+     "balance": 393559.09,
+     "due_month": 48,
+     "interest": 8446.55,
+     "n": 14,
+     "principal": 28768.23,
+     "total": 37214.78
+    },
+    {
+     "balance": 364215.49,
+     "due_month": 51,
+     "interest": 7871.18,
+     "n": 15,
+     "principal": 29343.6,
+     "total": 37214.78
+    },
+    {
+     "balance": 334285.02,
+     "due_month": 54,
+     "interest": 7284.31,
+     "n": 16,
+     "principal": 29930.47,
+     "total": 37214.78
+    },
+    {
+     "balance": 303755.94,
+     "due_month": 57,
+     "interest": 6685.7,
+     "n": 17,
+     "principal": 30529.08,
+     "total": 37214.78
+    },
+    {
+     "balance": 272616.28,
+     "due_month": 60,
+     "interest": 6075.12,
+     "n": 18,
+     "principal": 31139.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 240853.83,
+     "due_month": 63,
+     "interest": 5452.33,
+     "n": 19,
+     "principal": 31762.45,
+     "total": 37214.78
+    },
+    {
+     "balance": 208456.13,
+     "due_month": 66,
+     "interest": 4817.08,
+     "n": 20,
+     "principal": 32397.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 175410.47,
+     "due_month": 69,
+     "interest": 4169.12,
+     "n": 21,
+     "principal": 33045.66,
+     "total": 37214.78
+    },
+    {
+     "balance": 141703.9,
+     "due_month": 72,
+     "interest": 3508.21,
+     "n": 22,
+     "principal": 33706.57,
+     "total": 37214.78
+    },
+    {
+     "balance": 107323.2,
+     "due_month": 75,
+     "interest": 2834.08,
+     "n": 23,
+     "principal": 34380.7,
+     "total": 37214.78
+    },
+    {
+     "balance": 72254.88,
+     "due_month": 78,
+     "interest": 2146.46,
+     "n": 24,
+     "principal": 35068.32,
+     "total": 37214.78
+    },
+    {
+     "balance": 36485.2,
+     "due_month": 81,
+     "interest": 1445.1,
+     "n": 25,
+     "principal": 35769.68,
+     "total": 37214.78
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 729.7,
+     "n": 26,
+     "principal": 36485.2,
+     "total": 37214.9
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 247584,
+   "total_repayment": 967584
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 200000,
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "scheme_id": "MFS"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 12704.49,
+   "loan": 125000,
+   "monthly_equivalent": 4234.83,
+   "moratorium_interest": 2031.25,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 75000,
+   "rate_annual": 6.5,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 116391.02,
+     "due_month": 6,
+     "interest": 2064.26,
+     "n": 1,
+     "principal": 10640.23,
+     "total": 12704.49
+    },
+    {
+     "balance": 105577.88,
+     "due_month": 9,
+     "interest": 1891.35,
+     "n": 2,
+     "principal": 10813.14,
+     "total": 12704.49
+    },
+    {
+     "balance": 94589.03,
+     "due_month": 12,
+     "interest": 1715.64,
+     "n": 3,
+     "principal": 10988.85,
+     "total": 12704.49
+    },
+    {
+     "balance": 83421.61,
+     "due_month": 15,
+     "interest": 1537.07,
+     "n": 4,
+     "principal": 11167.42,
+     "total": 12704.49
+    },
+    {
+     "balance": 72072.72,
+     "due_month": 18,
+     "interest": 1355.6,
+     "n": 5,
+     "principal": 11348.89,
+     "total": 12704.49
+    },
+    {
+     "balance": 60539.41,
+     "due_month": 21,
+     "interest": 1171.18,
+     "n": 6,
+     "principal": 11533.31,
+     "total": 12704.49
+    },
+    {
+     "balance": 48818.69,
+     "due_month": 24,
+     "interest": 983.77,
+     "n": 7,
+     "principal": 11720.72,
+     "total": 12704.49
+    },
+    {
+     "balance": 36907.5,
+     "due_month": 27,
+     "interest": 793.3,
+     "n": 8,
+     "principal": 11911.19,
+     "total": 12704.49
+    },
+    {
+     "balance": 24802.76,
+     "due_month": 30,
+     "interest": 599.75,
+     "n": 9,
+     "principal": 12104.74,
+     "total": 12704.49
+    },
+    {
+     "balance": 12501.31,
+     "due_month": 33,
+     "interest": 403.04,
+     "n": 10,
+     "principal": 12301.45,
+     "total": 12704.49
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 203.15,
+     "n": 11,
+     "principal": 12501.31,
+     "total": 12704.46
+    }
+   ],
+   "scheme_id": "MFS",
+   "tenure_total_months": 36,
+   "total_interest": 14749,
+   "total_repayment": 139749
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 200000,
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "CA",
+   "frequency": "quarterly",
+   "instalment": 9303.7,
+   "loan": 180000,
+   "monthly_equivalent": 3101.23,
+   "moratorium_interest": 7200.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 20000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 181640.3,
+     "due_month": 9,
+     "interest": 3744.0,
+     "n": 1,
+     "principal": 5559.7,
+     "total": 9303.7
+    },
+    {
+     "balance": 175969.41,
+     "due_month": 12,
+     "interest": 3632.81,
+     "n": 2,
+     "principal": 5670.89,
+     "total": 9303.7
+    },
+    {
+     "balance": 170185.1,
+     "due_month": 15,
+     "interest": 3519.39,
+     "n": 3,
+     "principal": 5784.31,
+     "total": 9303.7
+    },
+    {
+     "balance": 164285.1,
+     "due_month": 18,
+     "interest": 3403.7,
+     "n": 4,
+     "principal": 5900.0,
+     "total": 9303.7
+    },
+    {
+     "balance": 158267.1,
+     "due_month": 21,
+     "interest": 3285.7,
+     "n": 5,
+     "principal": 6018.0,
+     "total": 9303.7
+    },
+    {
+     "balance": 152128.74,
+     "due_month": 24,
+     "interest": 3165.34,
+     "n": 6,
+     "principal": 6138.36,
+     "total": 9303.7
+    },
+    {
+     "balance": 145867.61,
+     "due_month": 27,
+     "interest": 3042.57,
+     "n": 7,
+     "principal": 6261.13,
+     "total": 9303.7
+    },
+    {
+     "balance": 139481.26,
+     "due_month": 30,
+     "interest": 2917.35,
+     "n": 8,
+     "principal": 6386.35,
+     "total": 9303.7
+    },
+    {
+     "balance": 132967.19,
+     "due_month": 33,
+     "interest": 2789.63,
+     "n": 9,
+     "principal": 6514.07,
+     "total": 9303.7
+    },
+    {
+     "balance": 126322.83,
+     "due_month": 36,
+     "interest": 2659.34,
+     "n": 10,
+     "principal": 6644.36,
+     "total": 9303.7
+    },
+    {
+     "balance": 119545.59,
+     "due_month": 39,
+     "interest": 2526.46,
+     "n": 11,
+     "principal": 6777.24,
+     "total": 9303.7
+    },
+    {
+     "balance": 112632.8,
+     "due_month": 42,
+     "interest": 2390.91,
+     "n": 12,
+     "principal": 6912.79,
+     "total": 9303.7
+    },
+    {
+     "balance": 105581.76,
+     "due_month": 45,
+     "interest": 2252.66,
+     "n": 13,
+     "principal": 7051.04,
+     "total": 9303.7
+    },
+    {
+     "balance": 98389.7,
+     "due_month": 48,
+     "interest": 2111.64,
+     "n": 14,
+     "principal": 7192.06,
+     "total": 9303.7
+    },
+    {
+     "balance": 91053.79,
+     "due_month": 51,
+     "interest": 1967.79,
+     "n": 15,
+     "principal": 7335.91,
+     "total": 9303.7
+    },
+    {
+     "balance": 83571.17,
+     "due_month": 54,
+     "interest": 1821.08,
+     "n": 16,
+     "principal": 7482.62,
+     "total": 9303.7
+    },
+    {
+     "balance": 75938.89,
+     "due_month": 57,
+     "interest": 1671.42,
+     "n": 17,
+     "principal": 7632.28,
+     "total": 9303.7
+    },
+    {
+     "balance": 68153.97,
+     "due_month": 60,
+     "interest": 1518.78,
+     "n": 18,
+     "principal": 7784.92,
+     "total": 9303.7
+    },
+    {
+     "balance": 60213.35,
+     "due_month": 63,
+     "interest": 1363.08,
+     "n": 19,
+     "principal": 7940.62,
+     "total": 9303.7
+    },
+    {
+     "balance": 52113.92,
+     "due_month": 66,
+     "interest": 1204.27,
+     "n": 20,
+     "principal": 8099.43,
+     "total": 9303.7
+    },
+    {
+     "balance": 43852.5,
+     "due_month": 69,
+     "interest": 1042.28,
+     "n": 21,
+     "principal": 8261.42,
+     "total": 9303.7
+    },
+    {
+     "balance": 35425.85,
+     "due_month": 72,
+     "interest": 877.05,
+     "n": 22,
+     "principal": 8426.65,
+     "total": 9303.7
+    },
+    {
+     "balance": 26830.67,
+     "due_month": 75,
+     "interest": 708.52,
+     "n": 23,
+     "principal": 8595.18,
+     "total": 9303.7
+    },
+    {
+     "balance": 18063.58,
+     "due_month": 78,
+     "interest": 536.61,
+     "n": 24,
+     "principal": 8767.09,
+     "total": 9303.7
+    },
+    {
+     "balance": 9121.15,
+     "due_month": 81,
+     "interest": 361.27,
+     "n": 25,
+     "principal": 8942.43,
+     "total": 9303.7
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 182.42,
+     "n": 26,
+     "principal": 9121.15,
+     "total": 9303.57
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 61896,
+   "total_repayment": 241896
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 200000,
+   "channel_rate_key": "COOP",
+   "frequency": "quarterly",
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "COOP",
+   "frequency": "quarterly",
+   "instalment": 13263.75,
+   "loan": 180000,
+   "monthly_equivalent": 4421.25,
+   "moratorium_interest": 5850.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 19,
+   "own": 20000,
+   "rate_annual": 13.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 178626.37,
+     "due_month": 6,
+     "interest": 6040.12,
+     "n": 1,
+     "principal": 7223.63,
+     "total": 13263.75
+    },
+    {
+     "balance": 171167.98,
+     "due_month": 9,
+     "interest": 5805.36,
+     "n": 2,
+     "principal": 7458.39,
+     "total": 13263.75
+    },
+    {
+     "balance": 163467.19,
+     "due_month": 12,
+     "interest": 5562.96,
+     "n": 3,
+     "principal": 7700.79,
+     "total": 13263.75
+    },
+    {
+     "balance": 155516.12,
+     "due_month": 15,
+     "interest": 5312.68,
+     "n": 4,
+     "principal": 7951.07,
+     "total": 13263.75
+    },
+    {
+     "balance": 147306.64,
+     "due_month": 18,
+     "interest": 5054.27,
+     "n": 5,
+     "principal": 8209.48,
+     "total": 13263.75
+    },
+    {
+     "balance": 138830.36,
+     "due_month": 21,
+     "interest": 4787.47,
+     "n": 6,
+     "principal": 8476.28,
+     "total": 13263.75
+    },
+    {
+     "balance": 130078.6,
+     "due_month": 24,
+     "interest": 4511.99,
+     "n": 7,
+     "principal": 8751.76,
+     "total": 13263.75
+    },
+    {
+     "balance": 121042.4,
+     "due_month": 27,
+     "interest": 4227.55,
+     "n": 8,
+     "principal": 9036.2,
+     "total": 13263.75
+    },
+    {
+     "balance": 111712.53,
+     "due_month": 30,
+     "interest": 3933.88,
+     "n": 9,
+     "principal": 9329.87,
+     "total": 13263.75
+    },
+    {
+     "balance": 102079.44,
+     "due_month": 33,
+     "interest": 3630.66,
+     "n": 10,
+     "principal": 9633.09,
+     "total": 13263.75
+    },
+    {
+     "balance": 92133.27,
+     "due_month": 36,
+     "interest": 3317.58,
+     "n": 11,
+     "principal": 9946.17,
+     "total": 13263.75
+    },
+    {
+     "balance": 81863.85,
+     "due_month": 39,
+     "interest": 2994.33,
+     "n": 12,
+     "principal": 10269.42,
+     "total": 13263.75
+    },
+    {
+     "balance": 71260.68,
+     "due_month": 42,
+     "interest": 2660.58,
+     "n": 13,
+     "principal": 10603.17,
+     "total": 13263.75
+    },
+    {
+     "balance": 60312.9,
+     "due_month": 45,
+     "interest": 2315.97,
+     "n": 14,
+     "principal": 10947.78,
+     "total": 13263.75
+    },
+    {
+     "balance": 49009.32,
+     "due_month": 48,
+     "interest": 1960.17,
+     "n": 15,
+     "principal": 11303.58,
+     "total": 13263.75
+    },
+    {
+     "balance": 37338.37,
+     "due_month": 51,
+     "interest": 1592.8,
+     "n": 16,
+     "principal": 11670.95,
+     "total": 13263.75
+    },
+    {
+     "balance": 25288.12,
+     "due_month": 54,
+     "interest": 1213.5,
+     "n": 17,
+     "principal": 12050.25,
+     "total": 13263.75
+    },
+    {
+     "balance": 12846.23,
+     "due_month": 57,
+     "interest": 821.86,
+     "n": 18,
+     "principal": 12441.89,
+     "total": 13263.75
+    },
+    {
+     "balance": 0.0,
+     "due_month": 60,
+     "interest": 417.5,
+     "n": 19,
+     "principal": 12846.23,
+     "total": 13263.73
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 72011,
+   "total_repayment": 252011
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 200000,
+   "channel_rate_key": "NBFC_MFI",
+   "frequency": "quarterly",
+   "scheme_id": "AMY"
+  },
+  "out": {
+   "channel_rate_key": "NBFC_MFI",
+   "frequency": "quarterly",
+   "instalment": 14604.79,
+   "loan": 125000,
+   "monthly_equivalent": 4868.26,
+   "moratorium_interest": 4687.5,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 11,
+   "own": 75000,
+   "rate_annual": 15.0,
+   "repayment_months": 33,
+   "schedule": [
+    {
+     "balance": 119945.99,
+     "due_month": 6,
+     "interest": 4863.28,
+     "n": 1,
+     "principal": 9741.51,
+     "total": 14604.79
+    },
+    {
+     "balance": 109839.17,
+     "due_month": 9,
+     "interest": 4497.97,
+     "n": 2,
+     "principal": 10106.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 99353.35,
+     "due_month": 12,
+     "interest": 4118.97,
+     "n": 3,
+     "principal": 10485.82,
+     "total": 14604.79
+    },
+    {
+     "balance": 88474.31,
+     "due_month": 15,
+     "interest": 3725.75,
+     "n": 4,
+     "principal": 10879.04,
+     "total": 14604.79
+    },
+    {
+     "balance": 77187.31,
+     "due_month": 18,
+     "interest": 3317.79,
+     "n": 5,
+     "principal": 11287.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 65477.04,
+     "due_month": 21,
+     "interest": 2894.52,
+     "n": 6,
+     "principal": 11710.27,
+     "total": 14604.79
+    },
+    {
+     "balance": 53327.64,
+     "due_month": 24,
+     "interest": 2455.39,
+     "n": 7,
+     "principal": 12149.4,
+     "total": 14604.79
+    },
+    {
+     "balance": 40722.64,
+     "due_month": 27,
+     "interest": 1999.79,
+     "n": 8,
+     "principal": 12605.0,
+     "total": 14604.79
+    },
+    {
+     "balance": 27644.95,
+     "due_month": 30,
+     "interest": 1527.1,
+     "n": 9,
+     "principal": 13077.69,
+     "total": 14604.79
+    },
+    {
+     "balance": 14076.85,
+     "due_month": 33,
+     "interest": 1036.69,
+     "n": 10,
+     "principal": 13568.1,
+     "total": 14604.79
+    },
+    {
+     "balance": 0.0,
+     "due_month": 36,
+     "interest": 527.88,
+     "n": 11,
+     "principal": 14076.85,
+     "total": 14604.73
+    }
+   ],
+   "scheme_id": "AMY",
+   "tenure_total_months": 36,
+   "total_interest": 35653,
+   "total_repayment": 160653
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 200000,
+   "channel_rate_key": "COOP",
+   "frequency": "half_yearly",
+   "scheme_id": "UNY"
+  },
+  "out": {
+   "channel_rate_key": "COOP",
+   "frequency": "half_yearly",
+   "instalment": 25852.61,
+   "loan": 180000,
+   "monthly_equivalent": 4308.77,
+   "moratorium_interest": 5850.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 3,
+   "n_instalments": 10,
+   "own": 20000,
+   "rate_annual": 13.0,
+   "repayment_months": 57,
+   "schedule": [
+    {
+     "balance": 172077.64,
+     "due_month": 9,
+     "interest": 12080.25,
+     "n": 1,
+     "principal": 13772.36,
+     "total": 25852.61
+    },
+    {
+     "balance": 157410.08,
+     "due_month": 15,
+     "interest": 11185.05,
+     "n": 2,
+     "principal": 14667.56,
+     "total": 25852.61
+    },
+    {
+     "balance": 141789.13,
+     "due_month": 21,
+     "interest": 10231.66,
+     "n": 3,
+     "principal": 15620.95,
+     "total": 25852.61
+    },
+    {
+     "balance": 125152.81,
+     "due_month": 27,
+     "interest": 9216.29,
+     "n": 4,
+     "principal": 16636.32,
+     "total": 25852.61
+    },
+    {
+     "balance": 107435.13,
+     "due_month": 33,
+     "interest": 8134.93,
+     "n": 5,
+     "principal": 17717.68,
+     "total": 25852.61
+    },
+    {
+     "balance": 88565.8,
+     "due_month": 39,
+     "interest": 6983.28,
+     "n": 6,
+     "principal": 18869.33,
+     "total": 25852.61
+    },
+    {
+     "balance": 68469.97,
+     "due_month": 45,
+     "interest": 5756.78,
+     "n": 7,
+     "principal": 20095.83,
+     "total": 25852.61
+    },
+    {
+     "balance": 47067.91,
+     "due_month": 51,
+     "interest": 4450.55,
+     "n": 8,
+     "principal": 21402.06,
+     "total": 25852.61
+    },
+    {
+     "balance": 24274.71,
+     "due_month": 57,
+     "interest": 3059.41,
+     "n": 9,
+     "principal": 22793.2,
+     "total": 25852.61
+    },
+    {
+     "balance": 0.0,
+     "due_month": 63,
+     "interest": 1577.86,
+     "n": 10,
+     "principal": 24274.71,
+     "total": 25852.57
+    }
+   ],
+   "scheme_id": "UNY",
+   "tenure_total_months": 60,
+   "total_interest": 78526,
+   "total_repayment": 258526
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "SCA",
+   "mode": "capitalise",
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 13955.54,
+   "loan": 270000,
+   "monthly_equivalent": 4651.85,
+   "moratorium_interest": 10800.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 30000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 272460.46,
+     "due_month": 9,
+     "interest": 5616.0,
+     "n": 1,
+     "principal": 8339.54,
+     "total": 13955.54
+    },
+    {
+     "balance": 263954.13,
+     "due_month": 12,
+     "interest": 5449.21,
+     "n": 2,
+     "principal": 8506.33,
+     "total": 13955.54
+    },
+    {
+     "balance": 255277.67,
+     "due_month": 15,
+     "interest": 5279.08,
+     "n": 3,
+     "principal": 8676.46,
+     "total": 13955.54
+    },
+    {
+     "balance": 246427.68,
+     "due_month": 18,
+     "interest": 5105.55,
+     "n": 4,
+     "principal": 8849.99,
+     "total": 13955.54
+    },
+    {
+     "balance": 237400.69,
+     "due_month": 21,
+     "interest": 4928.55,
+     "n": 5,
+     "principal": 9026.99,
+     "total": 13955.54
+    },
+    {
+     "balance": 228193.16,
+     "due_month": 24,
+     "interest": 4748.01,
+     "n": 6,
+     "principal": 9207.53,
+     "total": 13955.54
+    },
+    {
+     "balance": 218801.48,
+     "due_month": 27,
+     "interest": 4563.86,
+     "n": 7,
+     "principal": 9391.68,
+     "total": 13955.54
+    },
+    {
+     "balance": 209221.97,
+     "due_month": 30,
+     "interest": 4376.03,
+     "n": 8,
+     "principal": 9579.51,
+     "total": 13955.54
+    },
+    {
+     "balance": 199450.87,
+     "due_month": 33,
+     "interest": 4184.44,
+     "n": 9,
+     "principal": 9771.1,
+     "total": 13955.54
+    },
+    {
+     "balance": 189484.35,
+     "due_month": 36,
+     "interest": 3989.02,
+     "n": 10,
+     "principal": 9966.52,
+     "total": 13955.54
+    },
+    {
+     "balance": 179318.5,
+     "due_month": 39,
+     "interest": 3789.69,
+     "n": 11,
+     "principal": 10165.85,
+     "total": 13955.54
+    },
+    {
+     "balance": 168949.33,
+     "due_month": 42,
+     "interest": 3586.37,
+     "n": 12,
+     "principal": 10369.17,
+     "total": 13955.54
+    },
+    {
+     "balance": 158372.78,
+     "due_month": 45,
+     "interest": 3378.99,
+     "n": 13,
+     "principal": 10576.55,
+     "total": 13955.54
+    },
+    {
+     "balance": 147584.7,
+     "due_month": 48,
+     "interest": 3167.46,
+     "n": 14,
+     "principal": 10788.08,
+     "total": 13955.54
+    },
+    {
+     "balance": 136580.85,
+     "due_month": 51,
+     "interest": 2951.69,
+     "n": 15,
+     "principal": 11003.85,
+     "total": 13955.54
+    },
+    {
+     "balance": 125356.93,
+     "due_month": 54,
+     "interest": 2731.62,
+     "n": 16,
+     "principal": 11223.92,
+     "total": 13955.54
+    },
+    {
+     "balance": 113908.53,
+     "due_month": 57,
+     "interest": 2507.14,
+     "n": 17,
+     "principal": 11448.4,
+     "total": 13955.54
+    },
+    {
+     "balance": 102231.16,
+     "due_month": 60,
+     "interest": 2278.17,
+     "n": 18,
+     "principal": 11677.37,
+     "total": 13955.54
+    },
+    {
+     "balance": 90320.24,
+     "due_month": 63,
+     "interest": 2044.62,
+     "n": 19,
+     "principal": 11910.92,
+     "total": 13955.54
+    },
+    {
+     "balance": 78171.1,
+     "due_month": 66,
+     "interest": 1806.4,
+     "n": 20,
+     "principal": 12149.14,
+     "total": 13955.54
+    },
+    {
+     "balance": 65778.98,
+     "due_month": 69,
+     "interest": 1563.42,
+     "n": 21,
+     "principal": 12392.12,
+     "total": 13955.54
+    },
+    {
+     "balance": 53139.02,
+     "due_month": 72,
+     "interest": 1315.58,
+     "n": 22,
+     "principal": 12639.96,
+     "total": 13955.54
+    },
+    {
+     "balance": 40246.26,
+     "due_month": 75,
+     "interest": 1062.78,
+     "n": 23,
+     "principal": 12892.76,
+     "total": 13955.54
+    },
+    {
+     "balance": 27095.65,
+     "due_month": 78,
+     "interest": 804.93,
+     "n": 24,
+     "principal": 13150.61,
+     "total": 13955.54
+    },
+    {
+     "balance": 13682.02,
+     "due_month": 81,
+     "interest": 541.91,
+     "n": 25,
+     "principal": 13413.63,
+     "total": 13955.54
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 273.64,
+     "n": 26,
+     "principal": 13682.02,
+     "total": 13955.66
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 92844,
+   "total_repayment": 362844
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 300000,
+   "channel_rate_key": "SCA",
+   "mode": "pay_as_you_go",
+   "scheme_id": "TL"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 13418.79,
+   "loan": 270000,
+   "monthly_equivalent": 4472.93,
+   "moratorium_interest": 10800.0,
+   "moratorium_interest_treatment": "pay_as_you_go",
+   "moratorium_months": 6,
+   "n_instalments": 26,
+   "own": 30000,
+   "rate_annual": 8.0,
+   "repayment_months": 78,
+   "schedule": [
+    {
+     "balance": 261981.21,
+     "due_month": 9,
+     "interest": 5400.0,
+     "n": 1,
+     "principal": 8018.79,
+     "total": 13418.79
+    },
+    {
+     "balance": 253802.04,
+     "due_month": 12,
+     "interest": 5239.62,
+     "n": 2,
+     "principal": 8179.17,
+     "total": 13418.79
+    },
+    {
+     "balance": 245459.29,
+     "due_month": 15,
+     "interest": 5076.04,
+     "n": 3,
+     "principal": 8342.75,
+     "total": 13418.79
+    },
+    {
+     "balance": 236949.69,
+     "due_month": 18,
+     "interest": 4909.19,
+     "n": 4,
+     "principal": 8509.6,
+     "total": 13418.79
+    },
+    {
+     "balance": 228269.89,
+     "due_month": 21,
+     "interest": 4738.99,
+     "n": 5,
+     "principal": 8679.8,
+     "total": 13418.79
+    },
+    {
+     "balance": 219416.5,
+     "due_month": 24,
+     "interest": 4565.4,
+     "n": 6,
+     "principal": 8853.39,
+     "total": 13418.79
+    },
+    {
+     "balance": 210386.04,
+     "due_month": 27,
+     "interest": 4388.33,
+     "n": 7,
+     "principal": 9030.46,
+     "total": 13418.79
+    },
+    {
+     "balance": 201174.97,
+     "due_month": 30,
+     "interest": 4207.72,
+     "n": 8,
+     "principal": 9211.07,
+     "total": 13418.79
+    },
+    {
+     "balance": 191779.68,
+     "due_month": 33,
+     "interest": 4023.5,
+     "n": 9,
+     "principal": 9395.29,
+     "total": 13418.79
+    },
+    {
+     "balance": 182196.48,
+     "due_month": 36,
+     "interest": 3835.59,
+     "n": 10,
+     "principal": 9583.2,
+     "total": 13418.79
+    },
+    {
+     "balance": 172421.62,
+     "due_month": 39,
+     "interest": 3643.93,
+     "n": 11,
+     "principal": 9774.86,
+     "total": 13418.79
+    },
+    {
+     "balance": 162451.26,
+     "due_month": 42,
+     "interest": 3448.43,
+     "n": 12,
+     "principal": 9970.36,
+     "total": 13418.79
+    },
+    {
+     "balance": 152281.5,
+     "due_month": 45,
+     "interest": 3249.03,
+     "n": 13,
+     "principal": 10169.76,
+     "total": 13418.79
+    },
+    {
+     "balance": 141908.34,
+     "due_month": 48,
+     "interest": 3045.63,
+     "n": 14,
+     "principal": 10373.16,
+     "total": 13418.79
+    },
+    {
+     "balance": 131327.72,
+     "due_month": 51,
+     "interest": 2838.17,
+     "n": 15,
+     "principal": 10580.62,
+     "total": 13418.79
+    },
+    {
+     "balance": 120535.48,
+     "due_month": 54,
+     "interest": 2626.55,
+     "n": 16,
+     "principal": 10792.24,
+     "total": 13418.79
+    },
+    {
+     "balance": 109527.4,
+     "due_month": 57,
+     "interest": 2410.71,
+     "n": 17,
+     "principal": 11008.08,
+     "total": 13418.79
+    },
+    {
+     "balance": 98299.16,
+     "due_month": 60,
+     "interest": 2190.55,
+     "n": 18,
+     "principal": 11228.24,
+     "total": 13418.79
+    },
+    {
+     "balance": 86846.35,
+     "due_month": 63,
+     "interest": 1965.98,
+     "n": 19,
+     "principal": 11452.81,
+     "total": 13418.79
+    },
+    {
+     "balance": 75164.49,
+     "due_month": 66,
+     "interest": 1736.93,
+     "n": 20,
+     "principal": 11681.86,
+     "total": 13418.79
+    },
+    {
+     "balance": 63248.99,
+     "due_month": 69,
+     "interest": 1503.29,
+     "n": 21,
+     "principal": 11915.5,
+     "total": 13418.79
+    },
+    {
+     "balance": 51095.18,
+     "due_month": 72,
+     "interest": 1264.98,
+     "n": 22,
+     "principal": 12153.81,
+     "total": 13418.79
+    },
+    {
+     "balance": 38698.29,
+     "due_month": 75,
+     "interest": 1021.9,
+     "n": 23,
+     "principal": 12396.89,
+     "total": 13418.79
+    },
+    {
+     "balance": 26053.47,
+     "due_month": 78,
+     "interest": 773.97,
+     "n": 24,
+     "principal": 12644.82,
+     "total": 13418.79
+    },
+    {
+     "balance": 13155.75,
+     "due_month": 81,
+     "interest": 521.07,
+     "n": 25,
+     "principal": 12897.72,
+     "total": 13418.79
+    },
+    {
+     "balance": 0.0,
+     "due_month": 84,
+     "interest": 263.12,
+     "n": 26,
+     "principal": 13155.75,
+     "total": 13418.87
+    }
+   ],
+   "scheme_id": "TL",
+   "tenure_total_months": 84,
+   "total_interest": 89689,
+   "total_repayment": 359689
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 600000,
+   "channel_rate_key": "SCA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": true
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 19780.96,
+   "loan": 540000,
+   "monthly_equivalent": 6593.65,
+   "moratorium_interest": 17550.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 6,
+   "n_instalments": 38,
+   "own": 60000,
+   "rate_annual": 6.5,
+   "repayment_months": 114,
+   "schedule": [
+    {
+     "balance": 546829.23,
+     "due_month": 9,
+     "interest": 9060.19,
+     "n": 1,
+     "principal": 10720.77,
+     "total": 19780.96
+    },
+    {
+     "balance": 535934.24,
+     "due_month": 12,
+     "interest": 8885.97,
+     "n": 2,
+     "principal": 10894.99,
+     "total": 19780.96
+    },
+    {
+     "balance": 524862.21,
+     "due_month": 15,
+     "interest": 8708.93,
+     "n": 3,
+     "principal": 11072.03,
+     "total": 19780.96
+    },
+    {
+     "balance": 513610.26,
+     "due_month": 18,
+     "interest": 8529.01,
+     "n": 4,
+     "principal": 11251.95,
+     "total": 19780.96
+    },
+    {
+     "balance": 502175.47,
+     "due_month": 21,
+     "interest": 8346.17,
+     "n": 5,
+     "principal": 11434.79,
+     "total": 19780.96
+    },
+    {
+     "balance": 490554.86,
+     "due_month": 24,
+     "interest": 8160.35,
+     "n": 6,
+     "principal": 11620.61,
+     "total": 19780.96
+    },
+    {
+     "balance": 478745.42,
+     "due_month": 27,
+     "interest": 7971.52,
+     "n": 7,
+     "principal": 11809.44,
+     "total": 19780.96
+    },
+    {
+     "balance": 466744.07,
+     "due_month": 30,
+     "interest": 7779.61,
+     "n": 8,
+     "principal": 12001.35,
+     "total": 19780.96
+    },
+    {
+     "balance": 454547.7,
+     "due_month": 33,
+     "interest": 7584.59,
+     "n": 9,
+     "principal": 12196.37,
+     "total": 19780.96
+    },
+    {
+     "balance": 442153.14,
+     "due_month": 36,
+     "interest": 7386.4,
+     "n": 10,
+     "principal": 12394.56,
+     "total": 19780.96
+    },
+    {
+     "balance": 429557.17,
+     "due_month": 39,
+     "interest": 7184.99,
+     "n": 11,
+     "principal": 12595.97,
+     "total": 19780.96
+    },
+    {
+     "balance": 416756.51,
+     "due_month": 42,
+     "interest": 6980.3,
+     "n": 12,
+     "principal": 12800.66,
+     "total": 19780.96
+    },
+    {
+     "balance": 403747.84,
+     "due_month": 45,
+     "interest": 6772.29,
+     "n": 13,
+     "principal": 13008.67,
+     "total": 19780.96
+    },
+    {
+     "balance": 390527.78,
+     "due_month": 48,
+     "interest": 6560.9,
+     "n": 14,
+     "principal": 13220.06,
+     "total": 19780.96
+    },
+    {
+     "balance": 377092.9,
+     "due_month": 51,
+     "interest": 6346.08,
+     "n": 15,
+     "principal": 13434.88,
+     "total": 19780.96
+    },
+    {
+     "balance": 363439.7,
+     "due_month": 54,
+     "interest": 6127.76,
+     "n": 16,
+     "principal": 13653.2,
+     "total": 19780.96
+    },
+    {
+     "balance": 349564.64,
+     "due_month": 57,
+     "interest": 5905.9,
+     "n": 17,
+     "principal": 13875.06,
+     "total": 19780.96
+    },
+    {
+     "balance": 335464.11,
+     "due_month": 60,
+     "interest": 5680.43,
+     "n": 18,
+     "principal": 14100.53,
+     "total": 19780.96
+    },
+    {
+     "balance": 321134.44,
+     "due_month": 63,
+     "interest": 5451.29,
+     "n": 19,
+     "principal": 14329.67,
+     "total": 19780.96
+    },
+    {
+     "balance": 306571.91,
+     "due_month": 66,
+     "interest": 5218.43,
+     "n": 20,
+     "principal": 14562.53,
+     "total": 19780.96
+    },
+    {
+     "balance": 291772.74,
+     "due_month": 69,
+     "interest": 4981.79,
+     "n": 21,
+     "principal": 14799.17,
+     "total": 19780.96
+    },
+    {
+     "balance": 276733.09,
+     "due_month": 72,
+     "interest": 4741.31,
+     "n": 22,
+     "principal": 15039.65,
+     "total": 19780.96
+    },
+    {
+     "balance": 261449.04,
+     "due_month": 75,
+     "interest": 4496.91,
+     "n": 23,
+     "principal": 15284.05,
+     "total": 19780.96
+    },
+    {
+     "balance": 245916.63,
+     "due_month": 78,
+     "interest": 4248.55,
+     "n": 24,
+     "principal": 15532.41,
+     "total": 19780.96
+    },
+    {
+     "balance": 230131.82,
+     "due_month": 81,
+     "interest": 3996.15,
+     "n": 25,
+     "principal": 15784.81,
+     "total": 19780.96
+    },
+    {
+     "balance": 214090.5,
+     "due_month": 84,
+     "interest": 3739.64,
+     "n": 26,
+     "principal": 16041.32,
+     "total": 19780.96
+    },
+    {
+     "balance": 197788.51,
+     "due_month": 87,
+     "interest": 3478.97,
+     "n": 27,
+     "principal": 16301.99,
+     "total": 19780.96
+    },
+    {
+     "balance": 181221.61,
+     "due_month": 90,
+     "interest": 3214.06,
+     "n": 28,
+     "principal": 16566.9,
+     "total": 19780.96
+    },
+    {
+     "balance": 164385.5,
+     "due_month": 93,
+     "interest": 2944.85,
+     "n": 29,
+     "principal": 16836.11,
+     "total": 19780.96
+    },
+    {
+     "balance": 147275.8,
+     "due_month": 96,
+     "interest": 2671.26,
+     "n": 30,
+     "principal": 17109.7,
+     "total": 19780.96
+    },
+    {
+     "balance": 129888.07,
+     "due_month": 99,
+     "interest": 2393.23,
+     "n": 31,
+     "principal": 17387.73,
+     "total": 19780.96
+    },
+    {
+     "balance": 112217.79,
+     "due_month": 102,
+     "interest": 2110.68,
+     "n": 32,
+     "principal": 17670.28,
+     "total": 19780.96
+    },
+    {
+     "balance": 94260.37,
+     "due_month": 105,
+     "interest": 1823.54,
+     "n": 33,
+     "principal": 17957.42,
+     "total": 19780.96
+    },
+    {
+     "balance": 76011.14,
+     "due_month": 108,
+     "interest": 1531.73,
+     "n": 34,
+     "principal": 18249.23,
+     "total": 19780.96
+    },
+    {
+     "balance": 57465.36,
+     "due_month": 111,
+     "interest": 1235.18,
+     "n": 35,
+     "principal": 18545.78,
+     "total": 19780.96
+    },
+    {
+     "balance": 38618.21,
+     "due_month": 114,
+     "interest": 933.81,
+     "n": 36,
+     "principal": 18847.15,
+     "total": 19780.96
+    },
+    {
+     "balance": 19464.8,
+     "due_month": 117,
+     "interest": 627.55,
+     "n": 37,
+     "principal": 19153.41,
+     "total": 19780.96
+    },
+    {
+     "balance": 0.0,
+     "due_month": 120,
+     "interest": 316.3,
+     "n": 38,
+     "principal": 19464.8,
+     "total": 19781.1
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 120,
+   "total_interest": 211677,
+   "total_repayment": 751677
+  }
+ },
+ {
+  "in": {
+   "amount_inr": 600000,
+   "channel_rate_key": "SCA",
+   "course": {
+    "category": "nursing",
+    "duration_months": 48,
+    "is_full_time_recognised": true,
+    "level": "bachelors",
+    "repayment_started": false
+   },
+   "scheme_id": "ELS"
+  },
+  "out": {
+   "channel_rate_key": "SCA",
+   "frequency": "quarterly",
+   "instalment": 32009.91,
+   "loan": 540000,
+   "monthly_equivalent": 10669.97,
+   "moratorium_interest": 175500.0,
+   "moratorium_interest_treatment": "capitalise",
+   "moratorium_months": 60,
+   "n_instalments": 28,
+   "own": 60000,
+   "rate_annual": 6.5,
+   "repayment_months": 84,
+   "schedule": [
+    {
+     "balance": 695116.97,
+     "due_month": 63,
+     "interest": 11626.88,
+     "n": 1,
+     "principal": 20383.03,
+     "total": 32009.91
+    },
+    {
+     "balance": 674402.71,
+     "due_month": 66,
+     "interest": 11295.65,
+     "n": 2,
+     "principal": 20714.26,
+     "total": 32009.91
+    },
+    {
+     "balance": 653351.84,
+     "due_month": 69,
+     "interest": 10959.04,
+     "n": 3,
+     "principal": 21050.87,
+     "total": 32009.91
+    },
+    {
+     "balance": 631958.9,
+     "due_month": 72,
+     "interest": 10616.97,
+     "n": 4,
+     "principal": 21392.94,
+     "total": 32009.91
+    },
+    {
+     "balance": 610218.32,
+     "due_month": 75,
+     "interest": 10269.33,
+     "n": 5,
+     "principal": 21740.58,
+     "total": 32009.91
+    },
+    {
+     "balance": 588124.46,
+     "due_month": 78,
+     "interest": 9916.05,
+     "n": 6,
+     "principal": 22093.86,
+     "total": 32009.91
+    },
+    {
+     "balance": 565671.57,
+     "due_month": 81,
+     "interest": 9557.02,
+     "n": 7,
+     "principal": 22452.89,
+     "total": 32009.91
+    },
+    {
+     "balance": 542853.82,
+     "due_month": 84,
+     "interest": 9192.16,
+     "n": 8,
+     "principal": 22817.75,
+     "total": 32009.91
+    },
+    {
+     "balance": 519665.28,
+     "due_month": 87,
+     "interest": 8821.37,
+     "n": 9,
+     "principal": 23188.54,
+     "total": 32009.91
+    },
+    {
+     "balance": 496099.93,
+     "due_month": 90,
+     "interest": 8444.56,
+     "n": 10,
+     "principal": 23565.35,
+     "total": 32009.91
+    },
+    {
+     "balance": 472151.64,
+     "due_month": 93,
+     "interest": 8061.62,
+     "n": 11,
+     "principal": 23948.29,
+     "total": 32009.91
+    },
+    {
+     "balance": 447814.19,
+     "due_month": 96,
+     "interest": 7672.46,
+     "n": 12,
+     "principal": 24337.45,
+     "total": 32009.91
+    },
+    {
+     "balance": 423081.26,
+     "due_month": 99,
+     "interest": 7276.98,
+     "n": 13,
+     "principal": 24732.93,
+     "total": 32009.91
+    },
+    {
+     "balance": 397946.42,
+     "due_month": 102,
+     "interest": 6875.07,
+     "n": 14,
+     "principal": 25134.84,
+     "total": 32009.91
+    },
+    {
+     "balance": 372403.14,
+     "due_month": 105,
+     "interest": 6466.63,
+     "n": 15,
+     "principal": 25543.28,
+     "total": 32009.91
+    },
+    {
+     "balance": 346444.78,
+     "due_month": 108,
+     "interest": 6051.55,
+     "n": 16,
+     "principal": 25958.36,
+     "total": 32009.91
+    },
+    {
+     "balance": 320064.6,
+     "due_month": 111,
+     "interest": 5629.73,
+     "n": 17,
+     "principal": 26380.18,
+     "total": 32009.91
+    },
+    {
+     "balance": 293255.74,
+     "due_month": 114,
+     "interest": 5201.05,
+     "n": 18,
+     "principal": 26808.86,
+     "total": 32009.91
+    },
+    {
+     "balance": 266011.24,
+     "due_month": 117,
+     "interest": 4765.41,
+     "n": 19,
+     "principal": 27244.5,
+     "total": 32009.91
+    },
+    {
+     "balance": 238324.01,
+     "due_month": 120,
+     "interest": 4322.68,
+     "n": 20,
+     "principal": 27687.23,
+     "total": 32009.91
+    },
+    {
+     "balance": 210186.87,
+     "due_month": 123,
+     "interest": 3872.77,
+     "n": 21,
+     "principal": 28137.14,
+     "total": 32009.91
+    },
+    {
+     "balance": 181592.5,
+     "due_month": 126,
+     "interest": 3415.54,
+     "n": 22,
+     "principal": 28594.37,
+     "total": 32009.91
+    },
+    {
+     "balance": 152533.47,
+     "due_month": 129,
+     "interest": 2950.88,
+     "n": 23,
+     "principal": 29059.03,
+     "total": 32009.91
+    },
+    {
+     "balance": 123002.23,
+     "due_month": 132,
+     "interest": 2478.67,
+     "n": 24,
+     "principal": 29531.24,
+     "total": 32009.91
+    },
+    {
+     "balance": 92991.11,
+     "due_month": 135,
+     "interest": 1998.79,
+     "n": 25,
+     "principal": 30011.12,
+     "total": 32009.91
+    },
+    {
+     "balance": 62492.31,
+     "due_month": 138,
+     "interest": 1511.11,
+     "n": 26,
+     "principal": 30498.8,
+     "total": 32009.91
+    },
+    {
+     "balance": 31497.9,
+     "due_month": 141,
+     "interest": 1015.5,
+     "n": 27,
+     "principal": 30994.41,
+     "total": 32009.91
+    },
+    {
+     "balance": 0.0,
+     "due_month": 144,
+     "interest": 511.84,
+     "n": 28,
+     "principal": 31497.9,
+     "total": 32009.74
+    }
+   ],
+   "scheme_id": "ELS",
+   "tenure_total_months": 144,
+   "total_interest": 356277,
+   "total_repayment": 896277
+  }
+ }
+]

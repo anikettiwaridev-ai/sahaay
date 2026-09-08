@@ -1,0 +1,583 @@
+{
+  "_meta": {
+    "source": "https://nsfdc.nic.in/scheme, read 4 Sept 2026 (research/SCHEME-CORPUS.md)",
+    "spec": "docs/ENGINE_SPEC.md §2 — 24 named professional/technical categories plus doctoral_mphil_phd = 25 rows",
+    "count": 25,
+    "note": "keywords[] feed the deterministic intake fallback (ARCHITECTURE §4.4). They are matching aids, not eligibility."
+  },
+  "courses": [
+    {
+      "id": "engineering",
+      "srno": 1,
+      "name_en": "Engineering",
+      "name_hi": "इंजीनियरिंग",
+      "levels": [
+        "diploma",
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "Diploma",
+        "B.Tech",
+        "B.E",
+        "M.Tech",
+        "M.E"
+      ],
+      "keywords": [
+        "engineer",
+        "btech",
+        "b.tech",
+        "be ",
+        "mtech",
+        "polytechnic",
+        "इंजीनियर",
+        "अभियंता"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "architecture",
+      "srno": 2,
+      "name_en": "Architecture",
+      "name_hi": "वास्तुकला",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "B.Arch",
+        "M.Arch"
+      ],
+      "keywords": [
+        "architect",
+        "barch",
+        "b.arch",
+        "वास्तुकला"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "medical",
+      "srno": 3,
+      "name_en": "Medical",
+      "name_hi": "चिकित्सा",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "MBBS",
+        "MD",
+        "MS"
+      ],
+      "keywords": [
+        "mbbs",
+        "doctor",
+        "md",
+        "ms surgery",
+        "डॉक्टर",
+        "चिकित्सा"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "biotech_microbiology_clinical_tech",
+      "srno": 4,
+      "name_en": "Biotechnology / Microbiology / Clinical Technology",
+      "name_hi": "जैव प्रौद्योगिकी / सूक्ष्म जीव विज्ञान / नैदानिक प्रौद्योगिकी",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "B.Sc",
+        "M.Sc"
+      ],
+      "keywords": [
+        "biotech",
+        "microbio",
+        "clinical technology",
+        "जैव प्रौद्योगिकी"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "pharmacy",
+      "srno": 5,
+      "name_en": "Pharmacy",
+      "name_hi": "फार्मेसी",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "B.Pharma",
+        "M.Pharma"
+      ],
+      "keywords": [
+        "pharma",
+        "pharmacy",
+        "bpharma",
+        "फार्मेसी",
+        "दवा"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "dental",
+      "srno": 6,
+      "name_en": "Dental",
+      "name_hi": "दंत चिकित्सा",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "BDS",
+        "MDS"
+      ],
+      "keywords": [
+        "dental",
+        "bds",
+        "mds",
+        "दंत"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "physiotherapy",
+      "srno": 7,
+      "name_en": "Physiotherapy",
+      "name_hi": "फिजियोथेरेपी",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "B.Sc",
+        "M.Sc"
+      ],
+      "keywords": [
+        "physiotherapy",
+        "physio",
+        "bpt",
+        "फिजियोथेरेपी"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "pathology",
+      "srno": 8,
+      "name_en": "Pathology",
+      "name_hi": "पैथोलॉजी",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "B.Sc",
+        "M.Sc"
+      ],
+      "keywords": [
+        "pathology",
+        "patho",
+        "पैथोलॉजी"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "nursing",
+      "srno": 9,
+      "name_en": "Nursing",
+      "name_hi": "नर्सिंग",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "B.Sc",
+        "M.Sc"
+      ],
+      "keywords": [
+        "nursing",
+        "nurse",
+        "bsc nursing",
+        "नर्स",
+        "नर्सिंग"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "information_technology",
+      "srno": 10,
+      "name_en": "Information Technology",
+      "name_hi": "सूचना प्रौद्योगिकी",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "BCA",
+        "MCA"
+      ],
+      "keywords": [
+        "bca",
+        "mca",
+        "computer application",
+        "सूचना प्रौद्योगिकी",
+        "कंप्यूटर"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "management",
+      "srno": 11,
+      "name_en": "Management",
+      "name_hi": "प्रबंधन",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "BBA",
+        "MBA"
+      ],
+      "keywords": [
+        "mba",
+        "bba",
+        "management",
+        "प्रबंधन",
+        "एमबीए"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "hotel_management_catering",
+      "srno": 12,
+      "name_en": "Hotel Management & Catering Technology",
+      "name_hi": "होटल प्रबंधन एवं खानपान प्रौद्योगिकी",
+      "levels": [
+        "diploma",
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "Diploma",
+        "B.Sc",
+        "M.Sc"
+      ],
+      "keywords": [
+        "hotel management",
+        "catering",
+        "hospitality",
+        "होटल प्रबंधन"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "law",
+      "srno": 13,
+      "name_en": "Law",
+      "name_hi": "विधि",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "LLB",
+        "LLM"
+      ],
+      "keywords": [
+        "llb",
+        "llm",
+        "law",
+        "vakil",
+        "विधि",
+        "वकील",
+        "कानून"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "education",
+      "srno": 14,
+      "name_en": "Education",
+      "name_hi": "शिक्षा",
+      "levels": [
+        "diploma",
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "CT",
+        "NTT",
+        "B.Ed",
+        "M.Ed"
+      ],
+      "keywords": [
+        "b.ed",
+        "bed",
+        "m.ed",
+        "ntt",
+        "teacher training",
+        "शिक्षक",
+        "बी.एड"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "physical_education",
+      "srno": 15,
+      "name_en": "Physical Education",
+      "name_hi": "शारीरिक शिक्षा",
+      "levels": [
+        "diploma",
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "C.PEd",
+        "B.PEd",
+        "M.PEd"
+      ],
+      "keywords": [
+        "physical education",
+        "bped",
+        "mped",
+        "शारीरिक शिक्षा"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "journalism_mass_comm",
+      "srno": 16,
+      "name_en": "Journalism & Mass Communication",
+      "name_hi": "पत्रकारिता एवं जनसंचार",
+      "levels": [
+        "bachelors",
+        "masters"
+      ],
+      "qualifications": [
+        "BJMC",
+        "MJMC"
+      ],
+      "keywords": [
+        "journalism",
+        "mass communication",
+        "patrakarita",
+        "पत्रकारिता",
+        "जनसंचार"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "geriatric_care",
+      "srno": 17,
+      "name_en": "Geriatric Care",
+      "name_hi": "वृद्धजन देखभाल",
+      "levels": [
+        "diploma",
+        "bachelors"
+      ],
+      "qualifications": [
+        "Diploma",
+        "B.Sc"
+      ],
+      "keywords": [
+        "geriatric",
+        "elder care",
+        "वृद्धजन"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "midwifery",
+      "srno": 18,
+      "name_en": "Midwifery",
+      "name_hi": "दाई कर्म",
+      "levels": [
+        "diploma",
+        "bachelors"
+      ],
+      "qualifications": [
+        "Diploma",
+        "B.Sc"
+      ],
+      "keywords": [
+        "midwifery",
+        "midwife",
+        "दाई"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "laboratory_technician",
+      "srno": 19,
+      "name_en": "Laboratory Technician",
+      "name_hi": "प्रयोगशाला तकनीशियन",
+      "levels": [
+        "diploma",
+        "bachelors"
+      ],
+      "qualifications": [
+        "Diploma",
+        "B.Sc"
+      ],
+      "keywords": [
+        "lab technician",
+        "laboratory technician",
+        "dmlt",
+        "प्रयोगशाला",
+        "लैब"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "chartered_accountancy",
+      "srno": 20,
+      "name_en": "Chartered Accountancy",
+      "name_hi": "सनदी लेखाकार",
+      "levels": [
+        "professional"
+      ],
+      "qualifications": [
+        "CA"
+      ],
+      "keywords": [
+        "chartered accountant",
+        " ca ",
+        "सनदी लेखाकार",
+        "सीए"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "cost_accountancy",
+      "srno": 21,
+      "name_en": "Cost Accountancy (ICWA)",
+      "name_hi": "लागत लेखाकर्म (आईसीडब्ल्यूए)",
+      "levels": [
+        "professional"
+      ],
+      "qualifications": [
+        "ICWA",
+        "CMA"
+      ],
+      "keywords": [
+        "cost accountancy",
+        "icwa",
+        "cma",
+        "लागत लेखा"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "company_secretaryship",
+      "srno": 22,
+      "name_en": "Company Secretaryship",
+      "name_hi": "कंपनी सचिवकर्म",
+      "levels": [
+        "professional"
+      ],
+      "qualifications": [
+        "CS"
+      ],
+      "keywords": [
+        "company secretary",
+        " cs ",
+        "कंपनी सचिव"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "actuarial_sciences",
+      "srno": 23,
+      "name_en": "Actuarial Sciences",
+      "name_hi": "बीमांकिक विज्ञान",
+      "levels": [
+        "bachelors",
+        "masters",
+        "professional"
+      ],
+      "qualifications": [
+        "B.Sc",
+        "M.Sc"
+      ],
+      "keywords": [
+        "actuarial",
+        "actuary",
+        "बीमांकिक"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "amie_iete",
+      "srno": 24,
+      "name_en": "AMIE / Institute of Electronics & Telecommunication Engineers",
+      "name_hi": "एएमआईई / इलेक्ट्रॉनिक्स एवं दूरसंचार अभियंता संस्थान",
+      "levels": [
+        "professional"
+      ],
+      "qualifications": [
+        "AMIE",
+        "IETE"
+      ],
+      "keywords": [
+        "amie",
+        "iete",
+        "इलेक्ट्रॉनिक्स एवं दूरसंचार"
+      ],
+      "group": "professional_technical",
+      "requires_full_time_recognised": true
+    },
+    {
+      "id": "doctoral_mphil_phd",
+      "srno": 25,
+      "name_en": "Doctoral study — M.Phil / PhD at recognised institutions",
+      "name_hi": "डॉक्टरेट अध्ययन — एम.फिल / पीएच.डी (मान्यता प्राप्त संस्थान)",
+      "levels": [
+        "doctoral"
+      ],
+      "qualifications": [
+        "M.Phil",
+        "PhD"
+      ],
+      "keywords": [
+        "phd",
+        "ph.d",
+        "m.phil",
+        "mphil",
+        "doctoral",
+        "doctorate",
+        "पीएचडी",
+        "एम.फिल",
+        "डॉक्टरेट"
+      ],
+      "group": "higher_education",
+      "requires_full_time_recognised": true
+    }
+  ]
+}

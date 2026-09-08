@@ -1,0 +1,17 @@
+{
+  "name": "sahaay-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sahaay Express and EJS portal. The local Python AI service remains separate.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "multer": "^2.3.0"
+  }
+}

@@ -1,0 +1,2092 @@
+{
+ "cards": [
+  {
+   "category": "loan",
+   "has_full_logic": true,
+   "id": "MFS",
+   "max_amount_inr": 125000,
+   "name_en": "Micro Finance Scheme",
+   "name_hi": "सूक्ष्म वित्त योजना",
+   "one_line_en": "Up to ₹1.25 lakh for a small business, at 6.5%.",
+   "one_line_hi": "छोटे काम के लिए ₹1.25 लाख तक, 6.5% ब्याज पर।",
+   "rate_text": "6.5%",
+   "status": "open"
+  },
+  {
+   "category": "loan",
+   "has_full_logic": true,
+   "id": "TL",
+   "max_amount_inr": 4500000,
+   "name_en": "Term Loan",
+   "name_hi": "मियादी ऋण",
+   "one_line_en": "For a bigger project — ₹1,40,001 and above — at 8% over 7 years.",
+   "one_line_hi": "बड़े काम के लिए — ₹1,40,001 से ऊपर — 8% पर, 7 वर्ष के लिए।",
+   "rate_text": "8%",
+   "status": "open"
+  },
+  {
+   "category": "loan",
+   "has_full_logic": true,
+   "id": "AMY",
+   "max_amount_inr": 125000,
+   "name_en": "Aajeevika Micro-Finance Yojana",
+   "name_hi": "आजीविका माइक्रो-फाइनेंस योजना",
+   "one_line_en": "Up to ₹1.25 lakh through a micro-finance partner, at 15%.",
+   "one_line_hi": "माइक्रो-फाइनेंस पार्टनर के ज़रिए ₹1.25 लाख तक, 15% ब्याज पर।",
+   "rate_text": "15%",
+   "status": "open"
+  },
+  {
+   "category": "loan",
+   "has_full_logic": true,
+   "id": "UNY",
+   "max_amount_inr": 450000,
+   "name_en": "Udyam Nidhi Yojana",
+   "name_hi": "उद्यम निधि योजना",
+   "one_line_en": "Up to ₹4.5 lakh through a cooperative or a small finance bank, at 13%–15%.",
+   "one_line_hi": "सहकारी या स्मॉल फाइनेंस बैंक के ज़रिए ₹4.5 लाख तक, 13%–15% ब्याज पर।",
+   "rate_text": "13%–15%",
+   "status": "open"
+  },
+  {
+   "category": "education",
+   "has_full_logic": true,
+   "id": "ELS",
+   "max_amount_inr": 4000000,
+   "name_en": "Education Loan Scheme",
+   "name_hi": "शिक्षा ऋण योजना",
+   "one_line_en": "Course fees up to ₹40 lakh, in India or abroad, at 6.5%.",
+   "one_line_hi": "भारत या विदेश में पढ़ाई की फीस ₹40 लाख तक, 6.5% ब्याज पर।",
+   "rate_text": "6.5%",
+   "status": "open"
+  },
+  {
+   "category": "subsidy",
+   "has_full_logic": false,
+   "id": "VISVAS",
+   "max_amount_inr": null,
+   "name_en": "VISVAS Yojana",
+   "name_hi": "विश्वास योजना",
+   "one_line_en": "Interest subvention on a loan already taken. Information only.",
+   "one_line_hi": "पहले से लिए गए कर्ज़ पर ब्याज सबवेंशन। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational"
+  },
+  {
+   "category": "subsidy",
+   "has_full_logic": false,
+   "id": "SEED",
+   "max_amount_inr": null,
+   "name_en": "SEED Scheme",
+   "name_hi": "सीड योजना",
+   "one_line_en": "Support for self-help groups rather than for one applicant. Information only.",
+   "one_line_hi": "एक आवेदक के बजाय स्वयं सहायता समूहों के लिए सहायता। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational"
+  },
+  {
+   "category": "education",
+   "has_full_logic": false,
+   "id": "NFSC",
+   "max_amount_inr": null,
+   "name_en": "National Fellowship for Scheduled Castes",
+   "name_hi": "अनुसूचित जाति के लिए राष्ट्रीय फेलोशिप",
+   "one_line_en": "A fellowship for Scheduled Caste research scholars. Information only.",
+   "one_line_hi": "अनुसूचित जाति के शोधार्थियों के लिए फेलोशिप। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational"
+  },
+  {
+   "category": "training",
+   "has_full_logic": false,
+   "id": "SKILL",
+   "max_amount_inr": null,
+   "name_en": "Skill Development Training",
+   "name_hi": "कौशल विकास प्रशिक्षण",
+   "one_line_en": "Free training in a trade, not money. Information only.",
+   "one_line_hi": "किसी काम का मुफ़्त प्रशिक्षण, पैसा नहीं। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational"
+  },
+  {
+   "category": "marketing",
+   "has_full_logic": false,
+   "id": "MARKET",
+   "max_amount_inr": null,
+   "name_en": "Marketing Support",
+   "name_hi": "विपणन सहायता",
+   "one_line_en": "A stall at an exhibition, so you can sell what you make. Information only.",
+   "one_line_hi": "प्रदर्शनी में स्टॉल, ताकि आप अपना बनाया सामान बेच सकें। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational"
+  },
+  {
+   "category": "loan",
+   "has_full_logic": false,
+   "id": "MSY",
+   "max_amount_inr": null,
+   "name_en": "Mahila Samriddhi Yojana",
+   "name_hi": "महिला समृद्धि योजना",
+   "one_line_en": "Closed to new applications. Micro Finance Scheme now serves this purpose.",
+   "one_line_hi": "नए आवेदनों के लिए बंद। अब यही काम सूक्ष्म वित्त योजना करती है।",
+   "rate_text": null,
+   "status": "closed"
+  },
+  {
+   "category": "loan",
+   "has_full_logic": false,
+   "id": "LVY",
+   "max_amount_inr": null,
+   "name_en": "Laghu Vyavsay Yojana",
+   "name_hi": "लघु व्यवसाय योजना",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed"
+  },
+  {
+   "category": "loan",
+   "has_full_logic": false,
+   "id": "UTKARSH",
+   "max_amount_inr": null,
+   "name_en": "Utkarsh",
+   "name_hi": "उत्कर्ष",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed"
+  },
+  {
+   "category": "loan",
+   "has_full_logic": false,
+   "id": "SUVIDHA",
+   "max_amount_inr": null,
+   "name_en": "Suvidha",
+   "name_hi": "सुविधा",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed"
+  }
+ ],
+ "detail": {
+  "AMY:en": {
+   "category": "loan",
+   "documents": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a livelihood or self-employment activity.",
+    "Project cost up to ₹1.4 lakh. NSFDC funds 90% of it, up to ₹1.25 lakh.",
+    "This loan is delivered only through an NBFC-MFI. That is why you pay 15%, while NSFDC charges that agency 5%."
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a livelihood or self-employment activity.",
+    "Project cost up to ₹1.4 lakh. NSFDC funds 90% of it, up to ₹1.25 lakh.",
+    "This loan is delivered only through an NBFC-MFI. That is why you pay 15%, while NSFDC charges that agency 5%."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा आजीविका या स्वरोज़गार के काम के लिए हो।",
+    "परियोजना लागत ₹1.4 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹1.25 लाख।",
+    "यह कर्ज़ केवल NBFC-MFI के ज़रिए मिलता है। इसीलिए आप 15% देते हैं, जबकि NSFDC उस एजेंसी से 5% लेता है।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "Apply through a micro-finance company (NBFC-MFI) that carries this scheme in your district.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "Before you sign: a Parliamentary Standing Committee called this 15% rate very high in August 2026. Compare it against Micro Finance Scheme, which covers the same project size at 6.5%.",
+    "Once sanctioned: 3 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_en": [
+    "Apply through a micro-finance company (NBFC-MFI) that carries this scheme in your district.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "Before you sign: a Parliamentary Standing Committee called this 15% rate very high in August 2026. Compare it against Micro Finance Scheme, which covers the same project size at 6.5%.",
+    "Once sanctioned: 3 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "अपने ज़िले में इस योजना को चलाने वाले माइक्रो-फाइनेंस कंपनी (NBFC-MFI) में आवेदन करें।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "हस्ताक्षर से पहले: अगस्त 2026 में संसदीय स्थायी समिति ने 15% की इस दर को बहुत ज़्यादा बताया था। सूक्ष्म वित्त योजना से तुलना करें, जो इतनी ही रकम 6.5% पर देती है।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 3 वर्ष में चुकाना होगा।"
+   ],
+   "id": "AMY",
+   "lang": "en",
+   "max_amount_inr": 125000,
+   "moratorium_text": "3-month",
+   "moratorium_text_en": "3-month",
+   "moratorium_text_hi": "3 महीने",
+   "name_en": "Aajeevika Micro-Finance Yojana",
+   "name_hi": "आजीविका माइक्रो-फाइनेंस योजना",
+   "one_line_en": "Up to ₹1.25 lakh through a micro-finance partner, at 15%.",
+   "one_line_hi": "माइक्रो-फाइनेंस पार्टनर के ज़रिए ₹1.25 लाख तक, 15% ब्याज पर।",
+   "rate_text": "15%",
+   "status": "open",
+   "tenure_text": "3 years",
+   "tenure_text_en": "3 years",
+   "tenure_text_hi": "3 वर्ष"
+  },
+  "AMY:hi": {
+   "category": "loan",
+   "documents": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा आजीविका या स्वरोज़गार के काम के लिए हो।",
+    "परियोजना लागत ₹1.4 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹1.25 लाख।",
+    "यह कर्ज़ केवल NBFC-MFI के ज़रिए मिलता है। इसीलिए आप 15% देते हैं, जबकि NSFDC उस एजेंसी से 5% लेता है।"
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a livelihood or self-employment activity.",
+    "Project cost up to ₹1.4 lakh. NSFDC funds 90% of it, up to ₹1.25 lakh.",
+    "This loan is delivered only through an NBFC-MFI. That is why you pay 15%, while NSFDC charges that agency 5%."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा आजीविका या स्वरोज़गार के काम के लिए हो।",
+    "परियोजना लागत ₹1.4 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹1.25 लाख।",
+    "यह कर्ज़ केवल NBFC-MFI के ज़रिए मिलता है। इसीलिए आप 15% देते हैं, जबकि NSFDC उस एजेंसी से 5% लेता है।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "अपने ज़िले में इस योजना को चलाने वाले माइक्रो-फाइनेंस कंपनी (NBFC-MFI) में आवेदन करें।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "हस्ताक्षर से पहले: अगस्त 2026 में संसदीय स्थायी समिति ने 15% की इस दर को बहुत ज़्यादा बताया था। सूक्ष्म वित्त योजना से तुलना करें, जो इतनी ही रकम 6.5% पर देती है।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 3 वर्ष में चुकाना होगा।"
+   ],
+   "how_to_apply_en": [
+    "Apply through a micro-finance company (NBFC-MFI) that carries this scheme in your district.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "Before you sign: a Parliamentary Standing Committee called this 15% rate very high in August 2026. Compare it against Micro Finance Scheme, which covers the same project size at 6.5%.",
+    "Once sanctioned: 3 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "अपने ज़िले में इस योजना को चलाने वाले माइक्रो-फाइनेंस कंपनी (NBFC-MFI) में आवेदन करें।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "हस्ताक्षर से पहले: अगस्त 2026 में संसदीय स्थायी समिति ने 15% की इस दर को बहुत ज़्यादा बताया था। सूक्ष्म वित्त योजना से तुलना करें, जो इतनी ही रकम 6.5% पर देती है।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 3 वर्ष में चुकाना होगा।"
+   ],
+   "id": "AMY",
+   "lang": "hi",
+   "max_amount_inr": 125000,
+   "moratorium_text": "3 महीने",
+   "moratorium_text_en": "3-month",
+   "moratorium_text_hi": "3 महीने",
+   "name_en": "Aajeevika Micro-Finance Yojana",
+   "name_hi": "आजीविका माइक्रो-फाइनेंस योजना",
+   "one_line_en": "Up to ₹1.25 lakh through a micro-finance partner, at 15%.",
+   "one_line_hi": "माइक्रो-फाइनेंस पार्टनर के ज़रिए ₹1.25 लाख तक, 15% ब्याज पर।",
+   "rate_text": "15%",
+   "status": "open",
+   "tenure_text": "3 वर्ष",
+   "tenure_text_en": "3 years",
+   "tenure_text_hi": "3 वर्ष"
+  },
+  "ELS:en": {
+   "category": "education",
+   "documents": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Admission letter from the institution",
+    "The institution's fee structure for the full course",
+    "Mark sheets of the last qualifying examination",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the student's or guardian's account",
+    "Two passport-size photographs"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Admission letter from the institution",
+    "The institution's fee structure for the full course",
+    "Mark sheets of the last qualifying examination",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the student's or guardian's account",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "संस्थान का प्रवेश पत्र",
+    "पूरे कोर्स की फीस का ब्यौरा",
+    "पिछली परीक्षा की अंकसूची",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "छात्र या अभिभावक के बैंक खाते की पासबुक",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The course must be a regular, full-time, government-approved professional or technical course, and recognised. Part-time and unrecognised courses do not qualify.",
+    "Course fees up to ₹40 lakh. NSFDC funds 90% of the fee, up to ₹40 lakh.",
+    "Repayment runs up to 12 years, and begins twelve months after the course ends."
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The course must be a regular, full-time, government-approved professional or technical course, and recognised. Part-time and unrecognised courses do not qualify.",
+    "Course fees up to ₹40 lakh. NSFDC funds 90% of the fee, up to ₹40 lakh.",
+    "Repayment runs up to 12 years, and begins twelve months after the course ends."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "कोर्स नियमित, पूर्णकालिक, सरकार-अनुमोदित पेशेवर या तकनीकी और मान्यता प्राप्त होना चाहिए। अंशकालिक या ग़ैर-मान्यता प्राप्त कोर्स नहीं चलेगा।",
+    "कोर्स फीस ₹40 लाख तक। NSFDC फीस का 90% देता है, अधिकतम ₹40 लाख।",
+    "चुकाने की अवधि 12 वर्ष तक; यह कोर्स खत्म होने के बारह महीने बाद शुरू होती है।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "NSFDC does not lend directly to a student. The loan comes through a channel partner in your state.",
+    "Take your documents, the admission letter and the fee structure to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: no instalment falls due until the course ends and twelve months have passed."
+   ],
+   "how_to_apply_en": [
+    "NSFDC does not lend directly to a student. The loan comes through a channel partner in your state.",
+    "Take your documents, the admission letter and the fee structure to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: no instalment falls due until the course ends and twelve months have passed."
+   ],
+   "how_to_apply_hi": [
+    "NSFDC सीधे किसी छात्र को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात, प्रवेश पत्र और फीस का ब्यौरा राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: कोर्स खत्म होने और बारह महीने बीतने तक कोई किस्त नहीं लगती।"
+   ],
+   "id": "ELS",
+   "lang": "en",
+   "max_amount_inr": 4000000,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Education Loan Scheme",
+   "name_hi": "शिक्षा ऋण योजना",
+   "one_line_en": "Course fees up to ₹40 lakh, in India or abroad, at 6.5%.",
+   "one_line_hi": "भारत या विदेश में पढ़ाई की फीस ₹40 लाख तक, 6.5% ब्याज पर।",
+   "rate_text": "6.5%",
+   "status": "open",
+   "tenure_text": "12 years",
+   "tenure_text_en": "12 years",
+   "tenure_text_hi": "12 वर्ष"
+  },
+  "ELS:hi": {
+   "category": "education",
+   "documents": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "संस्थान का प्रवेश पत्र",
+    "पूरे कोर्स की फीस का ब्यौरा",
+    "पिछली परीक्षा की अंकसूची",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "छात्र या अभिभावक के बैंक खाते की पासबुक",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Admission letter from the institution",
+    "The institution's fee structure for the full course",
+    "Mark sheets of the last qualifying examination",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the student's or guardian's account",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "संस्थान का प्रवेश पत्र",
+    "पूरे कोर्स की फीस का ब्यौरा",
+    "पिछली परीक्षा की अंकसूची",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "छात्र या अभिभावक के बैंक खाते की पासबुक",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "कोर्स नियमित, पूर्णकालिक, सरकार-अनुमोदित पेशेवर या तकनीकी और मान्यता प्राप्त होना चाहिए। अंशकालिक या ग़ैर-मान्यता प्राप्त कोर्स नहीं चलेगा।",
+    "कोर्स फीस ₹40 लाख तक। NSFDC फीस का 90% देता है, अधिकतम ₹40 लाख।",
+    "चुकाने की अवधि 12 वर्ष तक; यह कोर्स खत्म होने के बारह महीने बाद शुरू होती है।"
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The course must be a regular, full-time, government-approved professional or technical course, and recognised. Part-time and unrecognised courses do not qualify.",
+    "Course fees up to ₹40 lakh. NSFDC funds 90% of the fee, up to ₹40 lakh.",
+    "Repayment runs up to 12 years, and begins twelve months after the course ends."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "कोर्स नियमित, पूर्णकालिक, सरकार-अनुमोदित पेशेवर या तकनीकी और मान्यता प्राप्त होना चाहिए। अंशकालिक या ग़ैर-मान्यता प्राप्त कोर्स नहीं चलेगा।",
+    "कोर्स फीस ₹40 लाख तक। NSFDC फीस का 90% देता है, अधिकतम ₹40 लाख।",
+    "चुकाने की अवधि 12 वर्ष तक; यह कोर्स खत्म होने के बारह महीने बाद शुरू होती है।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "NSFDC सीधे किसी छात्र को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात, प्रवेश पत्र और फीस का ब्यौरा राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: कोर्स खत्म होने और बारह महीने बीतने तक कोई किस्त नहीं लगती।"
+   ],
+   "how_to_apply_en": [
+    "NSFDC does not lend directly to a student. The loan comes through a channel partner in your state.",
+    "Take your documents, the admission letter and the fee structure to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: no instalment falls due until the course ends and twelve months have passed."
+   ],
+   "how_to_apply_hi": [
+    "NSFDC सीधे किसी छात्र को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात, प्रवेश पत्र और फीस का ब्यौरा राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: कोर्स खत्म होने और बारह महीने बीतने तक कोई किस्त नहीं लगती।"
+   ],
+   "id": "ELS",
+   "lang": "hi",
+   "max_amount_inr": 4000000,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Education Loan Scheme",
+   "name_hi": "शिक्षा ऋण योजना",
+   "one_line_en": "Course fees up to ₹40 lakh, in India or abroad, at 6.5%.",
+   "one_line_hi": "भारत या विदेश में पढ़ाई की फीस ₹40 लाख तक, 6.5% ब्याज पर।",
+   "rate_text": "6.5%",
+   "status": "open",
+   "tenure_text": "12 वर्ष",
+   "tenure_text_en": "12 years",
+   "tenure_text_hi": "12 वर्ष"
+  },
+  "LVY:en": {
+   "category": "loan",
+   "documents": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "LVY",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Laghu Vyavsay Yojana",
+   "name_hi": "लघु व्यवसाय योजना",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "LVY:hi": {
+   "category": "loan",
+   "documents": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "LVY",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Laghu Vyavsay Yojana",
+   "name_hi": "लघु व्यवसाय योजना",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "MARKET:en": {
+   "category": "marketing",
+   "documents": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "MARKET",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Marketing Support",
+   "name_hi": "विपणन सहायता",
+   "one_line_en": "A stall at an exhibition, so you can sell what you make. Information only.",
+   "one_line_hi": "प्रदर्शनी में स्टॉल, ताकि आप अपना बनाया सामान बेच सकें। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "MARKET:hi": {
+   "category": "marketing",
+   "documents": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "MARKET",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Marketing Support",
+   "name_hi": "विपणन सहायता",
+   "one_line_en": "A stall at an exhibition, so you can sell what you make. Information only.",
+   "one_line_hi": "प्रदर्शनी में स्टॉल, ताकि आप अपना बनाया सामान बेच सकें। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "MFS:en": {
+   "category": "loan",
+   "documents": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity, not for study.",
+    "Project cost up to ₹1.4 lakh. NSFDC funds 90% of it, up to ₹1.25 lakh; the rest is your own contribution."
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity, not for study.",
+    "Project cost up to ₹1.4 lakh. NSFDC funds 90% of it, up to ₹1.25 lakh; the rest is your own contribution."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+    "परियोजना लागत ₹1.4 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹1.25 लाख; बाकी आपका अपना अंशदान है।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+    "Take your documents to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: 3 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_en": [
+    "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+    "Take your documents to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: 3 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 3 वर्ष में चुकाना होगा।"
+   ],
+   "id": "MFS",
+   "lang": "en",
+   "max_amount_inr": 125000,
+   "moratorium_text": "3-month",
+   "moratorium_text_en": "3-month",
+   "moratorium_text_hi": "3 महीने",
+   "name_en": "Micro Finance Scheme",
+   "name_hi": "सूक्ष्म वित्त योजना",
+   "one_line_en": "Up to ₹1.25 lakh for a small business, at 6.5%.",
+   "one_line_hi": "छोटे काम के लिए ₹1.25 लाख तक, 6.5% ब्याज पर।",
+   "rate_text": "6.5%",
+   "status": "open",
+   "tenure_text": "3 years",
+   "tenure_text_en": "3 years",
+   "tenure_text_hi": "3 वर्ष"
+  },
+  "MFS:hi": {
+   "category": "loan",
+   "documents": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+    "परियोजना लागत ₹1.4 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹1.25 लाख; बाकी आपका अपना अंशदान है।"
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity, not for study.",
+    "Project cost up to ₹1.4 lakh. NSFDC funds 90% of it, up to ₹1.25 lakh; the rest is your own contribution."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+    "परियोजना लागत ₹1.4 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹1.25 लाख; बाकी आपका अपना अंशदान है।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 3 वर्ष में चुकाना होगा।"
+   ],
+   "how_to_apply_en": [
+    "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+    "Take your documents to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: 3 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 3 वर्ष में चुकाना होगा।"
+   ],
+   "id": "MFS",
+   "lang": "hi",
+   "max_amount_inr": 125000,
+   "moratorium_text": "3 महीने",
+   "moratorium_text_en": "3-month",
+   "moratorium_text_hi": "3 महीने",
+   "name_en": "Micro Finance Scheme",
+   "name_hi": "सूक्ष्म वित्त योजना",
+   "one_line_en": "Up to ₹1.25 lakh for a small business, at 6.5%.",
+   "one_line_hi": "छोटे काम के लिए ₹1.25 लाख तक, 6.5% ब्याज पर।",
+   "rate_text": "6.5%",
+   "status": "open",
+   "tenure_text": "3 वर्ष",
+   "tenure_text_en": "3 years",
+   "tenure_text_hi": "3 वर्ष"
+  },
+  "MSY:en": {
+   "category": "loan",
+   "documents": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "This scheme is closed to new applications.",
+    "It is listed here because many applicants know NSFDC by this name and search for it — an empty result would tell you nothing.",
+    "Micro Finance Scheme covers the same need today: up to ₹1.25 lakh at 6.5%."
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It is listed here because many applicants know NSFDC by this name and search for it — an empty result would tell you nothing.",
+    "Micro Finance Scheme covers the same need today: up to ₹1.25 lakh at 6.5%."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि बहुत से लोग NSFDC को इसी नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।",
+    "आज यही ज़रूरत सूक्ष्म वित्त योजना पूरी करती है: ₹1.25 लाख तक, 6.5% पर।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "No new applications are accepted under this name.",
+    "Apply under Micro Finance Scheme instead — the same purpose, 6.5%, up to ₹1.25 lakh.",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted under this name.",
+    "Apply under Micro Finance Scheme instead — the same purpose, 6.5%, up to ₹1.25 lakh.",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "इस नाम से नए आवेदन नहीं लिए जा रहे।",
+    "इसके बजाय सूक्ष्म वित्त योजना में आवेदन करें — वही उद्देश्य, 6.5%, ₹1.25 लाख तक।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "MSY",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Mahila Samriddhi Yojana",
+   "name_hi": "महिला समृद्धि योजना",
+   "one_line_en": "Closed to new applications. Micro Finance Scheme now serves this purpose.",
+   "one_line_hi": "नए आवेदनों के लिए बंद। अब यही काम सूक्ष्म वित्त योजना करती है।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "MSY:hi": {
+   "category": "loan",
+   "documents": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि बहुत से लोग NSFDC को इसी नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।",
+    "आज यही ज़रूरत सूक्ष्म वित्त योजना पूरी करती है: ₹1.25 लाख तक, 6.5% पर।"
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It is listed here because many applicants know NSFDC by this name and search for it — an empty result would tell you nothing.",
+    "Micro Finance Scheme covers the same need today: up to ₹1.25 lakh at 6.5%."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि बहुत से लोग NSFDC को इसी नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।",
+    "आज यही ज़रूरत सूक्ष्म वित्त योजना पूरी करती है: ₹1.25 लाख तक, 6.5% पर।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "इस नाम से नए आवेदन नहीं लिए जा रहे।",
+    "इसके बजाय सूक्ष्म वित्त योजना में आवेदन करें — वही उद्देश्य, 6.5%, ₹1.25 लाख तक।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted under this name.",
+    "Apply under Micro Finance Scheme instead — the same purpose, 6.5%, up to ₹1.25 lakh.",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "इस नाम से नए आवेदन नहीं लिए जा रहे।",
+    "इसके बजाय सूक्ष्म वित्त योजना में आवेदन करें — वही उद्देश्य, 6.5%, ₹1.25 लाख तक।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "MSY",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Mahila Samriddhi Yojana",
+   "name_hi": "महिला समृद्धि योजना",
+   "one_line_en": "Closed to new applications. Micro Finance Scheme now serves this purpose.",
+   "one_line_hi": "नए आवेदनों के लिए बंद। अब यही काम सूक्ष्म वित्त योजना करती है।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "NFSC:en": {
+   "category": "education",
+   "documents": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "NFSC",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "National Fellowship for Scheduled Castes",
+   "name_hi": "अनुसूचित जाति के लिए राष्ट्रीय फेलोशिप",
+   "one_line_en": "A fellowship for Scheduled Caste research scholars. Information only.",
+   "one_line_hi": "अनुसूचित जाति के शोधार्थियों के लिए फेलोशिप। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "NFSC:hi": {
+   "category": "education",
+   "documents": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "NFSC",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "National Fellowship for Scheduled Castes",
+   "name_hi": "अनुसूचित जाति के लिए राष्ट्रीय फेलोशिप",
+   "one_line_en": "A fellowship for Scheduled Caste research scholars. Information only.",
+   "one_line_hi": "अनुसूचित जाति के शोधार्थियों के लिए फेलोशिप। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "SEED:en": {
+   "category": "subsidy",
+   "documents": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "SEED",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "SEED Scheme",
+   "name_hi": "सीड योजना",
+   "one_line_en": "Support for self-help groups rather than for one applicant. Information only.",
+   "one_line_hi": "एक आवेदक के बजाय स्वयं सहायता समूहों के लिए सहायता। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "SEED:hi": {
+   "category": "subsidy",
+   "documents": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "SEED",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "SEED Scheme",
+   "name_hi": "सीड योजना",
+   "one_line_en": "Support for self-help groups rather than for one applicant. Information only.",
+   "one_line_hi": "एक आवेदक के बजाय स्वयं सहायता समूहों के लिए सहायता। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "SKILL:en": {
+   "category": "training",
+   "documents": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "SKILL",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Skill Development Training",
+   "name_hi": "कौशल विकास प्रशिक्षण",
+   "one_line_en": "Free training in a trade, not money. Information only.",
+   "one_line_hi": "किसी काम का मुफ़्त प्रशिक्षण, पैसा नहीं। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "SKILL:hi": {
+   "category": "training",
+   "documents": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "SKILL",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Skill Development Training",
+   "name_hi": "कौशल विकास प्रशिक्षण",
+   "one_line_en": "Free training in a trade, not money. Information only.",
+   "one_line_hi": "किसी काम का मुफ़्त प्रशिक्षण, पैसा नहीं। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "SUVIDHA:en": {
+   "category": "loan",
+   "documents": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "SUVIDHA",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Suvidha",
+   "name_hi": "सुविधा",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "SUVIDHA:hi": {
+   "category": "loan",
+   "documents": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "SUVIDHA",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Suvidha",
+   "name_hi": "सुविधा",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "TL:en": {
+   "category": "loan",
+   "documents": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity, not for study.",
+    "Project cost from ₹1,40,001 up to ₹50 lakh. Below ₹1,40,001 this is the wrong scheme — Micro Finance Scheme covers that range.",
+    "NSFDC funds 90% of the project, up to ₹45 lakh."
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity, not for study.",
+    "Project cost from ₹1,40,001 up to ₹50 lakh. Below ₹1,40,001 this is the wrong scheme — Micro Finance Scheme covers that range.",
+    "NSFDC funds 90% of the project, up to ₹45 lakh."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+    "परियोजना लागत ₹1,40,001 से ₹50 लाख तक। इससे कम पर यह ग़लत योजना है — उतनी रकम सूक्ष्म वित्त योजना में आती है।",
+    "NSFDC परियोजना का 90% देता है, अधिकतम ₹45 लाख।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+    "Take your documents to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: 7 years to repay in quarterly instalments, after a 6-month moratorium."
+   ],
+   "how_to_apply_en": [
+    "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+    "Take your documents to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: 7 years to repay in quarterly instalments, after a 6-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: 6 महीने की मोहलत के बाद, तिमाही किस्तों में 7 वर्ष में चुकाना होगा।"
+   ],
+   "id": "TL",
+   "lang": "en",
+   "max_amount_inr": 4500000,
+   "moratorium_text": "6-month",
+   "moratorium_text_en": "6-month",
+   "moratorium_text_hi": "6 महीने",
+   "name_en": "Term Loan",
+   "name_hi": "मियादी ऋण",
+   "one_line_en": "For a bigger project — ₹1,40,001 and above — at 8% over 7 years.",
+   "one_line_hi": "बड़े काम के लिए — ₹1,40,001 से ऊपर — 8% पर, 7 वर्ष के लिए।",
+   "rate_text": "8%",
+   "status": "open",
+   "tenure_text": "7 years",
+   "tenure_text_en": "7 years",
+   "tenure_text_hi": "7 वर्ष"
+  },
+  "TL:hi": {
+   "category": "loan",
+   "documents": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+    "परियोजना लागत ₹1,40,001 से ₹50 लाख तक। इससे कम पर यह ग़लत योजना है — उतनी रकम सूक्ष्म वित्त योजना में आती है।",
+    "NSFDC परियोजना का 90% देता है, अधिकतम ₹45 लाख।"
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity, not for study.",
+    "Project cost from ₹1,40,001 up to ₹50 lakh. Below ₹1,40,001 this is the wrong scheme — Micro Finance Scheme covers that range.",
+    "NSFDC funds 90% of the project, up to ₹45 lakh."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+    "परियोजना लागत ₹1,40,001 से ₹50 लाख तक। इससे कम पर यह ग़लत योजना है — उतनी रकम सूक्ष्म वित्त योजना में आती है।",
+    "NSFDC परियोजना का 90% देता है, अधिकतम ₹45 लाख।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: 6 महीने की मोहलत के बाद, तिमाही किस्तों में 7 वर्ष में चुकाना होगा।"
+   ],
+   "how_to_apply_en": [
+    "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+    "Take your documents to a State Channelizing Agency, public sector bank or regional rural bank.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+    "Once sanctioned: 7 years to repay in quarterly instalments, after a 6-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+    "अपने कागज़ात राज्य चैनलाइज़िंग एजेंसी, सार्वजनिक क्षेत्र के बैंक या क्षेत्रीय ग्रामीण बैंक में ले जाएँ।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+    "स्वीकृति के बाद: 6 महीने की मोहलत के बाद, तिमाही किस्तों में 7 वर्ष में चुकाना होगा।"
+   ],
+   "id": "TL",
+   "lang": "hi",
+   "max_amount_inr": 4500000,
+   "moratorium_text": "6 महीने",
+   "moratorium_text_en": "6-month",
+   "moratorium_text_hi": "6 महीने",
+   "name_en": "Term Loan",
+   "name_hi": "मियादी ऋण",
+   "one_line_en": "For a bigger project — ₹1,40,001 and above — at 8% over 7 years.",
+   "one_line_hi": "बड़े काम के लिए — ₹1,40,001 से ऊपर — 8% पर, 7 वर्ष के लिए।",
+   "rate_text": "8%",
+   "status": "open",
+   "tenure_text": "7 वर्ष",
+   "tenure_text_en": "7 years",
+   "tenure_text_hi": "7 वर्ष"
+  },
+  "UNY:en": {
+   "category": "loan",
+   "documents": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity.",
+    "Project cost up to ₹5 lakh. NSFDC funds 90% of it, up to ₹4.5 lakh.",
+    "What you pay depends on which door you use: 13% through a cooperative, 15% through a small finance bank."
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity.",
+    "Project cost up to ₹5 lakh. NSFDC funds 90% of it, up to ₹4.5 lakh.",
+    "What you pay depends on which door you use: 13% through a cooperative, 15% through a small finance bank."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो।",
+    "परियोजना लागत ₹5 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹4.5 लाख।",
+    "आप कितना देंगे यह दरवाज़े पर निर्भर है: सहकारी से 13%, स्मॉल फाइनेंस बैंक से 15%।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "Apply through a cooperative bank, cooperative society or small finance bank that carries this scheme in your district.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "Ask which rate applies before you sign — the gap between 13% and 15% is the same loan at two prices.",
+    "Once sanctioned: 5 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_en": [
+    "Apply through a cooperative bank, cooperative society or small finance bank that carries this scheme in your district.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "Ask which rate applies before you sign — the gap between 13% and 15% is the same loan at two prices.",
+    "Once sanctioned: 5 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "अपने ज़िले में इस योजना को चलाने वाले सहकारी बैंक, सहकारी समिति या स्मॉल फाइनेंस बैंक में आवेदन करें।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "हस्ताक्षर से पहले पूछें कि कौन सी दर लगेगी — 13% और 15% का फ़र्क़ एक ही कर्ज़ की दो क़ीमतें हैं।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 5 वर्ष में चुकाना होगा।"
+   ],
+   "id": "UNY",
+   "lang": "en",
+   "max_amount_inr": 450000,
+   "moratorium_text": "3-month",
+   "moratorium_text_en": "3-month",
+   "moratorium_text_hi": "3 महीने",
+   "name_en": "Udyam Nidhi Yojana",
+   "name_hi": "उद्यम निधि योजना",
+   "one_line_en": "Up to ₹4.5 lakh through a cooperative or a small finance bank, at 13%–15%.",
+   "one_line_hi": "सहकारी या स्मॉल फाइनेंस बैंक के ज़रिए ₹4.5 लाख तक, 13%–15% ब्याज पर।",
+   "rate_text": "13%–15%",
+   "status": "open",
+   "tenure_text": "5 years",
+   "tenure_text_en": "5 years",
+   "tenure_text_hi": "5 वर्ष"
+  },
+  "UNY:hi": {
+   "category": "loan",
+   "documents": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "documents_en": [
+    "Caste certificate (Scheduled Caste)",
+    "Income certificate — annual family income up to ₹5 lakh",
+    "Aadhaar or another photo identity proof",
+    "Proof of address",
+    "Bank passbook of the applicant's account",
+    "A cost estimate or quotation for the work you plan to do",
+    "Two passport-size photographs"
+   ],
+   "documents_hi": [
+    "जाति प्रमाण पत्र (अनुसूचित जाति)",
+    "आय प्रमाण पत्र — वार्षिक पारिवारिक आय ₹5 लाख तक",
+    "आधार या अन्य फोटो पहचान पत्र",
+    "निवास प्रमाण पत्र",
+    "आवेदक के बैंक खाते की पासबुक",
+    "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+    "दो पासपोर्ट आकार के फोटो"
+   ],
+   "eligibility_text": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो।",
+    "परियोजना लागत ₹5 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹4.5 लाख।",
+    "आप कितना देंगे यह दरवाज़े पर निर्भर है: सहकारी से 13%, स्मॉल फाइनेंस बैंक से 15%।"
+   ],
+   "eligibility_text_en": [
+    "You must belong to a Scheduled Caste.",
+    "Annual family income up to ₹5 lakh.",
+    "The money is for a business or a self-employment activity.",
+    "Project cost up to ₹5 lakh. NSFDC funds 90% of it, up to ₹4.5 lakh.",
+    "What you pay depends on which door you use: 13% through a cooperative, 15% through a small finance bank."
+   ],
+   "eligibility_text_hi": [
+    "आवेदक अनुसूचित जाति से होना चाहिए।",
+    "वार्षिक पारिवारिक आय ₹5 लाख तक।",
+    "पैसा कारोबार या स्वरोज़गार के लिए हो।",
+    "परियोजना लागत ₹5 लाख तक। NSFDC इसका 90% देता है, अधिकतम ₹4.5 लाख।",
+    "आप कितना देंगे यह दरवाज़े पर निर्भर है: सहकारी से 13%, स्मॉल फाइनेंस बैंक से 15%।"
+   ],
+   "has_full_logic": true,
+   "how_to_apply": [
+    "अपने ज़िले में इस योजना को चलाने वाले सहकारी बैंक, सहकारी समिति या स्मॉल फाइनेंस बैंक में आवेदन करें।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "हस्ताक्षर से पहले पूछें कि कौन सी दर लगेगी — 13% और 15% का फ़र्क़ एक ही कर्ज़ की दो क़ीमतें हैं।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 5 वर्ष में चुकाना होगा।"
+   ],
+   "how_to_apply_en": [
+    "Apply through a cooperative bank, cooperative society or small finance bank that carries this scheme in your district.",
+    "The partner checks the case and sends it to NSFDC for sanction.",
+    "Ask which rate applies before you sign — the gap between 13% and 15% is the same loan at two prices.",
+    "Once sanctioned: 5 years to repay in quarterly instalments, after a 3-month moratorium."
+   ],
+   "how_to_apply_hi": [
+    "अपने ज़िले में इस योजना को चलाने वाले सहकारी बैंक, सहकारी समिति या स्मॉल फाइनेंस बैंक में आवेदन करें।",
+    "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+    "हस्ताक्षर से पहले पूछें कि कौन सी दर लगेगी — 13% और 15% का फ़र्क़ एक ही कर्ज़ की दो क़ीमतें हैं।",
+    "स्वीकृति के बाद: 3 महीने की मोहलत के बाद, तिमाही किस्तों में 5 वर्ष में चुकाना होगा।"
+   ],
+   "id": "UNY",
+   "lang": "hi",
+   "max_amount_inr": 450000,
+   "moratorium_text": "3 महीने",
+   "moratorium_text_en": "3-month",
+   "moratorium_text_hi": "3 महीने",
+   "name_en": "Udyam Nidhi Yojana",
+   "name_hi": "उद्यम निधि योजना",
+   "one_line_en": "Up to ₹4.5 lakh through a cooperative or a small finance bank, at 13%–15%.",
+   "one_line_hi": "सहकारी या स्मॉल फाइनेंस बैंक के ज़रिए ₹4.5 लाख तक, 13%–15% ब्याज पर।",
+   "rate_text": "13%–15%",
+   "status": "open",
+   "tenure_text": "5 वर्ष",
+   "tenure_text_en": "5 years",
+   "tenure_text_hi": "5 वर्ष"
+  },
+  "UTKARSH:en": {
+   "category": "loan",
+   "documents": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "UTKARSH",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Utkarsh",
+   "name_hi": "उत्कर्ष",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "UTKARSH:hi": {
+   "category": "loan",
+   "documents": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "documents_en": [
+    "Not applicable — no new applications are accepted under this scheme."
+   ],
+   "documents_hi": [
+    "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+   ],
+   "eligibility_text": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "eligibility_text_en": [
+    "This scheme is closed to new applications.",
+    "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+    "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+   ],
+   "eligibility_text_hi": [
+    "यह योजना नए आवेदनों के लिए बंद है।",
+    "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+    "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "how_to_apply_en": [
+    "No new applications are accepted.",
+    "For a scheme that is open today, see Micro Finance Scheme (up to ₹1.25 lakh at 6.5%) or Term Loan (from ₹1,40,001, at 8%).",
+    "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+   ],
+   "how_to_apply_hi": [
+    "नए आवेदन नहीं लिए जा रहे।",
+    "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना (₹1.25 लाख तक, 6.5% पर) या मियादी ऋण (₹1,40,001 से, 8% पर)।",
+    "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+   ],
+   "id": "UTKARSH",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "Utkarsh",
+   "name_hi": "उत्कर्ष",
+   "one_line_en": "Closed to new applications.",
+   "one_line_hi": "नए आवेदनों के लिए बंद।",
+   "rate_text": null,
+   "status": "closed",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "VISVAS:en": {
+   "category": "subsidy",
+   "documents": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "VISVAS",
+   "lang": "en",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "VISVAS Yojana",
+   "name_hi": "विश्वास योजना",
+   "one_line_en": "Interest subvention on a loan already taken. Information only.",
+   "one_line_hi": "पहले से लिए गए कर्ज़ पर ब्याज सबवेंशन। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  },
+  "VISVAS:hi": {
+   "category": "subsidy",
+   "documents": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "documents_en": [
+    "We do not hold a verified document list for this scheme.",
+    "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+   ],
+   "documents_hi": [
+    "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+    "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+   ],
+   "eligibility_text": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "eligibility_text_en": [
+    "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to ₹5 lakh.",
+    "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+    "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+   ],
+   "eligibility_text_hi": [
+    "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय ₹5 लाख तक हो।",
+    "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+    "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+   ],
+   "has_full_logic": false,
+   "how_to_apply": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "how_to_apply_en": [
+    "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+    "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+   ],
+   "how_to_apply_hi": [
+    "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+    "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+   ],
+   "id": "VISVAS",
+   "lang": "hi",
+   "max_amount_inr": null,
+   "moratorium_text": null,
+   "moratorium_text_en": null,
+   "moratorium_text_hi": null,
+   "name_en": "VISVAS Yojana",
+   "name_hi": "विश्वास योजना",
+   "one_line_en": "Interest subvention on a loan already taken. Information only.",
+   "one_line_hi": "पहले से लिए गए कर्ज़ पर ब्याज सबवेंशन। केवल जानकारी।",
+   "rate_text": null,
+   "status": "informational",
+   "tenure_text": null,
+   "tenure_text_en": null,
+   "tenure_text_hi": null
+  }
+ }
+}

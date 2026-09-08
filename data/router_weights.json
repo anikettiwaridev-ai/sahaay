@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "spec": "docs/ENGINE_SPEC.md §5.4",
+    "status": "CHOICE — our modelling, not an NSFDC parameter. A judge may argue with it; a builder may not silently change it.",
+    "formula": "score = distance_km + rate_weight * (rate - best_rate_for_scheme) + band_penalty",
+    "printed_in_why_panel": true
+  },
+  "distance_km_weight": 1,
+  "rate_weight": 40,
+  "rate_weight_rationale": "One percentage point on a Rs 1.25 lakh three-year loan is roughly Rs 2,000, which is the order of a day's lost wages plus travel over about 40 km.",
+  "band_penalty": {
+    "strong": 0,
+    "ok": 0,
+    "slow": 60,
+    "weak": 200,
+    "none": null
+  },
+  "band_penalty_none_means": "excluded, not demoted — the partner is never emitted (ENGINE_SPEC §5.4). JSON has no infinity, so null carries it.",
+  "band_penalty_applies_to_types": [
+    "SCA"
+  ],
+  "band_penalty_scope_rationale": "State utilisation measures the state channel, which is dominated by the SCA. A national bank's branch is not governed by it, and attributing the state's band to that bank would be an unsupported claim about it. Every other partner type takes penalty 0.",
+  "per_committee_non_performing_penalty": 200,
+  "no_hard_demotion_rule": "There is none. The penalty is the whole mechanism. The cheaper door is always shown, with its warning, and the applicant chooses.",
+  "unknown_distance": {
+    "rule": "A bank or RRB partner with no branch in the applicant's district is scored with distance_km = median(known distances) and returned with distance_km: null and the note below. It is never silently placed at its head office.",
+    "distance_note_en": "branch — confirm locally",
+    "distance_note_hi": "शाखा — स्थानीय रूप से पुष्टि करें",
+    "applies_to_types": [
+      "PSB",
+      "RRB",
+      "SFB",
+      "NBFC_MFI",
+      "COOP_BANK",
+      "COOP_SOCIETY",
+      "OTHER"
+    ],
+    "applies_to_types_note": "ENGINE_SPEC §5.4 words this rule as 'a bank or RRB partner'. Phase 0 found that reading leaves AMY with no reachable door in Madhya Pradesh -- NSFDC lists seven NBFC-MFIs and none is in MP -- which costs persona 1 the second term of its Rs 18,061 wrong_door_cost, the number the pitch leads with. Widening the rule to every non-SCA type keeps AMY on Sunita's list with distance_km: null and 'confirm locally', which is what we actually know. SCA is deliberately absent: an SCA is a state corporation and does not exist outside its own state, so it must stay excluded rather than reachable-at-unknown-distance. PROPOSED AMENDMENT -- see PROPOSED-SPEC-AMENDMENTS.md item 2. Set this back to ['PSB','RRB'] to get the literal §5.4 behaviour."
+  },
+  "max_routes_per_scheme": 3,
+  "sca_excluded_when": "has_sca == false for the applicant's state (Telangana, Ladakh). An SCA in such a state does not exist and is never emitted.",
+  "warnings": {
+    "band_warning_when": "partner type is SCA and band is one of slow, weak, none — or sca_status == per_committee_non_performing",
+    "no_sca_in_state_when": "state has_sca == false",
+    "rule": "Every warning carries the alternative in the same sentence."
+  }
+}

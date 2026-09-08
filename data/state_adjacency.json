@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "spec": "docs/ENGINE_SPEC.md §5.6",
+    "use": "eligible_no_channel fallback suggestions ONLY. Never used for primary routing.",
+    "basis": "Land borders between Indian states and union territories. Island UTs (Andaman & Nicobar, Lakshadweep) and enclave UTs with no land neighbour list their nearest mainland state instead, marked below.",
+    "symmetric": true,
+    "count": 36
+  },
+  "neighbours": {
+    "AN": [],
+    "AP": ["TG", "OD", "CG", "KA", "TN"],
+    "AR": ["AS", "NL"],
+    "AS": ["AR", "NL", "MN", "MZ", "TR", "ML", "WB"],
+    "BR": ["UP", "JH", "WB"],
+    "CG": ["MP", "MH", "TG", "AP", "OD", "JH", "UP"],
+    "CH": ["PB", "HR"],
+    "DH": ["GJ", "MH"],
+    "DL": ["HR", "UP"],
+    "GA": ["MH", "KA"],
+    "GJ": ["RJ", "MP", "MH", "DH"],
+    "HP": ["JK", "PB", "HR", "UK"],
+    "HR": ["PB", "HP", "UK", "UP", "RJ", "DL", "CH"],
+    "JH": ["BR", "UP", "CG", "OD", "WB"],
+    "JK": ["LA", "HP", "PB"],
+    "KA": ["GA", "MH", "TG", "AP", "TN", "KL"],
+    "KL": ["KA", "TN"],
+    "LA": ["JK", "HP"],
+    "LD": ["KL"],
+    "MH": ["GJ", "MP", "CG", "TG", "KA", "GA", "DH"],
+    "ML": ["AS"],
+    "MN": ["NL", "MZ", "AS"],
+    "MP": ["UP", "CG", "MH", "GJ", "RJ"],
+    "MZ": ["MN", "AS", "TR"],
+    "NL": ["AR", "AS", "MN"],
+    "OD": ["WB", "JH", "CG", "AP"],
+    "PB": ["JK", "HP", "HR", "RJ", "CH"],
+    "PY": ["TN", "AP", "KL"],
+    "RJ": ["PB", "HR", "UP", "MP", "GJ"],
+    "SK": ["WB"],
+    "TG": ["MH", "CG", "OD", "AP", "KA"],
+    "TN": ["KL", "KA", "AP", "PY"],
+    "TR": ["AS", "MZ"],
+    "UK": ["HP", "HR", "UP"],
+    "UP": ["UK", "HP", "HR", "RJ", "MP", "CG", "JH", "BR", "DL"],
+    "WB": ["BR", "JH", "OD", "SK", "AS"]
+  },
+  "island_or_detached": {
+    "AN": "island UT, no land neighbour; no NSFDC channel partner is listed for it",
+    "LD": "island UT; nearest mainland state Kerala",
+    "PY": "non-contiguous UT; its districts sit inside Tamil Nadu, Andhra Pradesh and Kerala"
+  }
+}

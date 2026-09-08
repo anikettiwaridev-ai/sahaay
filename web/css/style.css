@@ -1,0 +1,1528 @@
+/* ==========================================================================
+   Sahaay - page layout and component styles.
+
+   This file is the ONLY stylesheet besides gov.css (which holds the design
+   tokens and the base element rules). Everything the site renders is styled
+   here, whether the markup was written by hand into a .html file or built at
+   runtime by js/pages.js.
+
+   That last part is the thing to know before editing. Track B wrote each page
+   with styled placeholder markup; js/pages.js then REPLACES most of that
+   markup with nodes it builds from the API. The two used different class
+   names, so the live page lost its styling the moment the data arrived. Both
+   vocabularies are therefore defined here, side by side, with the runtime one
+   marked "js/pages.js emits this". Delete neither.
+
+   Order: shared primitives, then the header, then one section per page.
+   ========================================================================== */
+
+
+/* ==========================================================================
+   1. Shared primitives
+   ========================================================================== */
+
+.muted {                                    /* js/pages.js emits this */
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.error {                                    /* js/pages.js emits this */
+  background-color: var(--color-stop-bg);
+  color: var(--color-stop);
+  border: 1px solid var(--color-stop);
+  border-radius: 4px;
+  padding: 12px 14px;
+  font-size: 0.9rem;
+}
+
+.yes,                                       /* js/pages.js emits this */
+.no {                                       /* js/pages.js emits this */
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-top: 4px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.yes {
+  background-color: var(--color-good-bg);
+  color: var(--color-good);
+  border: 1px solid var(--color-good);
+}
+
+.no {
+  background-color: var(--color-warn-bg);
+  color: var(--color-warn);
+  border: 1px solid var(--color-warn);
+}
+
+/* A button that reads as a link. Used for "create a profile", "ask a
+   question" and the other secondary exits. */
+.btn-link {                                 /* js/pages.js emits this */
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding: 0 4px;
+  min-height: var(--min-touch);
+  font-weight: 600;
+}
+
+.btn-link:hover, .btn-link:focus {
+  color: var(--color-primary-dark);
+}
+
+/* The "View details" button on a scheme card. Full width so a grid of cards
+   ends on a straight line. */
+.btn-view {                                 /* js/pages.js emits this */
+  width: 100%;
+  background-color: #FFFFFF;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  margin-top: 4px;
+}
+
+.btn-view:hover, .btn-view:focus {
+  background-color: var(--color-bg-alt);
+}
+
+/* ---------------------------------------------------------------- pills */
+
+/* The category pill. .cat-pill is the hand-written name, .pill the runtime
+   one; they are the same object and must look identical. */
+.cat-pill,
+.pill {                                     /* js/pages.js emits this */
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 9px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  background-color: var(--color-bg-alt);
+  color: var(--color-text-muted);
+}
+
+.cat-loan,       .pill-loan       { background-color: #E3F2FD; color: #1565C0; }
+.cat-education,  .pill-education  { background-color: #F3E5F5; color: #7B1FA2; }
+.cat-subsidy,    .pill-subsidy    { background-color: #E8F5E9; color: #2E7D32; }
+.cat-training,   .pill-training   { background-color: #FFF3E0; color: #E65100; }
+.cat-marketing,  .pill-marketing  { background-color: #ECEFF1; color: #37474F; }
+
+/* The status dot. A coloured disc before the word, so status reads at a
+   glance without relying on colour alone - the word is always there too. */
+.status {                                   /* js/pages.js emits this */
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--color-text-muted);
+}
+
+.status::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: currentColor;
+  flex: none;
+}
+
+.status-open          { color: var(--color-good); }
+.status-informational { color: var(--color-text-muted); }
+.status-closed        { color: var(--color-stop); }
+
+/* State utilisation bands, on the partner rows. These carry NSFDC's own
+   published state-level figures and nothing else - never a per-partner
+   judgement. See PROJECT-CONTEXT.md section 8. */
+.band-strong { background-color: var(--color-good-bg); color: var(--color-good); }
+.band-ok     { background-color: var(--color-good-bg); color: var(--color-good); }
+.band-slow   { background-color: var(--color-warn-bg); color: var(--color-warn); }
+.band-weak   { background-color: var(--color-stop-bg); color: var(--color-stop); }
+.band-none   { background-color: var(--color-bg-alt);  color: var(--color-text-muted); }
+
+/* A category pill is one word and stays on one line. A band pill is a whole
+   sentence -- "This state used less than half of its allocation in 2025-26."
+   -- and inherits nowrap from .pill, which pushed match.html to 472px at a
+   360px viewport. It wraps, and reads as a sentence rather than a tag. */
+.band-strong, .band-ok, .band-slow, .band-weak, .band-none {
+  white-space: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.util-pill {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: var(--color-good-bg);
+  color: var(--color-good);
+}
+
+/* ------------------------------------------------------- label/value row */
+
+.kv {                                       /* js/pages.js emits this */
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.kv:last-child { border-bottom: none; }
+
+.kv-label {                                 /* js/pages.js emits this */
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.kv-value {                                 /* js/pages.js emits this */
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+
+/* ==========================================================================
+   2. The header, on every page
+   ========================================================================== */
+
+#site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.nav-logo-icon { font-size: 1.8rem; line-height: 1; }
+
+.nav-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-primary);
+}
+
+.nav-subtitle {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Both the hand-written <li><a> links and the bare <a class="nav-link">
+   that App.renderNav() writes into the same container. */
+.nav-links a,
+.nav-link {                                 /* js/app.js emits this */
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 500;
+  padding: 8px 4px;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.nav-links a:hover,
+.nav-links a.active,
+.nav-link:hover,
+.nav-link[aria-current="page"] {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+/* The right-hand end of the header: either a Login link, or the signed-in
+   user's name and a Sign out button. */
+.nav-account {                              /* js/app.js emits this */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav-user {                                 /* js/app.js emits this */
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.nav-login {                                /* js/app.js emits this */
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  color: var(--color-primary);
+  padding: 8px 14px;
+  font-weight: 600;
+}
+
+.nav-login:hover, .nav-login:focus {
+  background-color: var(--color-bg-alt);
+  border-bottom-color: var(--color-primary);
+}
+
+.nav-logout {                               /* js/app.js emits this */
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text-muted);
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.nav-logout:hover, .nav-logout:focus {
+  color: var(--color-stop);
+  border-color: var(--color-stop);
+}
+
+#lang-toggle {
+  min-height: 38px;
+  padding: 0 12px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#lang-toggle:hover, #lang-toggle:focus {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  #site-nav { flex-direction: column; align-items: flex-start; }
+  .nav-controls { width: 100%; justify-content: space-between; }
+}
+
+
+/* ==========================================================================
+   3. index.html - home
+   ========================================================================== */
+
+.hero-band {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  padding: 56px 0;
+}
+
+.hero-content { max-width: 800px; }
+
+.hero-band h1 {
+  color: #FFFFFF;
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+.hero-band h2 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 16px;
+}
+
+.hero-desc {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  opacity: 0.95;
+}
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; }
+
+.stat-strip {
+  background-color: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+  padding: 32px 0;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.stat-item { text-align: center; padding: 8px; }
+
+.stat-number {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.stat-label { font-size: 0.9rem; color: var(--color-text-muted); }
+
+.stat-source {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.section-padding { padding: 48px 0; }
+
+.section-title { text-align: center; margin-bottom: 36px; }
+
+.card-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+
+.step-card { position: relative; }
+
+.step-number {
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 600px) {
+  .stat-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .stat-grid   { grid-template-columns: repeat(4, 1fr); }
+  .card-grid-3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+/* ==========================================================================
+   4. login.html
+   ========================================================================== */
+
+.login-container {
+  max-width: 420px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+
+.login-error-box,
+#login-error:not(:empty) {
+  background-color: var(--color-stop-bg);
+  color: var(--color-stop);
+  border: 1px solid var(--color-stop);
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.login-error-box:empty,
+#login-error:empty { display: none; }
+
+.demo-box {
+  border: 2px dashed var(--color-border);
+  background-color: var(--color-bg-alt);
+  padding: 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  margin-top: 24px;
+}
+
+.demo-box code {
+  background: #E3E8EF;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.bypass-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+
+/* ==========================================================================
+   5. Forms - login.html, profile.html, wizard.html
+   ========================================================================== */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.form-control {
+  width: 100%;
+  min-height: var(--min-touch);
+  padding: 10px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.form-control:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -1px;
+  border-color: transparent;
+}
+
+.form-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 6px;
+  margin: 24px 0 16px 0;
+}
+
+.form-section-title:first-child { margin-top: 0; }
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.form-grid .form-group { margin-bottom: 0; }
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--min-touch);
+  cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--color-primary);
+  flex: none;
+}
+
+@media (min-width: 600px) {
+  .form-grid-2 { grid-template-columns: 1fr 1fr; }
+}
+
+
+/* ==========================================================================
+   6. profile.html
+   ========================================================================== */
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+@media (min-width: 800px) {
+  .profile-layout { grid-template-columns: 300px 1fr; }
+}
+
+.photo-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pf-photo-preview {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: var(--color-border);
+  border: 3px solid var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.file-input-wrapper {
+  position: relative;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.file-input-wrapper input[type="file"] { display: none; }
+
+.notification-card {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 24px;
+}
+
+/* The WhatsApp/email preview. Delivery is a stub and the page says so;
+   this is only what WOULD be sent. ARCHITECTURE section 7. */
+.chat-bubble-preview,
+.bubble {                                   /* js/pages.js emits this */
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  padding: 14px 16px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+#pf-status {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+#pf-status:empty { display: none; }
+
+.status-success {
+  background-color: var(--color-good-bg);
+  color: var(--color-good);
+  border: 1px solid var(--color-good);
+}
+
+
+/* ==========================================================================
+   7. schemes.html - the catalogue
+   ========================================================================== */
+
+.filter-bar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  padding: 16px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.filter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  flex: 1;
+  max-width: 800px;
+}
+
+.filter-control {
+  min-height: var(--min-touch);
+  padding: 8px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: 0.95rem;
+}
+
+.filter-control:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -1px;
+}
+
+.filter-search { flex: 2; min-width: 200px; }
+.filter-select { flex: 1; min-width: 140px; }
+
+.scheme-count-badge,
+#scheme-count {
+  font-weight: 600;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.scheme-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 640px) { .scheme-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 980px) { .scheme-grid { grid-template-columns: repeat(3, 1fr); } }
+
+.scheme-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Closed schemes stay visible on purpose - people search for "Mahila
+   Samriddhi Yojana" by name and finding it, greyed and honestly labelled,
+   is the useful answer. 02-PAGES.md, schemes.html. */
+.scheme-card-closed,
+.scheme-card.is-closed {                    /* js/pages.js emits this */
+  opacity: 0.6;
+  background-color: var(--color-bg-alt);
+}
+
+/* The head row: category pill left, status right. */
+.card-header,
+.scheme-card-head {                         /* js/pages.js emits this */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.scheme-title-en,
+.scheme-card-title {                        /* js/pages.js emits this */
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.3;
+  margin: 0 0 2px 0;
+}
+
+/* The name in the other language, under the title. */
+.scheme-title-hi,
+.scheme-card-alt {                          /* js/pages.js emits this */
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin: 0 0 12px 0;
+}
+
+.scheme-desc,
+.scheme-card-line {                         /* js/pages.js emits this */
+  font-size: 0.9rem;
+  color: var(--color-text);
+  line-height: 1.55;
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.scheme-meta,
+.scheme-card-facts {                         /* js/pages.js emits this */
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-primary);
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+  margin-bottom: 16px;
+  margin-top: auto;
+}
+
+.scheme-card-facts:empty { display: none; }
+
+.closed-note {                              /* js/pages.js emits this */
+  font-size: 0.85rem;
+  color: var(--color-stop);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+
+/* ==========================================================================
+   8. scheme.html - one scheme
+   ========================================================================== */
+
+.scheme-header-card {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 28px;
+  margin-top: 24px;
+}
+
+.scheme-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.fact-strip {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 20px 0;
+}
+
+@media (min-width: 600px) {
+  .fact-strip { grid-template-columns: repeat(4, 1fr); }
+}
+
+.fact-item { display: flex; flex-direction: column; }
+
+.fact-label {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.fact-value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.detail-section { margin-top: 32px; }
+
+.detail-section h2 {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+}
+
+.custom-list { padding-left: 20px; line-height: 1.7; }
+.custom-list li { margin-bottom: 8px; }
+
+/* The "Am I eligible?" box. This button is the differentiation - myScheme's
+   scheme page cannot answer it. 02-PAGES.md, scheme.html. */
+.check-box-card {
+  border: 2px solid var(--color-primary);
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 36px;
+  text-align: center;
+}
+
+#sc-check-result { margin-top: 20px; text-align: left; }
+#sc-check-result:empty { display: none; }
+
+/* The verdict box. .is-yes carries the cost, .is-no carries the reason and
+   the number that would change it, .is-info says we hold information only. */
+.check-result {                             /* js/pages.js emits this */
+  border-radius: 8px;
+  padding: 18px 20px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-alt);
+  line-height: 1.6;
+}
+
+.check-result p:last-child { margin-bottom: 0; }
+.check-result .btn { margin-top: 12px; }
+
+.check-result.is-yes {
+  background-color: var(--color-good-bg);
+  border-color: var(--color-good);
+}
+
+.check-result.is-yes .btn {
+  background-color: var(--color-good);
+  color: #FFFFFF;
+}
+
+.check-result.is-no {
+  background-color: var(--color-warn-bg);
+  border-color: var(--color-warn);
+}
+
+.check-result.is-info {
+  background-color: var(--color-bg-alt);
+  border-color: var(--color-border);
+}
+
+.source-line {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  border-top: 1px solid var(--color-border);
+  padding-top: 16px;
+  font-style: italic;
+}
+
+
+/* ==========================================================================
+   9. match.html - the results
+   ========================================================================== */
+
+.match-hero-card,
+.match-top-card {                           /* js/pages.js emits this */
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-bg);
+  border-radius: 10px;
+  padding: 28px;
+  margin-top: 24px;
+}
+
+.match-top-title {                          /* js/pages.js emits this */
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 4px 0;
+}
+
+/* The rate, set large. It is the single number the page exists to deliver. */
+.hero-rate-tag,
+.match-top-rate {                           /* js/pages.js emits this */
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1;
+  margin: 12px 0 4px 0;
+}
+
+.match-top-loan {                           /* js/pages.js emits this */
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.match-reason {                             /* js/pages.js emits this */
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.match-other {                              /* js/pages.js emits this */
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.match-other h3 { font-size: 1.1rem; margin-bottom: 4px; }
+
+.cost-card {                                /* js/pages.js emits this */
+  padding: 8px 24px;
+  margin-top: 16px;
+}
+
+.cost-table,
+.partner-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+.cost-table th, .cost-table td,
+.partner-table th, .partner-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cost-table th, .partner-table th {
+  background-color: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+/* A table cannot shrink below its content, so let it scroll inside its own
+   box rather than pushing the page sideways at 360px. */
+.table-scroll { overflow-x: auto; }
+
+/* --- the near miss: the feature that explains a "no" ------------------- */
+
+.nearmiss-card {                            /* js/pages.js emits this */
+  background-color: var(--color-warn-bg);
+  border: 1px solid var(--color-warn);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.nearmiss-card h3 {
+  font-size: 1.05rem;
+  color: var(--color-warn);
+  margin-bottom: 6px;
+}
+
+/* The second sentence: the exact number that would change the answer. */
+.nearmiss-unblock {                         /* js/pages.js emits this */
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+/* --- where to apply --------------------------------------------------- */
+
+.door-card {                                /* js/pages.js emits this */
+  padding: 18px 20px;
+  margin-top: 12px;
+}
+
+.door-name {                                /* js/pages.js emits this */
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0 0 2px 0;
+}
+
+.door-type {                                /* js/pages.js emits this */
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.door-distance {                            /* js/pages.js emits this */
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin: 4px 0 0 0;
+}
+
+.door-rate {                                /* js/pages.js emits this */
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  margin: 8px 0 0 0;
+}
+
+/* The provenance line under a utilisation band. It names NSFDC's own
+   published data, because the band is a state figure and nothing else. */
+.door-source {                              /* js/pages.js emits this */
+  font-size: 0.78rem;
+  font-style: italic;
+  margin: 6px 0 0 0;
+}
+
+.door-warning {                             /* js/pages.js emits this */
+  margin: 10px 0 0 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background-color: var(--color-warn-bg);
+  color: var(--color-warn);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* --- the wrong door: the headline number ------------------------------ */
+
+.wrongdoor-hero,
+.wrongdoor {                                /* js/pages.js emits this */
+  background: linear-gradient(135deg, #1F5F8B 0%, #164667 100%);
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 28px;
+  text-align: center;
+  margin: 32px 0;
+}
+
+.wrongdoor-hero h2,
+.wrongdoor h2 {
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.wrongdoor p { margin-bottom: 0; opacity: 0.95; }
+
+.wrongdoor-figure {                         /* js/pages.js emits this */
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.05;
+  margin: 4px 0 10px 0;
+}
+
+/* --- why this answer -------------------------------------------------- */
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-primary);
+  padding: 12px 0;
+}
+
+.rules-list,
+.why-list {                                 /* js/pages.js emits this */
+  padding-left: 20px;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+
+/* ==========================================================================
+   10. assistant.html - chat and voice
+   ========================================================================== */
+
+.assistant-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+/* A grid item's min-width is auto, meaning "as wide as my widest child".
+   The suggestion chips are a nowrap row, so without this the column grew to
+   fit all four and the page scrolled sideways at 360px. */
+.assistant-grid > * { min-width: 0; }
+
+@media (min-width: 850px) {
+  .assistant-grid { grid-template-columns: 1fr 340px; }
+}
+
+.chat-panel {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  min-width: 0;
+}
+
+.chat-panel > * { min-width: 0; }
+
+.chat-log,
+#chat-log {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* One message. .chat-msg is the hand-written name, .msg the runtime one. */
+.chat-msg,
+.msg {                                      /* js/pages.js emits this */
+  max-width: 80%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.chat-msg-user,
+.msg-user {                                 /* js/pages.js emits this */
+  align-self: flex-end;
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  border-bottom-right-radius: 2px;
+}
+
+.chat-msg-assistant,
+.msg-bot {                                  /* js/pages.js emits this */
+  align-self: flex-start;
+  background-color: #FFFFFF;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-bottom-left-radius: 2px;
+}
+
+/* "Thinking..." - the placeholder bubble, replaced when the answer lands. */
+.msg.is-pending {                           /* js/pages.js emits this */
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.msg.is-error {                             /* js/pages.js emits this */
+  background-color: var(--color-stop-bg);
+  border-color: var(--color-stop);
+  color: var(--color-stop);
+}
+
+/* Who said it. Small, above the text, so a screen reader and a skimming eye
+   both get the speaker before the content. */
+.msg-who {                                  /* js/pages.js emits this */
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.75;
+  margin-bottom: 4px;
+}
+
+.msg-text {                                 /* js/pages.js emits this */
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+/* Every grounded answer ends with its sources. If this line is missing the
+   answer was a refusal - which is also a correct outcome. */
+.chat-citation,
+.citation {                                 /* js/pages.js emits this */
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  border-top: 1px solid var(--color-border);
+  padding-top: 4px;
+  font-style: italic;
+}
+
+.msg-user .citation {
+  color: rgba(255,255,255,0.85);
+  border-top-color: rgba(255,255,255,0.3);
+}
+
+.suggestion-chips {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px 0 8px 0;
+  white-space: nowrap;
+}
+
+.chip {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--color-primary);
+  font-weight: 500;
+  transition: background-color 150ms ease;
+  flex: none;
+}
+
+.chip:hover, .chip:focus { background-color: var(--color-border); }
+
+.chat-form, #chat-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.chat-input, #chat-input {
+  flex: 1;
+  min-height: var(--min-touch);
+  padding: 10px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.chat-input:focus, #chat-input:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -1px;
+}
+
+/* --- voice ------------------------------------------------------------ */
+
+.voice-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* The circular mic buttons in the page markup. These hold a glyph, so a
+   round button with a large font is right for them. */
+.mic-btn-large,
+.mic-btn-wizard {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0;
+  box-shadow: 0 4px 12px rgba(31, 95, 139, 0.3);
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.mic-btn-large:hover, .mic-btn-large:focus,
+.mic-btn-wizard:hover, .mic-btn-wizard:focus {
+  background-color: var(--color-primary-dark);
+  transform: scale(1.05);
+}
+
+.mic-btn-wizard { width: 80px; height: 80px; font-size: 2rem; margin: 16px auto; }
+
+/* The wizard's mic button is built by js/pages.js and carries a WORD --
+   "Hold to speak" -- not a glyph, so it is a wide button, not a disc. Making
+   it a 100px circle clipped the label to two syllables. */
+.mic-big {                                  /* js/pages.js emits this */
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  min-height: 64px;
+  margin: 20px auto;
+  padding: 0 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(31, 95, 139, 0.3);
+  transition: background-color 150ms ease;
+}
+
+.mic-big:hover, .mic-big:focus { background-color: var(--color-primary-dark); }
+
+/* Recording. A colour change and nothing that moves, per 02-PAGES.md. */
+.mic-btn-large.is-recording,
+.mic-btn-wizard.is-recording,
+.mic-big.is-recording {
+  background-color: var(--color-stop);
+}
+
+.mic-status-text,
+#mic-status {
+  font-weight: 600;
+  color: var(--color-text-muted);
+  min-height: 24px;
+  margin-bottom: 16px;
+}
+
+/* Editable on purpose: the user fixes a misheard word before anything is
+   decided on it. That is the whole voice-safety argument. */
+.transcript-box,
+#transcript-box {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  resize: vertical;
+  margin-bottom: 16px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.transcript-box:focus, #transcript-box:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -1px;
+}
+
+
+/* ==========================================================================
+   11. wizard.html - the guided flow
+   ========================================================================== */
+
+.wizard-container {
+  max-width: 760px;
+  margin: 32px auto 48px auto;
+}
+
+.wizard-progress-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.progress-text,
+#wz-progress {
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+.wizard-card {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wizard-step-content { flex: 1; }
+
+.wizard-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.voice-prompt-box {
+  background-color: var(--color-bg-alt);
+  border: 1px dashed var(--color-primary);
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wz-text {                                  /* js/pages.js emits this */
+  width: 100%;
+  min-height: 110px;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.wz-text:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -1px;
+}
+
+/* Step 2: every field the machine understood, shown back as an editable
+   chip before anything is decided. A misheard word never becomes an answer. */
+.confirm-chip-grid,
+.wz-chips {                                 /* js/pages.js emits this */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.confirm-chip,
+.wz-chip {                                  /* js/pages.js emits this */
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  min-width: 140px;
+}
+
+/* A field in needs_confirmation. The engine refuses to run until it is
+   answered, so it is marked, not merely listed. Contract section 4. */
+.wz-chip.is-needed {                        /* js/pages.js emits this */
+  border-color: var(--color-warn);
+  background-color: var(--color-warn-bg);
+}
+
+.wz-chip-label {                            /* js/pages.js emits this */
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--color-text-muted);
+}
+
+.wz-chip input,
+.wz-chip select {
+  min-height: 40px;
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Step 6: the document checklist and the office to take it to. */
+.wz-packet {                                /* js/pages.js emits this */
+  padding-left: 20px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.qr-placeholder {
+  width: 140px;
+  height: 140px;
+  background: #E3E8EF;
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin: 16px 0;
+}
+
+
+/* ==========================================================================
+   12. Toast
+   ========================================================================== */
+
+#toast.show { display: block; }
+
+
+/* ==========================================================================
+   13. Print - the packet comes out of the browser's own print dialog
+   ========================================================================== */
+
+@media print {
+  .site-header,
+  .site-footer,
+  .tricolour-bar,
+  .filter-bar-sticky,
+  .action-row,
+  #toast { display: none !important; }
+
+  .card, .match-top-card, .door-card { break-inside: avoid; }
+
+  .wrongdoor, .wrongdoor-hero, .hero-band {
+    background: none !important;
+    color: var(--color-text) !important;
+    border: 1px solid var(--color-border);
+  }
+
+  .wrongdoor h2, .wrongdoor-hero h2, .hero-band h1, .hero-band h2 {
+    color: var(--color-text) !important;
+  }
+}

@@ -1,0 +1,111 @@
+
+===== A2  POST /auth/login
+$ curl -s -X POST /auth/login -d {"username":"sunita","password":"demo123"}
+{
+    "token": "473pcEvH6WA6Sto2Z3R9aspAssIXD21_",
+    "user": {
+        "username": "sunita",
+        "display_name": "Sunita Devi"
+    }
+}
+$ ... with the wrong password
+HTTP 401
+
+===== A3  GET /profile with that token
+$ curl -s /profile -H "Authorization: Bearer $TOKEN"
+{
+    "lang": "hi",
+    "name": "Sunita Devi",
+    "is_sc": true,
+    "state": "MP",
+    "district": "Bhopal",
+    "location": {
+        "lat": 23.25,
+        "lon": 77.41,
+        "source": "manual"
+    },
+    "purpose": "enterprise",
+    "sector": "tailoring",
+    "activity_text": "silai ka kaam",
+    "amount_inr": 120000,
+    "annual_family_income_inr": 240000,
+    "education": "middle",
+    "is_woman": true,
+    "age": 34,
+    "has_caste_certificate": true,
+    "has_income_certificate": false,
+    "email": "sunita@example.com",
+    "mobile": "9876543210",
+    "photo_url": "/uploads/sunita.jpg",
+    "needs_confirmation": []
+}
+$ ... with no token
+HTTP 401
+
+===== A4  GET /catalogue
+entries                : 14
+has_full_logic is true : 5
+categories seen        : ['education', 'loan', 'marketing', 'subsidy', 'training']
+contract allows        : ['education', 'loan', 'marketing', 'subsidy', 'training']
+statuses               : {'open': 5, 'informational': 5, 'closed': 4}
+
+id       status         category   logic  rate       max_inr  name
+MFS      open           loan       True   6.5%        125000  Micro Finance Scheme
+TL       open           loan       True   8%         4500000  Term Loan
+AMY      open           loan       True   15%         125000  Aajeevika Micro-Finance Yojana
+UNY      open           loan       True   13%–15%     450000  Udyam Nidhi Yojana
+ELS      open           education  True   6.5%       4000000  Education Loan Scheme
+VISVAS   informational  subsidy    False  None          None  VISVAS Yojana
+SEED     informational  subsidy    False  None          None  SEED Scheme
+NFSC     informational  education  False  None          None  National Fellowship for Scheduled Castes
+SKILL    informational  training   False  None          None  Skill Development Training
+MARKET   informational  marketing  False  None          None  Marketing Support
+MSY      closed         loan       False  None          None  Mahila Samriddhi Yojana
+LVY      closed         loan       False  None          None  Laghu Vyavsay Yojana
+UTKARSH  closed         loan       False  None          None  Utkarsh
+SUVIDHA  closed         loan       False  None          None  Suvidha
+
+===== A5  POST /assistant/ask  {"question":"ब्याज कितना है?","lang":"hi"}
+{
+    "answer": "ब्याज की दर योजनाओं में विभिन्न है:\n\n1. [MFS] - 6.5%\n2. [TL] - 8%\n3. [AMY] - 15%\n4. [UNY] - 13% या 15%\n5. [ELS] - 6.5%",
+    "cited_scheme_ids": [
+        "MFS",
+        "TL",
+        "AMY",
+        "UNY",
+        "ELS"
+    ],
+    "grounded": true,
+    "refused": false,
+    "source": "model"
+}
+
+===== A6  POST /assistant/ask  {"question":"What is the capital of France?"}
+{
+    "answer": "I can only answer from NSFDC's scheme information on this site. I could not find anything about that here. Try asking about a scheme, its interest rate, who is eligible, which documents you need, or how to apply.",
+    "cited_scheme_ids": [],
+    "grounded": true,
+    "refused": true,
+    "source": "refusal"
+}
+
+and four more off-topic questions:
+  Who won the cricket match yesterday?     -> refused=True cited=[]
+  Write me a poem about the monsoon.       -> refused=True cited=[]
+  How do I get a passport?                 -> refused=True cited=[]
+  What is 2 + 2?                           -> refused=True cited=[]
+
+===== A7  GET / serves web/
+$ curl -s -o /dev/null -w ... /js/api.js      (Track C file, out of web/)
+HTTP 200  application/javascript  5094 bytes
+$ curl -s -o /dev/null -w ... /                (web/index.html - Track B has not written it yet)
+HTTP 404
+
+the same mount against a fixture directory, to show / resolves index.html:
+$ SAHAAY_WEB_DIR=<fixture> uvicorn app:app --port 8001 ; curl -i http://127.0.0.1:8001/
+HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+content-length: 76
+last-modified: Tue, 08 Sep 2026 01:58:56 GMT
+etag: "e5cd96770ac1e54cff385e19025bbee4"
+x-engine-ms: 71.9

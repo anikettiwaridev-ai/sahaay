@@ -1,0 +1,3501 @@
+{
+  "_meta": {
+    "spec": "docs/ENGINE_SPEC.md §5.1",
+    "generated_by": "scripts/build_partners.py",
+    "transcription": "scripts/_partners_source.py",
+    "source_url": "https://nsfdc.nic.in/our-channel-partners",
+    "source_files": {
+      "SCA": "cp1.pdf",
+      "PSB": "cp2.pdf",
+      "RRB": "cp3.pdf",
+      "NBFC_MFI": "cp4.pdf",
+      "COOP_BANK": "cp5.pdf",
+      "OTHER": "cp6.pdf",
+      "SFB": "cp7.pdf",
+      "COOP_SOCIETY": "cp8.pdf"
+    },
+    "count": 106,
+    "count_by_type": {
+      "COOP_BANK": 2,
+      "COOP_SOCIETY": 2,
+      "NBFC_MFI": 7,
+      "OTHER": 3,
+      "PSB": 11,
+      "RRB": 41,
+      "SCA": 38,
+      "SFB": 2
+    },
+    "count_by_geocode_method": {
+      "address": 3,
+      "district_place": 28,
+      "none": 2,
+      "pin_centroid": 69,
+      "pin_consensus": 2,
+      "state_centroid": 2
+    },
+    "serves_schemes_status": "ASSUMPTION — see data/serves_schemes.json and ENGINE_SPEC §5.2",
+    "no_performance_data": "This file carries identity and location only. No NPA, overdue or performance attribute is recorded against any named partner (ARCHITECTURE §5)."
+  },
+  "partners": [
+    {
+      "id": "COOPB-AS-02",
+      "type": "COOP_BANK",
+      "name": "Konoklota Mahila Urban Cooperative Bank",
+      "name_en": "Konoklota Mahila Urban Cooperative Bank",
+      "name_hi": "कोनोकलता महिला शहरी सहकारी बैंक",
+      "state": "AS",
+      "state_name_en": "Assam",
+      "address": "Assam (no address printed in source)",
+      "address_en": "Assam (no address printed in source)",
+      "address_hi": "असम (स्रोत में कोई पता नहीं)",
+      "pin": null,
+      "lat": 26.32786,
+      "lon": 92.75133,
+      "geocode": {
+        "method": "state_centroid",
+        "confidence": 0.1,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "COOP",
+      "serves_schemes": [
+        "UNY"
+      ],
+      "provenance": {
+        "file": "cp5.pdf",
+        "list_title": "सहकारी समितियों/बैंकों की सूची",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "COOPB-GJ-01",
+      "type": "COOP_BANK",
+      "name": "Shri Mahila Sewa Sahakari Bank Ltd",
+      "name_en": "Shri Mahila Sewa Sahakari Bank Ltd",
+      "name_hi": "श्री महिला सेवा सहकारी बैंक लिमि.",
+      "state": "GJ",
+      "state_name_en": "Gujarat",
+      "address": "109, Sakar-II, opposite Town Hall, Ellisbridge, Ahmedabad",
+      "address_en": "109, Sakar-II, opposite Town Hall, Ellisbridge, Ahmedabad",
+      "address_hi": "109, साकर-II, टाउन हॉल के सामने, एलिसब्रिज, अहमदाबाद",
+      "pin": "380006",
+      "lat": 23.0333,
+      "lon": 72.6181,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "COOP",
+      "serves_schemes": [
+        "UNY"
+      ],
+      "provenance": {
+        "file": "cp5.pdf",
+        "list_title": "सहकारी समितियों/बैंकों की सूची",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "COOPS-AP-02",
+      "type": "COOP_SOCIETY",
+      "name": "Streenidhi AP",
+      "name_en": "Streenidhi AP",
+      "name_hi": "स्त्रीनिधि एपी",
+      "state": "AP",
+      "state_name_en": "Andhra Pradesh",
+      "address": "2nd Floor, NTR Administrative Block, RTC Complex, Vijayawada, Andhra Pradesh",
+      "address_en": "2nd Floor, NTR Administrative Block, RTC Complex, Vijayawada, Andhra Pradesh",
+      "address_hi": "दूसरी मंजिल, एनटीआर प्रशासनिक ब्लॉक, आरटीसी कॉम्प्लेक्स, विजयवाड़ा, आंध्र प्रदेश",
+      "pin": "520013",
+      "lat": 16.5233,
+      "lon": 80.6278,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "COOP",
+      "serves_schemes": [
+        "UNY"
+      ],
+      "provenance": {
+        "file": "cp8.pdf",
+        "list_title": "LIST OF COOPERATIVE SOCIETIES",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "COOPS-TG-01",
+      "type": "COOP_SOCIETY",
+      "name": "Streenidhi, Telangana",
+      "name_en": "Streenidhi, Telangana",
+      "name_hi": "स्त्रीनिधि, तेलंगाना",
+      "state": "TG",
+      "state_name_en": "Telangana",
+      "address": "401 and 402, 4th Floor, My Home Sarovar Plaza, Secretariat Road, Ambedkar Colony, Saifabad, Hyderabad, Telangana",
+      "address_en": "401 and 402, 4th Floor, My Home Sarovar Plaza, Secretariat Road, Ambedkar Colony, Saifabad, Hyderabad, Telangana",
+      "address_hi": "401 और 402, चौथी मंजिल, माय होम सरोवर प्लाजा, सचिवालय रोड, अम्बेडकर कॉलोनी, सैफाबाद, हैदराबाद, तेलंगाना",
+      "pin": "500004",
+      "lat": 17.3872,
+      "lon": 78.4621,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "COOP",
+      "serves_schemes": [
+        "UNY"
+      ],
+      "provenance": {
+        "file": "cp8.pdf",
+        "list_title": "LIST OF COOPERATIVE SOCIETIES",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "MFI-AS-02",
+      "type": "NBFC_MFI",
+      "name": "Grameen Development and Finance Private Limited",
+      "name_en": "Grameen Development and Finance Private Limited",
+      "name_hi": "ग्रामीण डेवलपमेंट एंड फाइनेंस प्राइवेट लिमिटेड",
+      "state": "AS",
+      "state_name_en": "Assam",
+      "address": "Dabjent, Kulshi Road, Chaygaon, Kamrup, Assam",
+      "address_en": "Dabjent, Kulshi Road, Chaygaon, Kamrup, Assam",
+      "address_hi": "डबजेंट, कुल्शी रोड, चायगांव, कामरूप, असम",
+      "pin": "781124",
+      "lat": 26.11314,
+      "lon": 91.40544,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "NBFC_MFI",
+      "serves_schemes": [
+        "AMY"
+      ],
+      "provenance": {
+        "file": "cp4.pdf",
+        "list_title": "चैनल पार्टनर्स-एनबीएफसी-एमएफआई",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "MFI-GJ-06",
+      "type": "NBFC_MFI",
+      "name": "Pahal Financial Services Private Limited, Ahmedabad",
+      "name_en": "Pahal Financial Services Private Limited, Ahmedabad",
+      "name_hi": "पहल फाइनेंशियल सर्विसेज प्राइवेट लिमिटेड, अहमदाबाद",
+      "state": "GJ",
+      "state_name_en": "Gujarat",
+      "address": "7th Floor, Binori B Square-2, opposite Hathisingh Ni Wadi, Ambli-Iskcon Road, Ahmedabad, Gujarat",
+      "address_en": "7th Floor, Binori B Square-2, opposite Hathisingh Ni Wadi, Ambli-Iskcon Road, Ahmedabad, Gujarat",
+      "address_hi": "सातवीं मंजिल, बिनोरी बी स्क्वायर-2, हाथीसिंग नी वाड़ी के सामने, अंबली-इस्कॉन रोड, अहमदाबाद, गुजरात",
+      "pin": "380054",
+      "lat": 23.02579,
+      "lon": 72.58727,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "NBFC_MFI",
+      "serves_schemes": [
+        "AMY"
+      ],
+      "provenance": {
+        "file": "cp4.pdf",
+        "list_title": "चैनल पार्टनर्स-एनबीएफसी-एमएफआई",
+        "srno": 6,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "MFI-HR-05",
+      "type": "NBFC_MFI",
+      "name": "Satin Creditcare Network Limited, Gurugram",
+      "name_en": "Satin Creditcare Network Limited, Gurugram",
+      "name_hi": "सैटिन क्रेडिटकेयर नेटवर्क लिमिटेड, गुरुग्राम",
+      "state": "HR",
+      "state_name_en": "Haryana",
+      "address": "Plot No. 492, Udyog Vihar, Phase-III, Gurugram, Haryana",
+      "address_en": "Plot No. 492, Udyog Vihar, Phase-III, Gurugram, Haryana",
+      "address_hi": "प्लॉट नं. 492, उद्योग विहार, फेज-III, गुरुग्राम, हरियाणा",
+      "pin": "122016",
+      "lat": 28.4001,
+      "lon": 76.9661,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "NBFC_MFI",
+      "serves_schemes": [
+        "AMY"
+      ],
+      "provenance": {
+        "file": "cp4.pdf",
+        "list_title": "चैनल पार्टनर्स-एनबीएफसी-एमएफआई",
+        "srno": 5,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "MFI-MH-01",
+      "type": "NBFC_MFI",
+      "name": "Anik Financial Services Private Limited",
+      "name_en": "Anik Financial Services Private Limited",
+      "name_hi": "एनिक फाइनेंशियल सर्विसेज प्राइवेट लिमिटेड",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Registered Office: Sahyadri Building, behind Amitesh Hotel, Ambajogai Road, Sai Naka, Latur, Maharashtra",
+      "address_en": "Registered Office: Sahyadri Building, behind Amitesh Hotel, Ambajogai Road, Sai Naka, Latur, Maharashtra",
+      "address_hi": "पंजीकृत कार्यालय: सह्याद्री बिल्डिंग, अमितेश होटल के पीछे, अंबाजोगाई रोड, साई नाका, लातूर, महाराष्ट्र",
+      "pin": "413512",
+      "lat": 18.39721,
+      "lon": 76.56784,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "NBFC_MFI",
+      "serves_schemes": [
+        "AMY"
+      ],
+      "provenance": {
+        "file": "cp4.pdf",
+        "list_title": "चैनल पार्टनर्स-एनबीएफसी-एमएफआई",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "MFI-OD-07",
+      "type": "NBFC_MFI",
+      "name": "Vector Finance Private Limited",
+      "name_en": "Vector Finance Private Limited",
+      "name_hi": "वेक्टर फाइनेंस प्राइवेट लिमिटेड",
+      "state": "OD",
+      "state_name_en": "Odisha",
+      "address": "R.O. - K7/110, Ground Floor, Kalinga Vihar, P.S. Khandagiri, Bhubaneswar, Odisha",
+      "address_en": "R.O. - K7/110, Ground Floor, Kalinga Vihar, P.S. Khandagiri, Bhubaneswar, Odisha",
+      "address_hi": "आर.ओ. - K7/110, भूतल, कलिंगा विहार, पी.एस. खंडागिरि, भुवनेश्वर, ओडिशा",
+      "pin": "751029",
+      "lat": 20.27241,
+      "lon": 85.83385,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "NBFC_MFI",
+      "serves_schemes": [
+        "AMY"
+      ],
+      "provenance": {
+        "file": "cp4.pdf",
+        "list_title": "चैनल पार्टनर्स-एनबीएफसी-एमएफआई",
+        "srno": 7,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "MFI-PB-04",
+      "type": "NBFC_MFI",
+      "name": "Midland Microfin Limited, Ludhiana",
+      "name_en": "Midland Microfin Limited, Ludhiana",
+      "name_hi": "मिडलैंड माइक्रोफिन लिमिटेड, लुधियाना",
+      "state": "PB",
+      "state_name_en": "Punjab",
+      "address": "The Axis, Plot No. 1, R.B. Badri Das Colony, BMC Chowk, G.T. Road, Jalandhar, Punjab",
+      "address_en": "The Axis, Plot No. 1, R.B. Badri Das Colony, BMC Chowk, G.T. Road, Jalandhar, Punjab",
+      "address_hi": "द एक्सिस, प्लॉट नं. 1, आर.बी. बद्री दास कॉलोनी, बीएमसी चौक, जी.टी. रोड, जालंधर, पंजाब",
+      "pin": "144001",
+      "lat": 31.2121,
+      "lon": 75.5684,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "NBFC_MFI",
+      "serves_schemes": [
+        "AMY"
+      ],
+      "provenance": {
+        "file": "cp4.pdf",
+        "list_title": "चैनल पार्टनर्स-एनबीएफसी-एमएफआई",
+        "srno": 4,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "MFI-WB-03",
+      "type": "NBFC_MFI",
+      "name": "ASA International Microfinance Limited, Kolkata",
+      "name_en": "ASA International Microfinance Limited, Kolkata",
+      "name_hi": "एएसए इंटरनेशनल माइक्रोफाइनेंस लिमिटेड, कोलकाता",
+      "state": "WB",
+      "state_name_en": "West Bengal",
+      "address": "Victoria Park, 4th Floor, GN-37/2, Sector-V, Salt Lake City, Kolkata, West Bengal",
+      "address_en": "Victoria Park, 4th Floor, GN-37/2, Sector-V, Salt Lake City, Kolkata, West Bengal",
+      "address_hi": "विक्टोरिया पार्क, चौथी मंजिल, GN-37/2, सेक्टर-V, सॉल्ट लेक सिटी, कोलकाता, पश्चिम बंगाल",
+      "pin": "700091",
+      "lat": 22.56263,
+      "lon": 88.36304,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "NBFC_MFI",
+      "serves_schemes": [
+        "AMY"
+      ],
+      "provenance": {
+        "file": "cp4.pdf",
+        "list_title": "चैनल पार्टनर्स-एनबीएफसी-एमएफआई",
+        "srno": 3,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "OTH-NEDFI",
+      "type": "OTHER",
+      "name": "North Eastern Development Finance Corporation Ltd (NEDFi)",
+      "name_en": "North Eastern Development Finance Corporation Ltd (NEDFi)",
+      "name_hi": "नॉर्थ ईस्टर्न डेवलपमेंट फाइनेंस कॉर्पोरेशन लिमिटेड (नेडफी)",
+      "state": "AS",
+      "state_name_en": "Assam",
+      "address": "Tea Auction Center, GS Rd, Sanket Vihar, Opposite Dispur, Guwahati, Assam",
+      "address_en": "Tea Auction Center, GS Rd, Sanket Vihar, Opposite Dispur, Guwahati, Assam",
+      "address_hi": "टी ऑक्शन सेंटर, जीएस रोड, संकेत विहार, दिसपुर के सामने, गुवाहाटी, असम",
+      "pin": "781006",
+      "lat": 26.1844,
+      "lon": 91.7458,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "CA",
+      "serves_schemes": [],
+      "provenance": {
+        "file": "cp6.pdf",
+        "list_title": "LIST OF OTHER AGENCIES",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "OTH-JHARCRAFT",
+      "type": "OTHER",
+      "name": "Jharkhand Silk Textile and Handicraft Development Corporation Ltd (JHARCRAFT)",
+      "name_en": "Jharkhand Silk Textile and Handicraft Development Corporation Ltd (JHARCRAFT)",
+      "name_hi": "झारखंड सिल्क टेक्सटाइल एंड हैंडीक्राफ्ट डेवलपमेंट कॉर्पोरेशन लिमिटेड (झारक्राफ्ट)",
+      "state": "JH",
+      "state_name_en": "Jharkhand",
+      "address": "Jharcraft, DIC Campus Ratu Road, Ranchi, Jharkhand",
+      "address_en": "Jharcraft, DIC Campus Ratu Road, Ranchi, Jharkhand",
+      "address_hi": "झारक्राफ्ट, डीआईसी कैंपस रातू रोड, रांची, झारखंड",
+      "pin": "834001",
+      "lat": 23.35821,
+      "lon": 85.3299,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "CA",
+      "serves_schemes": [],
+      "provenance": {
+        "file": "cp6.pdf",
+        "list_title": "LIST OF OTHER AGENCIES",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "OTH-SIDBI",
+      "type": "OTHER",
+      "name": "Small Industries Development Bank of India (SIDBI)",
+      "name_en": "Small Industries Development Bank of India (SIDBI)",
+      "name_hi": "भारतीय लघु उद्योग विकास बैंक (सिडबी)",
+      "state": "UP",
+      "state_name_en": "Uttar Pradesh",
+      "address": "SIDBI Tower, 15, Ashok Marg, Lucknow, Uttar Pradesh",
+      "address_en": "SIDBI Tower, 15, Ashok Marg, Lucknow, Uttar Pradesh",
+      "address_hi": "सिडबी टावर, 15, अशोक मार्ग, लखनऊ, उत्तर प्रदेश",
+      "pin": "226001",
+      "lat": 26.7686,
+      "lon": 81.0295,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "listed_office",
+      "channel_rate_key": "CA",
+      "serves_schemes": [],
+      "provenance": {
+        "file": "cp6.pdf",
+        "list_title": "LIST OF OTHER AGENCIES",
+        "srno": 3,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-DL-04",
+      "type": "PSB",
+      "name": "Punjab National Bank",
+      "name_en": "Punjab National Bank",
+      "name_hi": "पंजाब नेशनल बैंक",
+      "state": "DL",
+      "state_name_en": "Delhi",
+      "address": "Plot No.-4, Sector 10, Dwarka, New Delhi",
+      "address_en": "Plot No.-4, Sector 10, Dwarka, New Delhi",
+      "address_hi": "प्लाट नं.-4, सेक्टर 10, द्वारका, नई दिल्ली",
+      "pin": "110075",
+      "lat": 28.5458,
+      "lon": 77.0784,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 4,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-DL-05",
+      "type": "PSB",
+      "name": "Punjab and Sind Bank",
+      "name_en": "Punjab and Sind Bank",
+      "name_hi": "पंजाब एंड सिंध बैंक",
+      "state": "DL",
+      "state_name_en": "Delhi",
+      "address": "Priority Sector Advance Department, 5th Floor, 21 Rajendra Place, New Delhi",
+      "address_en": "Priority Sector Advance Department, 5th Floor, 21 Rajendra Place, New Delhi",
+      "address_hi": "प्राथमिकता क्षेत्र अग्रिम विभाग, 5वीं मंजिल, 21 राजेंद्र प्लेस, नई दिल्ली",
+      "pin": "110008",
+      "lat": 28.6452,
+      "lon": 77.18994,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 5,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-GJ-02",
+      "type": "PSB",
+      "name": "Bank of Baroda",
+      "name_en": "Bank of Baroda",
+      "name_hi": "बैंक ऑफ बड़ौदा",
+      "state": "GJ",
+      "state_name_en": "Gujarat",
+      "address": "Baroda Bhavan, 7th Floor, R.C. Dutt Road, Vadodara, Gujarat",
+      "address_en": "Baroda Bhavan, 7th Floor, R.C. Dutt Road, Vadodara, Gujarat",
+      "address_hi": "बड़ौदा भवन, 7वीं मंजिल, आर.सी. दत्त रोड, वडोदरा, गुजरात",
+      "pin": "390007",
+      "lat": 22.3125,
+      "lon": 73.1771,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-KA-03",
+      "type": "PSB",
+      "name": "Canara Bank",
+      "name_en": "Canara Bank",
+      "name_hi": "केनरा बैंक",
+      "state": "KA",
+      "state_name_en": "Karnataka",
+      "address": "Head Office, 112, J.C. Road, Bengaluru",
+      "address_en": "Head Office, 112, J.C. Road, Bengaluru",
+      "address_hi": "प्रधान कार्यालय, 112, जे.सी. रोड, बेंगलुरु",
+      "pin": "560002",
+      "lat": 12.97194,
+      "lon": 77.59369,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 3,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-MH-06",
+      "type": "PSB",
+      "name": "Union Bank of India",
+      "name_en": "Union Bank of India",
+      "name_hi": "यूनियन बैंक ऑफ इंडिया",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Rural and Agri Business Department, Central Office Union Bank Bhavan Marg, Nariman Point, Mumbai",
+      "address_en": "Rural and Agri Business Department, Central Office Union Bank Bhavan Marg, Nariman Point, Mumbai",
+      "address_hi": "ग्रामीण एवं कृषि व्यवसाय विभाग, केंद्रीय कार्यालय यूनियन बैंक भवन मार्ग, नरीमन पॉइंट, मुंबई",
+      "pin": "400021",
+      "lat": 18.9274,
+      "lon": 72.8241,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 6,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-MH-08",
+      "type": "PSB",
+      "name": "Bank of Maharashtra",
+      "name_en": "Bank of Maharashtra",
+      "name_hi": "बैंक ऑफ महाराष्ट्र",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Head Office Lokmangal, 1501, Shivajinagar, Pune, Maharashtra",
+      "address_en": "Head Office Lokmangal, 1501, Shivajinagar, Pune, Maharashtra",
+      "address_hi": "प्रधान कार्यालय लोकमंगल, 1501, शिवाजीनगर, पुणे, महाराष्ट्र",
+      "pin": "411005",
+      "lat": 18.5247,
+      "lon": 73.8471,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 8,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-MH-09",
+      "type": "PSB",
+      "name": "Bank of India",
+      "name_en": "Bank of India",
+      "name_hi": "बैंक ऑफ इंडिया",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Bandra Kurla Complex, Bandra (East), Mumbai",
+      "address_en": "Bandra Kurla Complex, Bandra (East), Mumbai",
+      "address_hi": "बांद्रा कुर्ला कॉम्प्लेक्स, बांद्रा (पूर्व), मुंबई",
+      "pin": "400051",
+      "lat": 18.9808,
+      "lon": 72.8338,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 9,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-MH-10",
+      "type": "PSB",
+      "name": "Central Bank of India, Mumbai",
+      "name_en": "Central Bank of India, Mumbai",
+      "name_hi": "सेंट्रल बैंक ऑफ इंडिया, मुंबई",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Chandermukhi Building, Nariman Point, Mumbai",
+      "address_en": "Chandermukhi Building, Nariman Point, Mumbai",
+      "address_hi": "चंदरमुखी बिल्डिंग, नरीमन पॉइंट, मुंबई",
+      "pin": "400021",
+      "lat": 18.9274,
+      "lon": 72.8241,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 10,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-TN-01",
+      "type": "PSB",
+      "name": "Indian Overseas Bank",
+      "name_en": "Indian Overseas Bank",
+      "name_hi": "इंडियन ओवरसीज बैंक",
+      "state": "TN",
+      "state_name_en": "Tamil Nadu",
+      "address": "Central Office, 763, Anna Salai, Chennai, Tamil Nadu",
+      "address_en": "Central Office, 763, Anna Salai, Chennai, Tamil Nadu",
+      "address_hi": "केंद्रीय कार्यालय, 763, अन्ना सलाई, चेन्नई, तमिलनाडु",
+      "pin": "600002",
+      "lat": 13.0744,
+      "lon": 80.2714,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-TN-07",
+      "type": "PSB",
+      "name": "Indian Bank",
+      "name_en": "Indian Bank",
+      "name_hi": "इंडियन बैंक",
+      "state": "TN",
+      "state_name_en": "Tamil Nadu",
+      "address": "Corporate Office, No.254-260, Avvai Shanmugam Salai, Gowdi Mutt Road, Royapettah, Chennai",
+      "address_en": "Corporate Office, No.254-260, Avvai Shanmugam Salai, Gowdi Mutt Road, Royapettah, Chennai",
+      "address_hi": "कॉर्पोरेट कार्यालय, नं.254-260, अव्वै षणमुगम सलाई, गौड़ी मठ रोड, रोयापेट्टा, चेन्नई",
+      "pin": "600014",
+      "lat": 13.0506,
+      "lon": 80.2642,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 7,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "PSB-WB-11",
+      "type": "PSB",
+      "name": "UCO Bank, Kolkata",
+      "name_en": "UCO Bank, Kolkata",
+      "name_hi": "यूको बैंक, कोलकाता",
+      "state": "WB",
+      "state_name_en": "West Bengal",
+      "address": "No 3 and 4, DD Block, Sector-1, Bidhannagar, Kolkata, West Bengal",
+      "address_en": "No 3 and 4, DD Block, Sector-1, Bidhannagar, Kolkata, West Bengal",
+      "address_hi": "नं. 3 और 4, डीडी ब्लॉक, सेक्टर-1, बिधाननगर, कोलकाता, पश्चिम बंगाल",
+      "pin": "700064",
+      "lat": 22.56263,
+      "lon": 88.36304,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp2.pdf",
+        "list_title": "LIST OF PUBLIC SECTOR BANKS",
+        "srno": 11,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-AP-16",
+      "type": "RRB",
+      "name": "Chaitanya Godavari Grameena Bank",
+      "name_en": "Chaitanya Godavari Grameena Bank",
+      "name_hi": "चैतन्य गोदावरी ग्रामीण बैंक",
+      "state": "AP",
+      "state_name_en": "Andhra Pradesh",
+      "address": "4th Floor, Raghu Mansion, 4-1, Brodipet, Guntur (Andhra Pradesh)",
+      "address_en": "4th Floor, Raghu Mansion, 4-1, Brodipet, Guntur (Andhra Pradesh)",
+      "address_hi": "चौथी मंजिल, रघु मेंशन, 4-1, ब्रॉडीपेट, गुंटूर (आंध्र प्रदेश)",
+      "pin": "522002",
+      "lat": 16.2176,
+      "lon": 80.345,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 16,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-AP-24",
+      "type": "RRB",
+      "name": "Saptagiri Grameena Bank",
+      "name_en": "Saptagiri Grameena Bank",
+      "name_hi": "सप्तगिरि ग्रामीण बैंक",
+      "state": "AP",
+      "state_name_en": "Andhra Pradesh",
+      "address": "Head Office, PB17, Naidu Buildings, Chittoor, AP",
+      "address_en": "Head Office, PB17, Naidu Buildings, Chittoor, AP",
+      "address_hi": "प्रधान कार्यालय, पीबी17, नायडू बिल्डिंग्स, चित्तूर, एपी",
+      "pin": "517001",
+      "lat": 13.3103,
+      "lon": 79.1847,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 24,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-AP-28",
+      "type": "RRB",
+      "name": "Andhra Pragathi Grameena Bank",
+      "name_en": "Andhra Pragathi Grameena Bank",
+      "name_hi": "आंध्र प्रगति ग्रामीण बैंक",
+      "state": "AP",
+      "state_name_en": "Andhra Pradesh",
+      "address": "Mariyapuram, Kadapa",
+      "address_en": "Mariyapuram, Kadapa",
+      "address_hi": "मरियापुरम, कडप",
+      "pin": "516003",
+      "lat": 14.47995,
+      "lon": 78.82346,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 28,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-AS-18",
+      "type": "RRB",
+      "name": "Assam Gramin Vikash Bank",
+      "name_en": "Assam Gramin Vikash Bank",
+      "name_hi": "असम ग्रामीण विकास बैंक",
+      "state": "AS",
+      "state_name_en": "Assam",
+      "address": "Head Office: GS Road, Bhangagarh Guwahati (Assam) (PNB sponsored)",
+      "address_en": "Head Office: GS Road, Bhangagarh Guwahati (Assam) (PNB sponsored)",
+      "address_hi": "प्रधान कार्यालय: जीएस रोड, भानागढ़ गुवाहाटी (असम) (पीएनबी प्रायोजित)",
+      "pin": "781005",
+      "lat": 26.1844,
+      "lon": 91.7458,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 18,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-BR-01",
+      "type": "RRB",
+      "name": "Dakshin Bihar Gramin Bank",
+      "name_en": "Dakshin Bihar Gramin Bank",
+      "name_hi": "दक्षिण बिहार ग्रामीण बैंक",
+      "state": "BR",
+      "state_name_en": "Bihar",
+      "address": "Shri Vishnu Commercial Complex, NH-30, New Bypass, near BP Highway Service Petrol Pump, Asochak, Patna (PNB sponsored)",
+      "address_en": "Shri Vishnu Commercial Complex, NH-30, New Bypass, near BP Highway Service Petrol Pump, Asochak, Patna (PNB sponsored)",
+      "address_hi": "श्री विष्णु कमर्शियल कॉम्प्लेक्स, एनएच-30, न्यू बाईपास, निकट बीपी हाइवे सर्विस पेट्रोल पंप, असोचक, पटना (पीएनबी प्रायोजित)",
+      "pin": "800016",
+      "lat": 25.6716,
+      "lon": 85.0646,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-BR-02",
+      "type": "RRB",
+      "name": "Uttar Bihar Gramin Bank",
+      "name_en": "Uttar Bihar Gramin Bank",
+      "name_hi": "उत्तर बिहार ग्रामीण बैंक",
+      "state": "BR",
+      "state_name_en": "Bihar",
+      "address": "Kalambagh Chowk, Muzaffarpur, Bihar",
+      "address_en": "Kalambagh Chowk, Muzaffarpur, Bihar",
+      "address_hi": "कलमबाग चौक, मुज़फ़्फ़रपुर, बिहार",
+      "pin": "842001",
+      "lat": 26.1511,
+      "lon": 85.3308,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-CG-33",
+      "type": "RRB",
+      "name": "Chhattisgarh Rajya Gramin Bank",
+      "name_en": "Chhattisgarh Rajya Gramin Bank",
+      "name_hi": "छत्तीसगढ़ राज्य ग्रामीण बैंक",
+      "state": "CG",
+      "state_name_en": "Chhattisgarh",
+      "address": "Raipur, Mahadevghat Road, Sunder Nagar, Raipur",
+      "address_en": "Raipur, Mahadevghat Road, Sunder Nagar, Raipur",
+      "address_hi": "रायपुर, महादेवघाट रोड, सुन्दर नगर, रायपुर",
+      "pin": "492013",
+      "lat": 21.2333,
+      "lon": 81.6333,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 33,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-GJ-07",
+      "type": "RRB",
+      "name": "Baroda Gujarat Gramin Bank",
+      "name_en": "Baroda Gujarat Gramin Bank",
+      "name_hi": "बड़ौदा गुजरात ग्रामीण बैंक",
+      "state": "GJ",
+      "state_name_en": "Gujarat",
+      "address": "Head Office, Sky Line Building, 2nd Floor, near Sheetal Guest House, Bharuch",
+      "address_en": "Head Office, Sky Line Building, 2nd Floor, near Sheetal Guest House, Bharuch",
+      "address_hi": "प्रधान कार्यालय, स्काई लाइन बिल्डिंग, दूसरी मंजिल, निकट शीतल गेस्ट हाउस, भरूच",
+      "pin": "392001",
+      "lat": 21.7793,
+      "lon": 72.9224,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 7,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-GJ-29",
+      "type": "RRB",
+      "name": "Saurashtra Gramin Bank",
+      "name_en": "Saurashtra Gramin Bank",
+      "name_hi": "सौराष्ट्र ग्रामीण बैंक",
+      "state": "GJ",
+      "state_name_en": "Gujarat",
+      "address": "Wing-2, 1st Floor, LIC Jeevan Prakash Building, Tagore Marg, Rajkot, Gujarat",
+      "address_en": "Wing-2, 1st Floor, LIC Jeevan Prakash Building, Tagore Marg, Rajkot, Gujarat",
+      "address_hi": "विंग-2, प्रथम तल, एलआईसी जीवन प्रकाश बिल्डिंग, टेगोर मार्ग, राजकोट, गुजरात",
+      "pin": "360001",
+      "lat": 22.29161,
+      "lon": 70.79322,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 29,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-HP-25",
+      "type": "RRB",
+      "name": "Himachal Pradesh Gramin Bank",
+      "name_en": "Himachal Pradesh Gramin Bank",
+      "name_hi": "हिमाचल प्रदेश ग्रामीण बैंक",
+      "state": "HP",
+      "state_name_en": "Himachal Pradesh",
+      "address": "Jail Road, (Panjethi), PO - Talyahar, Mandi (Himachal Pradesh) (PNB sponsored)",
+      "address_en": "Jail Road, (Panjethi), PO - Talyahar, Mandi (Himachal Pradesh) (PNB sponsored)",
+      "address_hi": "जेल रोड, (पंजेठी), पीओ - तल्याहर, मंडी (हिमाचल प्रदेश) (पीएनबी प्रायोजित)",
+      "pin": "175001",
+      "lat": 31.71967,
+      "lon": 76.92611,
+      "geocode": {
+        "method": "pin_consensus",
+        "confidence": 0.45,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 25,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-HR-06",
+      "type": "RRB",
+      "name": "Sarva Haryana Gramin Bank",
+      "name_en": "Sarva Haryana Gramin Bank",
+      "name_hi": "सर्व हरयाणा ग्रामीण बैंक",
+      "state": "HR",
+      "state_name_en": "Haryana",
+      "address": "near Bajrang Bhawan, Delhi Road, Rohtak, Haryana (PNB sponsored)",
+      "address_en": "near Bajrang Bhawan, Delhi Road, Rohtak, Haryana (PNB sponsored)",
+      "address_hi": "निकट बजरंग भवन, दिल्ली रोड, रोहतक, हरियाणा (पीएनबी प्रायोजित)",
+      "pin": "124001",
+      "lat": 28.8917,
+      "lon": 76.6118,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 6,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-JH-03",
+      "type": "RRB",
+      "name": "Jharkhand Rajya Gramin Bank",
+      "name_en": "Jharkhand Rajya Gramin Bank",
+      "name_hi": "झारखंड राज्य ग्रामीण बैंक",
+      "state": "JH",
+      "state_name_en": "Jharkhand",
+      "address": "near Nagar Palika Chowk, Danglapara, Dumka, Jharkhand",
+      "address_en": "near Nagar Palika Chowk, Danglapara, Dumka, Jharkhand",
+      "address_hi": "निकट नगर पालिका चौक, दंगलपाड़ा, दुमका, झारखंड",
+      "pin": null,
+      "lat": 24.33121,
+      "lon": 87.25884,
+      "geocode": {
+        "method": "address",
+        "confidence": 0.3,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 3,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-JK-34",
+      "type": "RRB",
+      "name": "Jammu and Kashmir Grameen Bank",
+      "name_en": "Jammu and Kashmir Grameen Bank",
+      "name_hi": "जम्मू और कश्मीर ग्रामीण विकास बैंक",
+      "state": "JK",
+      "state_name_en": "Jammu & Kashmir",
+      "address": "near Jammu and Kashmir Fruit Complex, Narwal, Jammu (Jammu and Kashmir)",
+      "address_en": "near Jammu and Kashmir Fruit Complex, Narwal, Jammu (Jammu and Kashmir)",
+      "address_hi": "निकट जम्मू और कश्मीर फल कॉम्प्लेक्स, नरवाल, जम्मू (जम्मू एवं कश्मीर)",
+      "pin": "180006",
+      "lat": 32.7625,
+      "lon": 74.7884,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 34,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-JK-35",
+      "type": "RRB",
+      "name": "Ellaquai Dehati Bank",
+      "name_en": "Ellaquai Dehati Bank",
+      "name_hi": "एलाक्काई देहाती बैंक",
+      "state": "JK",
+      "state_name_en": "Jammu & Kashmir",
+      "address": "3rd Floor, Nirman Complex, Airport (IG) Road, Barzulla, Srinagar, Jammu and Kashmir",
+      "address_en": "3rd Floor, Nirman Complex, Airport (IG) Road, Barzulla, Srinagar, Jammu and Kashmir",
+      "address_hi": "तीसरी मंजिल, निर्माण कॉम्प्लेक्स, हवाई अड्डा (आईजी) रोड, बारजुल्ला, श्रीनगर, जम्मू और कश्मीर",
+      "pin": "190005",
+      "lat": 34.08565,
+      "lon": 74.80555,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 35,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-KA-14",
+      "type": "RRB",
+      "name": "Karnataka Gramin Bank",
+      "name_en": "Karnataka Gramin Bank",
+      "name_hi": "कर्नाटक ग्रामीण बैंक",
+      "state": "KA",
+      "state_name_en": "Karnataka",
+      "address": "Head Office, CA 20, Vijayanagar 2nd Stage, Mysuru (Karnataka)",
+      "address_en": "Head Office, CA 20, Vijayanagar 2nd Stage, Mysuru (Karnataka)",
+      "address_hi": "प्रधान कार्यालय, सीए 20, विजयनगर द्वितीय स्टेज, मैसूर (कर्नाटक)",
+      "pin": "570017",
+      "lat": 12.3134,
+      "lon": 76.7455,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 14,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-KA-17",
+      "type": "RRB",
+      "name": "Karnataka Vikas Grameena Bank",
+      "name_en": "Karnataka Vikas Grameena Bank",
+      "name_hi": "कर्नाटक विकास ग्रामीण बैंक",
+      "state": "KA",
+      "state_name_en": "Karnataka",
+      "address": "Head Office, PB No. 111, Belgaum Road, Dharwad (Karnataka)",
+      "address_en": "Head Office, PB No. 111, Belgaum Road, Dharwad (Karnataka)",
+      "address_hi": "प्रधान कार्यालय, पीबी नं. 111, बेलगाम रोड, धारवाड़ (कर्नाटक)",
+      "pin": "580008",
+      "lat": 15.4287,
+      "lon": 75.0705,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 17,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-KL-11",
+      "type": "RRB",
+      "name": "Kerala Gramin Bank",
+      "name_en": "Kerala Gramin Bank",
+      "name_hi": "केरल ग्रामीण बैंक",
+      "state": "KL",
+      "state_name_en": "Kerala",
+      "address": "PB No.10, KGPB Towers, AK Road, Uphill, Malappuram, Kerala",
+      "address_en": "PB No.10, KGPB Towers, AK Road, Uphill, Malappuram, Kerala",
+      "address_hi": "पीबी नं.10, केजीपीबी टावर्स, एके रोड, अपहिल, मलप्पुरम, केरल",
+      "pin": "676505",
+      "lat": 11.0128,
+      "lon": 76.0669,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 11,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-MH-04",
+      "type": "RRB",
+      "name": "Maharashtra Gramin Bank",
+      "name_en": "Maharashtra Gramin Bank",
+      "name_hi": "महाराष्ट्र ग्रामीण बैंक",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Plot No.35, Jeevan Shree Town Centre, CIDCO, Aurangabad, Maharashtra",
+      "address_en": "Plot No.35, Jeevan Shree Town Centre, CIDCO, Aurangabad, Maharashtra",
+      "address_hi": "प्लाट नं.35, जीवन श्री टाउन सेंटर, सिडको, औरंगाबाद, महाराष्ट्र",
+      "pin": "431003",
+      "lat": 20.0291,
+      "lon": 75.2816,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 4,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-MH-05",
+      "type": "RRB",
+      "name": "Vidarbha Konkan Gramin Bank",
+      "name_en": "Vidarbha Konkan Gramin Bank",
+      "name_hi": "विदर्भ कोंकण ग्रामीण बैंक",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Chandraprastha, 2nd and 3rd Floor, Plot Number 6, Deendayal Nagar, Ring Road, Nagpur, Maharashtra",
+      "address_en": "Chandraprastha, 2nd and 3rd Floor, Plot Number 6, Deendayal Nagar, Ring Road, Nagpur, Maharashtra",
+      "address_hi": "चंद्रप्रस्थ, दूसरी और तीसरी मंजिल, प्लॉट नंबर 6, दीनदयाल नगर, रिंग रोड, नागपुर, महाराष्ट्र",
+      "pin": "440022",
+      "lat": 21.1562,
+      "lon": 79.0731,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 5,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-ML-37",
+      "type": "RRB",
+      "name": "Meghalaya Rural Bank",
+      "name_en": "Meghalaya Rural Bank",
+      "name_hi": "मेघालय क्षेत्रीय ग्रामीण बैंक",
+      "state": "ML",
+      "state_name_en": "Meghalaya",
+      "address": "MTC Building, 2nd Floor, Police Bazar, Shillong",
+      "address_en": "MTC Building, 2nd Floor, Police Bazar, Shillong",
+      "address_hi": "एमटीसी भवन, दूसरी मंजिल, पुलिस बाज़ार, शिलांग",
+      "pin": "793001",
+      "lat": 25.5675,
+      "lon": 91.8645,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 37,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-MN-32",
+      "type": "RRB",
+      "name": "Manipur Rural Bank",
+      "name_en": "Manipur Rural Bank",
+      "name_hi": "मणिपुर ग्रामीण बैंक",
+      "state": "MN",
+      "state_name_en": "Manipur",
+      "address": "QWQF+GX9, Keishampat, Keisham Leikai, Imphal, Manipur (PNB sponsored)",
+      "address_en": "QWQF+GX9, Keishampat, Keisham Leikai, Imphal, Manipur (PNB sponsored)",
+      "address_hi": "क्यूडब्ल्यूक्यूएफ+जीएक्स9, कीशाम्पट, कीशम लीकाई, इंफाल, मणिपुर (पीएनबी प्रायोजित)",
+      "pin": "795001",
+      "lat": 24.80805,
+      "lon": 93.9442,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 32,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-MP-21",
+      "type": "RRB",
+      "name": "Madhyanchal Gramin Bank",
+      "name_en": "Madhyanchal Gramin Bank",
+      "name_hi": "मध्यांचल ग्रामीण बैंक",
+      "state": "MP",
+      "state_name_en": "Madhya Pradesh",
+      "address": "Poddar Colony Tili Road, Sagar, Madhya Pradesh",
+      "address_en": "Poddar Colony Tili Road, Sagar, Madhya Pradesh",
+      "address_hi": "पोद्दार कॉलोनी तिलीरोड, सागर, मध्य प्रदेश",
+      "pin": "470001",
+      "lat": 23.83745,
+      "lon": 78.71392,
+      "geocode": {
+        "method": "pin_consensus",
+        "confidence": 0.45,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 21,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-MP-26",
+      "type": "RRB",
+      "name": "Madhya Pradesh Gramin Bank",
+      "name_en": "Madhya Pradesh Gramin Bank",
+      "name_hi": "मध्य प्रदेश ग्रामीण बैंक",
+      "state": "MP",
+      "state_name_en": "Madhya Pradesh",
+      "address": "43, Khajrana Road Peepal Chowk, Ganeshpuri, Khajrana, Indore (Madhya Pradesh)",
+      "address_en": "43, Khajrana Road Peepal Chowk, Ganeshpuri, Khajrana, Indore (Madhya Pradesh)",
+      "address_hi": "43, खजराना रोड पीपल चौक, गणेशपुरी, खजराना, इंदौर (मध्य प्रदेश)",
+      "pin": "452016",
+      "lat": 22.70791,
+      "lon": 75.92636,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 26,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-MZ-36",
+      "type": "RRB",
+      "name": "Mizoram Rural Bank",
+      "name_en": "Mizoram Rural Bank",
+      "name_hi": "मिजोरम क्षेत्रीय ग्रामीण बैंक",
+      "state": "MZ",
+      "state_name_en": "Mizoram",
+      "address": "Mizoram Mineco, Khatla Aizawl",
+      "address_en": "Mizoram Mineco, Khatla Aizawl",
+      "address_hi": "मिजोरम माइनको, खटला आइजोल",
+      "pin": "796001",
+      "lat": 23.72894,
+      "lon": 92.71791,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 36,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-OD-38",
+      "type": "RRB",
+      "name": "Utkal Grameen Bank",
+      "name_en": "Utkal Grameen Bank",
+      "name_hi": "उत्कल ग्रामीण बैंक",
+      "state": "OD",
+      "state_name_en": "Odisha",
+      "address": "Doorsanchar Bhawan, near New Bus Stand, Bolangir (Odisha)",
+      "address_en": "Doorsanchar Bhawan, near New Bus Stand, Bolangir (Odisha)",
+      "address_hi": "दूरसंचार भवन, न्यू बस स्टैंड के पास, बोलनगीर (ओडिशा)",
+      "pin": "767001",
+      "lat": 20.3977,
+      "lon": 82.7449,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 38,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-OD-41",
+      "type": "RRB",
+      "name": "Odisha Gramya Bank",
+      "name_en": "Odisha Gramya Bank",
+      "name_hi": "ओडिशा ग्राम्य बैंक",
+      "state": "OD",
+      "state_name_en": "Odisha",
+      "address": "sponsored by Indian Overseas Bank (no address printed in source)",
+      "address_en": "sponsored by Indian Overseas Bank (no address printed in source)",
+      "address_hi": "इंडियन ओवरसीज बैंक द्वारा प्रायोजित (स्रोत में कोई पता नहीं)",
+      "pin": null,
+      "lat": 20.63685,
+      "lon": 84.98455,
+      "geocode": {
+        "method": "state_centroid",
+        "confidence": 0.1,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 41,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-PB-20",
+      "type": "RRB",
+      "name": "Punjab Gramin Bank",
+      "name_en": "Punjab Gramin Bank",
+      "name_hi": "पंजाब ग्रामीण बैंक",
+      "state": "PB",
+      "state_name_en": "Punjab",
+      "address": "Head Office: Jalandhar Road, Kapurthala (Punjab) (PNB sponsored)",
+      "address_en": "Head Office: Jalandhar Road, Kapurthala (Punjab) (PNB sponsored)",
+      "address_hi": "प्रधान कार्यालय: जालंधर रोड, कपूरथला (पंजाब) (पीएनबी प्रायोजित)",
+      "pin": "144601",
+      "lat": 31.3801,
+      "lon": 75.3811,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 20,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-PY-27",
+      "type": "RRB",
+      "name": "Puduvai Bharathiar Grama Bank",
+      "name_en": "Puduvai Bharathiar Grama Bank",
+      "name_hi": "पुदुवई भरतियार ग्राम बैंक",
+      "state": "PY",
+      "state_name_en": "Puducherry",
+      "address": "441, Mahatma Gandhi Road, Muthialpet, Puducherry",
+      "address_en": "441, Mahatma Gandhi Road, Muthialpet, Puducherry",
+      "address_hi": "441, महात्मा गांधी रोड, मुथियालपेट, पुडुचेरी",
+      "pin": "605003",
+      "lat": 11.8768,
+      "lon": 79.8107,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 27,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-RJ-09",
+      "type": "RRB",
+      "name": "Rajasthan Marudhara Gramin Bank",
+      "name_en": "Rajasthan Marudhara Gramin Bank",
+      "name_hi": "राजस्थान मरुधरा ग्रामीण बैंक",
+      "state": "RJ",
+      "state_name_en": "Rajasthan",
+      "address": "Tulsi Tower, 9th, B Road Sardarpura, Jodhpur (Rajasthan)",
+      "address_en": "Tulsi Tower, 9th, B Road Sardarpura, Jodhpur (Rajasthan)",
+      "address_hi": "तुलसी टावर, 9वां, बी रोड सरदारपुरा, जोधपुर (राजस्थान)",
+      "pin": "342003",
+      "lat": 26.26841,
+      "lon": 73.00594,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 9,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-RJ-31",
+      "type": "RRB",
+      "name": "Baroda Rajasthan Kshetriya Gramin Bank",
+      "name_en": "Baroda Rajasthan Kshetriya Gramin Bank",
+      "name_hi": "बड़ौदा राजस्थान क्षेत्रीय ग्रामीण बैंक",
+      "state": "RJ",
+      "state_name_en": "Rajasthan",
+      "address": "Plot Number - 2343, 2nd Floor, Ana Sagar Circular Road, Vaishali Nagar, Ajmer",
+      "address_en": "Plot Number - 2343, 2nd Floor, Ana Sagar Circular Road, Vaishali Nagar, Ajmer",
+      "address_hi": "प्लाट नंबर - 2343, दूसरी मंजिल, अन्ना सागर सर्कुलर रोड, वैशाली नगर, अजमेर",
+      "pin": "305004",
+      "lat": 26.5151,
+      "lon": 74.6214,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 31,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-TG-08",
+      "type": "RRB",
+      "name": "Telangana Grameena Bank",
+      "name_en": "Telangana Grameena Bank",
+      "name_hi": "तेलंगाना ग्रामीण बैंक",
+      "state": "TG",
+      "state_name_en": "Telangana",
+      "address": "House No 2-1-520, 2nd Floor, Vijaya Sri Sai Celestia, Street No.9, Shankarmutt Road, Nallakunta, Hyderabad, Telangana",
+      "address_en": "House No 2-1-520, 2nd Floor, Vijaya Sri Sai Celestia, Street No.9, Shankarmutt Road, Nallakunta, Hyderabad, Telangana",
+      "address_hi": "मकान संख्या 2-1-520, दूसरी मंजिल, विजया श्री साई सेलेस्टिया, स्ट्रीट नं.9, शंकरमुट मार्ग, नल्लाकुंटा, हैदराबाद, तेलंगाना",
+      "pin": "500044",
+      "lat": 17.38405,
+      "lon": 78.45636,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 8,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-TG-23",
+      "type": "RRB",
+      "name": "Andhra Pradesh Grameena Vikas Bank",
+      "name_en": "Andhra Pradesh Grameena Vikas Bank",
+      "name_hi": "आंध्र प्रदेश ग्रामीण विकास बैंक",
+      "state": "TG",
+      "state_name_en": "Telangana",
+      "address": "Door No.2-5-8/1, Ram Nagar, Hanamkonda, Warangal (city and district), (Telangana)",
+      "address_en": "Door No.2-5-8/1, Ram Nagar, Hanamkonda, Warangal (city and district), (Telangana)",
+      "address_hi": "डोर नं.2-5-8/1, राम नगर, हन्माकोंडा, वारंगल (शहर और जिला), (तेलंगाना)",
+      "pin": "506001",
+      "lat": 18.0,
+      "lon": 79.58333,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 23,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-TN-19",
+      "type": "RRB",
+      "name": "Tamil Nadu Grama Bank",
+      "name_en": "Tamil Nadu Grama Bank",
+      "name_hi": "तमिल तमिलनाडु ग्रामीण बैंक",
+      "state": "TN",
+      "state_name_en": "Tamil Nadu",
+      "address": "6, Yercaud Road, Hasthampatti, Salem (Tamil Nadu)",
+      "address_en": "6, Yercaud Road, Hasthampatti, Salem (Tamil Nadu)",
+      "address_hi": "6, येरकौड मार्ग, हस्थसमपट्टी, सेलम (तमिलनाडु)",
+      "pin": "636007",
+      "lat": 11.67293,
+      "lon": 78.21047,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 19,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-TR-15",
+      "type": "RRB",
+      "name": "Tripura Gramin Bank",
+      "name_en": "Tripura Gramin Bank",
+      "name_hi": "त्रिपुरा ग्रामीण बैंक",
+      "state": "TR",
+      "state_name_en": "Tripura",
+      "address": "Head Office: Airport Road, Post Office Abhaynagar, Agartala, Tripura (West) (PNB sponsored)",
+      "address_en": "Head Office: Airport Road, Post Office Abhaynagar, Agartala, Tripura (West) (PNB sponsored)",
+      "address_hi": "प्रधान कार्यालय: एयरपोर्ट रोड, पोस्ट ऑफिस अभयनगर, अगरतला, त्रिपुरा (पश्चिम) (पीएनबी प्रायोजित)",
+      "pin": "799005",
+      "lat": 23.8903,
+      "lon": 91.4025,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 15,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-UK-12",
+      "type": "RRB",
+      "name": "Uttarakhand Gramin Bank",
+      "name_en": "Uttarakhand Gramin Bank",
+      "name_hi": "उत्तराखंड ग्रामीण बैंक",
+      "state": "UK",
+      "state_name_en": "Uttarakhand",
+      "address": "18-New Road, Dehradun, Uttarakhand",
+      "address_en": "18-New Road, Dehradun, Uttarakhand",
+      "address_hi": "18-न्यू रोड, देहरादून, उत्तराखंड",
+      "pin": null,
+      "lat": 30.45481,
+      "lon": 77.98291,
+      "geocode": {
+        "method": "address",
+        "confidence": 0.3,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 12,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-UP-10",
+      "type": "RRB",
+      "name": "Baroda Uttar Pradesh Gramin Bank",
+      "name_en": "Baroda Uttar Pradesh Gramin Bank",
+      "name_hi": "बड़ौदा उत्तर प्रदेश ग्रामीण बैंक",
+      "state": "UP",
+      "state_name_en": "Uttar Pradesh",
+      "address": "A-1, Civil Lines, Raebareli, Uttar Pradesh",
+      "address_en": "A-1, Civil Lines, Raebareli, Uttar Pradesh",
+      "address_hi": "ए-1, सिविल लाइंस, रायबरेली, उत्तर प्रदेश",
+      "pin": "229001",
+      "lat": 26.2309,
+      "lon": 81.23315,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 10,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-UP-13",
+      "type": "RRB",
+      "name": "Prathama U.P. Gramin Bank",
+      "name_en": "Prathama U.P. Gramin Bank",
+      "name_hi": "प्रथमा यू.पी. ग्रामीण बैंक",
+      "state": "UP",
+      "state_name_en": "Uttar Pradesh",
+      "address": "Prathama Bhawan, Ram Ganga Vihar-II, Moradabad, Uttar Pradesh",
+      "address_en": "Prathama Bhawan, Ram Ganga Vihar-II, Moradabad, Uttar Pradesh",
+      "address_hi": "प्रथमा भवन, राम गंगा विहार-II, मुरादाबाद, उत्तर प्रदेश",
+      "pin": "244001",
+      "lat": 28.8641,
+      "lon": 78.82665,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 13,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-UP-22",
+      "type": "RRB",
+      "name": "Aryavart Bank",
+      "name_en": "Aryavart Bank",
+      "name_hi": "आर्यावर्त बैंक",
+      "state": "UP",
+      "state_name_en": "Uttar Pradesh",
+      "address": "A-2/46, Vijay Khand, Gomti Nagar, Lucknow",
+      "address_en": "A-2/46, Vijay Khand, Gomti Nagar, Lucknow",
+      "address_hi": "ए-2/46, विजय खण्ड, गोमती नगर, लखनऊ",
+      "pin": "226010",
+      "lat": 26.8288,
+      "lon": 81.0147,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 22,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-WB-30",
+      "type": "RRB",
+      "name": "Paschim Banga Gramin Bank",
+      "name_en": "Paschim Banga Gramin Bank",
+      "name_hi": "पश्चिम बंगा ग्रामीण बैंक",
+      "state": "WB",
+      "state_name_en": "West Bengal",
+      "address": "Natabar Paul Road, Chatterjee Para More, Tikiapara, Howrah (West Bengal)",
+      "address_en": "Natabar Paul Road, Chatterjee Para More, Tikiapara, Howrah (West Bengal)",
+      "address_hi": "नटबर पॉल रोड, चटर्जी पारा मोर, टिकियापारा, हावड़ा (पश्चिम बंगाल)",
+      "pin": "711101",
+      "lat": 22.57688,
+      "lon": 88.31857,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 30,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-WB-39",
+      "type": "RRB",
+      "name": "Bangiya Gramin Vikash Bank",
+      "name_en": "Bangiya Gramin Vikash Bank",
+      "name_hi": "बंगिया ग्रामीण विकास बैंक",
+      "state": "WB",
+      "state_name_en": "West Bengal",
+      "address": "BMC House, (near Sanjay Hotel), NH-34, Chaltia, Chuanpur, PO Berhampore",
+      "address_en": "BMC House, (near Sanjay Hotel), NH-34, Chaltia, Chuanpur, PO Berhampore",
+      "address_hi": "बीएमसी हाउस, (संजय होटल के पास), एनएच-34, चालटिया, चुआनपुर, पीओ बेरहामपुर",
+      "pin": "742101",
+      "lat": 24.1107,
+      "lon": 88.0112,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 39,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "RRB-WB-40",
+      "type": "RRB",
+      "name": "Uttarbanga Kshetriya Gramin Bank",
+      "name_en": "Uttarbanga Kshetriya Gramin Bank",
+      "name_hi": "उत्तरबंग क्षेत्रीय ग्रामीण बैंक",
+      "state": "WB",
+      "state_name_en": "West Bengal",
+      "address": "Suniti Road, Cooch Behar",
+      "address_en": "Suniti Road, Cooch Behar",
+      "address_hi": "सनिटी रोड, कूचबिहार",
+      "pin": "736101",
+      "lat": 26.291,
+      "lon": 89.3437,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "CA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp3.pdf",
+        "list_title": "क्षेत्रीय ग्रामीण बैंकों की सूची",
+        "srno": 40,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-AP-01",
+      "type": "SCA",
+      "name": "Andhra Pradesh Scheduled Caste Cooperative Finance Corporation Ltd (APSCCFC)",
+      "name_en": "Andhra Pradesh Scheduled Caste Cooperative Finance Corporation Ltd (APSCCFC)",
+      "name_hi": "आंध्र प्रदेश शेडयूल्ड कास्ट कोआपरेटिव फाइनांस कारपोरेशन लिमि. (एपीएससीसीएफसी)",
+      "state": "AP",
+      "state_name_en": "Andhra Pradesh",
+      "address": "SP River View Apartment, 3rd Floor, Tadepalli, Amaravati",
+      "address_en": "SP River View Apartment, 3rd Floor, Tadepalli, Amaravati",
+      "address_hi": "एसपी रीवर वीव अपार्टमेंट, तीसरी मंजिल, ताडेपल्ली, अमरावती",
+      "pin": "522501",
+      "lat": 16.29974,
+      "lon": 80.45729,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-AP-02",
+      "type": "SCA",
+      "name": "Andhra Pradesh State Finance Corporation (APSFC)",
+      "name_en": "Andhra Pradesh State Finance Corporation (APSFC)",
+      "name_hi": "आंध्र प्रदेश राज्य वित्त निगम (एपीएसएफसी)",
+      "state": "AP",
+      "state_name_en": "Andhra Pradesh",
+      "address": "APSFC Bhavan, Plot OS No.2, 2nd Cross, 3rd Road, Industrial Park, Vijayawada",
+      "address_en": "APSFC Bhavan, Plot OS No.2, 2nd Cross, 3rd Road, Industrial Park, Vijayawada",
+      "address_hi": "एपीएसएफसी भवन, प्लाट ओएस नं.2, दूसरा क्रॉस, तीसरा रोड, औद्योगिक पार्क, विजयवाडा",
+      "pin": "520007",
+      "lat": 16.4919,
+      "lon": 80.67942,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-AS-03",
+      "type": "SCA",
+      "name": "Assam State Scheduled Caste Development Corporation Ltd (ASCDC)",
+      "name_en": "Assam State Scheduled Caste Development Corporation Ltd (ASCDC)",
+      "name_hi": "असम राज्य अनुसूचित जाति विकास निगम लिमिटेड (एएससीडीसी)",
+      "state": "AS",
+      "state_name_en": "Assam",
+      "address": "Swahid Dilip Hazarika Path, Sarumotoria, Dispur, Guwahati",
+      "address_en": "Swahid Dilip Hazarika Path, Sarumotoria, Dispur, Guwahati",
+      "address_hi": "स्वाहिद दिलीप होजोरी पथ, सरूमोटोरिया, दिसपुर, गुवाहाटी",
+      "pin": "781006",
+      "lat": 26.1844,
+      "lon": 91.7458,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 3,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-BR-04",
+      "type": "SCA",
+      "name": "Bihar State Scheduled Caste Cooperative Development Corporation Ltd (BSCCDC)",
+      "name_en": "Bihar State Scheduled Caste Cooperative Development Corporation Ltd (BSCCDC)",
+      "name_hi": "बिहार राज्य अनुसूचित जाति सहकारी विकास निगम लिमिटेड (बीएससीसीडीसी)",
+      "state": "BR",
+      "state_name_en": "Bihar",
+      "address": "RN-212, Officer Colony (Block-A), Bailey Road, Patna",
+      "address_en": "RN-212, Officer Colony (Block-A), Bailey Road, Patna",
+      "address_hi": "आरएन-212, ऑफिसर कालोनी (ब्लॉक-ए), बेली रोड, पटना",
+      "pin": "800001",
+      "lat": 25.5891,
+      "lon": 85.1171,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 4,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-CG-06",
+      "type": "SCA",
+      "name": "Chhattisgarh Rajya Antyavasayi Sahkari Vitt Evam Vikas Nigam (CGSCFDC)",
+      "name_en": "Chhattisgarh Rajya Antyavasayi Sahkari Vitt Evam Vikas Nigam (CGSCFDC)",
+      "name_hi": "छत्तीसगढ़ राज्य अन्तावसायी सहकारी वित्त एवं विकास निगम (सीजीएससीएफडीसी)",
+      "state": "CG",
+      "state_name_en": "Chhattisgarh",
+      "address": "4th Floor, Business Complex, Chhattisgarh Housing Board Bhawan, Nava Raipur",
+      "address_en": "4th Floor, Business Complex, Chhattisgarh Housing Board Bhawan, Nava Raipur",
+      "address_hi": "चौथी मंजिल, बिजनेस कॉम्प्लेक्स, छत्तीसगढ़ हाउसिंग बोर्ड भवन, नया रायपुर",
+      "pin": "492101",
+      "lat": 21.0976,
+      "lon": 81.7223,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 6,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-CH-05",
+      "type": "SCA",
+      "name": "Chandigarh SC, BC and Minorities Financial and Development Corporation Ltd (CSCFDC)",
+      "name_en": "Chandigarh SC, BC and Minorities Financial and Development Corporation Ltd (CSCFDC)",
+      "name_hi": "चंडीगढ़ एससी, बीसी और अल्पसंख्यक वित्त एवं विकास निगम लिमिटेड (सीएससीएफडीसी)",
+      "state": "CH",
+      "state_name_en": "Chandigarh",
+      "address": "3rd Floor, Additional Town Hall Building, Sector-17-C, Chandigarh",
+      "address_en": "3rd Floor, Additional Town Hall Building, Sector-17-C, Chandigarh",
+      "address_hi": "तीसरी मंजिल, एडिशनल टाउन हॉल बिल्डिंग, सेक्टर-17-सी, चंडीगढ़",
+      "pin": "160017",
+      "lat": 30.7301,
+      "lon": 76.7815,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 5,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-DH-34",
+      "type": "SCA",
+      "name": "Dadra and Nagar Haveli, Daman and Diu SC/ST/OBC and Minorities Finance and Development Corporation (DNDSFDC)",
+      "name_en": "Dadra and Nagar Haveli, Daman and Diu SC/ST/OBC and Minorities Finance and Development Corporation (DNDSFDC)",
+      "name_hi": "दादरा एवं नगर हवेली, दमन एवं दीव एससी/एसटी/ओबीसी और अल्पसंख्यक वित्त एवं विकास निगम (डीएनडीएसएफडीसी)",
+      "state": "DH",
+      "state_name_en": "Dadra & Nagar Haveli and Daman & Diu",
+      "address": "Ground Floor, Right Wing, New Collectorate Building, near Electricity Department, opposite 66 KVA Sub-Station, 66 KVA Road, Silvassa",
+      "address_en": "Ground Floor, Right Wing, New Collectorate Building, near Electricity Department, opposite 66 KVA Sub-Station, 66 KVA Road, Silvassa",
+      "address_hi": "भूतल, दायाँ विंग, नया कलेक्ट्रेट भवन, निकट बिजली विभाग, 66 केवीए सब-स्टेशन के सामने, 66 केवीए रोड, सिल्वासा",
+      "pin": "396230",
+      "lat": 20.19458,
+      "lon": 73.07197,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 34,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-DL-07",
+      "type": "SCA",
+      "name": "Delhi SC/ST/OBC/Minorities and Handicapped Financial and Development Corporation (DSFDC)",
+      "name_en": "Delhi SC/ST/OBC/Minorities and Handicapped Financial and Development Corporation (DSFDC)",
+      "name_hi": "दिल्ली एससी/एसटी/ओबीसी/अल्पसंख्यक एवं विकलांग वित्त एवं विकास निगम (डीएसएफडीसी)",
+      "state": "DL",
+      "state_name_en": "Delhi",
+      "address": "Ambedkar Bhawan, Sector-16 (opposite Sector-11), Rohini, Delhi",
+      "address_en": "Ambedkar Bhawan, Sector-16 (opposite Sector-11), Rohini, Delhi",
+      "address_hi": "अम्बेडकर भवन, सेक्टर-16, (सेक्टर-11 के सामने), रोहिणी, दिल्ली",
+      "pin": "110085",
+      "lat": 28.71799,
+      "lon": 77.12688,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 7,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-GA-10",
+      "type": "SCA",
+      "name": "Goa State SC and OBC Finance and Development Corporation Ltd (GSCOBCDC)",
+      "name_en": "Goa State SC and OBC Finance and Development Corporation Ltd (GSCOBCDC)",
+      "name_hi": "गोवा राज्य एससी और ओबीसी वित्त एवं विकास निगम लिमिटेड (जीएससीओबीसीडीसी)",
+      "state": "GA",
+      "state_name_en": "Goa",
+      "address": "4th Floor, Patto Centre, near KTC Bus Stand, Panaji, Goa",
+      "address_en": "4th Floor, Patto Centre, near KTC Bus Stand, Panaji, Goa",
+      "address_hi": "चौथी मंजिल, पट्टो सेंटर, निकट केटीसी बस स्टैंड, पणजी, गोवा",
+      "pin": "403001",
+      "lat": 15.4723,
+      "lon": 73.8097,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 10,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-GJ-08",
+      "type": "SCA",
+      "name": "Managing Director, Gujarat Scheduled Caste Development Corporation (GSCDC)",
+      "name_en": "Managing Director, Gujarat Scheduled Caste Development Corporation (GSCDC)",
+      "name_hi": "प्रबंध निदेशक, गुजरात अनुसूचित जाति विकास निगम (जीएससीडीसी)",
+      "state": "GJ",
+      "state_name_en": "Gujarat",
+      "address": "Dr. Jivraj Mehta Bhavan, Block-10, 2nd Floor, Old Sachivalaya, Gandhinagar",
+      "address_en": "Dr. Jivraj Mehta Bhavan, Block-10, 2nd Floor, Old Sachivalaya, Gandhinagar",
+      "address_hi": "डॉ. जीवराज मेहता भवन, ब्लॉक-10, दूसरी मंजिल, पुराना सचिवालय, गांधीनगर",
+      "pin": "382010",
+      "lat": 23.21667,
+      "lon": 72.68333,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 8,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-GJ-09",
+      "type": "SCA",
+      "name": "Dr. Ambedkar Antyodaya Vikas Nigam (SC) (DAAVN)",
+      "name_en": "Dr. Ambedkar Antyodaya Vikas Nigam (SC) (DAAVN)",
+      "name_hi": "डॉ. अम्बेडकर अंत्योदय विकास निगम (एससी) (डीएएवीएन)",
+      "state": "GJ",
+      "state_name_en": "Gujarat",
+      "address": "Karmayogi Bhavan, Block 2, D2 Wing, 4th Floor, Block-10/B, Gandhinagar, Gujarat",
+      "address_en": "Karmayogi Bhavan, Block 2, D2 Wing, 4th Floor, Block-10/B, Gandhinagar, Gujarat",
+      "address_hi": "कर्मयोगी भवन, ब्लाक 2, डी 2 विंग, चौथी मंजिल, ब्लॉक-10/बी, गांधीनगर, गुजरात",
+      "pin": null,
+      "lat": 23.25033,
+      "lon": 72.71155,
+      "geocode": {
+        "method": "address",
+        "confidence": 0.3,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 9,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-HP-12",
+      "type": "SCA",
+      "name": "Himachal Pradesh SC-ST Development Corporation (HPSCSTDC)",
+      "name_en": "Himachal Pradesh SC-ST Development Corporation (HPSCSTDC)",
+      "name_hi": "हिमाचल प्रदेश एससी-एसटी विकास निगम (एचपीएससीएसटीडीसी)",
+      "state": "HP",
+      "state_name_en": "Himachal Pradesh",
+      "address": "Kalyan Bhawan, near Ambusha Resort, Solan",
+      "address_en": "Kalyan Bhawan, near Ambusha Resort, Solan",
+      "address_hi": "कल्याण भवन, निकट अम्बुशा रिज़ॉर्ट, सोलन",
+      "pin": "173212",
+      "lat": 31.01531,
+      "lon": 76.96655,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 12,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-HR-11",
+      "type": "SCA",
+      "name": "Haryana Scheduled Castes Finance and Development Corporation Ltd (HSCDC)",
+      "name_en": "Haryana Scheduled Castes Finance and Development Corporation Ltd (HSCDC)",
+      "name_hi": "हरियाणा अनुसूचित जाति वित्त एवं विकास निगम लिमिटेड (एचएससीडीसी)",
+      "state": "HR",
+      "state_name_en": "Haryana",
+      "address": "SCO-2427-28, Sector-22-C, Chandigarh",
+      "address_en": "SCO-2427-28, Sector-22-C, Chandigarh",
+      "address_hi": "एससीओ-2427-28, सेक्टर-22-सी, चंडीगढ़",
+      "pin": "160022",
+      "lat": 30.7465,
+      "lon": 76.7417,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 11,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-JH-13",
+      "type": "SCA",
+      "name": "Jharkhand State Scheduled Caste Cooperative Development Corporation (JSCDC)",
+      "name_en": "Jharkhand State Scheduled Caste Cooperative Development Corporation (JSCDC)",
+      "name_hi": "झारखंड राज्य अनुसूचित जाति सहकारी समिति विकास निगम (जेएससीडीसी)",
+      "state": "JH",
+      "state_name_en": "Jharkhand",
+      "address": "Kalyan Complex, 3rd Floor, Balihar Road, Morhabadi, Ranchi",
+      "address_en": "Kalyan Complex, 3rd Floor, Balihar Road, Morhabadi, Ranchi",
+      "address_hi": "कल्याण कॉम्प्लेक्स, तीसरी मंजिल, बलिहार रोड, मोरहाबादी, रांची",
+      "pin": "834008",
+      "lat": 23.3853,
+      "lon": 85.2923,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 13,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-JK-14",
+      "type": "SCA",
+      "name": "Jammu and Kashmir SC, ST and OBC Development Corporation Ltd (JKSCSTBCDC)",
+      "name_en": "Jammu and Kashmir SC, ST and OBC Development Corporation Ltd (JKSCSTBCDC)",
+      "name_hi": "जम्मू-कश्मीर एससी, एसटी और ओबीसी विकास निगम लिमिटेड (जेकेएससीएसटीबीसीडीसी)",
+      "state": "JK",
+      "state_name_en": "Jammu & Kashmir",
+      "address": "Exchange Road, near Red Cross Office, Srinagar (office: May to October); and 135-A, Last Morh, Gandhi Nagar, Jammu-180004 (office: November to April)",
+      "address_en": "Exchange Road, near Red Cross Office, Srinagar (office: May to October); and 135-A, Last Morh, Gandhi Nagar, Jammu-180004 (office: November to April)",
+      "address_hi": "एक्सचेंज रोड, निकट रेड क्रॉस कार्यालय, श्रीनगर (कार्यालय: मई से अक्टूबर); और 135-ए, लास्ट मोरह, गांधी नगर, जम्मू-180004 (कार्यालय: नवंबर से अप्रैल तक)",
+      "pin": "190001",
+      "lat": 34.15837,
+      "lon": 74.89762,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 14,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-KA-15",
+      "type": "SCA",
+      "name": "Dr. B.R. Ambedkar Development Corporation Ltd (DBRADC)",
+      "name_en": "Dr. B.R. Ambedkar Development Corporation Ltd (DBRADC)",
+      "name_hi": "डॉ. बी.आर. अम्बेडकर डेवलपमेंट कॉर्पोरेशन लिमिटेड (डीबीआरएडीसी)",
+      "state": "KA",
+      "state_name_en": "Karnataka",
+      "address": "9th and 10th Floor, Vishweshwaraya Mini Tower, Dr Ambedkar Veedhi, Bengaluru",
+      "address_en": "9th and 10th Floor, Vishweshwaraya Mini Tower, Dr Ambedkar Veedhi, Bengaluru",
+      "address_hi": "नौवीं और दसवीं मंजिल, विश्वेश्वरैया मिनी टॉवर, डॉ अम्बेडकर विधि, बेंगलुरु",
+      "pin": "560001",
+      "lat": 12.97194,
+      "lon": 77.59369,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 15,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-KL-16",
+      "type": "SCA",
+      "name": "Kerala State Scheduled Castes and Scheduled Tribes Development Corporation Ltd (KSDC)",
+      "name_en": "Kerala State Scheduled Castes and Scheduled Tribes Development Corporation Ltd (KSDC)",
+      "name_hi": "केरल राज्य अनुसूचित जाति और अनुसूचित जनजाति विकास निगम लिमिटेड (केएसडीसी)",
+      "state": "KL",
+      "state_name_en": "Kerala",
+      "address": "Town Hall Road, Thrissur",
+      "address_en": "Town Hall Road, Thrissur",
+      "address_hi": "टाउन हॉल रोड, त्रिशूर",
+      "pin": "680020",
+      "lat": 10.4924,
+      "lon": 76.2287,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 16,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-KL-17",
+      "type": "SCA",
+      "name": "Kerala State Womens Development Corporation (KSWDC)",
+      "name_en": "Kerala State Womens Development Corporation (KSWDC)",
+      "name_hi": "केरल राज्य महिला विकास निगम (केएसडब्ल्यूडीसी)",
+      "state": "KL",
+      "state_name_en": "Kerala",
+      "address": "1st Floor, Parivahan Bhavan, East Fort, Attakulangara-695023, Thiruvananthapuram, Kerala",
+      "address_en": "1st Floor, Parivahan Bhavan, East Fort, Attakulangara-695023, Thiruvananthapuram, Kerala",
+      "address_hi": "प्रथम तल, परिवहन भवन, ईस्ट कोर्ट, अट्टाकुलंगरा-695023, तिरुवनंतपुरम, केरल",
+      "pin": "695003",
+      "lat": 8.5225,
+      "lon": 76.9606,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 17,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MH-19",
+      "type": "SCA",
+      "name": "Mahatma Phule Backward Class Development Corporation Ltd (MPBCDC)",
+      "name_en": "Mahatma Phule Backward Class Development Corporation Ltd (MPBCDC)",
+      "name_hi": "महात्मा फुले बी.सी. विकास निगम लिमिटेड (एमपीबीसीडीसी)",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "1-N, Supreme Shopping Centre, Gulmohar Cross Road No.9, JVPD Scheme, Juhu, Mumbai",
+      "address_en": "1-N, Supreme Shopping Centre, Gulmohar Cross Road No.9, JVPD Scheme, Juhu, Mumbai",
+      "address_hi": "1-एन, सुप्रीम शॉपिंग सेंटर, गुलमोहर क्रॉस रोड नं.9, जेवीपीडी योजना, जुहू, मुंबई",
+      "pin": "400049",
+      "lat": 18.9808,
+      "lon": 72.8338,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 19,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MH-20",
+      "type": "SCA",
+      "name": "Sahityaratna Lokshahir Annabhau Sathe Development Corporation Ltd (SLASDC)",
+      "name_en": "Sahityaratna Lokshahir Annabhau Sathe Development Corporation Ltd (SLASDC)",
+      "name_hi": "साहित्यरत्न लोकशाहीर अण्णाभाऊ साठे विकास निगम लिमिटेड (एसएलएएसडीसी)",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "New Administrative Building-2, 3rd Floor, Ramkrishna Chemburkar Marg, Chembur (East), Mumbai",
+      "address_en": "New Administrative Building-2, 3rd Floor, Ramkrishna Chemburkar Marg, Chembur (East), Mumbai",
+      "address_hi": "नया प्रशासनिक भवन-2, तीसरी मंजिल, रामकृष्ण चेंबूरकर मार्ग, चेंबूर (पूर्व), मुंबई",
+      "pin": "400071",
+      "lat": 18.9808,
+      "lon": 72.8338,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 20,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MH-21",
+      "type": "SCA",
+      "name": "Sant Rohidas Leather Industries and Charmakar Development Corporation (LIDCOM)",
+      "name_en": "Sant Rohidas Leather Industries and Charmakar Development Corporation (LIDCOM)",
+      "name_hi": "संत रोहिदास चमड़ा उद्योग और चर्मकार विकास निगम (लिडकॉम)",
+      "state": "MH",
+      "state_name_en": "Maharashtra",
+      "address": "Bombay Life Building, 5th Floor, 45, Veer Nariman Road, Mumbai",
+      "address_en": "Bombay Life Building, 5th Floor, 45, Veer Nariman Road, Mumbai",
+      "address_hi": "बंबई लाइफ बिल्डिंग, पांचवी मंजिल, 45, वीर नरीमन रोड, मुंबई",
+      "pin": "400001",
+      "lat": 18.9474,
+      "lon": 72.8138,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 21,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-ML-24",
+      "type": "SCA",
+      "name": "Meghalaya Cooperative Apex Bank Ltd (MCAB)",
+      "name_en": "Meghalaya Cooperative Apex Bank Ltd (MCAB)",
+      "name_hi": "मेघालय कोआपरेटिव अपैक्स बैंक लिमिटेड (एमसीएबी)",
+      "state": "ML",
+      "state_name_en": "Meghalaya",
+      "address": "MG Road, Kacheri, Shillong",
+      "address_en": "MG Road, Kacheri, Shillong",
+      "address_hi": "एमजी रोड, कुचेरी, शिलांग",
+      "pin": "793001",
+      "lat": 25.5675,
+      "lon": 91.8645,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 24,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MN-22",
+      "type": "SCA",
+      "name": "Manipur Tribal Development Corporation Ltd (MTDC)",
+      "name_en": "Manipur Tribal Development Corporation Ltd (MTDC)",
+      "name_hi": "मणिपुर जनजातीय विकास निगम लिमिटेड (एमटीडीसी)",
+      "state": "MN",
+      "state_name_en": "Manipur",
+      "address": "Lamphelpat, Imphal",
+      "address_en": "Lamphelpat, Imphal",
+      "address_hi": "लैम्फेलपैट, इम्फाल",
+      "pin": "795004",
+      "lat": 24.80805,
+      "lon": 93.9442,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 22,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MN-23",
+      "type": "SCA",
+      "name": "Manipur Scheduled Castes and Scheduled Tribes Cooperative Development Bank (MSTCB)",
+      "name_en": "Manipur Scheduled Castes and Scheduled Tribes Cooperative Development Bank (MSTCB)",
+      "name_hi": "मणिपुर अनुसूचित जाति और अनुसूचित जनजाति सहकारी विकास बैंक (एमएसटीसीबी)",
+      "state": "MN",
+      "state_name_en": "Manipur",
+      "address": "Nambun Lamba, Stadium Road, Imphal East, Manipur",
+      "address_en": "Nambun Lamba, Stadium Road, Imphal East, Manipur",
+      "address_hi": "नम्बुन लंबा, स्टेडियम रोड, इम्फाल पूर्व, मणिपुर",
+      "pin": "795001",
+      "lat": 24.80805,
+      "lon": 93.9442,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 23,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MP-18",
+      "type": "SCA",
+      "name": "MP Rajya Cooperative Scheduled Caste Finance and Development Corporation (MPSCFDC)",
+      "name_en": "MP Rajya Cooperative Scheduled Caste Finance and Development Corporation (MPSCFDC)",
+      "name_hi": "एमपी राज्य कोआपरेटिव अनुसूचित जाति वित्त एवं विकास निगम (एमपीएससीएफडीसी)",
+      "state": "MP",
+      "state_name_en": "Madhya Pradesh",
+      "address": "Rajiv Gandhi Bhawan, 35, Shyamala Hills, Bhopal",
+      "address_en": "Rajiv Gandhi Bhawan, 35, Shyamala Hills, Bhopal",
+      "address_hi": "राजीव गांधी भवन, 35, श्यामला हिल्स, भोपाल",
+      "pin": "462011",
+      "lat": 23.25469,
+      "lon": 77.40289,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 18,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MZ-36",
+      "type": "SCA",
+      "name": "Mizoram Urban Cooperative Development Bank Ltd (MUCO Bank)",
+      "name_en": "Mizoram Urban Cooperative Development Bank Ltd (MUCO Bank)",
+      "name_hi": "मिजोरम शहरी सहकारी विकास बैंक लिमिटेड (एमयूसीओ बैंक)",
+      "state": "MZ",
+      "state_name_en": "Mizoram",
+      "address": "Lalsawmliani Building (Top Floor), Zarkawt, Aizawl",
+      "address_en": "Lalsawmliani Building (Top Floor), Zarkawt, Aizawl",
+      "address_hi": "लॉल्सामिलियानी बिल्डिंग (टॉप मंजिल), ज़र्कावत, आइज़ोल",
+      "pin": "796001",
+      "lat": 23.72894,
+      "lon": 92.71791,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 36,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-MZ-37",
+      "type": "SCA",
+      "name": "Mizoram Khadi and Village Industries Board (MKVIB)",
+      "name_en": "Mizoram Khadi and Village Industries Board (MKVIB)",
+      "name_hi": "मिजोरम खादी और ग्रामोद्योग एवं बोर्ड (एमकेवीआईबी)",
+      "state": "MZ",
+      "state_name_en": "Mizoram",
+      "address": "Zorun, Zarkawt, Aizawl",
+      "address_en": "Zorun, Zarkawt, Aizawl",
+      "address_hi": "ज़ोरुन, ज़र्कावत, आइज़ोल",
+      "pin": "796007",
+      "lat": 23.8106,
+      "lon": 92.8891,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 37,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-OD-25",
+      "type": "SCA",
+      "name": "Odisha Scheduled Caste and Scheduled Tribe Development Finance Cooperative Corporation Ltd (OSFDC)",
+      "name_en": "Odisha Scheduled Caste and Scheduled Tribe Development Finance Cooperative Corporation Ltd (OSFDC)",
+      "name_hi": "ओडिशा अनुसूचित जाति एवं अनुसूचित जनजाति विकास वित्त सहकारी निगम लिमिटेड (ओएसएफडीसी)",
+      "state": "OD",
+      "state_name_en": "Odisha",
+      "address": "Lewis Road, Bhubaneswar",
+      "address_en": "Lewis Road, Bhubaneswar",
+      "address_hi": "लेविस रोड, भुवनेश्वर",
+      "pin": "751014",
+      "lat": 20.27241,
+      "lon": 85.83385,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 25,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-PB-27",
+      "type": "SCA",
+      "name": "Punjab Scheduled Castes Land Development and Finance Corporation (PSCLDFC)",
+      "name_en": "Punjab Scheduled Castes Land Development and Finance Corporation (PSCLDFC)",
+      "name_hi": "पंजाब अनुसूचित जाति भूमि विकास एवं वित्त निगम (पीएससीएलडीएफसी)",
+      "state": "PB",
+      "state_name_en": "Punjab",
+      "address": "SCO-101-102-103, Sector 17-C, Chandigarh",
+      "address_en": "SCO-101-102-103, Sector 17-C, Chandigarh",
+      "address_hi": "एससीओ-101-102-103, सेक्टर 17-सी, चंडीगढ़",
+      "pin": "160017",
+      "lat": 30.7301,
+      "lon": 76.7815,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 27,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-PY-26",
+      "type": "SCA",
+      "name": "Puducherry Adi Dravidar Development Corporation Ltd (PADCO)",
+      "name_en": "Puducherry Adi Dravidar Development Corporation Ltd (PADCO)",
+      "name_hi": "पुडुचेरी आदि द्रविड़र विकास निगम लिमिटेड (पीएडीसीओ)",
+      "state": "PY",
+      "state_name_en": "Puducherry",
+      "address": "3rd Floor, Adi Dravidar Welfare Department, Thattanchavady, Puducherry",
+      "address_en": "3rd Floor, Adi Dravidar Welfare Department, Thattanchavady, Puducherry",
+      "address_hi": "तीसरी मंजिल, आदि द्रविड़र कल्याण विभाग, थट्टांचवडी, पुडुचेरी",
+      "pin": "605009",
+      "lat": 11.8768,
+      "lon": 79.8107,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 26,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-RJ-28",
+      "type": "SCA",
+      "name": "Rajasthan Scheduled Castes and Scheduled Tribes Finance and Development Cooperative Corporation Ltd (RSCDC)",
+      "name_en": "Rajasthan Scheduled Castes and Scheduled Tribes Finance and Development Cooperative Corporation Ltd (RSCDC)",
+      "name_hi": "राजस्थान अनुसूचित जाति और अनुसूचित जनजाति वित्त एवं विकास सहकारी निगम लिमिटेड (आरएससीडीसी)",
+      "state": "RJ",
+      "state_name_en": "Rajasthan",
+      "address": "3rd Floor, Central Block, Nehru Sahkar Bhawan, Bhawani Singh Marg, Jaipur",
+      "address_en": "3rd Floor, Central Block, Nehru Sahkar Bhawan, Bhawani Singh Marg, Jaipur",
+      "address_hi": "तीसरी मंजिल, सेंट्रल ब्लॉक, नेहरू सहकार भवन, भवानी सिंह मार्ग, जयपुर",
+      "pin": "302005",
+      "lat": 26.9196,
+      "lon": 75.7878,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 28,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-SK-35",
+      "type": "SCA",
+      "name": "Sikkim Scheduled Caste-Scheduled Tribe and Backward Classes Development Corporation (SSCSTBCDC)",
+      "name_en": "Sikkim Scheduled Caste-Scheduled Tribe and Backward Classes Development Corporation (SSCSTBCDC)",
+      "name_hi": "सिक्किम अनुसूचित जाति-अनुसूचित जनजाति एवं पिछड़ा वर्ग विकास निगम (एसएससीएसटीबीसीडीसी)",
+      "state": "SK",
+      "state_name_en": "Sikkim",
+      "address": "Bhanupath, Gangtok, Sikkim",
+      "address_en": "Bhanupath, Gangtok, Sikkim",
+      "address_hi": "भानुपथ, गंगटोक, सिक्किम",
+      "pin": "737101",
+      "lat": 27.3218,
+      "lon": 88.5884,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 35,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-TN-29",
+      "type": "SCA",
+      "name": "Tamil Nadu Adi Dravidar Housing and Development Corporation Ltd (TAHDCO)",
+      "name_en": "Tamil Nadu Adi Dravidar Housing and Development Corporation Ltd (TAHDCO)",
+      "name_hi": "तमिलनाडु आदि द्रविड़र आवास एवं विकास निगम लिमिटेड (टीएएचडीसीओ)",
+      "state": "TN",
+      "state_name_en": "Tamil Nadu",
+      "address": "31, Santhome Road, 2nd Lane, Teynampet, Chennai",
+      "address_en": "31, Santhome Road, 2nd Lane, Teynampet, Chennai",
+      "address_hi": "31, सेंतोफ रोड, 2 लेन, टीनम्पेट, चेन्नई",
+      "pin": "600018",
+      "lat": 13.0433,
+      "lon": 80.2528,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 29,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-TR-30",
+      "type": "SCA",
+      "name": "Tripura Scheduled Caste Cooperative Development Corporation Ltd (TSCDC)",
+      "name_en": "Tripura Scheduled Caste Cooperative Development Corporation Ltd (TSCDC)",
+      "name_hi": "त्रिपुरा अनुसूचित जाति सहकारी विकास निगम लिमिटेड (टीएससीडीसी)",
+      "state": "TR",
+      "state_name_en": "Tripura",
+      "address": "Krishna Nagar PO Lake Chowmuhani, Agartala",
+      "address_en": "Krishna Nagar PO Lake Chowmuhani, Agartala",
+      "address_hi": "कृष्ण नगर पीओ लेक चोमुबनी, अगरतला",
+      "pin": "799001",
+      "lat": 23.8903,
+      "lon": 91.4025,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 30,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-UK-32",
+      "type": "SCA",
+      "name": "Uttarakhand Bahuuddeshiya Vitt Evam Vikas Nigam (UBVVN)",
+      "name_en": "Uttarakhand Bahuuddeshiya Vitt Evam Vikas Nigam (UBVVN)",
+      "name_hi": "उत्तराखंड बहुउद्देशीय वित्त एवं विकास निगम (यूबीवीईवीएन)",
+      "state": "UK",
+      "state_name_en": "Uttarakhand",
+      "address": "Janjati Nideshalaya, New Building, Bhagat Singh Colony (Adhoiwala), Dehradun",
+      "address_en": "Janjati Nideshalaya, New Building, Bhagat Singh Colony (Adhoiwala), Dehradun",
+      "address_hi": "जनजाति निदेशालय, नई बिल्डिंग, भगत सिंह क्लोनी (अधोईवाला), देहरादून",
+      "pin": "248001",
+      "lat": 30.3213,
+      "lon": 78.04,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 32,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-UP-31",
+      "type": "SCA",
+      "name": "Uttar Pradesh Scheduled Castes Finance and Development Corporation Ltd (UPSCFDC)",
+      "name_en": "Uttar Pradesh Scheduled Castes Finance and Development Corporation Ltd (UPSCFDC)",
+      "name_hi": "उत्तर प्रदेश अनुसूचित जाति वित्त और विकास निगम लिमिटेड (यूपीएससीएफडीसी)",
+      "state": "UP",
+      "state_name_en": "Uttar Pradesh",
+      "address": "B-912, Sector-C, Mahanagar, Lucknow",
+      "address_en": "B-912, Sector-C, Mahanagar, Lucknow",
+      "address_hi": "बी-912, सेक्टर-सी, महानगर, लखनऊ",
+      "pin": "226006",
+      "lat": 26.8416,
+      "lon": 80.9069,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 31,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-UP-38",
+      "type": "SCA",
+      "name": "UP Sahkari Gram Vikas Bank Ltd",
+      "name_en": "UP Sahkari Gram Vikas Bank Ltd",
+      "name_hi": "यूपी सहकारी ग्राम विकास बैंक लिमिटेड",
+      "state": "UP",
+      "state_name_en": "Uttar Pradesh",
+      "address": "10, Mall Avenue, Lucknow, Uttar Pradesh",
+      "address_en": "10, Mall Avenue, Lucknow, Uttar Pradesh",
+      "address_hi": "10, मॉल एवेन्यू, लखनऊ, उत्तर प्रदेश",
+      "pin": "226001",
+      "lat": 26.7686,
+      "lon": 81.0295,
+      "geocode": {
+        "method": "pin_centroid",
+        "confidence": 0.6,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 38,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SCA-WB-33",
+      "type": "SCA",
+      "name": "West Bengal Scheduled Castes, Scheduled Tribes and OBC Development and Finance Corporation (WBSCSTOBCDFC)",
+      "name_en": "West Bengal Scheduled Castes, Scheduled Tribes and OBC Development and Finance Corporation (WBSCSTOBCDFC)",
+      "name_hi": "पश्चिम बंगाल अनुसूचित जाति, अनुसूचित जनजाति एवं ओबीसी विकास एवं वित्त निगम (डब्लूबीएससीएसटीओबीसीडीएफसी)",
+      "state": "WB",
+      "state_name_en": "West Bengal",
+      "address": "CF 217/A/1 Salt Lake Sector-I (Mangolik Building), Kolkata",
+      "address_en": "CF 217/A/1 Salt Lake Sector-I (Mangolik Building), Kolkata",
+      "address_hi": "सीएफ 217/ए/1 नमक झील सेक्टर-I, (मंगोलिक बिल्डिंग), कोलकाता",
+      "pin": "700064",
+      "lat": 22.56263,
+      "lon": 88.36304,
+      "geocode": {
+        "method": "district_place",
+        "confidence": 0.4,
+        "is_head_office": true
+      },
+      "coverage": "state",
+      "channel_rate_key": "SCA",
+      "serves_schemes": [
+        "MFS",
+        "TL",
+        "ELS"
+      ],
+      "provenance": {
+        "file": "cp1.pdf",
+        "list_title": "राज्य/संघ राज्य क्षेत्रवार चैनलाइजिंग अभिकरणों की सूची",
+        "srno": 33,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SFB-AU",
+      "type": "SFB",
+      "name": "AU Small Finance Bank",
+      "name_en": "AU Small Finance Bank",
+      "name_hi": "एयू स्मॉल फाइनेंस बैंक",
+      "state": null,
+      "state_name_en": null,
+      "address": null,
+      "address_en": null,
+      "address_hi": null,
+      "pin": null,
+      "lat": null,
+      "lon": null,
+      "geocode": {
+        "method": "none",
+        "confidence": 0.0,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "SFB",
+      "serves_schemes": [
+        "UNY"
+      ],
+      "provenance": {
+        "file": "cp7.pdf",
+        "list_title": "Small Finance Bank",
+        "srno": 1,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    },
+    {
+      "id": "SFB-UJJIVAN",
+      "type": "SFB",
+      "name": "Ujjivan Small Finance Bank",
+      "name_en": "Ujjivan Small Finance Bank",
+      "name_hi": "उज्जीवन स्मॉल फाइनेंस बैंक",
+      "state": null,
+      "state_name_en": null,
+      "address": null,
+      "address_en": null,
+      "address_hi": null,
+      "pin": null,
+      "lat": null,
+      "lon": null,
+      "geocode": {
+        "method": "none",
+        "confidence": 0.0,
+        "is_head_office": true
+      },
+      "coverage": "national",
+      "channel_rate_key": "SFB",
+      "serves_schemes": [
+        "UNY"
+      ],
+      "provenance": {
+        "file": "cp7.pdf",
+        "list_title": "Small Finance Bank",
+        "srno": 2,
+        "url": "https://nsfdc.nic.in/our-channel-partners"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile — Sahaay</title>
+  <link rel="stylesheet" href="css/gov.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- All styling lives in css/gov.css (tokens, base elements) and
+       css/style.css (layout and components). It is in those files, not
+       here, because js/pages.js builds markup at runtime on pages other
+       than the one it belongs to, and a per-page <style> block could not
+       reach it. -->
+</head>
+<body>
+
+  <!-- Tricolour Top Accent Bar -->
+  <div class="tricolour-bar"></div>
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="container">
+      <nav id="site-nav">
+        <a href="index.html" class="nav-brand">
+          <span class="nav-logo-icon">🚪</span>
+          <div>
+            <div class="nav-title">Sahaay <span data-t="brand.hi">सहाय</span></div>
+            <div class="nav-subtitle" data-t="brand.ministry">Ministry of Social Justice & Empowerment</div>
+          </div>
+        </a>
+
+        <div class="nav-controls">
+          <ul class="nav-links">
+            <li><a href="index.html" data-t="nav.home">Home</a></li>
+            <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+            <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+            <li><a href="profile.html" class="active" data-t="nav.profile">Profile</a></li>
+          </ul>
+
+          <button id="lang-toggle" type="button" aria-label="Toggle Language">हिं | EN</button>
+          <a href="login.html" class="btn btn-secondary" style="min-height:38px; padding:0 12px;" data-t="nav.login">Login</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 style="margin-top: 24px;" data-t="pf.heading">Entrepreneur Profile</h1>
+    <p style="color: var(--color-text-muted);" data-t="pf.subline">Keep your profile updated to see matching schemes automatically.</p>
+
+    <div class="profile-layout">
+      <!-- Left Column: Photo Card -->
+      <div>
+        <div class="card photo-card">
+          <img id="pf-photo-preview" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 24 24' fill='%235A5A63'><path d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/></svg>" alt="Profile Preview">
+          
+          <h3 style="margin-bottom: 4px;">Sunita Devi</h3>
+          <p style="font-size: 0.85rem; color: var(--color-text-muted);" data-t="pf.completion" data-profile-complete>Profile complete: 8 of 11 fields</p>
+
+          <div class="file-input-wrapper">
+            <label for="pf-photo" class="btn btn-secondary" style="width: 100%;" data-t="pf.btn_upload_photo">Upload a photo</label>
+            <input type="file" id="pf-photo" accept="image/*">
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Profile Form -->
+      <div>
+        <div class="card">
+          <form id="profile-form" action="#">
+            
+            <!-- Group 1: About you -->
+            <div class="form-section-title" data-t="pf.sec_about">About you</div>
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label for="pf-name" data-t="pf.label_name">Full Name</label>
+                <input type="text" id="pf-name" class="form-control" value="Sunita Devi" required>
+              </div>
+              <div class="form-group">
+                <label for="pf-age" data-t="pf.label_age">Age</label>
+                <input type="number" id="pf-age" class="form-control" value="34" min="18" max="100" required>
+              </div>
+              <div class="form-group">
+                <label for="pf-category" data-t="pf.label_category">Category</label>
+                <!-- The value= of every option below is the engine's own
+                     vocabulary (backend/models.py: Purpose, Sector,
+                     Education). It is not free text: /recommend validates
+                     against those literals and rejects anything else. -->
+                <select id="pf-category" class="form-control">
+                  <option value="sc" selected data-t="category.sc">Scheduled Caste</option>
+                  <option value="st" data-t="category.st">Scheduled Tribe</option>
+                  <option value="obc" data-t="category.obc">Other Backward Class</option>
+                  <option value="general" data-t="category.general">General</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="checkbox-group" style="margin-top: 24px;">
+                  <input type="checkbox" id="pf-is-woman" checked>
+                  <span data-t="pf.label_is_woman">Female Applicant</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Group 2: Where you are -->
+            <div class="form-section-title" data-t="pf.sec_location">Where you are</div>
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label for="pf-state" data-t="pf.label_state">State</label>
+                <input type="text" id="pf-state" class="form-control" value="Madhya Pradesh" required>
+              </div>
+              <div class="form-group">
+                <label for="pf-district" data-t="pf.label_district">District</label>
+                <input type="text" id="pf-district" class="form-control" value="Bhopal" required>
+              </div>
+            </div>
+
+            <!-- Group 3: Contact -->
+            <div class="form-section-title" data-t="pf.sec_contact">Contact</div>
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label for="pf-email" data-t="pf.label_email">Email Address</label>
+                <input type="email" id="pf-email" class="form-control" value="sunita@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="pf-mobile" data-t="pf.label_mobile">Mobile Number</label>
+                <input type="tel" id="pf-mobile" class="form-control" value="9876543210" required>
+              </div>
+            </div>
+
+            <!-- Group 4: Your plan -->
+            <div class="form-section-title" data-t="pf.sec_plan">Your plan</div>
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label for="pf-purpose" data-t="pf.label_purpose">Purpose</label>
+                <select id="pf-purpose" class="form-control">
+                  <option value="enterprise" selected data-t="purpose.enterprise">A business</option>
+                  <option value="education" data-t="purpose.education">Education</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="pf-sector" data-t="pf.label_sector">Sector / Business Activity</label>
+                <select id="pf-sector" class="form-control">
+                  <option value="tailoring" selected data-t="sector.tailoring">Tailoring</option>
+                  <option value="shop" data-t="sector.shop">Shop</option>
+                  <option value="transport" data-t="sector.transport">Transport</option>
+                  <option value="agri_allied" data-t="sector.agri_allied">Farming and allied work</option>
+                  <option value="services" data-t="sector.services">Services</option>
+                  <option value="manufacturing" data-t="sector.manufacturing">Manufacturing</option>
+                  <option value="plantation" data-t="sector.plantation">Plantation</option>
+                  <option value="construction" data-t="sector.construction">Construction</option>
+                  <option value="other" data-t="sector.other">Something else</option>
+                </select>
+              </div>
+              <div class="form-group" style="grid-column: 1 / -1;">
+                <label for="pf-amount" data-t="pf.label_amount">Loan Amount Required (₹)</label>
+                <input type="number" id="pf-amount" class="form-control" value="120000" step="5000" required>
+              </div>
+            </div>
+
+            <!-- Group 5: Money & Education -->
+            <div class="form-section-title" data-t="pf.sec_finance">Money & Education</div>
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label for="pf-income" data-t="pf.label_income">Annual Family Income (₹)</label>
+                <input type="number" id="pf-income" class="form-control" value="240000" step="10000" required>
+              </div>
+              <div class="form-group">
+                <label for="pf-education" data-t="pf.label_education">Education Level</label>
+                <select id="pf-education" class="form-control">
+                  <option value="illiterate" data-t="education.illiterate">Did not attend school</option>
+                  <option value="primary" data-t="education.primary">Primary</option>
+                  <option value="middle" selected data-t="education.middle">Middle (eighth)</option>
+                  <option value="matric" data-t="education.matric">Matriculation (tenth)</option>
+                  <option value="higher_secondary" data-t="education.higher_secondary">Higher secondary (twelfth)</option>
+                  <option value="graduate" data-t="education.graduate">Graduate</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Group 6: Documents -->
+            <div class="form-section-title" data-t="pf.sec_docs">Documents you have</div>
+            <div class="form-grid form-grid-2">
+              <label class="checkbox-group">
+                <input type="checkbox" id="pf-caste-cert" checked>
+                <span data-t="pf.label_caste_cert">Caste Certificate Available</span>
+              </label>
+              <label class="checkbox-group">
+                <input type="checkbox" id="pf-income-cert">
+                <span data-t="pf.label_income_cert">Income Certificate Available</span>
+              </label>
+            </div>
+
+            <!-- Actions -->
+            <div style="margin-top: 32px;">
+              <button id="pf-save" type="submit" class="btn btn-primary" style="width: 100%;" data-t="pf.btn_save">Save Profile</button>
+            </div>
+
+            <div id="pf-status" role="status"></div>
+          </form>
+        </div>
+
+        <!-- Notification Preview Card -->
+        <div class="notification-card">
+          <div style="font-weight: 700; display: flex; align-items: center; gap: 8px;">
+            <span>🔔</span> <span data-t="pf.notif_title">Tell me about new schemes</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 4px;" data-t="pf.notif_sub">
+            When a new scheme matches your profile, we will send you a message. <em>(Preview — delivery is not connected in this prototype)</em>
+          </p>
+          
+          <!-- js/pages.js replaces the contents of this box with the real
+               message from GET /notifications/preview. The bubble below is
+               what it looks like before that lands. -->
+          <div data-notify-preview>
+            <p class="bubble">
+              "नमस्ते सुनीता — एक नई योजना आपके लिए उपयुक्त है: सूक्ष्म वित्त योजना, 6.5% ब्याज। विवरण देखें।"
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <p style="margin:0; font-weight:600;" data-t="footer.prototype">A prototype built for Smart India Hackathon 2026 · PS SIH26092</p>
+          <p style="margin:0;" data-t="footer.dept">Ministry of Social Justice & Empowerment, Govt. of India</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+          <li><a href="wizard.html" data-t="hero.btn_wizard">Wizard</a></li>
+          <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" hidden></div>
+
+  <!-- Script Pipeline (Do not alter order or contents) -->
+  <script src="js/strings.js"></script><script src="js/api.js"></script><script src="js/app.js"></script><script src="js/pages.js"></script>
+</body>
+</html>

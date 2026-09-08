@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "spec": "docs/ENGINE_SPEC.md §2 (Legacy aliases)",
+    "purpose": "Parsing historical NSFDC disbursement data ONLY. Never used for eligibility and never recommended.",
+    "rule": "A historical scheme with current_equivalent: null must never be surfaced as a recommendation. MCF is a pure rename of MFS and is safe to map."
+  },
+  "aliases": [
+    {
+      "alias": "MCF",
+      "name_en": "Micro Credit Finance",
+      "status": "renamed",
+      "current_equivalent": "MFS",
+      "note": "Pure rename. Safe to map when parsing historical disbursement rows."
+    },
+    {
+      "alias": "MSY",
+      "name_en": "Mahila Samriddhi Yojana",
+      "name_hi": "महिला समृद्धि योजना",
+      "status": "historical",
+      "current_equivalent": null,
+      "recognition_aid_for": "MFS",
+      "recognition_note_hi": "पहले महिला समृद्धि योजना",
+      "note": "Absent from the current scheme page. PIB 10 Apr 2026 records NSFDC 'simplified its lending framework by introducing two streamlined schemes — Micro Loans and Term Loans.' Still appears in scheme-wise disbursement: Rs 63.24 cr FY2024-25, Rs 13.12 cr FY2025-26 (-79%), consistent with the tail of already-sanctioned loans. INFERENCE, NOT VERIFIED: treat as closed to new applications. Open item ENGINE_SPEC §11.5.",
+      "may_append_to_why_panel": true
+    },
+    {
+      "alias": "LVY",
+      "name_en": "Laghu Vyavsay Yojana",
+      "status": "historical",
+      "current_equivalent": null,
+      "recognition_aid_for": null
+    },
+    {
+      "alias": "Utkarsh",
+      "name_en": "Utkarsh",
+      "status": "historical",
+      "current_equivalent": null,
+      "recognition_aid_for": null
+    },
+    {
+      "alias": "Suvidha",
+      "name_en": "Suvidha",
+      "status": "historical",
+      "current_equivalent": null,
+      "recognition_aid_for": null
+    }
+  ]
+}

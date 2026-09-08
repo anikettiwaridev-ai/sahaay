@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scheme Details — Sahaay</title>
+  <link rel="stylesheet" href="css/gov.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- All styling lives in css/gov.css (tokens, base elements) and
+       css/style.css (layout and components). It is in those files, not
+       here, because js/pages.js builds markup at runtime on pages other
+       than the one it belongs to, and a per-page <style> block could not
+       reach it. -->
+</head>
+<body>
+
+  <!-- Tricolour Top Accent Bar -->
+  <div class="tricolour-bar"></div>
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="container">
+      <nav id="site-nav">
+        <a href="index.html" class="nav-brand">
+          <span class="nav-logo-icon">🚪</span>
+          <div>
+            <div class="nav-title">Sahaay <span data-t="brand.hi">सहाय</span></div>
+            <div class="nav-subtitle" data-t="brand.ministry">Ministry of Social Justice & Empowerment</div>
+          </div>
+        </a>
+
+        <div class="nav-controls">
+          <ul class="nav-links">
+            <li><a href="index.html" data-t="nav.home">Home</a></li>
+            <li><a href="schemes.html" class="active" data-t="nav.schemes">Schemes</a></li>
+            <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+            <li><a href="profile.html" data-t="nav.profile">Profile</a></li>
+          </ul>
+
+          <button id="lang-toggle" type="button" aria-label="Toggle Language">हिं | EN</button>
+          <a href="login.html" class="btn btn-secondary" style="min-height:38px; padding:0 12px;" data-t="nav.login">Login</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Header Summary Card -->
+    <div class="scheme-header-card">
+      <div class="scheme-badge-row">
+        <span id="sc-category" class="cat-pill cat-loan">LOAN</span>
+        <span id="sc-status" class="status status-open">Open</span>
+      </div>
+
+      <h1 id="sc-title" style="margin-bottom: 8px;">Micro Finance Scheme (MFS)</h1>
+      <p id="sc-summary" style="font-size: 1.1rem; color: var(--color-text-muted);">
+        Direct micro-credit loan assistance for Scheduled Caste entrepreneurs to start or expand income-generating small activities.
+      </p>
+
+      <!-- Fact Strip -->
+      <div class="fact-strip">
+        <div class="fact-item">
+          <span class="fact-label" data-t="sc.label_rate">Interest Rate</span>
+          <span id="sc-rate" class="fact-value">6.5% p.a.</span>
+        </div>
+        <div class="fact-item">
+          <span class="fact-label" data-t="sc.label_max">Max Amount</span>
+          <span id="sc-max" class="fact-value">₹1,25,000</span>
+        </div>
+        <div class="fact-item">
+          <span class="fact-label" data-t="sc.label_period">Repayment Period</span>
+          <span id="sc-tenure" class="fact-value">3 Years</span>
+        </div>
+        <div class="fact-item">
+          <span class="fact-label" data-t="sc.label_moratorium">Moratorium</span>
+          <span id="sc-moratorium" class="fact-value">3 Months</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eligibility Criteria -->
+    <div class="detail-section">
+      <h2 data-t="sc.heading_eligibility">Who can apply (Eligibility)</h2>
+      <ul id="sc-eligibility" class="custom-list">
+        <li>Applicant must belong to the Scheduled Caste (SC) community.</li>
+        <li>Annual family income must be below ₹3,00,000 per annum.</li>
+        <li>Applicant age should be between 18 and 65 years.</li>
+        <li>Project must be an eligible small business, service, or tailoring activity.</li>
+      </ul>
+    </div>
+
+    <!-- Documents Required -->
+    <div class="detail-section">
+      <h2 data-t="sc.heading_documents">Documents to bring</h2>
+      <ul id="sc-documents" class="custom-list">
+        <li>Valid Caste Certificate issued by an authorized state authority.</li>
+        <li>Income Certificate / Self-declaration of family income.</li>
+        <li>Aadhaar Card or Government Issued Identification.</li>
+        <li>Bank Account details (Passbook copy or cancelled cheque).</li>
+      </ul>
+    </div>
+
+    <!-- How to Apply -->
+    <div class="detail-section">
+      <h2 data-t="sc.heading_howto">How to apply</h2>
+      <ol id="sc-howto" class="custom-list" style="padding-left: 20px;">
+        <li>Check your eligibility using the instant button below.</li>
+        <li>Gather the required documents listed above.</li>
+        <li>Apply online through the PM-SURAJ portal or visit your nearest functioning State Channelizing Agency office.</li>
+      </ol>
+    </div>
+
+    <!-- Interactive Am I Eligible Card (Core Differentiator) -->
+    <div class="check-box-card">
+      <h3 style="font-size: 1.4rem; margin-bottom: 8px;" data-t="sc.check_title">Wondering if this loan fits you?</h3>
+      <p style="color: var(--color-text-muted); margin-bottom: 20px;" data-t="sc.check_desc">
+        We check your profile against NSFDC's official rules and show you exact repayment costs or specific reasons if you don't qualify.
+      </p>
+
+      <button id="sc-check-btn" type="button" class="btn btn-primary" style="font-size: 1.1rem; padding: 0 32px;" data-t="sc.btn_check">Am I eligible?</button>
+
+      <!-- Results Inject Container -->
+      <div id="sc-check-result"></div>
+    </div>
+
+    <!-- Official Source Line -->
+    <div class="source-line" data-t="sc.source_line">
+      Terms as published at nsfdc.nic.in/scheme
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <p style="margin:0; font-weight:600;" data-t="footer.prototype">A prototype built for Smart India Hackathon 2026 · PS SIH26092</p>
+          <p style="margin:0;" data-t="footer.dept">Ministry of Social Justice & Empowerment, Govt. of India</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+          <li><a href="wizard.html" data-t="hero.btn_wizard">Wizard</a></li>
+          <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" hidden></div>
+
+  <!-- Script Pipeline (Do not alter order or contents) -->
+  <script src="js/strings.js"></script><script src="js/api.js"></script><script src="js/app.js"></script><script src="js/pages.js"></script>
+</body>
+</html>

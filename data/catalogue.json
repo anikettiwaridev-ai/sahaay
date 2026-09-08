@@ -1,0 +1,460 @@
+{
+  "_meta": {
+    "spec": "docs/00-CONTRACTS.md §5 (CatalogueEntry), docs/03-BUILD-BRIEFS.md Track A",
+    "purpose": "Prose for the browse list and the scheme detail page. Fourteen NSFDC entries: five the engine can decide, five information-only, four closed to new applications.",
+    "rule": "NOT ONE FIGURE IS WRITTEN HERE. Every rate, ceiling, tenure and percentage is a {placeholder} resolved at load time from data/schemes.json by backend/portal/catalogue.py. An unknown placeholder is a load-time error, so a figure cannot silently go missing or diverge.",
+    "names": "The five with figures take name_en/name_hi from data/schemes.json. The four closed take name_en (and MSY's name_hi) from data/scheme_aliases.json. Only the five information-only entries, which appear in no other data file, carry their names here.",
+    "sources": "NSFDC scheme page (nsfdc.nic.in/scheme) for the five; data/scheme_aliases.json for the closed four; docs/00-CONTRACTS.md §5 for the information-only five.",
+    "placeholders": "rate, rate_min, rate_max, nsfdc_rate, loan_cap, amount_min, amount_max, loan_pct, tenure, moratorium, frequency, channels, income_max, and the cross-scheme mfs_rate, mfs_loan_cap, tl_rate, tl_amount_min",
+    "shared_blocks": "A string beginning with @ names a block in \"shared\" below, so the same list is written once and read by many entries."
+  },
+  "schemes": [
+    {
+      "id": "MFS",
+      "category": "loan",
+      "status": "open",
+      "figures_from": "data/schemes.json",
+      "one_line_en": "Up to {loan_cap} for a small business, at {rate}.",
+      "one_line_hi": "छोटे काम के लिए {loan_cap} तक, {rate} ब्याज पर।",
+      "eligibility_text_en": [
+        "You must belong to a Scheduled Caste.",
+        "Annual family income up to {income_max}.",
+        "The money is for a business or a self-employment activity, not for study.",
+        "Project cost up to {amount_max}. NSFDC funds {loan_pct}% of it, up to {loan_cap}; the rest is your own contribution."
+      ],
+      "eligibility_text_hi": [
+        "आवेदक अनुसूचित जाति से होना चाहिए।",
+        "वार्षिक पारिवारिक आय {income_max} तक।",
+        "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+        "परियोजना लागत {amount_max} तक। NSFDC इसका {loan_pct}% देता है, अधिकतम {loan_cap}; बाकी आपका अपना अंशदान है।"
+      ],
+      "documents_en": "@common_enterprise",
+      "documents_hi": "@common_enterprise",
+      "how_to_apply_en": [
+        "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+        "Take your documents to a {channels}.",
+        "The partner checks the case and sends it to NSFDC for sanction.",
+        "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+        "Once sanctioned: {tenure} to repay in {frequency} instalments, after a {moratorium} moratorium."
+      ],
+      "how_to_apply_hi": [
+        "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+        "अपने कागज़ात {channels} में ले जाएँ।",
+        "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+        "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+        "स्वीकृति के बाद: {moratorium} की मोहलत के बाद, {frequency} किस्तों में {tenure} में चुकाना होगा।"
+      ]
+    },
+    {
+      "id": "TL",
+      "category": "loan",
+      "status": "open",
+      "figures_from": "data/schemes.json",
+      "one_line_en": "For a bigger project — {amount_min} and above — at {rate} over {tenure}.",
+      "one_line_hi": "बड़े काम के लिए — {amount_min} से ऊपर — {rate} पर, {tenure} के लिए।",
+      "eligibility_text_en": [
+        "You must belong to a Scheduled Caste.",
+        "Annual family income up to {income_max}.",
+        "The money is for a business or a self-employment activity, not for study.",
+        "Project cost from {amount_min} up to {amount_max}. Below {amount_min} this is the wrong scheme — Micro Finance Scheme covers that range.",
+        "NSFDC funds {loan_pct}% of the project, up to {loan_cap}."
+      ],
+      "eligibility_text_hi": [
+        "आवेदक अनुसूचित जाति से होना चाहिए।",
+        "वार्षिक पारिवारिक आय {income_max} तक।",
+        "पैसा कारोबार या स्वरोज़गार के लिए हो, पढ़ाई के लिए नहीं।",
+        "परियोजना लागत {amount_min} से {amount_max} तक। इससे कम पर यह ग़लत योजना है — उतनी रकम सूक्ष्म वित्त योजना में आती है।",
+        "NSFDC परियोजना का {loan_pct}% देता है, अधिकतम {loan_cap}।"
+      ],
+      "documents_en": "@common_enterprise",
+      "documents_hi": "@common_enterprise",
+      "how_to_apply_en": [
+        "NSFDC does not lend directly to a person. The loan comes through a channel partner in your state.",
+        "Take your documents to a {channels}.",
+        "The partner checks the case and sends it to NSFDC for sanction.",
+        "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+        "Once sanctioned: {tenure} to repay in {frequency} instalments, after a {moratorium} moratorium."
+      ],
+      "how_to_apply_hi": [
+        "NSFDC सीधे किसी व्यक्ति को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+        "अपने कागज़ात {channels} में ले जाएँ।",
+        "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+        "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+        "स्वीकृति के बाद: {moratorium} की मोहलत के बाद, {frequency} किस्तों में {tenure} में चुकाना होगा।"
+      ]
+    },
+    {
+      "id": "AMY",
+      "category": "loan",
+      "status": "open",
+      "figures_from": "data/schemes.json",
+      "one_line_en": "Up to {loan_cap} through a micro-finance partner, at {rate}.",
+      "one_line_hi": "माइक्रो-फाइनेंस पार्टनर के ज़रिए {loan_cap} तक, {rate} ब्याज पर।",
+      "eligibility_text_en": [
+        "You must belong to a Scheduled Caste.",
+        "Annual family income up to {income_max}.",
+        "The money is for a livelihood or self-employment activity.",
+        "Project cost up to {amount_max}. NSFDC funds {loan_pct}% of it, up to {loan_cap}.",
+        "This loan is delivered only through an NBFC-MFI. That is why you pay {rate}, while NSFDC charges that agency {nsfdc_rate}."
+      ],
+      "eligibility_text_hi": [
+        "आवेदक अनुसूचित जाति से होना चाहिए।",
+        "वार्षिक पारिवारिक आय {income_max} तक।",
+        "पैसा आजीविका या स्वरोज़गार के काम के लिए हो।",
+        "परियोजना लागत {amount_max} तक। NSFDC इसका {loan_pct}% देता है, अधिकतम {loan_cap}।",
+        "यह कर्ज़ केवल NBFC-MFI के ज़रिए मिलता है। इसीलिए आप {rate} देते हैं, जबकि NSFDC उस एजेंसी से {nsfdc_rate} लेता है।"
+      ],
+      "documents_en": "@common_enterprise",
+      "documents_hi": "@common_enterprise",
+      "how_to_apply_en": [
+        "Apply through a {channels} that carries this scheme in your district.",
+        "The partner checks the case and sends it to NSFDC for sanction.",
+        "Before you sign: a Parliamentary Standing Committee called this {rate} rate very high in August 2026. Compare it against Micro Finance Scheme, which covers the same project size at {mfs_rate}.",
+        "Once sanctioned: {tenure} to repay in {frequency} instalments, after a {moratorium} moratorium."
+      ],
+      "how_to_apply_hi": [
+        "अपने ज़िले में इस योजना को चलाने वाले {channels} में आवेदन करें।",
+        "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+        "हस्ताक्षर से पहले: अगस्त 2026 में संसदीय स्थायी समिति ने {rate} की इस दर को बहुत ज़्यादा बताया था। सूक्ष्म वित्त योजना से तुलना करें, जो इतनी ही रकम {mfs_rate} पर देती है।",
+        "स्वीकृति के बाद: {moratorium} की मोहलत के बाद, {frequency} किस्तों में {tenure} में चुकाना होगा।"
+      ]
+    },
+    {
+      "id": "UNY",
+      "category": "loan",
+      "status": "open",
+      "figures_from": "data/schemes.json",
+      "one_line_en": "Up to {loan_cap} through a cooperative or a small finance bank, at {rate}.",
+      "one_line_hi": "सहकारी या स्मॉल फाइनेंस बैंक के ज़रिए {loan_cap} तक, {rate} ब्याज पर।",
+      "eligibility_text_en": [
+        "You must belong to a Scheduled Caste.",
+        "Annual family income up to {income_max}.",
+        "The money is for a business or a self-employment activity.",
+        "Project cost up to {amount_max}. NSFDC funds {loan_pct}% of it, up to {loan_cap}.",
+        "What you pay depends on which door you use: {rate_min} through a cooperative, {rate_max} through a small finance bank."
+      ],
+      "eligibility_text_hi": [
+        "आवेदक अनुसूचित जाति से होना चाहिए।",
+        "वार्षिक पारिवारिक आय {income_max} तक।",
+        "पैसा कारोबार या स्वरोज़गार के लिए हो।",
+        "परियोजना लागत {amount_max} तक। NSFDC इसका {loan_pct}% देता है, अधिकतम {loan_cap}।",
+        "आप कितना देंगे यह दरवाज़े पर निर्भर है: सहकारी से {rate_min}, स्मॉल फाइनेंस बैंक से {rate_max}।"
+      ],
+      "documents_en": "@common_enterprise",
+      "documents_hi": "@common_enterprise",
+      "how_to_apply_en": [
+        "Apply through a {channels} that carries this scheme in your district.",
+        "The partner checks the case and sends it to NSFDC for sanction.",
+        "Ask which rate applies before you sign — the gap between {rate_min} and {rate_max} is the same loan at two prices.",
+        "Once sanctioned: {tenure} to repay in {frequency} instalments, after a {moratorium} moratorium."
+      ],
+      "how_to_apply_hi": [
+        "अपने ज़िले में इस योजना को चलाने वाले {channels} में आवेदन करें।",
+        "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+        "हस्ताक्षर से पहले पूछें कि कौन सी दर लगेगी — {rate_min} और {rate_max} का फ़र्क़ एक ही कर्ज़ की दो क़ीमतें हैं।",
+        "स्वीकृति के बाद: {moratorium} की मोहलत के बाद, {frequency} किस्तों में {tenure} में चुकाना होगा।"
+      ]
+    },
+    {
+      "id": "ELS",
+      "category": "education",
+      "status": "open",
+      "figures_from": "data/schemes.json",
+      "one_line_en": "Course fees up to {loan_cap}, in India or abroad, at {rate}.",
+      "one_line_hi": "भारत या विदेश में पढ़ाई की फीस {loan_cap} तक, {rate} ब्याज पर।",
+      "eligibility_text_en": [
+        "You must belong to a Scheduled Caste.",
+        "Annual family income up to {income_max}.",
+        "The course must be a regular, full-time, government-approved professional or technical course, and recognised. Part-time and unrecognised courses do not qualify.",
+        "Course fees up to {amount_max}. NSFDC funds {loan_pct}% of the fee, up to {loan_cap}.",
+        "Repayment runs up to {tenure}, and begins twelve months after the course ends."
+      ],
+      "eligibility_text_hi": [
+        "आवेदक अनुसूचित जाति से होना चाहिए।",
+        "वार्षिक पारिवारिक आय {income_max} तक।",
+        "कोर्स नियमित, पूर्णकालिक, सरकार-अनुमोदित पेशेवर या तकनीकी और मान्यता प्राप्त होना चाहिए। अंशकालिक या ग़ैर-मान्यता प्राप्त कोर्स नहीं चलेगा।",
+        "कोर्स फीस {amount_max} तक। NSFDC फीस का {loan_pct}% देता है, अधिकतम {loan_cap}।",
+        "चुकाने की अवधि {tenure} तक; यह कोर्स खत्म होने के बारह महीने बाद शुरू होती है।"
+      ],
+      "documents_en": [
+        "Caste certificate (Scheduled Caste)",
+        "Income certificate — annual family income up to {income_max}",
+        "Admission letter from the institution",
+        "The institution's fee structure for the full course",
+        "Mark sheets of the last qualifying examination",
+        "Aadhaar or another photo identity proof",
+        "Proof of address",
+        "Bank passbook of the student's or guardian's account",
+        "Two passport-size photographs"
+      ],
+      "documents_hi": [
+        "जाति प्रमाण पत्र (अनुसूचित जाति)",
+        "आय प्रमाण पत्र — वार्षिक पारिवारिक आय {income_max} तक",
+        "संस्थान का प्रवेश पत्र",
+        "पूरे कोर्स की फीस का ब्यौरा",
+        "पिछली परीक्षा की अंकसूची",
+        "आधार या अन्य फोटो पहचान पत्र",
+        "निवास प्रमाण पत्र",
+        "छात्र या अभिभावक के बैंक खाते की पासबुक",
+        "दो पासपोर्ट आकार के फोटो"
+      ],
+      "how_to_apply_en": [
+        "NSFDC does not lend directly to a student. The loan comes through a channel partner in your state.",
+        "Take your documents, the admission letter and the fee structure to a {channels}.",
+        "The partner checks the case and sends it to NSFDC for sanction.",
+        "You can also start online at PM-SURAJ (pmsuraj.dosje.gov.in).",
+        "Once sanctioned: no instalment falls due until the course ends and twelve months have passed."
+      ],
+      "how_to_apply_hi": [
+        "NSFDC सीधे किसी छात्र को कर्ज़ नहीं देता। कर्ज़ आपके राज्य के चैनल पार्टनर के ज़रिए आता है।",
+        "अपने कागज़ात, प्रवेश पत्र और फीस का ब्यौरा {channels} में ले जाएँ।",
+        "पार्टनर मामला जाँचकर स्वीकृति के लिए NSFDC को भेजता है।",
+        "आप PM-SURAJ (pmsuraj.dosje.gov.in) पर ऑनलाइन भी शुरू कर सकते हैं।",
+        "स्वीकृति के बाद: कोर्स खत्म होने और बारह महीने बीतने तक कोई किस्त नहीं लगती।"
+      ]
+    },
+
+    {
+      "id": "VISVAS",
+      "name_en": "VISVAS Yojana",
+      "name_hi": "विश्वास योजना",
+      "category": "subsidy",
+      "status": "informational",
+      "one_line_en": "Interest subvention on a loan already taken. Information only.",
+      "one_line_hi": "पहले से लिए गए कर्ज़ पर ब्याज सबवेंशन। केवल जानकारी।",
+      "eligibility_text_en": "@informational_eligibility",
+      "eligibility_text_hi": "@informational_eligibility",
+      "documents_en": "@informational_documents",
+      "documents_hi": "@informational_documents",
+      "how_to_apply_en": "@informational_howto",
+      "how_to_apply_hi": "@informational_howto"
+    },
+    {
+      "id": "SEED",
+      "name_en": "SEED Scheme",
+      "name_hi": "सीड योजना",
+      "category": "subsidy",
+      "status": "informational",
+      "one_line_en": "Support for self-help groups rather than for one applicant. Information only.",
+      "one_line_hi": "एक आवेदक के बजाय स्वयं सहायता समूहों के लिए सहायता। केवल जानकारी।",
+      "eligibility_text_en": "@informational_eligibility",
+      "eligibility_text_hi": "@informational_eligibility",
+      "documents_en": "@informational_documents",
+      "documents_hi": "@informational_documents",
+      "how_to_apply_en": "@informational_howto",
+      "how_to_apply_hi": "@informational_howto"
+    },
+    {
+      "id": "NFSC",
+      "name_en": "National Fellowship for Scheduled Castes",
+      "name_hi": "अनुसूचित जाति के लिए राष्ट्रीय फेलोशिप",
+      "category": "education",
+      "status": "informational",
+      "one_line_en": "A fellowship for Scheduled Caste research scholars. Information only.",
+      "one_line_hi": "अनुसूचित जाति के शोधार्थियों के लिए फेलोशिप। केवल जानकारी।",
+      "eligibility_text_en": "@informational_eligibility",
+      "eligibility_text_hi": "@informational_eligibility",
+      "documents_en": "@informational_documents",
+      "documents_hi": "@informational_documents",
+      "how_to_apply_en": "@informational_howto",
+      "how_to_apply_hi": "@informational_howto"
+    },
+    {
+      "id": "SKILL",
+      "name_en": "Skill Development Training",
+      "name_hi": "कौशल विकास प्रशिक्षण",
+      "category": "training",
+      "status": "informational",
+      "one_line_en": "Free training in a trade, not money. Information only.",
+      "one_line_hi": "किसी काम का मुफ़्त प्रशिक्षण, पैसा नहीं। केवल जानकारी।",
+      "eligibility_text_en": "@informational_eligibility",
+      "eligibility_text_hi": "@informational_eligibility",
+      "documents_en": "@informational_documents",
+      "documents_hi": "@informational_documents",
+      "how_to_apply_en": "@informational_howto",
+      "how_to_apply_hi": "@informational_howto"
+    },
+    {
+      "id": "MARKET",
+      "name_en": "Marketing Support",
+      "name_hi": "विपणन सहायता",
+      "category": "marketing",
+      "status": "informational",
+      "one_line_en": "A stall at an exhibition, so you can sell what you make. Information only.",
+      "one_line_hi": "प्रदर्शनी में स्टॉल, ताकि आप अपना बनाया सामान बेच सकें। केवल जानकारी।",
+      "eligibility_text_en": "@informational_eligibility",
+      "eligibility_text_hi": "@informational_eligibility",
+      "documents_en": "@informational_documents",
+      "documents_hi": "@informational_documents",
+      "how_to_apply_en": "@informational_howto",
+      "how_to_apply_hi": "@informational_howto"
+    },
+
+    {
+      "id": "MSY",
+      "name_from": "data/scheme_aliases.json",
+      "alias": "MSY",
+      "category": "loan",
+      "status": "closed",
+      "one_line_en": "Closed to new applications. Micro Finance Scheme now serves this purpose.",
+      "one_line_hi": "नए आवेदनों के लिए बंद। अब यही काम सूक्ष्म वित्त योजना करती है।",
+      "eligibility_text_en": [
+        "This scheme is closed to new applications.",
+        "It is listed here because many applicants know NSFDC by this name and search for it — an empty result would tell you nothing.",
+        "Micro Finance Scheme covers the same need today: up to {mfs_loan_cap} at {mfs_rate}."
+      ],
+      "eligibility_text_hi": [
+        "यह योजना नए आवेदनों के लिए बंद है।",
+        "यह यहाँ इसलिए दिखाई गई है क्योंकि बहुत से लोग NSFDC को इसी नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।",
+        "आज यही ज़रूरत सूक्ष्म वित्त योजना पूरी करती है: {mfs_loan_cap} तक, {mfs_rate} पर।"
+      ],
+      "documents_en": "@closed_documents",
+      "documents_hi": "@closed_documents",
+      "how_to_apply_en": [
+        "No new applications are accepted under this name.",
+        "Apply under Micro Finance Scheme instead — the same purpose, {mfs_rate}, up to {mfs_loan_cap}.",
+        "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+      ],
+      "how_to_apply_hi": [
+        "इस नाम से नए आवेदन नहीं लिए जा रहे।",
+        "इसके बजाय सूक्ष्म वित्त योजना में आवेदन करें — वही उद्देश्य, {mfs_rate}, {mfs_loan_cap} तक।",
+        "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+      ]
+    },
+    {
+      "id": "LVY",
+      "name_from": "data/scheme_aliases.json",
+      "alias": "LVY",
+      "name_hi": "लघु व्यवसाय योजना",
+      "category": "loan",
+      "status": "closed",
+      "one_line_en": "Closed to new applications.",
+      "one_line_hi": "नए आवेदनों के लिए बंद।",
+      "eligibility_text_en": "@closed_eligibility",
+      "eligibility_text_hi": "@closed_eligibility",
+      "documents_en": "@closed_documents",
+      "documents_hi": "@closed_documents",
+      "how_to_apply_en": "@closed_howto",
+      "how_to_apply_hi": "@closed_howto"
+    },
+    {
+      "id": "UTKARSH",
+      "name_from": "data/scheme_aliases.json",
+      "alias": "Utkarsh",
+      "name_hi": "उत्कर्ष",
+      "category": "loan",
+      "status": "closed",
+      "one_line_en": "Closed to new applications.",
+      "one_line_hi": "नए आवेदनों के लिए बंद।",
+      "eligibility_text_en": "@closed_eligibility",
+      "eligibility_text_hi": "@closed_eligibility",
+      "documents_en": "@closed_documents",
+      "documents_hi": "@closed_documents",
+      "how_to_apply_en": "@closed_howto",
+      "how_to_apply_hi": "@closed_howto"
+    },
+    {
+      "id": "SUVIDHA",
+      "name_from": "data/scheme_aliases.json",
+      "alias": "Suvidha",
+      "name_hi": "सुविधा",
+      "category": "loan",
+      "status": "closed",
+      "one_line_en": "Closed to new applications.",
+      "one_line_hi": "नए आवेदनों के लिए बंद।",
+      "eligibility_text_en": "@closed_eligibility",
+      "eligibility_text_hi": "@closed_eligibility",
+      "documents_en": "@closed_documents",
+      "documents_hi": "@closed_documents",
+      "how_to_apply_en": "@closed_howto",
+      "how_to_apply_hi": "@closed_howto"
+    }
+  ],
+
+  "shared": {
+    "common_enterprise": {
+      "en": [
+        "Caste certificate (Scheduled Caste)",
+        "Income certificate — annual family income up to {income_max}",
+        "Aadhaar or another photo identity proof",
+        "Proof of address",
+        "Bank passbook of the applicant's account",
+        "A cost estimate or quotation for the work you plan to do",
+        "Two passport-size photographs"
+      ],
+      "hi": [
+        "जाति प्रमाण पत्र (अनुसूचित जाति)",
+        "आय प्रमाण पत्र — वार्षिक पारिवारिक आय {income_max} तक",
+        "आधार या अन्य फोटो पहचान पत्र",
+        "निवास प्रमाण पत्र",
+        "आवेदक के बैंक खाते की पासबुक",
+        "जो काम करना है उसकी लागत का अनुमान या कोटेशन",
+        "दो पासपोर्ट आकार के फोटो"
+      ]
+    },
+    "informational_eligibility": {
+      "en": [
+        "NSFDC's common criteria apply: the applicant belongs to a Scheduled Caste, and annual family income is up to {income_max}.",
+        "We hold information about this scheme only. Its full terms are not part of our verified data, so this site does not decide whether you qualify for it.",
+        "Anything more specific has to come from NSFDC or your channel partner. We would rather say that than guess."
+      ],
+      "hi": [
+        "NSFDC की सामान्य शर्तें लागू हैं: आवेदक अनुसूचित जाति से हो, और वार्षिक पारिवारिक आय {income_max} तक हो।",
+        "इस योजना की हमारे पास केवल जानकारी है। पूरी शर्तें हमारे प्रमाणित डेटा में नहीं हैं, इसलिए यह साइट इस पर पात्रता तय नहीं करती।",
+        "इससे ज़्यादा ब्यौरा NSFDC या आपके चैनल पार्टनर से लें। अंदाज़ा लगाने से बेहतर है यह कह देना।"
+      ]
+    },
+    "informational_documents": {
+      "en": [
+        "We do not hold a verified document list for this scheme.",
+        "Ask your State Channelizing Agency or channel partner for the current list before you travel to the office."
+      ],
+      "hi": [
+        "इस योजना के लिए हमारे पास प्रमाणित दस्तावेज़ सूची नहीं है।",
+        "कार्यालय जाने से पहले अपनी राज्य चैनलाइज़िंग एजेंसी या चैनल पार्टनर से मौजूदा सूची पूछ लें।"
+      ]
+    },
+    "informational_howto": {
+      "en": [
+        "Contact your State Channelizing Agency, or NSFDC at nsfdc.nic.in, for the current terms.",
+        "For a scheme this site can check end to end — eligibility, cost, and which office — see Micro Finance Scheme, Term Loan or Education Loan Scheme."
+      ],
+      "hi": [
+        "मौजूदा शर्तों के लिए अपनी राज्य चैनलाइज़िंग एजेंसी या nsfdc.nic.in पर NSFDC से संपर्क करें।",
+        "जिन योजनाओं की यह साइट पूरी जाँच कर सकती है — पात्रता, खर्च और कार्यालय — वे हैं सूक्ष्म वित्त योजना, मियादी ऋण और शिक्षा ऋण योजना।"
+      ]
+    },
+    "closed_eligibility": {
+      "en": [
+        "This scheme is closed to new applications.",
+        "It appears in NSFDC's historical disbursement records, not on its current scheme page.",
+        "It is listed here because applicants still know it by name and search for it — an empty result would tell you nothing."
+      ],
+      "hi": [
+        "यह योजना नए आवेदनों के लिए बंद है।",
+        "यह NSFDC के पुराने वितरण रिकॉर्ड में मिलती है, मौजूदा योजना पेज पर नहीं।",
+        "यह यहाँ इसलिए दिखाई गई है क्योंकि लोग आज भी इसे नाम से खोजते हैं — खाली नतीजा कुछ नहीं बताता।"
+      ]
+    },
+    "closed_documents": {
+      "en": [
+        "Not applicable — no new applications are accepted under this scheme."
+      ],
+      "hi": [
+        "लागू नहीं — इस योजना में नए आवेदन नहीं लिए जा रहे।"
+      ]
+    },
+    "closed_howto": {
+      "en": [
+        "No new applications are accepted.",
+        "For a scheme that is open today, see Micro Finance Scheme (up to {mfs_loan_cap} at {mfs_rate}) or Term Loan (from {tl_amount_min}, at {tl_rate}).",
+        "If a loan was already sanctioned to you under this scheme, its terms are unchanged. Speak to the office that sanctioned it."
+      ],
+      "hi": [
+        "नए आवेदन नहीं लिए जा रहे।",
+        "आज खुली योजना के लिए देखें: सूक्ष्म वित्त योजना ({mfs_loan_cap} तक, {mfs_rate} पर) या मियादी ऋण ({tl_amount_min} से, {tl_rate} पर)।",
+        "अगर आपका कर्ज़ पहले ही स्वीकृत हो चुका है तो उसकी शर्तें वैसी ही रहेंगी। स्वीकृति देने वाले कार्यालय से बात करें।"
+      ]
+    }
+  }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Assistant — Sahaay</title>
+  <link rel="stylesheet" href="css/gov.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- All styling lives in css/gov.css (tokens, base elements) and
+       css/style.css (layout and components). It is in those files, not
+       here, because js/pages.js builds markup at runtime on pages other
+       than the one it belongs to, and a per-page <style> block could not
+       reach it. -->
+</head>
+<body>
+
+  <!-- Tricolour Top Accent Bar -->
+  <div class="tricolour-bar"></div>
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="container">
+      <nav id="site-nav">
+        <a href="index.html" class="nav-brand">
+          <span class="nav-logo-icon">🚪</span>
+          <div>
+            <div class="nav-title">Sahaay <span data-t="brand.hi">सहाय</span></div>
+            <div class="nav-subtitle" data-t="brand.ministry">Ministry of Social Justice & Empowerment</div>
+          </div>
+        </a>
+
+        <div class="nav-controls">
+          <ul class="nav-links">
+            <li><a href="index.html" data-t="nav.home">Home</a></li>
+            <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+            <li><a href="assistant.html" class="active" data-t="nav.assistant">Assistant</a></li>
+            <li><a href="profile.html" data-t="nav.profile">Profile</a></li>
+          </ul>
+
+          <button id="lang-toggle" type="button" aria-label="Toggle Language">हिं | EN</button>
+          <a href="login.html" class="btn btn-secondary" style="min-height:38px; padding:0 12px;" data-t="nav.login">Login</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 style="margin-top: 24px;" data-t="ast.heading">Scheme AI Assistant</h1>
+    <p style="color: var(--color-text-muted);" data-t="ast.subline">Ask questions about NSFDC schemes in plain Hindi or English. Answers are cited directly from official rules.</p>
+
+    <div class="assistant-grid">
+      <!-- Left Panel: Grounded Chat -->
+      <div class="card chat-panel">
+        <div id="chat-log" class="chat-log">
+          <!-- Initial Assistant Welcome Message -->
+          <!-- A greeting, not an answer, so it carries no citation. Every
+               reply that quotes a figure gets one, built from
+               cited_scheme_ids; putting a source line under a sentence that
+               cites nothing would be the exact thing this assistant exists
+               not to do. -->
+          <div class="chat-msg chat-msg-assistant">
+            <div>नमस्ते! मैं सहाय एआई सहायक हूँ। आप NSFDC योजनाओं के बारे में कोई भी सवाल पूछ सकते हैं।</div>
+          </div>
+        </div>
+
+        <!-- Suggestion Chips -->
+        <div class="suggestion-chips">
+          <button type="button" class="chip" onclick="document.getElementById('chat-input').value=this.innerText;">मुझे कौन सी योजना मिल सकती है?</button>
+          <button type="button" class="chip" onclick="document.getElementById('chat-input').value=this.innerText;">ब्याज कितना लगेगा?</button>
+          <button type="button" class="chip" onclick="document.getElementById('chat-input').value=this.innerText;">कौन से कागज़ चाहिए?</button>
+          <button type="button" class="chip" onclick="document.getElementById('chat-input').value=this.innerText;">नज़दीकी दफ़्तर कहाँ है?</button>
+        </div>
+
+        <!-- Chat Form -->
+        <form id="chat-form" class="chat-form" action="#">
+          <input type="text" id="chat-input" class="chat-input" placeholder="Type your question here..." data-t="ast.placeholder_input" required>
+          <button id="chat-send" type="submit" class="btn btn-primary" data-t="ast.btn_send">Send</button>
+        </form>
+      </div>
+
+      <!-- Right Panel: Voice Interface -->
+      <div class="card voice-panel">
+        <h3 data-t="ast.voice_title">Voice Search (बोलकर पूछें)</h3>
+        <p style="font-size: 0.85rem; color: var(--color-text-muted);" data-t="ast.voice_sub">Hold the button, speak in Hindi or English, and verify your transcript.</p>
+
+        <button id="mic-btn" type="button" class="mic-btn-large" aria-label="Hold to Record">🎤</button>
+        <div id="mic-status" class="mic-status-text" data-t="ast.mic_ready">Click or hold microphone to record</div>
+
+        <label for="transcript-box" style="font-size: 0.85rem; font-weight: 600; align-self: flex-start; margin-bottom: 4px;" data-t="ast.label_transcript">Editable Transcript:</label>
+        <textarea id="transcript-box" class="transcript-box" placeholder="Your spoken text will appear here. You can edit it before submitting..." data-t="ast.placeholder_transcript"></textarea>
+
+        <button type="button" class="btn btn-primary" style="width: 100%;" data-use-transcript data-t="ast.btn_use_transcript">Use this →</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <p style="margin:0; font-weight:600;" data-t="footer.prototype">A prototype built for Smart India Hackathon 2026 · PS SIH26092</p>
+          <p style="margin:0;" data-t="footer.dept">Ministry of Social Justice & Empowerment, Govt. of India</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+          <li><a href="wizard.html" data-t="hero.btn_wizard">Wizard</a></li>
+          <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" hidden></div>
+
+  <!-- Script Pipeline (Do not alter order or contents) -->
+  <script src="js/strings.js"></script><script src="js/api.js"></script><script src="js/app.js"></script><script src="js/pages.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Matches — Sahaay</title>
+  <link rel="stylesheet" href="css/gov.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- All styling lives in css/gov.css (tokens, base elements) and
+       css/style.css (layout and components). It is in those files, not
+       here, because js/pages.js builds markup at runtime on pages other
+       than the one it belongs to, and a per-page <style> block could not
+       reach it. -->
+</head>
+<body>
+
+  <!-- Tricolour Top Accent Bar -->
+  <div class="tricolour-bar"></div>
+
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="container">
+      <nav id="site-nav">
+        <a href="index.html" class="nav-brand">
+          <span class="nav-logo-icon">🚪</span>
+          <div>
+            <div class="nav-title">Sahaay <span data-t="brand.hi">सहाय</span></div>
+            <div class="nav-subtitle" data-t="brand.ministry">Ministry of Social Justice & Empowerment</div>
+          </div>
+        </a>
+
+        <div class="nav-controls">
+          <ul class="nav-links">
+            <li><a href="index.html" data-t="nav.home">Home</a></li>
+            <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+            <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+            <li><a href="profile.html" data-t="nav.profile">Profile</a></li>
+          </ul>
+
+          <button id="lang-toggle" type="button" aria-label="Toggle Language">हिं | EN</button>
+          <a href="login.html" class="btn btn-secondary" style="min-height:38px; padding:0 12px;" data-t="nav.login">Login</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 style="margin-top: 24px;" data-t="match.heading">Your Scheme Matches</h1>
+
+    <!-- Top Ranked Match Card -->
+    <div id="match-top" class="match-hero-card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 8px;">
+        <div>
+          <span class="badge badge-open">● Best Match</span>
+          <h2 style="font-size: 1.6rem; margin: 8px 0 0 0;">Micro Finance Scheme · सूक्ष्म वित्त योजना</h2>
+        </div>
+        <div class="hero-rate-tag">6.5%</div>
+      </div>
+      <p style="color: var(--color-text-muted); margin-top: 4px;" data-t="match.top_sub">
+        The lowest interest rate you qualify for based on your project profile.
+      </p>
+      <div style="font-weight: 600; margin-top: 12px; font-size: 1.05rem;">
+        Loan ₹1,08,000 of a ₹1,20,000 project · your promoter share ₹12,000
+      </div>
+    </div>
+
+    <!-- Repayment Cost Table -->
+    <div class="card" style="margin-top: 24px;">
+      <h3 data-t="match.heading_cost">Exact Repayment Breakdown</h3>
+      <div id="match-cost">
+        <table class="cost-table">
+          <thead>
+            <tr>
+              <th data-t="cost.instalment">Quarterly Instalment</th>
+              <th data-t="cost.count">Instalments</th>
+              <th data-t="cost.moratorium">Moratorium</th>
+              <th data-t="cost.interest">Total Interest</th>
+              <th data-t="cost.total">Total Repayment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>₹9,885</strong></td>
+              <td>12 Quarters (3 Years)</td>
+              <td>3 Months</td>
+              <td>₹10,620</td>
+              <td><strong>₹1,18,620</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Near Miss Rejections Explained -->
+    <div style="margin-top: 32px;">
+      <h3 data-t="match.heading_nearmiss">Schemes You Almost Qualified For</h3>
+      <div id="match-nearmiss">
+        <div class="nearmiss-card">
+          <div style="font-weight: 700; color: var(--color-warn); font-size: 1.1rem; margin-bottom: 4px;">
+            Term Loan — not yet
+          </div>
+          <p style="margin-bottom: 6px;">Term Loan starts at ₹1,40,001. Your project request is ₹1,20,000.</p>
+          <p style="margin: 0; font-weight: 600; color: var(--color-text);">
+            💡 A project request of ₹1,40,001 or more opens Term Loan at 8.0% over 7 years.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wrong Door Cost Hero Banner (USP) -->
+    <div id="match-wrongdoor" class="wrongdoor-hero">
+      <h2 data-t="match.wrongdoor_title">Choosing the right office saves you ₹18,061</h2>
+      <p style="margin: 0; opacity: 0.9;" data-t="match.wrongdoor_desc">
+        The exact same ₹1.2 lakh project costs 6.5% interest through the SC corporation (SCA) channel, but 15% through an NBFC-MFI channel — over the same 3 years.
+      </p>
+    </div>
+
+    <!-- Nearest Active Partner Office Routing -->
+    <div class="card">
+      <h3 data-t="match.heading_door">Where to Apply (Functioning Partner Offices)</h3>
+      <div id="match-door">
+        <table class="partner-table">
+          <thead>
+            <tr>
+              <th data-t="partner.name">Office / Channel Partner</th>
+              <th data-t="partner.type">Type</th>
+              <th data-t="partner.rate">Rate</th>
+              <th data-t="partner.status">State Utilisation Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>MP State Scheduled Castes Finance & Dev. Corp.</strong><br><small>Bhopal Main Office (12 km away)</small></td>
+              <td>State Channelizing Agency</td>
+              <td><strong>6.5%</strong></td>
+              <td><span class="util-pill">Active (84% Disbursed)</span></td>
+            </tr>
+            <tr>
+              <td><strong>Central Bank of India</strong><br><small>Bhopal Regional Branch (4 km away)</small></td>
+              <td>Nationalised Bank</td>
+              <td>9.5%</td>
+              <td><span class="util-pill">Active (78% Disbursed)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Other Eligible Schemes -->
+    <div style="margin-top: 32px;">
+      <h3 data-t="match.heading_others">Other Eligible Options</h3>
+      <div id="match-others" class="card-grid-3" style="margin-top: 16px;">
+        <div class="card">
+          <h4>Aajeevika Micro-Finance</h4>
+          <p style="font-size: 0.9rem; color: var(--color-text-muted);">Secondary channel loan option.</p>
+          <div style="font-weight: 700; margin-top: 8px;">15.0% · max ₹50,000</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rule Fired Logic Details -->
+    <div style="margin-top: 24px;">
+      <details id="match-why">
+        <summary data-t="match.why_title">Why this answer? (Click to expand evaluated rules)</summary>
+        <ul class="rules-list">
+          <li>Rule SC-01: Verified SC category flag = True</li>
+          <li>Rule INC-02: Annual family income ₹2,40,000 ≤ Max threshold ₹3,00,000</li>
+          <li>Rule AMT-01: Project cost ₹1,20,000 ≤ Scheme limit ₹1,25,000</li>
+          <li>Rule SCA-03: Madhya Pradesh SCA channel verified active in FY 2025-26 data</li>
+        </ul>
+      </details>
+    </div>
+
+    <!-- Bottom Action Buttons -->
+    <div class="action-row">
+      <button type="button" class="btn btn-primary" data-action="print-packet" data-t="match.btn_print">Print my packet</button>
+      <a href="assistant.html" class="btn btn-secondary" data-t="match.btn_ask">Ask a question →</a>
+    </div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <p style="margin:0; font-weight:600;" data-t="footer.prototype">A prototype built for Smart India Hackathon 2026 · PS SIH26092</p>
+          <p style="margin:0;" data-t="footer.dept">Ministry of Social Justice & Empowerment, Govt. of India</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="schemes.html" data-t="nav.schemes">Schemes</a></li>
+          <li><a href="wizard.html" data-t="hero.btn_wizard">Wizard</a></li>
+          <li><a href="assistant.html" data-t="nav.assistant">Assistant</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" hidden></div>
+
+  <!-- Script Pipeline (Do not alter order or contents) -->
+  <script src="js/strings.js"></script><script src="js/api.js"></script><script src="js/app.js"></script><script src="js/pages.js"></script>
+</body>
+</html>

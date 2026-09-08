@@ -1,0 +1,228 @@
+/* ==========================================================================
+   Sahaay - Government Portal Visual Core Rules (gov.css)
+   ========================================================================== */
+
+:root {
+  /* Colors */
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F5F7FA;
+  --color-primary: #1F5F8B;
+  --color-primary-dark: #164667;
+  --color-accent-saffron: #FF9933;
+  --color-accent-green: #138808;
+  --color-text: #1B1B1F;
+  --color-text-muted: #5A5A63;
+  --color-border: #E3E8EF;
+  
+  /* Status Colors */
+  --color-good: #2E7D32;
+  --color-good-bg: #E8F5E9;
+  --color-warn: #B26A00;
+  --color-warn-bg: #FFF3E0;
+  --color-stop: #B3261E;
+  --color-stop-bg: #FFEBEE;
+
+  /* Sizing & Typography */
+  --font-stack: system-ui, "Segoe UI", Roboto, "Nirmala UI", "Noto Sans Devanagari", sans-serif;
+  --max-width: 1100px;
+  --min-touch: 48px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-stack);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tricolour National Accent Bar */
+.tricolour-bar {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, var(--color-accent-saffron) 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, var(--color-accent-green) 66.66%);
+}
+
+/* Base Header and Global Layout */
+.site-header {
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* Typography Base Defaults */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text);
+  line-height: 1.25;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2.1rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.25rem; }
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover, a:focus {
+  color: var(--color-primary-dark);
+}
+
+/* Form Controls & Touch Targets */
+input, select, textarea, button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--min-touch);
+  padding: 0 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 150ms ease, border-color 150ms ease;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--color-primary-dark);
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  background-color: #FFFFFF;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: var(--color-bg-alt);
+}
+
+.btn-alt {
+  background-color: #FFFFFF;
+  color: var(--color-primary);
+  border-color: #FFFFFF;
+}
+
+.btn-alt:hover, .btn-alt:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Card System */
+.card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 24px;
+  transition: box-shadow 150ms ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* Pill Badges */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge-open { background-color: var(--color-good-bg); color: var(--color-good); }
+.badge-info { background-color: var(--color-bg-alt); color: var(--color-text-muted); }
+.badge-closed { background-color: var(--color-stop-bg); color: var(--color-stop); }
+
+/* Toast Notifications */
+#toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-text);
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+#toast[hidden] {
+  display: none;
+}
+
+/* Global Footer */
+.site-footer {
+  background-color: var(--color-bg-alt);
+  border-top: 1px solid var(--color-border);
+  padding: 32px 0;
+  margin-top: 48px;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}

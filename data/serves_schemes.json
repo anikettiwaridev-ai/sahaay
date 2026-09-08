@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "spec": "docs/ENGINE_SPEC.md §5.2",
+    "status": "ASSUMPTION — DERIVED, not from the NSFDC scheme page",
+    "why": "The scheme page gives the channel for MFS/TL as 'SCA / CA' and states no channel for ELS. 'CA' is taken to include banks and RRBs per Standing Committee Report 25 §4.4 and the 2020 Evaluation Study, which is the basis for the first row. Personas 4 and 8 depend on it.",
+    "verification": "open item ENGINE_SPEC §11.2 — do PSBs/RRBs implement ELS and TL?",
+    "editable_without_code": true
+  },
+  "by_type": {
+    "SCA": ["MFS", "TL", "ELS"],
+    "PSB": ["MFS", "TL", "ELS"],
+    "RRB": ["MFS", "TL", "ELS"],
+    "NBFC_MFI": ["AMY"],
+    "COOP_BANK": ["UNY"],
+    "COOP_SOCIETY": ["UNY"],
+    "SFB": ["UNY"],
+    "OTHER": []
+  },
+  "channel_rate_key_by_type": {
+    "_note": "Which column of a scheme's beneficiary_rate_pct map this partner type is priced at (data/schemes.json).",
+    "SCA": "SCA",
+    "PSB": "CA",
+    "RRB": "CA",
+    "NBFC_MFI": "NBFC_MFI",
+    "COOP_BANK": "COOP",
+    "COOP_SOCIETY": "COOP",
+    "SFB": "SFB",
+    "OTHER": "CA"
+  },
+  "overrides_by_partner_id": {
+    "_note": "type OTHER serves per record (ENGINE_SPEC §5.2). NSFDC's 'other agencies' list is three development-finance bodies with no scheme named against them in any published source, so none is given a scheme here. Naming one without a citation would be an invention.",
+    "OTH-NEDFI": [],
+    "OTH-JHARCRAFT": [],
+    "OTH-SIDBI": []
+  }
+}

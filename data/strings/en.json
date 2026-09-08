@@ -1,0 +1,322 @@
+{
+  "_meta": {
+    "spec": "docs/ENGINE_SPEC.md §8 and §3.6",
+    "tone": "Plain. One number per sentence. No bureaucratic nouns — 'channelizing agency' becomes 'the SC development corporation office'. Never 'may be eligible'. Never a list longer than three.",
+    "placeholders": "{scheme} {threshold} {current} {rate} {years} {pct} {state} {alternative} {category}",
+    "build_check": "hi.json and en.json must carry identical key sets; scripts/check_phase0.py asserts it."
+  },
+  "band": {
+    "strong": "This state used all of its NSFDC allocation in 2025-26.",
+    "ok": "This state used most of its NSFDC allocation in 2025-26.",
+    "slow": "This state used under half of its NSFDC allocation in 2025-26.",
+    "weak": "This state used very little of its NSFDC allocation in 2025-26.",
+    "none": "This state drew nothing from its NSFDC allocation in 2025-26."
+  },
+  "band_label": {
+    "strong": "Working well",
+    "ok": "Working",
+    "slow": "Slow",
+    "weak": "Very slow",
+    "none": "Not lending"
+  },
+  "warning": {
+    "band_warning": "This office moves slowly — {pct}% of its allocation was used in 2025-26. {alternative} is the other door for this loan.",
+    "band_warning_no_alt": "This office moves slowly — {pct}% of its allocation was used in 2025-26.",
+    "no_sca_in_state": "{state} has no SC development corporation. Banks and rural banks serve applicants here instead — {alternative} is the nearest one.",
+    "no_sca_in_state_no_alt": "{state} has no SC development corporation. Banks and rural banks serve applicants here instead."
+  },
+  "reason": {
+    "not_sc": "These five schemes are for Scheduled Caste applicants only.",
+    "income_above_ceiling": "The family income ceiling is {threshold}. Yours is recorded as {current}.",
+    "amount_below_min": "{scheme} starts at {threshold}. Your project is {current}.",
+    "amount_above_max": "{scheme} stops at {threshold}. Your project is {current}.",
+    "course_not_covered": "{scheme} covers approved full-time professional and technical courses.",
+    "docs_missing": "Two certificates are needed before the office can start your file.",
+    "no_partner_in_state": "No {scheme} partner is listed in your state."
+  },
+  "unblock": {
+    "out_of_scope_pointer_not_sc": "Other corporations serve other groups: NBCFDC for OBC, NSKFDC for safai karamcharis, NSTFDC for Scheduled Tribes.",
+    "out_of_scope_pointer_income": "Stand-Up India and PMMY are the usual routes above this ceiling.",
+    "income_certificate_check": "The ceiling is family income, certified. If your certified family income is {threshold} or less, all schemes open.",
+    "raise_to_next_band": "A project of {threshold} or more opens {scheme} at {rate}% over {years} years.",
+    "phase_project": "{scheme} caps a single unit at {threshold}. A bigger project needs the next scheme up, or a smaller first phase.",
+    "check_course_list": "The closest covered category is {category}.",
+    "get_docs": "The caste certificate and the income certificate both come from the tehsil office.",
+    "nearest_out_of_state": "The nearest listed office is in {state}."
+  },
+  "verdict": {
+    "eligible": "You match this one.",
+    "near_miss": "One thing stands between you and this one.",
+    "ineligible": "This one is not open to you.",
+    "eligible_no_channel": "You match this one, but no office near you offers it."
+  },
+  "distance": {
+    "branch_confirm_locally": "branch — confirm locally",
+    "unknown": "Distance not known. This bank has branches beyond the office listed here."
+  },
+  "provenance": {
+    "utilisation_caption": "NSFDC data, FY 2025-26",
+    "permitted_sentence": "This state used {pct}% of its allocation in 2025-26 (NSFDC data).",
+    "partner_source": "From NSFDC's published channel partner list."
+  },
+  "geocode": {
+    "pin_centroid": "Located from the PIN code — the pin marks the area, not the doorway.",
+    "pin_consensus": "Located from the PIN code, which is imprecise here — the pin marks the area.",
+    "district_place": "Located from the town, not the street. Confirm the address before travelling.",
+    "address": "Located from the address — approximate.",
+    "state_centroid": "Only the state is known.",
+    "none": "No address published for this partner."
+  },
+  "why": {
+    "distance": "{value} km away",
+    "distance_unknown": "distance not known",
+    "rate": "{value}% interest",
+    "band_penalty": "slow office, penalty {value}",
+    "cheapest": "cheapest door for this scheme",
+    "score": "score {value}"
+  },
+  "wrong_door": {
+    "hero": "The same project costs {current} more through the wrong door.",
+    "best": "{scheme} through {alternative}, {rate}%",
+    "worst": "{scheme} through {alternative}, {rate}%",
+    "saving_hero": "Choosing the right door saves {current}.",
+    "saving_label": "Saved by choosing the right door"
+  },
+  "ui": {
+    "app": {
+      "name": "Sahaay",
+      "name_alt": "सही द्वार",
+      "tagline": "The right door, the first time."
+    },
+    "nav": {
+      "back": "Back",
+      "step": "Step {n} of 6",
+      "progress_label": "Progress",
+      "restart": "Start again"
+    },
+    "lang": {
+      "switch": "हिन्दी",
+      "switch_label": "Switch the language to हिन्दी"
+    },
+    "common": {
+      "yes": "Yes",
+      "no": "No",
+      "dont_know": "Not sure",
+      "edit": "Edit",
+      "close": "Close",
+      "save": "Save",
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "retry": "Try again",
+      "months": "{n} months",
+      "years": "{n} years",
+      "km": "{n} km",
+      "per_year": "per year",
+      "not_given": "Not given"
+    },
+    "s1": {
+      "headline": "Tell us what you want to do. We will find the right scheme and the right office.",
+      "mic": "Speak",
+      "mic_hint": "Tap and speak",
+      "or_type": "Or type",
+      "type_placeholder": "For example: I want to start tailoring, I need 1.25 lakh",
+      "type_submit": "Continue",
+      "how_it_works": "How this works",
+      "no_login": "No account. No OTP. Ever.",
+      "can_do_title": "What Sahaay does",
+      "can_do_1": "Picks the scheme that fits you",
+      "can_do_2": "Works out the instalment and the interest",
+      "can_do_3": "Finds the nearest office that is lending"
+    },
+    "explain": {
+      "title": "How this works",
+      "one_title": "You speak",
+      "one_body": "Say it in your own words. You do not need to read or write.",
+      "two_title": "We read it back",
+      "two_body": "We show you what we understood. If it is wrong, you fix it there.",
+      "three_title": "You get a door",
+      "three_body": "The scheme, the instalment and the nearest office, with the paperwork list."
+    },
+    "s2": {
+      "title": "Listening",
+      "listening": "Speak now…",
+      "stop": "Done",
+      "seconds_left": "{n} seconds left",
+      "transcript_label": "What you said",
+      "transcript_hint": "If a word is wrong, correct it here.",
+      "type_instead": "Type instead",
+      "working": "Working it out…",
+      "guard_title": "We did not hear it clearly",
+      "guard_no_speech": "No speech came through.",
+      "guard_too_short": "That was too short.",
+      "guard_low_confidence": "The audio was not clear.",
+      "guard_action": "Say it again, or type it instead.",
+      "speak_again": "Speak again"
+    },
+    "s3": {
+      "title": "This is what we understood",
+      "subtitle": "Tap anything to change it. Nothing is decided until you say so.",
+      "cta": "That is right, continue",
+      "cta_blocked": "Answer the question first",
+      "missing_one": "One thing left to ask",
+      "missing_many": "{n} things left to ask",
+      "question_of": "Question {i} of {n}",
+      "edit_title": "Change {field}",
+      "amount_hint": "Enter the amount in rupees"
+    },
+    "field": {
+      "is_sc": "Are you from a Scheduled Caste?",
+      "state_district": "State and district",
+      "work": "Work",
+      "amount": "Project cost",
+      "income": "Family income a year",
+      "education": "Schooling",
+      "gender": "Woman or man",
+      "course": "Course",
+      "course_duration": "Course length",
+      "fee": "Course fee",
+      "name": "Name"
+    },
+    "value": {
+      "woman": "Woman",
+      "man": "Man",
+      "education_illiterate": "No schooling",
+      "education_primary": "Up to class 5",
+      "education_middle": "Up to class 8",
+      "education_matric": "Class 10",
+      "education_higher_secondary": "Class 12",
+      "education_graduate": "Graduate",
+      "sector_tailoring": "Tailoring",
+      "sector_shop": "A shop",
+      "sector_transport": "Transport",
+      "sector_agri_allied": "Farming and allied work",
+      "sector_services": "Services",
+      "sector_manufacturing": "Manufacturing",
+      "sector_plantation": "Plantation",
+      "sector_construction": "Construction",
+      "sector_other": "Something else",
+      "purpose_enterprise": "My own work",
+      "purpose_education": "Studies",
+      "level_diploma": "Diploma",
+      "level_bachelors": "Bachelors",
+      "level_masters": "Masters",
+      "level_doctoral": "Doctorate",
+      "level_professional": "Professional course"
+    },
+    "s4": {
+      "title": "Your scheme",
+      "rate_label": "Interest rate",
+      "loan": "Loan",
+      "own": "Your own share",
+      "instalment": "Instalment",
+      "per_quarter": "every three months",
+      "per_half_year": "every six months",
+      "monthly_equivalent": "about {value} a month",
+      "moratorium": "No instalment for the first {n} months",
+      "total_interest": "Total interest",
+      "total_repayment": "Total repayment",
+      "instalments_count": "{n} instalments",
+      "why": "Why this?",
+      "why_title": "Why this one",
+      "also_possible": "Also possible",
+      "near_miss_title": "One thing stands in the way",
+      "no_channel": "No office in your state offers this one.",
+      "none_title": "None of the five opens right now",
+      "cta": "Show me the door",
+      "rules_title": "What the engine checked"
+    },
+    "s5": {
+      "title": "Your door",
+      "map_label": "Map of your location and the nearest offices",
+      "you_are_here": "You are here",
+      "list_title": "The nearest offices",
+      "choose": "Choose this office",
+      "chosen": "Chosen",
+      "rate": "Interest",
+      "why": "Why this order?",
+      "no_routes": "No office for this scheme is listed in your state.",
+      "cta": "Make my paperwork list",
+      "tiles_note": "The map for this area is not cached. The pins are still in the right places.",
+      "off_map": "Some offices are beyond the map. Their distance is in the list below."
+    },
+    "s6": {
+      "title": "Your packet",
+      "subtitle": "Take these papers to the office.",
+      "checklist_title": "Papers",
+      "have": "Have it",
+      "need": "Need it",
+      "where_to_get": "Where to get it",
+      "ready_count": "{have} of {total} papers ready",
+      "partner_title": "The office address",
+      "directions": "Show me the way",
+      "online_option": "Online option",
+      "online_hint": "Apply on PM-SURAJ",
+      "next_steps": "What to do next",
+      "cost_summary": "The money, in short",
+      "print": "Print or save PDF",
+      "privacy": "Your data never leaves this phone.",
+      "placeholder_note": "This is a sample packet. The real PDF is wired in the next phase."
+    },
+    "coach": {
+      "got_it": "Got it",
+      "mic": "Tap here and speak. You do not have to type.",
+      "lang": "Change the language here.",
+      "why": "Tap here. Every decision says why."
+    },
+    "partner_type": {
+      "SCA": "The SC development corporation office",
+      "PSB": "Public sector bank",
+      "RRB": "Regional rural bank",
+      "NBFC_MFI": "Microfinance company",
+      "COOP_BANK": "Cooperative bank",
+      "COOP_SOCIETY": "Cooperative society",
+      "SFB": "Small finance bank",
+      "OTHER": "Other partner"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "body": "Try once more. Nothing you said was lost."
+    },
+    "rule": {
+      "R_SC": "Scheduled Caste",
+      "R_INCOME": "Income ceiling",
+      "R_AMOUNT_MIN": "Smallest amount",
+      "R_AMOUNT_MAX": "Largest amount",
+      "R_COURSE": "Course list",
+      "R_DOCS": "Papers",
+      "F_PURPOSE": "What the loan is for",
+      "pass": "Passes",
+      "fail": "Fails",
+      "skip": "Not applicable",
+      "seen": "Yours: {value}",
+      "threshold": "Limit: {value}"
+    }
+  },
+  "course": {
+    "engineering": "Engineering",
+    "architecture": "Architecture",
+    "medical": "Medical",
+    "biotech_microbiology_clinical_tech": "Biotechnology / Microbiology / Clinical Technology",
+    "pharmacy": "Pharmacy",
+    "dental": "Dental",
+    "physiotherapy": "Physiotherapy",
+    "pathology": "Pathology",
+    "nursing": "Nursing",
+    "information_technology": "Information Technology",
+    "management": "Management",
+    "hotel_management_catering": "Hotel Management & Catering Technology",
+    "law": "Law",
+    "education": "Education",
+    "physical_education": "Physical Education",
+    "journalism_mass_comm": "Journalism & Mass Communication",
+    "geriatric_care": "Geriatric Care",
+    "midwifery": "Midwifery",
+    "laboratory_technician": "Laboratory Technician",
+    "chartered_accountancy": "Chartered Accountancy",
+    "cost_accountancy": "Cost Accountancy (ICWA)",
+    "company_secretaryship": "Company Secretaryship",
+    "actuarial_sciences": "Actuarial Sciences",
+    "amie_iete": "AMIE / Institute of Electronics & Telecommunication Engineers",
+    "doctoral_mphil_phd": "Doctoral study — M.Phil / PhD at recognised institutions"
+  }
+}

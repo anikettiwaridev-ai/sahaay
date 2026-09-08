@@ -1,0 +1,46 @@
+                      LIST OF PUBLIC SECTOR BANKS
+
+1  Indian Overseas Bank,                            2 Bank of Baroda,
+
+   Central Office,                                  Baroda Bhavan,
+
+   763, Anna Salai, Chennai,                        7th Floor, R.C. Dutt Road,
+
+   Tamil Nadu - 600 002.                            Vadodara - 390 007 (Gujarat)
+
+3  Canara Bank,                                     4 Punjab National Bank,
+
+   Head Office, 112, J.C. Road,                     Plot No.-4, Sector 10,
+
+   Bengaluru - 560 002.                             Dwarka, New Delhi - 110 075
+
+5  Punjab & Sind Bank,                              6 Union Bank of India,
+
+   Priority Sector Advance Department,              Rural & Agri Business Department,
+
+   5th Floor, 21 Rajendra Place,                    Central Office Union Bank Bhavan
+
+   New Delhi - 110 008                              Marg,Nariman Point, Mumbai - 400
+
+7  Indian Bank Corporate Office,                    8 Bank of Maharashtra
+
+   No.254-260, Avvai Shanmungam Salai, Gowdi        Head office `Lok mangal'
+
+   Mutt Road,                                       1501, Shivajinagar, Pune-411005
+
+   Royapetta,                                       Maharashtra
+
+   Chennai - 600 014
+
+9  Bank of India,                                   10 Central bank Of India, Mumbai
+
+   Bandra Kurla Complex, Bandra (East),             Chandermukhi Bldg., Nariman Point,
+
+   Mumbai- 400051                                   Mumbai - 400 021
+
+11 UCO Bank, Kolkata
+          No 3&4, DD Block, Sector-1, Bidhannagar,
+          Kolkata, West Bengal-700064
+
+Total=11
+
