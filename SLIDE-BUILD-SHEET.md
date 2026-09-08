@@ -22,7 +22,7 @@ frameworks. The pitch is intact. The technical claims are not.
 |---|---|---|
 | All six slide headings + template rules | all | SIH's mandate, unchanged |
 | House style (white, #1F5F8B, 55/45 layout, source lines) | all | Still the right call |
-| PS ID 26092 · Theme Miscellaneous · Category Software | 1 | Unchanged |
+| PS ID 26092 · Category Software | 1 | Unchanged |
 | The **6.5% vs 15% → ₹18,061** hero | 2 | **Re-verified live 8 Sept 2026.** See §7 |
 | The myScheme / JanSamarth / PM-SURAJ comparison table | 2 | Still true; one row improves |
 | MoSJE 2020 stats (61.1% · 0% · 57.2% · 89% · 15.3%) | 2, 5 | Primary source, unchanged |
@@ -141,7 +141,7 @@ three corrections and one confirmation:
 |---|---|
 | Problem Statement ID | **26092** |
 | Problem Statement Title | **AI-Driven Scheme Matching for Marginalized Entrepreneurs** |
-| Theme | **Miscellaneous** |
+| Theme | **Smart Automation** |
 | PS Category | **Software** |
 | Team ID | *(yours from the portal)* |
 | Team Name | *(exactly as registered)* |
@@ -293,6 +293,41 @@ Caption directly under the flow, one line, no separate diagram:
 > version spent a full sentence on the test/persona count. Given the instructions say
 > "brief," that count is Q&A material (§7 has the full version, with the three bugs it
 > caught, for when someone asks), not slide copy.
+
+### Bottom left — the PS coverage strip. **Add this; it may be the highest-value block on the deck.**
+
+The grading criteria name "the extent to which the proposed solution effectively
+addresses the given Problem Statement" as a scored dimension. SIH26092's Expected
+Solution section lists **exactly three** deliverables. So answer them in their own
+order, in their own words, in three rows:
+
+| What SIH26092 asks for | What Sahaay does |
+|---|---|
+| **1 · Smart Scheme Recommender** — project type, cost, income, education status in; best scheme out | Rule engine over NSFDC's five open schemes, inside a 14-scheme catalogue. Ranks them — **and explains the ones it rules out** |
+| **2 · Financial Calculator** — EMI, loan limits, 6.5–15%, moratorium 3–12 months | Full instalment schedule from NSFDC's published terms. Every rate and every moratorium in that range, read from a data file — never typed into code |
+| **3 · Geo-Spatial Locator & Router** — nearest partner, weighted by fund utilisation | **106 partners**, ranked by distance *and* the state's own published utilisation — and never scoring a named bank |
+
+One line under the strip, in accent blue:
+
+> **And one thing the problem statement doesn't ask for: when the answer is no, we say
+> what would make it yes.**
+
+> **Why this is worth the space.** Every other team answering this PS will build the same
+> three things — the PS tells them to. This strip does two jobs at once: it proves you
+> read the problem statement properly (a scored criterion), and its third column quietly
+> shows where you went past it. The closing line is the differentiator, positioned as
+> *exceeding the brief* rather than as an unrelated feature. That framing is worth more
+> than the same sentence would be anywhere else in the deck.
+
+> **Honesty note, and read this before you paste.** Frame these rows as *what the
+> solution does* — which at idea-submission stage is a proposal, and legitimate. Do **not**
+> put build-status ticks (✅/❌) on this strip. Row 3 in particular: the distance ranking
+> and the utilisation weighting are live and demonstrable, but **the map view is not
+> built** (§0, and `data/tiles/` is empty because `scripts/precache_tiles.py` never
+> shipped). If a judge asks "can I see the map?", the honest answer is that the locator
+> ranks and routes today and the map view is the next piece — everything feeding it,
+> including partner coordinates and computed distances, already works. That answer is
+> fine. A ✅ next to "Geo-Spatial" followed by no map is not.
 
 ### Bottom strip — the stack, one line per layer
 
@@ -555,6 +590,11 @@ flowchart TD
       grading criterion; don't make a judge infer it.
 - [ ] **Slide 3 is visibly the lighter slide.** If it has more elements on it than slide
       2, you've ignored the instruction that said "briefly."
+- [ ] **The PS coverage strip is on slide 3**, answering SIH26092's three Expected
+      Solution items in their own order — with **no build-status ticks on it**.
+- [ ] Theme reads **Smart Automation** — not Miscellaneous, not Agriculture/FoodTech.
+- [ ] Nothing in the deck asserts a working **map**. The locator ranks and routes; the
+      map view is roadmap, and gets described as roadmap.
 - [ ] Every statistic has its source in small grey text.
 - [ ] No paragraph longer than two lines.
 - [ ] Team name and Team ID filled on slide 1.
